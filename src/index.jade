@@ -1,0 +1,41 @@
+- version = '0.0.32';
+
+doctype html(lang='en')
+head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='Search the RPG MO database of items, pets and more.')
+    meta(name='author', content='bobdylan (aka Tom)')
+    //- link(rel='icon', href='../../favicon.ico')
+    //- |     
+    title modb - A searchable database of RPG MO Items, Pets and more.
+    // Bootstrap core CSS - darkly
+    link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/darkly/bootstrap.min.css", rel="stylesheet")
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel="stylesheet")
+    // Custom styles for this template
+    link(href='styles/modb.css?_v=#{version}', rel='stylesheet')
+    link(href='styles/items.css?_v=#{version}', rel='stylesheet')
+    //if lt IE 9
+      <script>
+        (function(){
+          var f = function(){};
+          window.console = window.console || {log:f,warn:f,error:f,dir:f};
+        }());
+      </script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-shim.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-sham.js"></script>
+
+  body
+    #loading: i.glyphicon.glyphicon-asterisk(aria-hidden="true")
+    #main.
+      Loading, please stand by.... 
+      (if this sticks around too long, you probably need a more modern browser 
+      or you need to enable JavaScript.)
+    script(src='scripts/vendor/console-polyfill.js')
+    script(src='scripts/vendor/es5-shim.min.js')
+    script(src='scripts/vendor/es5-sham.min.js')
+    script(src='scripts/modb.js?_v=#{version}')

@@ -1,0 +1,34 @@
+[4:24:27 PM] Bob Dylan: Hey boss, i got a couple questions for ya:
+1) where can i find NPC locations in the code? I really only care about map names/IDs they're on... (looking for mobs & vendors...)
+2) how can i determine the chance to enchant items? I see this "enchant_bonus" property on some items, but don't think that's it... it doesn't scale right with donator gear...
+[4:25:29 PM] Margus Ojanurme: 1) each map has their own positions.. on_map[map_id][x][y] need to check all coordinates
+[4:25:53 PM] Margus Ojanurme: and maps are only loaded when you enter them
+[4:26:29 PM] Bob Dylan: so i guess /find does a server call?
+[4:26:39 PM] Margus Ojanurme: nope
+[4:27:15 PM] Bob Dylan: can i force loading of maps? ;)
+[4:27:20 PM] Margus Ojanurme: those are hard coded if you look at mod source
+[4:27:28 PM] Bob Dylan: ahh, ok
+[4:27:28 PM] Margus Ojanurme: you can
+[4:28:00 PM] Margus Ojanurme: for (var i = 1; i < maps; i++) {
+  preloadMap(i, false);
+}
+[4:29:01 PM] Bob Dylan: is "on_map" is the current map?
+[4:29:15 PM] Margus Ojanurme: current_map is the id of current map
+[4:29:46 PM] Margus Ojanurme: on_map[map_id][x][y]
+[4:31:02 PM] Margus Ojanurme: map_names[map_id] to see the name of map
+[4:31:32 PM] Bob Dylan: strange, the preload added more to on_map, but only a few...
+[4:31:52 PM] Bob Dylan: ran it again, now it's loaded fully
+[4:32:04 PM] Bob Dylan: beautiful, this will work ;)
+[4:32:19 PM] Margus Ojanurme: loading might take a while there are 20+ maps
+[4:33:00 PM] Margus Ojanurme: and enchanting chances are based on the stat
+[4:34:48 PM] Margus Ojanurme: Forge.enchantingChancesArmor
+Forge.enchantingChancesCapes
+Forge.enchantingChancesWeapon
+Forge.enchantingChancesJewerly
+[4:36:10 PM] Margus Ojanurme: and each of those contains an item_id function
+[4:36:18 PM] Margus Ojanurme: which is the scroll id
+[4:37:43 PM] Margus Ojanurme: low armor ench. scroll id is 176
+so to test it with an armor that requires 30 def
+Forge.enchantingChancesArmor[176](30)
+[4:38:04 PM] Bob Dylan: ahh, it's the required stat it checks,  i c now ;)
+[4:38:04 PM] Margus Ojanurme: and donator items have enchant_bonus, that is added to the result of that function
