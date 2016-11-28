@@ -24,12 +24,18 @@ var ItemTabVendor = React.createClass({
     var npcs = NPCStore.findByItem(id);
 
     var npcRows = npcs.map(function(npc,i){
+      var x = '';
+      var y = '';
+      if (npc.coords) {
+        x = npc.coords.x;
+        y = npc.coords.y;
+      }
       return (
         <tr key={'itemNPC' + i}>
           <td key="td1"><Link to="npc" params={{npcId:npc.id}}>{npc.n}</Link></td>
           <td key="td2">{util.vendorStockCount(npc, item.id)}</td>
           <td key="td3" className="hidden-xs">{npc.map}</td>
-          <td key="td4" className="hidden-xs">{npc.coords.x}, {npc.coords.y}</td>
+          <td key="td4" className="hidden-xs">{x}, {y}</td>
         </tr>
       );
     });
