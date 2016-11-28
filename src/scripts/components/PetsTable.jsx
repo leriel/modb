@@ -45,6 +45,8 @@ var PetTable = React.createClass({
             var off = PetStore.get(c.pet_id);
             var maxChance = c.max_chance*100;
             var minChance = c.base_chance*100;
+            var p1Insurance = numeral(p1.params.insurance_cost[0]).format('0,0');
+            var p2Insurance = numeral(p2.params.insurance_cost[0]).format('0,0');
             if (pairsSeen.indexOf(parIndex)==-1) {
               pairsSeen.push(parIndex);
               var p1Eats, p2Eats;
@@ -60,6 +62,7 @@ var PetTable = React.createClass({
                     <ItemGraphic item={ItemStore.getItem(p1.item_id)} nolink="1" cl="centered-div" /><br />
                     {petName(p1.n)}
                   </Link>
+                  <div>Insurance: {p1Insurance}</div>
                   {p1Eats}
                 </td>
                 <td className="c" rowSpan={rowSpan}>
@@ -67,6 +70,7 @@ var PetTable = React.createClass({
                     <ItemGraphic item={ItemStore.getItem(p2.item_id)} nolink="1" cl="centered-div"  /><br />
                     {petName(p2.n)}
                   </Link>
+                  <div>Insurance: {p2Insurance}</div>
                   {p2Eats}
                 </td>
                 <td className="c">
