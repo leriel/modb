@@ -20,6 +20,7 @@
     "grunt-open": "^0.2.3",
     "grunt-react": "^0.10.0",
     "grunt-regarde": "^0.1.1",
+    "grunt-rev-all": "^0.1.2",
     "lodash": "^3.5.0",
     "matchdep": "^0.3.0",
     "numeral": "^1.5.3",

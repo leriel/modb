@@ -3,6 +3,16 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    "grunt-rev-all": {
+      buildAssets: {
+        src: ["dist/scripts/*.js", "dist/index.html"],
+        root: "dist/",
+        hasLinks: [".html"],
+        runtimeBase: {},
+        lookLocal: [],
+        noRev: ["dist/index.html"],
+      }
+    },
     uglify: {
       modb: {
         files: {
@@ -13,7 +23,7 @@ module.exports = function(grunt) {
     watch: {
       react: {
         files: 'src/scripts/**/*.js*',
-        tasks: ['browserify']
+        tasks: ['browserify', 'livereload']
       }
     },
 
@@ -103,6 +113,7 @@ module.exports = function(grunt) {
     // Connect is no longer blocking other tasks, so it makes more sense to open the browser after the server starts
     'open',
     // Starts monitoring the folders and keep Grunt alive
+    'watch',
     'regarde',
   ]);
 };
