@@ -8,7 +8,7 @@ for (var i = 1; i < maps; i++) {
 // and then save it locally. ;)
 
 // Builds a compact database of RPG MO info for modb.
-var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, forge, forgeXp, numMaps, mapsLoaded){
+var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, forge, forgeXp, fletch, numMaps, mapsLoaded){
 
   var checkMaps = function() {
     var numLoaded =0;
@@ -51,6 +51,9 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
   */
   var _generateImgCSS = function(cl, img) {
     var sheet = imgSheets[img.sheet];
+    if (!img || !sheet) {
+      return '';
+    }
     var css = '';
     css += '.' + cl + ' {';
     css += 'width:' + sheet.tile_width + 'px;';
@@ -190,7 +193,7 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
         level: f.level,
         min_chance: f.chance,
         max_chance: f.chance,
-        skill: 'forging',
+        skill: typeof f.fletching_level == 'undefined' ? 'forging' : 'fletching',
         matts: [],
         pattern: f.pattern
       }
@@ -231,6 +234,24 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
         }
       }
     }
+    var ii = Object.keys(fletch);
+    for (var i=0, maxI=ii.length; i<maxI; i++) {
+      var k = ii[i];
+      var f = fletch[k];
+      // console.log(f);
+      var o = {
+        id: f.item_id,
+        n: items[f.item_id].name,
+        level: f.level,
+        min_chance: f.chance,
+        max_chance: f.chance,
+        skill: 'fletching',
+        matts: f.pattern.map(res => ({id: res, c: 1})),
+        pattern: [f.pattern],
+      }
+      exportObj.formulas.push(o);
+    }
+
 
     var addObjBaseFormula = function(obj, src) {
       for (var i in obj.returns) {
@@ -239,11 +260,13 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
           id: retItem.id,
           n: items[retItem.id].name,
           skill: obj.skill,
+          requires_one_from: obj.requires_one_from,
           level: retItem.level,
           source: {
             n: src.name,
             img: src.img
           },
+          duration: src.params.duration,
           min_chance: retItem.base_chance,
           max_chance: retItem.max_chance || 1,
           matts: []
@@ -569,6 +592,6 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
 
 };
 
-buildDb(IMAGE_SHEET, item_base, pets, npc_base, BODY_PARTS, CARPENTRY_FORMULAS, CARPENTRY_MATERIAL_XP, FORGE_FORMULAS, FORGE_MATERIAL_XP, maps, maps_loaded);
+buildDb(IMAGE_SHEET, item_base, pets, npc_base, BODY_PARTS, CARPENTRY_FORMULAS, CARPENTRY_MATERIAL_XP, FORGE_FORMULAS, FORGE_MATERIAL_XP, FLETCHING_FORMULAS, maps, maps_loaded);
 
 
