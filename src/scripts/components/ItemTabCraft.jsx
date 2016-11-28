@@ -26,6 +26,10 @@ var ItemCraftTab = React.createClass({
       , havePatterns = false
       , haveChances = true
       , craftMattsCollSpan = 2
+    var kettle = (<td><ItemGraphic item={{n:'Kettle',img:{sheet:35,x:6,y:14}}} nolink /></td>);
+    var campfire = (<td><ItemGraphic item={{n:'Campfire',img:{sheet:1,x:11,y:14}}} nolink /></td>);
+    var furnace = (<td><ItemGraphic item={{n:'Furnace',img:{sheet:12,x:0,y:0}}} nolink /></td>);
+    var well = (<td><ItemGraphic item={{n:'Water Well',img:{sheet:1,x:9,y:14}}} nolink /></td>);
 
     if (craft.formulas) {
       // TODO: have spells show altar & medal
@@ -34,7 +38,6 @@ var ItemCraftTab = React.createClass({
       for (var i in craft.formulas) {
         if (craft.formulas[i].pattern) {
           havePatterns = true;
-          console.log(craft);
           var key = Util.titleCase(craft.formulas[i].skill) + ' ' + item.n;
           patterns[key] = patterns[key] || [];
           patterns[key].push( (
@@ -58,21 +61,27 @@ var ItemCraftTab = React.createClass({
           if (craft.formulas[i].skill == 'cooking') {
             title = 'Cooking'+ ' ' + item.n;
             if (craft.formulas[i].n.toLowerCase().match(/sushi/)) {
-              tool = ( <td><ItemGraphic item={{n:'Kettle',img:{sheet:42,x:6,y:14}}} nolink /></td>);
+              tool = kettle;
             } else {
-              tool = ( <td><ItemGraphic item={{n:'Campfire',img:{sheet:1,x:11,y:14}}} nolink /></td>);
+              tool = campfire;
             }
           }
           if (craft.formulas[i].skill == 'jewelry') {
             if (craft.formulas[i].n.toLowerCase().match(/cut /)) {
               tool = ( <td><ItemGraphic item={ItemStore.getItem(297)} /></td>);
             } else {
-              tool = ( <td><ItemGraphic item={{n:'Furnace',img:{sheet:15,x:0,y:0}}} nolink /></td>);
+              tool = furnace;
             }
           }
-          if (craft.formulas[i].skill == 'forging') tool = ( <td><ItemGraphic item={{n:'Furnace',img:{sheet:15,x:0,y:0}}} nolink /></td>);
-          if (craft.formulas[i].n.toLowerCase().match(/vial of water/)) tool = ( <td><ItemGraphic item={{n:'Water Well',img:{sheet:1,x:9,y:14}}} nolink /></td>);
-          else if (craft.formulas[i].n.match(/Vial/)) tool = ( <td><ItemGraphic item={{n:'Furnace',img:{sheet:15,x:0,y:0}}} nolink /></td>);
+          if (craft.formulas[i].skill == 'forging') {
+            tool = furnace;
+          }
+          if (craft.formulas[i].n.toLowerCase().match(/vial of water/)) {
+            tool = well;
+          }
+          else if (craft.formulas[i].n.match(/Vial/)) {
+            tool = furnace;
+          }
           title = title || 'Crafting' + ' ' + item.n;
           formulas[title] = formulas[title] || []
           haveFormulas = true;
@@ -105,7 +114,7 @@ var ItemCraftTab = React.createClass({
                   <td key="td1"><ItemGraphic item={ItemStore.getItem(753)} /></td>
                   <td key="td2"><ItemGraphic item={ItemStore.getItem(767)} /></td>
                   <td key="td3"><ItemGraphic item={ItemStore.getFarmingSeed(item)} /></td>
-                  <td key="td4">(time)</td>
+                  <td key="td4">{craft.formulas[i].duration} minutes</td>
                   <td key="td5"><ItemGraphic item={craft.formulas[i].source} nolink /></td>
                 </tr>
               ));
@@ -144,8 +153,41 @@ var ItemCraftTab = React.createClass({
                   </tr>
               ));
             break;
+            case 'woodcutting':
+              haveFormulas = true;
+              var key = 'Woodcutting ' + item.n;
+              formulas[key] = formulas[key] || [];
+              var reqTool = craft.formulas[i].requires_one_from;
+              var tool;
+              var source = craft.formulas[i].source;
+              if (source.img && typeof source.img.x === 'object') {
+                source = {
+                  n: source.n,
+                  img: {
+                    sheet: source.img.sheet,
+                    x: source.img.x[1],
+                    y: source.img.y,
+                  }
+                }
+              }
+              if (reqTool) {
+                tool = reqTool.map(function(t) {
+                  var tKey = 'tool' + t;
+                  return (<ItemGraphic key={tKey} item={ItemStore.getItem(t)} />);
+                });
+              }
+              formulas[key].push(
+                <tr key={"craftRow" + i}>
+                  <td key={"craftRowTD1"+i} style={{width:'50px'}}><ItemGraphic item={source} nolink={true} /></td>
+                  <td key={"craftRowTD2"+i}>{tool}</td>
+                  <td key={"craftRowTD3"+i}>{Util.toPercent(craft.formulas[i].min_chance)}</td>
+                  <td key={"craftRowTD4"+i}>{Util.toPercent(craft.formulas[i].max_chance)}</td>
+                </tr>
+              );
+            break;
             default:
-              formulas.push(<tr key={'craftRow' + i} />)
+              1+1;
+              // formulas[key].push(<tr key={'craftRow' + i} />)
           }
         }
       }
@@ -214,7 +256,7 @@ var ItemCraftTab = React.createClass({
           var chance1Th = '', chance2Th = '';
           if (haveChances) {
             chance1Th = (<th key={'formulaTh2'+k}>Min %</th>);
-            chance2Th = (<th key={'formulaTh3'+k}>Min %</th>);
+            chance2Th = (<th key={'formulaTh3'+k}>Max %</th>);
           }
           var f = formulas[k];
           return (<div key="fHtml">
