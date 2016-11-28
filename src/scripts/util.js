@@ -109,7 +109,7 @@ var Util = {
 
   toPercent: function(n) {
     n = n || 1;
-    return numeral(n*100).format('0') + '%';
+    return numeral(n*100).format('0.00') + '%';
 
   },
 }
