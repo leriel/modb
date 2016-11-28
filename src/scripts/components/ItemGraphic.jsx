@@ -5,7 +5,7 @@ var util = require('../util.js');
 
 var ItemGraphic = React.createClass({
   render: function() {
-    if (!this.props.item.img) {
+    if (!this.props.item || !this.props.item.img) {
       return (<div className="noMobImg" />);
     }
     var type = this.props.imgType ? this.props.imgType : 'item';
