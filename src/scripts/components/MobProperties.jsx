@@ -6,7 +6,7 @@ var PetStore = require('../stores/PetStore.js');
 var util=require('../util.js');
 
 var MobProperties = React.createClass({
-  render: function(){
+  render: function() {
     var mob = this.props.mob;
     return (
       <div className="panel panel-default">
@@ -19,6 +19,8 @@ var MobProperties = React.createClass({
             <ItemProp key="itemPropACC" name="Accuracy" value={mob.temp.total_accuracy} />
             <ItemProp key="itemPropSTR" name="Strength" value={mob.temp.total_strength} />
             <ItemProp key="itemPropAgro" name="Aggressive" value={mob.params.aggressive ? 'Yes' : 'No'} badgecl={mob.params.aggressive? 'badge text-danger' : 'badge text-success'} />
+            <ItemProp key="itemPropMagBlock" name="Magic Block" value={mob.temp.magic_block|0} badgecl="badge text-warning" />
+            <ItemProp key="itemPropMeleeBlock" name="Melee Block" value={mob.temp.melee_block|0} badgecl="badge text-warning" />
           </ul>
         </div>
       </div>

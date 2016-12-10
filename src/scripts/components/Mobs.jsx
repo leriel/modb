@@ -31,6 +31,10 @@ var Mobs = React.createClass({
       map: map.options[map.selectedIndex].text,
       levelMin: this.refs.filterLevelMin.getDOMNode().value,
       levelMax: this.refs.filterLevelMax.getDOMNode().value,
+      magBlockMin: this.refs.filterMagBlockMin.getDOMNode().value,
+      magBlockMax: this.refs.filterMagBlockMax.getDOMNode().value,
+      meleeBlockMin: this.refs.filterMeleeBlockMin.getDOMNode().value,
+      meleeBlockMax: this.refs.filterMeleeBlockMax.getDOMNode().value,
       strMin: this.refs.filterStrMin.getDOMNode().value,
       strMax: this.refs.filterStrMax.getDOMNode().value,
       accMin: this.refs.filterAccMin.getDOMNode().value,
@@ -58,7 +62,9 @@ var Mobs = React.createClass({
             <td key="mobListTd5" className="vert-mid r">{o.temp.total_defense}</td>
             <td key="mobListTd6" className="vert-mid r">{o.temp.total_accuracy}</td>
             <td key="mobListTd7" className="vert-mid r">{o.temp.total_strength}</td>
-            <td key="mobListTd8" className="vert-mid" dangerouslySetInnerHTML={{__html:locs.join('<br />')}}></td>
+            <td key="mobListTd8" className="vert-mid r">{o.temp.magic_block|0}</td>
+            <td key="mobListTd9" className="vert-mid r">{o.temp.melee_block|0}</td>
+            <td key="mobListTd10" className="vert-mid" dangerouslySetInnerHTML={{__html:locs.join('<br />')}}></td>
           </tr>
         )
       })}</tbody>);
@@ -132,6 +138,24 @@ var Mobs = React.createClass({
                     </div>
                   </div>
                 </div>
+                <div className="col-sm-2">
+                  <div className="form-group">
+                    <label htmlFor="magBlockMin">Magic Block Range</label>
+                    <div className="row">
+                      <div className="col-sm-6"><input id="magBlockMin" type="text" className="form-control" ref="filterMagBlockMin" onChange={this._updateFilters} defaultValue={this.state.filters.magBlockMin} /></div>
+                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterMagBlockMax" onChange={this._updateFilters} defaultValue={this.state.filters.magBlockMax} /></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-2">
+                  <div className="form-group">
+                    <label htmlFor="meleeBlockMin">Melee Block Range</label>
+                    <div className="row">
+                      <div className="col-sm-6"><input id="meleeBlockMin" type="text" className="form-control" ref="filterMeleeBlockMin" onChange={this._updateFilters} defaultValue={this.state.filters.meleeBlockMin} /></div>
+                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterMeleeBlockMax" onChange={this._updateFilters} defaultValue={this.state.filters.meleeBlockMax} /></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
@@ -144,7 +168,9 @@ var Mobs = React.createClass({
             <th key="th5" className="r">Def</th>
             <th key="th6" className="r">Accuracy</th>
             <th key="th7" className="r">Strength</th>
-            <th key="th8">Map(s)</th>
+            <th key="th8" className="r">Magic Block</th>
+            <th key="th9" className="r">Melee Block</th>
+            <th key="th10">Map(s)</th>
           </tr></thead>
           {results}
         </table>

@@ -16,6 +16,10 @@ var AppDispatcher = require('../dispatcher/AppDispatcher')
     levelMax: '',
     strMin: '',
     strMax: '',
+    magBlockMin: '',
+    magBlockMax: '',
+    meleeBlockMin: '',
+    meleeBlockMax: '',
     accMin: '',
     accMax: '',
     defMin: '',
@@ -29,7 +33,7 @@ var _search = function(term) {
   var re = new RegExp(term.toLowerCase(), 'i');
   _store = [];
 
-  _mobs.map(function(item, idx){
+  _mobs.map(function(item, idx) {
     if (
       item && item.n && item.n.toLowerCase().match(re)
       && (_filters.map==-1 || item.locations[_filters.map])
@@ -37,6 +41,10 @@ var _search = function(term) {
       && (_filters.levelMax=='' || parseInt(_filters.levelMax) >= parseInt(util.calcLevel(item)))
       && (_filters.strMin=='' || parseInt(_filters.strMin) <= parseInt(item.temp.total_strength))
       && (_filters.strMax=='' || parseInt(_filters.strMax) >= parseInt(item.temp.total_strength))
+      && (_filters.magBlockMin=='' || parseInt(_filters.magBlockMin) <= parseInt(item.temp.magic_block|0))
+      && (_filters.magBlockMax=='' || parseInt(_filters.magBlockMax) >= parseInt(item.temp.magic_block|0))
+      && (_filters.meleeBlockMin=='' || parseInt(_filters.meleeBlockMin) <= parseInt(item.temp.melee_block|0))
+      && (_filters.meleeBlockMax=='' || parseInt(_filters.meleeBlockMax) >= parseInt(item.temp.melee_block|0))
       && (_filters.accMin=='' || parseInt(_filters.accMin) <= parseInt(item.temp.total_accuracy))
       && (_filters.accMax=='' || parseInt(_filters.accMax) >= parseInt(item.temp.total_accuracy))
       && (_filters.defMin=='' || parseInt(_filters.defMin) <= parseInt(item.temp.total_defense))
