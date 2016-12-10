@@ -139,6 +139,7 @@ var HSStore = assign({}, EventEmitter.prototype, {
 
   dispatcherIndex: AppDispatcher.register(function(payload) {
     var action = payload.action;
+    var q;
 
     switch(action.actionType) {
       case AppConstants.ActionTypes.SEARCH_HS:

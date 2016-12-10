@@ -45,6 +45,7 @@ var Mobs = React.createClass({
     var results = (
       <tbody>{_.sortByAll(this.state.results, this.state.filters.orderBy).map(function(o,i){
         var locs = [];
+        var l;
         for (l in o.locations) {
           locs.push(l + ' (' + o.locations[l] + ')');
         }

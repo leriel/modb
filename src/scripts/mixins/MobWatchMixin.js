@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 var React = require('react');
 var MobStore = require('../stores/MobStore.js');
 

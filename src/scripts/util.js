@@ -86,7 +86,7 @@ var Util = {
   },
   titleCase: function(str) {
     var strs = str.toLowerCase().split(' ');
-    for (i in strs) {
+    for (var i in strs) {
       var ss = strs[i].split('');
       ss[0] = ss[0].toUpperCase();
       strs[i] = ss.join('');

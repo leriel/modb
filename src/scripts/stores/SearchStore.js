@@ -73,6 +73,7 @@ var SearchStore = assign({}, EventEmitter.prototype, {
 
   dispatcherIndex: AppDispatcher.register(function(payload) {
     var action = payload.action;
+    var q;
 
     switch(action.actionType) {
       case AppConstants.ActionTypes.SET_SEARCH_CAT1:

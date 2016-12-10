@@ -58,6 +58,7 @@ var ItemStore = assign({}, EventEmitter.prototype, {
     var found = false
     var chain = [];
     var origItem = null;
+    var item;
     while (!found) {
       item = this.getItem(currentId);
       if (!origItem) origItem = item;

@@ -24,10 +24,11 @@ var Mobs = React.createClass({
   render: function(){
     var maps = {}
     this.state.results.map(function(o,i){
-        for (l in o.locations) {
-          if (!maps[l]) { maps[l] = []; }
-          maps[l].push({n:o.n,c:o.locations[l]});
-        }
+      var l;
+      for (l in o.locations) {
+        if (!maps[l]) { maps[l] = []; }
+        maps[l].push({n:o.n,c:o.locations[l]});
+      }
     });
     var keys = Object.keys(maps);
 
@@ -35,6 +36,7 @@ var Mobs = React.createClass({
       <div>{keys.map(function(m,ii){
         var o = maps[m];
         var mobs = [];
+        var mob;
 
         for (mob in o) {
           mobs.push( (<li key={"mobMap"+mob}>{o[mob].n + ' (' + o[mob].c + ')'}</li>) );

@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 var React = require('react');
 var HSStore = require('../stores/HSStore.js');
 

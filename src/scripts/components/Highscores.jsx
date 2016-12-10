@@ -8,7 +8,7 @@ var ReactBootstrap = require('react-bootstrap')
   , ListGroupItem = ReactBootstrap.ListGroupItem
   , Badge = ReactBootstrap.Badge
 
-getHighscores = function() {
+var getHighscores = function() {
   return {results:HSStore.getResults(), filters:HSStore.getFilters()}
 };
 

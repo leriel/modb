@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 var React = require('react');
 var SearchStore = require('../stores/SearchStore.js');
 
