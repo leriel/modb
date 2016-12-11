@@ -16,26 +16,25 @@ module.exports = {
       },
     }, {
       test: /\.scss$/,
-      loader: ExtractTextPlugin.extract('style', 'css-loader?minimize!sass-loader')
+      loader: ExtractTextPlugin.extract('style', 'css-loader?minimize!sass-loader'),
     },
     ]
   },
   entry: {
-    modb: './src/styles/modb.scss',
-    items: './src/styles/items.scss',
-    'js/app': './src/scripts/modb.jsx',
-  },
-  externals: {
-    'modb': './src/styles/modb.scss',
+    'app': [
+      './src/scripts/modb.jsx',
+      './src/styles/modb.scss',
+      './src/styles/items.scss',
+    ],
   },
   output: {
     path: path.join(__dirname, 'build'),
-    filename: '[name].[chunkhash:8].js',
+    filename: 'js/[name].[chunkhash:8].js',
   },
   plugins: [
     new ProgressBarPlugin({ clear: false }),
     new webpack.DefinePlugin({'process.env.NODE_ENV': JSON.stringify('production')}),
-    new ExtractTextPlugin('./styles/[name].[chunkhash:8].css'),
+    new ExtractTextPlugin('./styles/[name].[chunkhash:8].css', {allChunks: true}),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin({
@@ -56,7 +55,7 @@ module.exports = {
       inject: true,
       template: './src/index.html.template',
       minify: {
-        removeComments: true,
+        removeComments: false,
         collapseWhitespace: true,
         removeRedundantAttributes: true,
         useShortDoctype: true,
