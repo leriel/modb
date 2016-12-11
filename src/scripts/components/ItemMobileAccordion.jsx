@@ -6,11 +6,11 @@ var Icons = require('../constants/AppConstants.js').Icons;
 
 var sections = [
   {n:'',i:'',t:'item'},
-  {n:'Vendors',i:'usd',t:Icons.vendorTab},
-  {n:'Drops',i:'user',t:Icons.dropsTab},
-  {n:'Craft',i:'wrench',t:Icons.craftTab},
-  {n:'Enchant',i:'flash',t:Icons.enchantTab},
-  {n:'Breeding',i:'piggy-bank',t:Icons.breedingTab},
+  {n:'Vendors',i:'usd',t: 'item-vendor'},
+  {n:'Drops',i:'user',t: 'item-drops'},
+  {n:'Craft',i:'wrench',t: 'item-craft'},
+  {n:'Enchant',i:'flash',t: 'item-enchant'},
+  {n:'Breeding',i:'piggy-bank',t: 'item-breeding'},
 ];
 
 var ItemMobileAccordion = React.createClass({
