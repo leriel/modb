@@ -7,6 +7,9 @@ var Constants = require('../constants/AppConstants.js');
 var AppActions = require('../actions/AppActions.js');
 var ItemGraphic = require('./ItemGraphic.jsx');
 var SearchItemTableRow = require('./SearchItemTableRow.jsx');
+var SearchItemRow = require('./SearchItemRow.js');
+var Reactable = require('reactable');
+var Table = Reactable.Table;
 
 var ButtonGroup = require('react-bootstrap').ButtonGroup,
     Button = require('react-bootstrap').Button;
@@ -56,7 +59,7 @@ var Search = React.createClass({
   render: function(){
     var format = this.state.filters.output;
     var results = this.state.results.map(function(o,i){
-      return format == 'tabled' ? (<SearchItemTableRow item={o} key={'item_' + o.id} />) : (
+      return format == 'tabled' ? (SearchItemRow(o)) : (
         <li key={'item_' + o.id}>
           <Link to="item" params={{itemId:o.id}}>
             <ItemGraphic item={o} nolink={true} /><br />
@@ -69,21 +72,61 @@ var Search = React.createClass({
     var searchResults = format == 'grid' ? 
       (<ul className="search-results">{results}</ul>) :
       (
-        <table className="table table-bordered"><thead><tr key="head1">
-          <th key='sresTh1'>Level</th>
-          <th key='sresTh2' colSpan="2">Item</th>
-          <th key='sresTh3' className="hidden-xs">Skill</th>
-          <th key='sresTh4' className="hidden-xs">Price</th>
-          <th key='sresTh5' className="hidden-xs">Slot</th>
-          <th key='sresTh6' className="hidden-xs">Power</th>
-          <th key='sresTh7' className="hidden-xs">Aim</th>
-          <th key='sresTh8' className="hidden-xs">Armor</th>
-          <th key='sresTh9' className="hidden-xs">Magic</th>
-          <th key='sresTh10' className="hidden-xs">Speed</th>
-          <th key='sresTh11' className="hidden-xs">- % Cooldown</th>
-          <th key='sresTh12' className="hidden-xs">Archery</th>
-        </tr>
-        </thead><tbody>{results}</tbody></table>
+        <Table className="table table-bordered" data={results} sortable={[
+          'Skill',
+          'Level',
+          'Price'
+          , {
+            column: 'Power',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          }, {
+            column: 'Aim',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          }, {
+            column: 'Armor',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          }, {
+            column: 'Magic',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          }, {
+            column: 'Speed',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          }, {
+            column: '- % cooldown',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          }, {
+            column: 'Archery',
+            sortFunction: function(a, b) {
+              var sa = a|0;
+              var sb = b|0;
+              return sa > sb ? 1 : -1;
+            }
+          },
+        ]}/>
       )
 
     var filterPanelBodyClass = 'panel-body' + (this.state.filters.show ? '' : ' hide');
