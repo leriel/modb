@@ -134,6 +134,7 @@ var obj = {
     min_strength: "Strength Required",
     min_magic: "Magic Required",
     min_health: "Health Required",
+    min_accuracy: "Accuracy Required",
     armor: "Armor",
     aim: "Aim",
     power: "Power",
