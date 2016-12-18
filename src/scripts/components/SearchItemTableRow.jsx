@@ -21,6 +21,8 @@ var SearchItemTableRow = React.createClass({
           <td key={'srTd9'+item.id} className="c hidden-xs">{util.valOrDash(item.params.armor)}</td>
           <td key={'srTd10'+item.id} className="c hidden-xs">{util.valOrDash(item.params.magic)}</td>
           <td key={'srTd11'+item.id} className="c hidden-xs">{util.valOrDash(item.params.speed)}</td>
+          <td key={'srTd12'+item.id} className="c hidden-xs">{util.valOrDash((item.params.cooldown * 100)|0)}</td>
+          <td key={'srTd13'+item.id} className="c hidden-xs">{util.valOrDash(item.params.archery)}</td>
         </tr>
     );
   }

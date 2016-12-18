@@ -80,6 +80,8 @@ var Search = React.createClass({
           <th key='sresTh8' className="hidden-xs">Armor</th>
           <th key='sresTh9' className="hidden-xs">Magic</th>
           <th key='sresTh10' className="hidden-xs">Speed</th>
+          <th key='sresTh11' className="hidden-xs">- % Cooldown</th>
+          <th key='sresTh12' className="hidden-xs">Archery</th>
         </tr>
         </thead><tbody>{results}</tbody></table>
       )

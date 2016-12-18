@@ -4,6 +4,7 @@ var Link = Router.Link;
 var ItemProp = require('./ItemProperty.jsx');
 var AppConstants = require('../constants/AppConstants.js');
 var itemParamsKeyMap = AppConstants.itemParamsKeyMap;
+var itemParamsTransform = AppConstants.itemParamsTransform;
 var PetStore = require('../stores/PetStore.js');
 
 var ItemProperties = React.createClass({
@@ -13,11 +14,15 @@ var ItemProperties = React.createClass({
     var pk = Object.keys(p);
     var propCount = 0;
 
-    var propStr = Object.keys(itemParamsKeyMap).map(function(k){
+    var propStr = Object.keys(itemParamsKeyMap).map(function(k) {
+      var value = p[k];
       if (pk.indexOf(k) > -1) {
+        if (typeof itemParamsTransform[k] === 'function') {
+          value = itemParamsTransform[k](value);
+        }
         propCount++;
         return (
-          <ItemProp key={k} name={itemParamsKeyMap[k]} value={p[k]} />
+          <ItemProp key={k} name={itemParamsKeyMap[k]} value={value} />
         )
       } else {
         return '';
