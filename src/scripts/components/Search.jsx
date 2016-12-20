@@ -20,6 +20,12 @@ function getSearchResults() {
   return {results:SearchStore.getResults(), filters:SearchStore.getFilters()};
 }
 
+function compareInt(a, b) {
+  var sa = a|0;
+  var sb = b|0;
+  return sa > sb ? 1 : -1;
+}
+
 var Search = React.createClass({
   mixins: [ Router.State, SearchWatchMixin(getSearchResults) ],
   componentDidMount: function() {
@@ -73,58 +79,33 @@ var Search = React.createClass({
       (<ul className="search-results">{results}</ul>) :
       (
         <Table className="table table-bordered" data={results} sortable={[
+          {
+            column: 'Level',
+            sortFunction: compareInt,
+          },
           'Skill',
-          'Level',
           'Price'
           , {
             column: 'Power',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           }, {
             column: 'Aim',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           }, {
             column: 'Armor',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           }, {
             column: 'Magic',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           }, {
             column: 'Speed',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           }, {
             column: '- % cooldown',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           }, {
             column: 'Archery',
-            sortFunction: function(a, b) {
-              var sa = a|0;
-              var sb = b|0;
-              return sa > sb ? 1 : -1;
-            }
+            sortFunction: compareInt,
           },
         ]}/>
       )
