@@ -2304,7 +2304,8 @@ module.exports = [
       "content": [
         {
           "id": 730,
-          "count": 0
+          "count": 99,
+          "spawn": true
         },
         {
           "id": 732,
@@ -2320,7 +2321,8 @@ module.exports = [
         },
         {
           "id": 734,
-          "count": 0
+          "count": 99,
+          "spawn": true
         },
         {
           "id": 746,
@@ -2328,7 +2330,8 @@ module.exports = [
         },
         {
           "id": 2699,
-          "count": 0
+          "count": 99,
+          "spawn": true
         },
         {
           "id": 2701,
@@ -6919,6 +6922,11 @@ module.exports = [
       "total_strength": 99,
       "total_accuracy": 99,
       "content": []
+    },
+    "map": "Dorpat",
+    "coords": {
+      "x": "32",
+      "y": "32"
     }
   },
   {

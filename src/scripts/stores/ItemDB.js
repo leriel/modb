@@ -22753,7 +22753,7 @@ module.exports = [
         "shield": 33
       },
       "slot": 3,
-      "armor": 220,
+      "armor": 230,
       "min_defense": 95,
       "no_present": true,
       "price": 1128322,
@@ -27683,7 +27683,7 @@ module.exports = [
         "shield": 39
       },
       "slot": 3,
-      "armor": 290,
+      "armor": 300,
       "min_defense": 105,
       "no_present": true,
       "enchant_bonus": 0.2,
@@ -71309,6 +71309,792 @@ module.exports = [
       15,
       25,
       35
+    ]
+  },
+  {
+    "id": 2876,
+    "n": "Juggernaut Shield",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 12,
+      "y": 14
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "right_hand": 1,
+        "shield": 79
+      },
+      "slot": 3,
+      "armor": 184,
+      "min_defense": 95,
+      "price": 877344,
+      "enchant_id": 2877
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2877,
+    "n": "Enchanted Juggernaut Shield",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 0,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "right_hand": 1,
+        "shield": 80
+      },
+      "slot": 3,
+      "armor": 230,
+      "min_defense": 95,
+      "price": 1623086,
+      "enchants_from": 2876
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2878,
+    "n": "7 Souls Shield",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 1,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "right_hand": 1,
+        "shield": 81
+      },
+      "slot": 3,
+      "armor": 264,
+      "min_defense": 110,
+      "price": 3265954,
+      "enchant_id": 2879
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2879,
+    "n": "Enchanted 7 Souls Shield",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 2,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "right_hand": 1,
+        "shield": 82
+      },
+      "slot": 3,
+      "armor": 330,
+      "min_defense": 110,
+      "price": 6042015,
+      "enchants_from": 2878
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2880,
+    "n": "Enchanted Ichor Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 2,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 10232189,
+      "contains": [
+        971,
+        973,
+        975,
+        1039,
+        1884
+      ]
+    }
+  },
+  {
+    "id": 2881,
+    "n": "Enchanted Star Diamond Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 3,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 15229054,
+      "contains": [
+        1507,
+        1483,
+        1494,
+        1587,
+        1474
+      ]
+    }
+  },
+  {
+    "id": 2882,
+    "n": "Enchanted Eclipse Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 4,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 10013848,
+      "contains": [
+        1472,
+        1481,
+        1492,
+        1505,
+        1585
+      ]
+    }
+  },
+  {
+    "id": 2883,
+    "n": "Enchanted Dragonstone Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 5,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 5096463,
+      "contains": [
+        1470,
+        1479,
+        1490,
+        1501,
+        1583
+      ]
+    }
+  },
+  {
+    "id": 2884,
+    "n": "Enchanted Bahamut Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 6,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 6699065,
+      "contains": [
+        1640,
+        965,
+        1468,
+        1488,
+        1503
+      ]
+    }
+  },
+  {
+    "id": 2885,
+    "n": "Enchanted Juggernaut Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 7,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 5514479,
+      "contains": [
+        963,
+        970,
+        978,
+        1883,
+        2877
+      ]
+    }
+  },
+  {
+    "id": 2886,
+    "n": "Enchanted 7 Souls Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 8,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 28288355,
+      "contains": [
+        967,
+        1885,
+        2589,
+        2591,
+        2879
+      ]
+    }
+  },
+  {
+    "id": 2887,
+    "n": "Enchanted Merlin Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 0,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 585576,
+      "contains": [
+        1827,
+        1894,
+        873,
+        882
+      ]
+    }
+  },
+  {
+    "id": 2888,
+    "n": "Enchanted Enki Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 1,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 932918,
+      "contains": [
+        1895,
+        874,
+        883,
+        1828
+      ]
+    }
+  },
+  {
+    "id": 2889,
+    "n": "Enchanted Grendalf Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 2,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 1472433,
+      "contains": [
+        1896,
+        875,
+        884,
+        1829
+      ]
+    }
+  },
+  {
+    "id": 2890,
+    "n": "Enchanted Odin Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 3,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 2336726,
+      "contains": [
+        1897,
+        876,
+        885,
+        1830
+      ]
+    }
+  },
+  {
+    "id": 2891,
+    "n": "Enchanted Shiva Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 4,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 3682665,
+      "contains": [
+        1898,
+        1575,
+        1577,
+        1831
+      ]
+    }
+  },
+  {
+    "id": 2892,
+    "n": "Enchanted Demigod Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 5,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 9896785,
+      "contains": [
+        1576,
+        1578,
+        1832,
+        1899
+      ]
+    }
+  },
+  {
+    "id": 2893,
+    "n": "Enchanted Cursed Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 6,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 9667319,
+      "contains": [
+        1603,
+        1607,
+        1611,
+        1615
+      ]
+    }
+  },
+  {
+    "id": 2894,
+    "n": "Enchanted Demonic Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 7,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 12142523,
+      "contains": [
+        1617,
+        1605,
+        1609,
+        1613
+      ]
+    }
+  },
+  {
+    "id": 2895,
+    "n": "Enchanted Nemesis Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 8,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 13817064,
+      "contains": [
+        1781,
+        1785,
+        1789,
+        1793
+      ]
+    }
+  },
+  {
+    "id": 2896,
+    "n": "Enchanted Oracle Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 9,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 14970652,
+      "contains": [
+        1795,
+        1783,
+        1787,
+        1791
+      ]
+    }
+  },
+  {
+    "id": 2897,
+    "n": "Enchanted Gilded Dust Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 0,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 315270,
+      "contains": [
+        2142,
+        2168,
+        2194,
+        2220,
+        2047
+      ]
+    }
+  },
+  {
+    "id": 2898,
+    "n": "Enchanted Flame Phoenix Dust Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 1,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 541125,
+      "contains": [
+        2144,
+        2170,
+        2196,
+        2222,
+        2049
+      ]
+    }
+  },
+  {
+    "id": 2899,
+    "n": "Enchanted Ruby Dragon Scale Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 2,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 575054,
+      "contains": [
+        2146,
+        2172,
+        2198,
+        2224,
+        2051
+      ]
+    }
+  },
+  {
+    "id": 2900,
+    "n": "Enchanted Elemental Dragon Scale Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 4,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 819180,
+      "contains": [
+        2150,
+        2176,
+        2202,
+        2228,
+        2055
+      ]
+    }
+  },
+  {
+    "id": 2901,
+    "n": "Enchanted Flaming Dragon Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 5,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 1302030,
+      "contains": [
+        2238,
+        2244,
+        2250,
+        2256,
+        2126
+      ]
+    }
+  },
+  {
+    "id": 2902,
+    "n": "Enchanted Diamond Dust Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 3,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 661670,
+      "contains": [
+        2148,
+        2174,
+        2200,
+        2226,
+        2053
+      ]
+    }
+  },
+  {
+    "id": 2903,
+    "n": "Enchanted Swift Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 6,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 2834052,
+      "contains": [
+        2057,
+        2152,
+        2178,
+        2204,
+        2230
+      ]
+    }
+  },
+  {
+    "id": 2904,
+    "n": "Enchanted King Elemental Dragon Scale Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 7,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 3083136,
+      "contains": [
+        2232,
+        2059,
+        2154,
+        2180,
+        2206
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "n": "Enchanted Sandstorm Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 8,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 4064450,
+      "contains": [
+        2128,
+        2240,
+        2246,
+        2252,
+        2258
+      ]
+    }
+  },
+  {
+    "id": 2906,
+    "n": "Enchanted Star Diamond Dust Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 9,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 4235575,
+      "contains": [
+        2156,
+        2182,
+        2208,
+        2234,
+        2061
+      ]
+    }
+  },
+  {
+    "id": 2907,
+    "n": "Lucky Ticket",
+    "t": 3,
+    "img": {
+      "sheet": "54",
+      "x": 10,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 19,
+      "price": 1,
+      "desc": "Uncover 3 same symbols to win",
+      "no_present": true,
+      "sc": 99
+    }
+  },
+  {
+    "id": 2908,
+    "n": "Santa's Sleigh Bottom Part",
+    "t": 3,
+    "img": {
+      "sheet": "52",
+      "x": 0,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 50000,
+      "sc": 99
+    }
+  },
+  {
+    "id": 2909,
+    "n": "Santa's Sleigh Top Part",
+    "t": 3,
+    "img": {
+      "sheet": "52",
+      "x": 2,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 50000,
+      "sc": 99
+    }
+  },
+  {
+    "id": 2910,
+    "n": "Santa's Sleigh Present",
+    "t": 3,
+    "img": {
+      "sheet": "52",
+      "x": 1,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 50000,
+      "sc": 16
+    }
+  },
+  {
+    "id": 2911,
+    "n": "Santa's Sleigh [Ancient]",
+    "t": 7,
+    "img": {
+      "sheet": "52",
+      "x": 3,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 12,
+      "price": 1,
+      "min_health": 65,
+      "pet": 285,
+      "no_present": true
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
     ]
   }
 ]

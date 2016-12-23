@@ -20582,6 +20582,1192 @@ module.exports = [
     ]
   },
   {
+    "id": 2876,
+    "n": "Juggernaut Shield",
+    "level": 94,
+    "min_chance": 0.6,
+    "max_chance": 0.6,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "982",
+        "c": 12
+      }
+    ],
+    "pattern": [
+      [
+        -1,
+        982,
+        982,
+        -1
+      ],
+      [
+        982,
+        982,
+        982,
+        982
+      ],
+      [
+        982,
+        982,
+        982,
+        982
+      ],
+      [
+        -1,
+        982,
+        982,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": 2880,
+    "n": "Enchanted Ichor Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "971",
+        "c": 1
+      },
+      {
+        "id": "973",
+        "c": 1
+      },
+      {
+        "id": "975",
+        "c": 1
+      },
+      {
+        "id": "1039",
+        "c": 1
+      },
+      {
+        "id": "1884",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        971,
+        973,
+        975,
+        1039
+      ],
+      [
+        1884
+      ]
+    ]
+  },
+  {
+    "id": 2881,
+    "n": "Enchanted Star Diamond Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1474",
+        "c": 1
+      },
+      {
+        "id": "1483",
+        "c": 1
+      },
+      {
+        "id": "1494",
+        "c": 1
+      },
+      {
+        "id": "1507",
+        "c": 1
+      },
+      {
+        "id": "1587",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1507,
+        1483,
+        1494,
+        1587
+      ],
+      [
+        1474
+      ]
+    ]
+  },
+  {
+    "id": 2882,
+    "n": "Enchanted Eclipse Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1472",
+        "c": 1
+      },
+      {
+        "id": "1481",
+        "c": 1
+      },
+      {
+        "id": "1492",
+        "c": 1
+      },
+      {
+        "id": "1505",
+        "c": 1
+      },
+      {
+        "id": "1585",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1472,
+        1481,
+        1492,
+        1505
+      ],
+      [
+        1585
+      ]
+    ]
+  },
+  {
+    "id": 2883,
+    "n": "Enchanted Dragonstone Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1470",
+        "c": 1
+      },
+      {
+        "id": "1479",
+        "c": 1
+      },
+      {
+        "id": "1490",
+        "c": 1
+      },
+      {
+        "id": "1501",
+        "c": 1
+      },
+      {
+        "id": "1583",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1470,
+        1479,
+        1490,
+        1501
+      ],
+      [
+        1583
+      ]
+    ]
+  },
+  {
+    "id": 2884,
+    "n": "Enchanted Bahamut Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "965",
+        "c": 1
+      },
+      {
+        "id": "1468",
+        "c": 1
+      },
+      {
+        "id": "1488",
+        "c": 1
+      },
+      {
+        "id": "1503",
+        "c": 1
+      },
+      {
+        "id": "1640",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1640,
+        965,
+        1468,
+        1488
+      ],
+      [
+        1503
+      ]
+    ]
+  },
+  {
+    "id": 2885,
+    "n": "Enchanted Juggernaut Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "963",
+        "c": 1
+      },
+      {
+        "id": "970",
+        "c": 1
+      },
+      {
+        "id": "978",
+        "c": 1
+      },
+      {
+        "id": "1883",
+        "c": 1
+      },
+      {
+        "id": "2877",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        963,
+        970,
+        978,
+        1883
+      ],
+      [
+        2877
+      ]
+    ]
+  },
+  {
+    "id": 2886,
+    "n": "Enchanted 7 Souls Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "967",
+        "c": 1
+      },
+      {
+        "id": "1885",
+        "c": 1
+      },
+      {
+        "id": "2589",
+        "c": 1
+      },
+      {
+        "id": "2591",
+        "c": 1
+      },
+      {
+        "id": "2879",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        967,
+        1885,
+        2589,
+        2591
+      ],
+      [
+        2879
+      ]
+    ]
+  },
+  {
+    "id": 2887,
+    "n": "Enchanted Merlin Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "873",
+        "c": 1
+      },
+      {
+        "id": "882",
+        "c": 1
+      },
+      {
+        "id": "1827",
+        "c": 1
+      },
+      {
+        "id": "1894",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1827,
+        1894,
+        873,
+        882
+      ]
+    ]
+  },
+  {
+    "id": 2888,
+    "n": "Enchanted Enki Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "874",
+        "c": 1
+      },
+      {
+        "id": "883",
+        "c": 1
+      },
+      {
+        "id": "1828",
+        "c": 1
+      },
+      {
+        "id": "1895",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1895,
+        874,
+        883,
+        1828
+      ]
+    ]
+  },
+  {
+    "id": 2889,
+    "n": "Enchanted Grendalf Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "875",
+        "c": 1
+      },
+      {
+        "id": "884",
+        "c": 1
+      },
+      {
+        "id": "1829",
+        "c": 1
+      },
+      {
+        "id": "1896",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1896,
+        875,
+        884,
+        1829
+      ]
+    ]
+  },
+  {
+    "id": 2890,
+    "n": "Enchanted Odin Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "876",
+        "c": 1
+      },
+      {
+        "id": "885",
+        "c": 1
+      },
+      {
+        "id": "1830",
+        "c": 1
+      },
+      {
+        "id": "1897",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1897,
+        876,
+        885,
+        1830
+      ]
+    ]
+  },
+  {
+    "id": 2891,
+    "n": "Enchanted Shiva Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1575",
+        "c": 1
+      },
+      {
+        "id": "1577",
+        "c": 1
+      },
+      {
+        "id": "1831",
+        "c": 1
+      },
+      {
+        "id": "1898",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1898,
+        1575,
+        1577,
+        1831
+      ]
+    ]
+  },
+  {
+    "id": 2892,
+    "n": "Enchanted Demigod Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1576",
+        "c": 1
+      },
+      {
+        "id": "1578",
+        "c": 1
+      },
+      {
+        "id": "1832",
+        "c": 1
+      },
+      {
+        "id": "1899",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1576,
+        1578,
+        1832,
+        1899
+      ]
+    ]
+  },
+  {
+    "id": 2893,
+    "n": "Enchanted Cursed Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1603",
+        "c": 1
+      },
+      {
+        "id": "1607",
+        "c": 1
+      },
+      {
+        "id": "1611",
+        "c": 1
+      },
+      {
+        "id": "1615",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1603,
+        1607,
+        1611,
+        1615
+      ]
+    ]
+  },
+  {
+    "id": 2894,
+    "n": "Enchanted Demonic Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1605",
+        "c": 1
+      },
+      {
+        "id": "1609",
+        "c": 1
+      },
+      {
+        "id": "1613",
+        "c": 1
+      },
+      {
+        "id": "1617",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1617,
+        1605,
+        1609,
+        1613
+      ]
+    ]
+  },
+  {
+    "id": 2895,
+    "n": "Enchanted Nemesis Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1781",
+        "c": 1
+      },
+      {
+        "id": "1785",
+        "c": 1
+      },
+      {
+        "id": "1789",
+        "c": 1
+      },
+      {
+        "id": "1793",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1781,
+        1785,
+        1789,
+        1793
+      ]
+    ]
+  },
+  {
+    "id": 2896,
+    "n": "Enchanted Oracle Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "1783",
+        "c": 1
+      },
+      {
+        "id": "1787",
+        "c": 1
+      },
+      {
+        "id": "1791",
+        "c": 1
+      },
+      {
+        "id": "1795",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        1795,
+        1783,
+        1787,
+        1791
+      ]
+    ]
+  },
+  {
+    "id": 2897,
+    "n": "Enchanted Gilded Dust Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2047",
+        "c": 1
+      },
+      {
+        "id": "2142",
+        "c": 1
+      },
+      {
+        "id": "2168",
+        "c": 1
+      },
+      {
+        "id": "2194",
+        "c": 1
+      },
+      {
+        "id": "2220",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2142,
+        2168,
+        2194,
+        2220
+      ],
+      [
+        2047
+      ]
+    ]
+  },
+  {
+    "id": 2898,
+    "n": "Enchanted Flame Phoenix Dust Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2049",
+        "c": 1
+      },
+      {
+        "id": "2144",
+        "c": 1
+      },
+      {
+        "id": "2170",
+        "c": 1
+      },
+      {
+        "id": "2196",
+        "c": 1
+      },
+      {
+        "id": "2222",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2144,
+        2170,
+        2196,
+        2222
+      ],
+      [
+        2049
+      ]
+    ]
+  },
+  {
+    "id": 2899,
+    "n": "Enchanted Ruby Dragon Scale Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2051",
+        "c": 1
+      },
+      {
+        "id": "2146",
+        "c": 1
+      },
+      {
+        "id": "2172",
+        "c": 1
+      },
+      {
+        "id": "2198",
+        "c": 1
+      },
+      {
+        "id": "2224",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2146,
+        2172,
+        2198,
+        2224
+      ],
+      [
+        2051
+      ]
+    ]
+  },
+  {
+    "id": 2900,
+    "n": "Enchanted Elemental Dragon Scale Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2055",
+        "c": 1
+      },
+      {
+        "id": "2150",
+        "c": 1
+      },
+      {
+        "id": "2176",
+        "c": 1
+      },
+      {
+        "id": "2202",
+        "c": 1
+      },
+      {
+        "id": "2228",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2150,
+        2176,
+        2202,
+        2228
+      ],
+      [
+        2055
+      ]
+    ]
+  },
+  {
+    "id": 2901,
+    "n": "Enchanted Flaming Dragon Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2126",
+        "c": 1
+      },
+      {
+        "id": "2238",
+        "c": 1
+      },
+      {
+        "id": "2244",
+        "c": 1
+      },
+      {
+        "id": "2250",
+        "c": 1
+      },
+      {
+        "id": "2256",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2238,
+        2244,
+        2250,
+        2256
+      ],
+      [
+        2126
+      ]
+    ]
+  },
+  {
+    "id": 2902,
+    "n": "Enchanted Diamond Dust Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2053",
+        "c": 1
+      },
+      {
+        "id": "2148",
+        "c": 1
+      },
+      {
+        "id": "2174",
+        "c": 1
+      },
+      {
+        "id": "2200",
+        "c": 1
+      },
+      {
+        "id": "2226",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2148,
+        2174,
+        2200,
+        2226
+      ],
+      [
+        2053
+      ]
+    ]
+  },
+  {
+    "id": 2903,
+    "n": "Enchanted Swift Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2057",
+        "c": 1
+      },
+      {
+        "id": "2152",
+        "c": 1
+      },
+      {
+        "id": "2178",
+        "c": 1
+      },
+      {
+        "id": "2204",
+        "c": 1
+      },
+      {
+        "id": "2230",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2057,
+        2152,
+        2178,
+        2204
+      ],
+      [
+        2230
+      ]
+    ]
+  },
+  {
+    "id": 2904,
+    "n": "Enchanted King Elemental Dragon Scale Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2059",
+        "c": 1
+      },
+      {
+        "id": "2154",
+        "c": 1
+      },
+      {
+        "id": "2180",
+        "c": 1
+      },
+      {
+        "id": "2206",
+        "c": 1
+      },
+      {
+        "id": "2232",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2232,
+        2059,
+        2154,
+        2180
+      ],
+      [
+        2206
+      ]
+    ]
+  },
+  {
+    "id": 2905,
+    "n": "Enchanted Sandstorm Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2128",
+        "c": 1
+      },
+      {
+        "id": "2240",
+        "c": 1
+      },
+      {
+        "id": "2246",
+        "c": 1
+      },
+      {
+        "id": "2252",
+        "c": 1
+      },
+      {
+        "id": "2258",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2128,
+        2240,
+        2246,
+        2252
+      ],
+      [
+        2258
+      ]
+    ]
+  },
+  {
+    "id": 2906,
+    "n": "Enchanted Star Diamond Dust Box",
+    "level": 1,
+    "min_chance": 1,
+    "max_chance": 1,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2061",
+        "c": 1
+      },
+      {
+        "id": "2156",
+        "c": 1
+      },
+      {
+        "id": "2182",
+        "c": 1
+      },
+      {
+        "id": "2208",
+        "c": 1
+      },
+      {
+        "id": "2234",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2156,
+        2182,
+        2208,
+        2234
+      ],
+      [
+        2061
+      ]
+    ]
+  },
+  {
+    "id": 2878,
+    "n": "7 Souls Shield",
+    "level": 99,
+    "min_chance": 0.3,
+    "max_chance": 0.3,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "161",
+        "c": 1
+      },
+      {
+        "id": "166",
+        "c": 1
+      },
+      {
+        "id": "167",
+        "c": 1
+      },
+      {
+        "id": "169",
+        "c": 1
+      },
+      {
+        "id": "171",
+        "c": 1
+      },
+      {
+        "id": "968",
+        "c": 4
+      }
+    ],
+    "pattern": [
+      [
+        968,
+        166,
+        161,
+        968
+      ],
+      [
+        968,
+        167,
+        169,
+        968
+      ],
+      [
+        -1,
+        171,
+        -1,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": 2911,
+    "n": "Santa's Sleigh [Ancient]",
+    "level": 1,
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2908",
+        "c": 1
+      },
+      {
+        "id": "2909",
+        "c": 1
+      },
+      {
+        "id": "2910",
+        "c": 6
+      }
+    ],
+    "pattern": [
+      [
+        2908,
+        2909,
+        2910,
+        2910
+      ],
+      [
+        2910,
+        2910,
+        2910,
+        2910
+      ]
+    ]
+  },
+  {
+    "id": 2911,
+    "n": "Santa's Sleigh [Ancient]",
+    "level": 1,
+    "min_chance": 0.01,
+    "max_chance": 0.01,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "2910",
+        "c": 1
+      }
+    ],
+    "pattern": [
+      [
+        2910
+      ]
+    ]
+  },
+  {
     "id": 730,
     "n": "Fir Floor",
     "level": 1,

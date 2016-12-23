@@ -52,6 +52,14 @@ module.exports = [
         {
           "id": 8,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 4
@@ -118,6 +126,14 @@ module.exports = [
         {
           "id": 204,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 1
@@ -201,6 +217,14 @@ module.exports = [
         {
           "id": 220,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 9
@@ -305,6 +329,14 @@ module.exports = [
         {
           "id": 264,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 21
@@ -391,6 +423,14 @@ module.exports = [
         {
           "id": 272,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 48
@@ -463,6 +503,14 @@ module.exports = [
         {
           "id": 444,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 13
@@ -529,6 +577,14 @@ module.exports = [
         {
           "id": 23,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 20
@@ -602,6 +658,14 @@ module.exports = [
         {
           "id": 233,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 30
@@ -670,6 +734,14 @@ module.exports = [
         {
           "id": 274,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 36
@@ -749,6 +821,14 @@ module.exports = [
         {
           "id": 215,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 44
@@ -844,6 +924,14 @@ module.exports = [
         {
           "id": 264,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 25
@@ -917,6 +1005,14 @@ module.exports = [
         {
           "id": 362,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 83
@@ -1008,6 +1104,14 @@ module.exports = [
         {
           "id": 272,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 54
@@ -1083,6 +1187,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 62
@@ -1157,6 +1269,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 70
@@ -1240,6 +1360,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -1314,6 +1442,14 @@ module.exports = [
         {
           "id": 135,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 97
@@ -1372,6 +1508,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 93
@@ -1460,6 +1604,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 99
@@ -1539,6 +1691,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 117
@@ -1627,6 +1787,14 @@ module.exports = [
         {
           "id": 252,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 165
@@ -1686,6 +1854,14 @@ module.exports = [
         {
           "id": 93,
           "chance": 0.003
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 84
@@ -1764,6 +1940,14 @@ module.exports = [
         {
           "id": 156,
           "chance": 0.003
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 142
@@ -1835,6 +2019,14 @@ module.exports = [
         {
           "id": 152,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 100
@@ -1901,6 +2093,14 @@ module.exports = [
         {
           "id": 215,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 101
@@ -1953,6 +2153,14 @@ module.exports = [
         {
           "id": 93,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 86
@@ -2008,6 +2216,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 94
@@ -2045,6 +2261,14 @@ module.exports = [
         {
           "id": 227,
           "chance": 0.2
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 5
@@ -2080,6 +2304,14 @@ module.exports = [
         {
           "id": 235,
           "chance": 0.8
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 15
@@ -2115,6 +2347,14 @@ module.exports = [
         {
           "id": 236,
           "chance": 0.8
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 25
@@ -2150,6 +2390,14 @@ module.exports = [
         {
           "id": 237,
           "chance": 0.8
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 35
@@ -2185,6 +2433,14 @@ module.exports = [
         {
           "id": 239,
           "chance": 0.7
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 45
@@ -2220,6 +2476,14 @@ module.exports = [
         {
           "id": 238,
           "chance": 0.7
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 55
@@ -2256,6 +2520,14 @@ module.exports = [
         {
           "id": 240,
           "chance": 0.6
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 65
@@ -2292,6 +2564,14 @@ module.exports = [
         {
           "id": 241,
           "chance": 0.6
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 75
@@ -2328,6 +2608,14 @@ module.exports = [
         {
           "id": 243,
           "chance": 0.6
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 85
@@ -2364,6 +2652,14 @@ module.exports = [
         {
           "id": 245,
           "chance": 0.5
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -2400,6 +2696,14 @@ module.exports = [
         {
           "id": 244,
           "chance": 0.5
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 105
@@ -2454,6 +2758,14 @@ module.exports = [
         {
           "id": 75,
           "chance": 0.08
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 97
@@ -2508,6 +2820,14 @@ module.exports = [
         {
           "id": 19,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 30
@@ -2578,6 +2898,14 @@ module.exports = [
         {
           "id": 146,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 106
@@ -2656,6 +2984,14 @@ module.exports = [
         {
           "id": 285,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 110
@@ -2721,6 +3057,14 @@ module.exports = [
         {
           "id": 42,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 42
@@ -2779,6 +3123,14 @@ module.exports = [
         {
           "id": 61,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 72
@@ -2834,6 +3186,14 @@ module.exports = [
         {
           "id": 42,
           "chance": 0.02
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 58
@@ -2890,6 +3250,14 @@ module.exports = [
         {
           "id": 303,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 86
@@ -2952,6 +3320,14 @@ module.exports = [
         {
           "id": 418,
           "chance": 0.001
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 56
@@ -3016,6 +3392,14 @@ module.exports = [
         {
           "id": 146,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 90
@@ -3076,6 +3460,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 83
@@ -3141,6 +3533,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 115
@@ -3217,6 +3617,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 130
@@ -3282,6 +3690,14 @@ module.exports = [
         {
           "id": 363,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 150
@@ -3353,6 +3769,14 @@ module.exports = [
         {
           "id": 194,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 230
@@ -3434,6 +3858,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 74
@@ -3477,6 +3909,14 @@ module.exports = [
         {
           "id": 384,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 122
@@ -3523,6 +3963,14 @@ module.exports = [
         {
           "id": 34,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 26
@@ -3570,6 +4018,14 @@ module.exports = [
         {
           "id": 194,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 63
@@ -3624,6 +4080,14 @@ module.exports = [
         {
           "id": 50,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 48
@@ -3679,6 +4143,14 @@ module.exports = [
         {
           "id": 291,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 73
@@ -3751,6 +4223,14 @@ module.exports = [
         {
           "id": 419,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 92
@@ -3815,6 +4295,14 @@ module.exports = [
         {
           "id": 52,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 84
@@ -3884,6 +4372,14 @@ module.exports = [
         {
           "id": 264,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 47
@@ -3961,6 +4457,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 38
@@ -4019,6 +4523,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 25
@@ -4084,6 +4596,14 @@ module.exports = [
         {
           "id": 216,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 150
@@ -4157,6 +4677,14 @@ module.exports = [
         {
           "id": 155,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 120
@@ -4230,6 +4758,14 @@ module.exports = [
         {
           "id": 302,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 80
@@ -4295,6 +4831,14 @@ module.exports = [
         {
           "id": 453,
           "chance": 0.004
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 77
@@ -4367,6 +4911,14 @@ module.exports = [
         {
           "id": 176,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 130
@@ -4427,6 +4979,14 @@ module.exports = [
         {
           "id": 301,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 130
@@ -4511,6 +5071,14 @@ module.exports = [
         {
           "id": 151,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 190
@@ -4611,6 +5179,14 @@ module.exports = [
         {
           "id": 128,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 300
@@ -4666,6 +5242,14 @@ module.exports = [
         {
           "id": 421,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 172
@@ -4743,6 +5327,14 @@ module.exports = [
         {
           "id": 135,
           "chance": 0.0035
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 134
@@ -4798,6 +5390,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 115
@@ -4858,6 +5458,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 145
@@ -4908,6 +5516,14 @@ module.exports = [
         {
           "id": 221,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 139
@@ -4962,6 +5578,14 @@ module.exports = [
         {
           "id": 412,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 71
@@ -5015,6 +5639,14 @@ module.exports = [
         {
           "id": 273,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 73
@@ -5074,6 +5706,14 @@ module.exports = [
         {
           "id": 430,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 89
@@ -5133,6 +5773,14 @@ module.exports = [
         {
           "id": 445,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 109
@@ -5196,6 +5844,14 @@ module.exports = [
         {
           "id": 445,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 129
@@ -5264,6 +5920,14 @@ module.exports = [
         {
           "id": 445,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 159
@@ -5344,6 +6008,14 @@ module.exports = [
         {
           "id": 446,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 175
@@ -5407,6 +6079,14 @@ module.exports = [
         {
           "id": 492,
           "chance": 0.25
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 1
@@ -5467,6 +6147,14 @@ module.exports = [
         {
           "id": 492,
           "chance": 0.25
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 2
@@ -5523,6 +6211,14 @@ module.exports = [
         {
           "id": 5,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 7
@@ -5583,6 +6279,14 @@ module.exports = [
         {
           "id": 424,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 18
@@ -5630,6 +6334,14 @@ module.exports = [
         {
           "id": 41,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 34
@@ -5696,6 +6408,14 @@ module.exports = [
         {
           "id": 376,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 180
@@ -5744,6 +6464,14 @@ module.exports = [
         {
           "id": 13,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 22
@@ -5791,6 +6519,14 @@ module.exports = [
         {
           "id": 55,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 46
@@ -5850,6 +6586,14 @@ module.exports = [
         {
           "id": 364,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 200
@@ -5904,6 +6648,14 @@ module.exports = [
         {
           "id": 299,
           "chance": 0.003
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 62
@@ -5957,6 +6709,14 @@ module.exports = [
         {
           "id": 79,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 76
@@ -6032,6 +6792,14 @@ module.exports = [
         {
           "id": 163,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 110
@@ -6109,6 +6877,14 @@ module.exports = [
         {
           "id": 165,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 140
@@ -6163,6 +6939,14 @@ module.exports = [
         {
           "id": 59,
           "chance": 0.008
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 84
@@ -6222,6 +7006,14 @@ module.exports = [
         {
           "id": 64,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 74
@@ -6271,6 +7063,14 @@ module.exports = [
         {
           "id": 426,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 83
@@ -6324,6 +7124,14 @@ module.exports = [
         {
           "id": 412,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 81
@@ -6392,6 +7200,14 @@ module.exports = [
         {
           "id": 9,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 21
@@ -6447,6 +7263,14 @@ module.exports = [
         {
           "id": 38,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 20
@@ -6560,6 +7384,14 @@ module.exports = [
         {
           "id": 476,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 470
@@ -6624,6 +7456,14 @@ module.exports = [
         {
           "id": 141,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 80
@@ -6684,6 +7524,14 @@ module.exports = [
         {
           "id": 67,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -6750,6 +7598,14 @@ module.exports = [
         {
           "id": 149,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 115
@@ -6823,6 +7679,14 @@ module.exports = [
         {
           "id": 139,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 145
@@ -6912,6 +7776,14 @@ module.exports = [
         {
           "id": 139,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 190
@@ -6985,6 +7857,14 @@ module.exports = [
         {
           "id": 75,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 90
@@ -7055,6 +7935,14 @@ module.exports = [
         {
           "id": 87,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 120
@@ -7125,6 +8013,14 @@ module.exports = [
         {
           "id": 87,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 85
@@ -7189,6 +8085,14 @@ module.exports = [
         {
           "id": 87,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 100
@@ -7253,6 +8157,14 @@ module.exports = [
         {
           "id": 233,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 45
@@ -7319,6 +8231,14 @@ module.exports = [
         {
           "id": 233,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 50
@@ -7382,6 +8302,14 @@ module.exports = [
         {
           "id": 233,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 30
@@ -7446,6 +8374,14 @@ module.exports = [
         {
           "id": 233,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -7510,6 +8446,14 @@ module.exports = [
         {
           "id": 233,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 115
@@ -7623,6 +8567,14 @@ module.exports = [
         {
           "id": 593,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 600
@@ -7728,6 +8680,14 @@ module.exports = [
         {
           "id": 1341,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 1000
@@ -7878,6 +8838,14 @@ module.exports = [
         {
           "id": 593,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 3975
@@ -8099,6 +9067,14 @@ module.exports = [
         {
           "id": 593,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 800
@@ -8271,6 +9247,14 @@ module.exports = [
         {
           "id": 593,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 1475
@@ -8330,6 +9314,14 @@ module.exports = [
         {
           "id": 339,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 70
@@ -8405,6 +9397,14 @@ module.exports = [
         {
           "id": 141,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 80
@@ -8464,6 +9464,14 @@ module.exports = [
         {
           "id": 144,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 90
@@ -8520,6 +9528,14 @@ module.exports = [
         {
           "id": 153,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 138
@@ -8566,6 +9582,14 @@ module.exports = [
         {
           "id": 616,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -8622,6 +9646,14 @@ module.exports = [
         {
           "id": 76,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 60
@@ -8684,6 +9716,14 @@ module.exports = [
         {
           "id": 438,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 50
@@ -8747,6 +9787,14 @@ module.exports = [
         {
           "id": 438,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 60
@@ -8798,6 +9846,14 @@ module.exports = [
         {
           "id": 84,
           "chance": 0.04
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 70
@@ -8861,6 +9917,14 @@ module.exports = [
         {
           "id": 302,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 80
@@ -8924,6 +9988,14 @@ module.exports = [
         {
           "id": 144,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 90
@@ -8987,6 +10059,14 @@ module.exports = [
         {
           "id": 163,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 110
@@ -9050,6 +10130,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 120
@@ -9113,6 +10201,14 @@ module.exports = [
         {
           "id": 440,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 160
@@ -9180,6 +10276,14 @@ module.exports = [
         {
           "id": 150,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 115
@@ -9243,6 +10347,14 @@ module.exports = [
         {
           "id": 190,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 135
@@ -9298,6 +10410,14 @@ module.exports = [
         {
           "id": 96,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 85
@@ -9360,6 +10480,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 187
@@ -9433,6 +10561,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 137
@@ -9499,6 +10635,14 @@ module.exports = [
         {
           "id": 475,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 105
@@ -9573,6 +10717,14 @@ module.exports = [
         {
           "id": 295,
           "chance": 0.001
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 37
@@ -9619,6 +10771,14 @@ module.exports = [
         {
           "id": 50,
           "chance": 0.001
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 78
@@ -9658,6 +10818,14 @@ module.exports = [
         {
           "id": 50,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 132
@@ -9722,6 +10890,14 @@ module.exports = [
         {
           "id": 139,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 210
@@ -9796,6 +10972,14 @@ module.exports = [
         {
           "id": 612,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 120
@@ -9882,6 +11066,14 @@ module.exports = [
         {
           "id": 7,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 25
@@ -9944,6 +11136,14 @@ module.exports = [
         {
           "id": 0,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 31
@@ -10017,6 +11217,14 @@ module.exports = [
         {
           "id": 72,
           "chance": 0.02
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 38
@@ -10077,6 +11285,14 @@ module.exports = [
         {
           "id": 38,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 45
@@ -10141,6 +11357,14 @@ module.exports = [
         {
           "id": 38,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 82
@@ -10208,6 +11432,14 @@ module.exports = [
         {
           "id": 60,
           "chance": 0.0045
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 94
@@ -10280,6 +11512,14 @@ module.exports = [
         {
           "id": 167,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 187
@@ -10348,6 +11588,14 @@ module.exports = [
         {
           "id": 167,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 170
@@ -10412,6 +11660,14 @@ module.exports = [
         {
           "id": 787,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 147
@@ -10480,6 +11736,14 @@ module.exports = [
         {
           "id": 794,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -10544,6 +11808,14 @@ module.exports = [
         {
           "id": 21,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 3
@@ -10595,6 +11867,14 @@ module.exports = [
         {
           "id": 187,
           "chance": 0.09
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 9
@@ -10677,6 +11957,14 @@ module.exports = [
         {
           "id": 274,
           "chance": 0.09
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 41
@@ -10727,6 +12015,14 @@ module.exports = [
         {
           "id": 404,
           "chance": 0.04
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 43
@@ -10795,6 +12091,14 @@ module.exports = [
         {
           "id": 74,
           "chance": 0.04
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 75
@@ -10853,6 +12157,14 @@ module.exports = [
         {
           "id": 74,
           "chance": 0.04
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 69
@@ -10915,6 +12227,14 @@ module.exports = [
         {
           "id": 411,
           "chance": 0.04
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 71
@@ -10982,6 +12302,14 @@ module.exports = [
         {
           "id": 416,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 98
@@ -11077,6 +12405,14 @@ module.exports = [
         {
           "id": 182,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 220
@@ -11142,6 +12478,14 @@ module.exports = [
         {
           "id": 866,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 194
@@ -11211,6 +12555,14 @@ module.exports = [
         {
           "id": 253,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 130
@@ -11280,6 +12632,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 115
@@ -11364,6 +12724,14 @@ module.exports = [
         {
           "id": 253,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 170
@@ -11461,6 +12829,14 @@ module.exports = [
         {
           "id": 500,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 240
@@ -11575,6 +12951,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 250
@@ -11656,6 +13040,14 @@ module.exports = [
         {
           "id": 177,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 257
@@ -11763,6 +13155,14 @@ module.exports = [
         {
           "id": 173,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 285
@@ -11975,6 +13375,14 @@ module.exports = [
         {
           "id": 477,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 1300
@@ -12207,6 +13615,14 @@ module.exports = [
         {
           "id": 477,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 2072
@@ -12366,6 +13782,14 @@ module.exports = [
         {
           "id": 1340,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 3000
@@ -12425,6 +13849,14 @@ module.exports = [
         {
           "id": 104,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 156
@@ -12503,6 +13935,14 @@ module.exports = [
         {
           "id": 285,
           "chance": 0.03
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 110
@@ -12563,6 +14003,14 @@ module.exports = [
         {
           "id": 104,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 175
@@ -12620,6 +14068,14 @@ module.exports = [
         {
           "id": 799,
           "chance": 0.025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 30
@@ -12678,6 +14134,14 @@ module.exports = [
         {
           "id": 438,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 53
@@ -12736,6 +14200,14 @@ module.exports = [
         {
           "id": 301,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 86
@@ -12802,6 +14274,14 @@ module.exports = [
         {
           "id": 155,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 127
@@ -12868,6 +14348,14 @@ module.exports = [
         {
           "id": 363,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 160
@@ -12935,6 +14423,14 @@ module.exports = [
         {
           "id": 167,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 180
@@ -13006,6 +14502,14 @@ module.exports = [
         {
           "id": 907,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 275
@@ -13140,6 +14644,14 @@ module.exports = [
         {
           "id": 1343,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 3775
@@ -13191,6 +14703,14 @@ module.exports = [
         {
           "id": 5,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 1
@@ -13251,6 +14771,14 @@ module.exports = [
         {
           "id": 167,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 170
@@ -13318,6 +14846,14 @@ module.exports = [
         {
           "id": 1012,
           "chance": 0.006
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 175
@@ -13389,6 +14925,14 @@ module.exports = [
         {
           "id": 446,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 210
@@ -13463,6 +15007,14 @@ module.exports = [
         {
           "id": 156,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 205
@@ -13541,6 +15093,14 @@ module.exports = [
         {
           "id": 787,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 270
@@ -13625,6 +15185,14 @@ module.exports = [
         {
           "id": 669,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 298
@@ -13701,6 +15269,14 @@ module.exports = [
         {
           "id": 59,
           "chance": 0.008
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 230
@@ -14116,6 +15692,14 @@ module.exports = [
         {
           "id": 477,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 2100
@@ -14273,6 +15857,14 @@ module.exports = [
         {
           "id": 146,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 108
@@ -14333,6 +15925,14 @@ module.exports = [
         {
           "id": 19,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 20
@@ -14364,7 +15964,16 @@ module.exports = [
       "aggressive": false,
       "speed": 100,
       "att_anim": 42,
-      "drops": [],
+      "drops": [
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
+        }
+      ],
       "combat_level": 1
     },
     "temp": {
@@ -14447,6 +16056,14 @@ module.exports = [
         {
           "id": 476,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 450
@@ -14536,6 +16153,14 @@ module.exports = [
         {
           "id": 476,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 435
@@ -14628,6 +16253,14 @@ module.exports = [
         {
           "id": 476,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 545
@@ -14707,6 +16340,14 @@ module.exports = [
         {
           "id": 146,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 50
@@ -14793,6 +16434,14 @@ module.exports = [
         {
           "id": 426,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 85
@@ -14879,6 +16528,14 @@ module.exports = [
         {
           "id": 436,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 130
@@ -14957,6 +16614,14 @@ module.exports = [
         {
           "id": 156,
           "chance": 0.003
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 220
@@ -15027,6 +16692,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 100
@@ -15095,6 +16768,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 122
@@ -15166,6 +16847,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 120
@@ -15248,6 +16937,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 125
@@ -15324,6 +17021,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 125
@@ -15404,6 +17109,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 200
@@ -15480,6 +17193,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 210
@@ -15553,6 +17274,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 250
@@ -15615,6 +17344,14 @@ module.exports = [
         {
           "id": 188,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -15687,6 +17424,14 @@ module.exports = [
         {
           "id": 435,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 162
@@ -15769,6 +17514,14 @@ module.exports = [
         {
           "id": 467,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 98
@@ -15850,6 +17603,14 @@ module.exports = [
         {
           "id": 40,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 200
@@ -21971,6 +23732,14 @@ module.exports = [
         {
           "id": 242,
           "chance": 0.8
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 102
@@ -22008,6 +23777,10 @@ module.exports = [
         },
         {
           "id": 1031,
+          "chance": 0.003
+        },
+        {
+          "id": 1444,
           "chance": 0.003
         }
       ]
@@ -22081,6 +23854,14 @@ module.exports = [
         {
           "id": 215,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 121
@@ -22171,6 +23952,14 @@ module.exports = [
         {
           "id": 176,
           "chance": 0.005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 128
@@ -22226,6 +24015,14 @@ module.exports = [
         {
           "id": 92,
           "chance": 0.003
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 84
@@ -22289,6 +24086,14 @@ module.exports = [
         {
           "id": 92,
           "chance": 0.003
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 89
@@ -22409,6 +24214,14 @@ module.exports = [
         {
           "id": 476,
           "chance": 0.025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 470
@@ -22466,6 +24279,14 @@ module.exports = [
         {
           "id": 74,
           "chance": 0.08
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 98
@@ -22537,6 +24358,14 @@ module.exports = [
         {
           "id": 74,
           "chance": 0.08
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 119
@@ -22616,6 +24445,14 @@ module.exports = [
         {
           "id": 74,
           "chance": 0.08
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 145
@@ -22691,6 +24528,14 @@ module.exports = [
         {
           "id": 216,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 155
@@ -22765,6 +24610,14 @@ module.exports = [
         {
           "id": 216,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 139
@@ -22838,6 +24691,14 @@ module.exports = [
         {
           "id": 194,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 247
@@ -22917,6 +24778,14 @@ module.exports = [
         {
           "id": 194,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 297
@@ -22997,6 +24866,14 @@ module.exports = [
         {
           "id": 1602,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 355
@@ -23080,6 +24957,14 @@ module.exports = [
         {
           "id": 1602,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 390
@@ -23274,6 +25159,14 @@ module.exports = [
         {
           "id": 593,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 10000
@@ -23479,6 +25372,14 @@ module.exports = [
         {
           "id": 593,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 10015
@@ -23553,6 +25454,14 @@ module.exports = [
         {
           "id": 216,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 170
@@ -23626,6 +25535,14 @@ module.exports = [
         {
           "id": 787,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 277
@@ -23700,6 +25617,14 @@ module.exports = [
         {
           "id": 216,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 187
@@ -23780,6 +25705,14 @@ module.exports = [
         {
           "id": 1697,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 215
@@ -23901,6 +25834,14 @@ module.exports = [
         {
           "id": 1602,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 350
@@ -23987,6 +25928,14 @@ module.exports = [
         {
           "id": 1455,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 350
@@ -24078,6 +26027,14 @@ module.exports = [
         {
           "id": 1602,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 340
@@ -24163,6 +26120,14 @@ module.exports = [
         {
           "id": 1610,
           "chance": 0.0015
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 340
@@ -24229,6 +26194,14 @@ module.exports = [
         {
           "id": 250,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 32
@@ -24288,6 +26261,14 @@ module.exports = [
         {
           "id": 254,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 25
@@ -24351,6 +26332,14 @@ module.exports = [
         {
           "id": 252,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 47
@@ -24406,6 +26395,14 @@ module.exports = [
         {
           "id": 12,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 38
@@ -24465,6 +26462,14 @@ module.exports = [
         {
           "id": 12,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 47
@@ -24528,6 +26533,14 @@ module.exports = [
         {
           "id": 55,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 66
@@ -24587,6 +26600,14 @@ module.exports = [
         {
           "id": 12,
           "chance": 0.01
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 95
@@ -24650,6 +26671,14 @@ module.exports = [
         {
           "id": 27,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 36
@@ -24717,6 +26746,14 @@ module.exports = [
         {
           "id": 27,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 46
@@ -24810,6 +26847,14 @@ module.exports = [
         },
         {
           "id": 178,
+          "chance": 0.0005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
           "chance": 0.0005
         }
       ],
@@ -24909,6 +26954,14 @@ module.exports = [
         },
         {
           "id": 178,
+          "chance": 0.0005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
           "chance": 0.0005
         }
       ],
@@ -25025,6 +27078,14 @@ module.exports = [
         {
           "id": 178,
           "chance": 0.0005
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 193
@@ -25093,6 +27154,14 @@ module.exports = [
         {
           "id": 666,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 142
@@ -25192,6 +27261,14 @@ module.exports = [
         {
           "id": 128,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 300
@@ -25380,6 +27457,14 @@ module.exports = [
         {
           "id": 183,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 330
@@ -25473,6 +27558,14 @@ module.exports = [
         {
           "id": 183,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 305
@@ -25597,6 +27690,14 @@ module.exports = [
         {
           "id": 183,
           "chance": 0.0025
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 370
@@ -43230,6 +45331,14 @@ module.exports = [
         {
           "id": 477,
           "chance": 0.05
+        },
+        {
+          "id": 2910,
+          "chance": 0.003
+        },
+        {
+          "id": 2909,
+          "chance": 0.0005
         }
       ],
       "combat_level": 2090

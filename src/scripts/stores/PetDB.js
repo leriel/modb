@@ -956,6 +956,16 @@ module.exports = [
               "pet_id": 132,
               "base_chance": 0.02,
               "max_chance": 0.02
+            },
+            {
+              "pet_id": 259,
+              "base_chance": 0.06,
+              "max_chance": 0.06
+            },
+            {
+              "pet_id": 260,
+              "base_chance": 0.04,
+              "max_chance": 0.04
             }
           ]
         },
@@ -2402,7 +2412,7 @@ module.exports = [
             {
               "pet_id": 89,
               "base_chance": 0.5,
-              "max_chance": 0.833
+              "max_chance": 0.75
             },
             {
               "pet_id": 74,
@@ -2415,7 +2425,7 @@ module.exports = [
               "max_chance": 0.05
             },
             {
-              "pet_id": 245,
+              "pet_id": 250,
               "base_chance": 0.02,
               "max_chance": 0.02
             }
@@ -2719,6 +2729,16 @@ module.exports = [
               "pet_id": 132,
               "base_chance": 0.02,
               "max_chance": 0.02
+            },
+            {
+              "pet_id": 259,
+              "base_chance": 0.06,
+              "max_chance": 0.06
+            },
+            {
+              "pet_id": 260,
+              "base_chance": 0.04,
+              "max_chance": 0.04
             }
           ]
         },
@@ -2732,14 +2752,14 @@ module.exports = [
               "max_chance": 0.58
             },
             {
-              "pet_id": 281,
+              "pet_id": 195,
               "base_chance": 0.04,
               "max_chance": 0.08
             },
             {
               "pet_id": 259,
-              "base_chance": 0.04,
-              "max_chance": 0.04
+              "base_chance": 0.08,
+              "max_chance": 0.08
             },
             {
               "pet_id": 281,
@@ -3794,9 +3814,9 @@ module.exports = [
               "max_chance": 0.3
             },
             {
-              "pet_id": 91,
-              "base_chance": 0.2,
-              "max_chance": 0.3
+              "pet_id": 176,
+              "base_chance": 0.11,
+              "max_chance": 0.14
             },
             {
               "pet_id": 201,
@@ -3804,7 +3824,7 @@ module.exports = [
               "max_chance": 0.04
             },
             {
-              "pet_id": 271,
+              "pet_id": 273,
               "base_chance": 0.05,
               "max_chance": 0.05
             }
@@ -6188,9 +6208,9 @@ module.exports = [
               "max_chance": 0.3
             },
             {
-              "pet_id": 91,
-              "base_chance": 0.2,
-              "max_chance": 0.3
+              "pet_id": 176,
+              "base_chance": 0.11,
+              "max_chance": 0.14
             },
             {
               "pet_id": 201,
@@ -6198,7 +6218,7 @@ module.exports = [
               "max_chance": 0.04
             },
             {
-              "pet_id": 271,
+              "pet_id": 273,
               "base_chance": 0.05,
               "max_chance": 0.05
             }
@@ -6488,14 +6508,14 @@ module.exports = [
               "max_chance": 0.58
             },
             {
-              "pet_id": 281,
+              "pet_id": 195,
               "base_chance": 0.04,
               "max_chance": 0.08
             },
             {
               "pet_id": 259,
-              "base_chance": 0.04,
-              "max_chance": 0.04
+              "base_chance": 0.08,
+              "max_chance": 0.08
             },
             {
               "pet_id": 281,
@@ -8741,6 +8761,27 @@ module.exports = [
       "insurance_cost": [
         5007048,
         3338
+      ],
+      "breeding_level": 1,
+      "likes": []
+    }
+  },
+  {
+    "id": 285,
+    "n": "Santa's Sleigh [Ancient]",
+    "item_id": 2911,
+    "params": {
+      "item_id": 2911,
+      "inventory_slots": 24,
+      "level": 1,
+      "eats": {
+        "29": 0.01
+      },
+      "eat_interval": 10,
+      "happiness": 90,
+      "insurance_cost": [
+        1,
+        1
       ],
       "breeding_level": 1,
       "likes": []
