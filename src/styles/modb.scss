@@ -206,3 +206,25 @@ div.item-detail header h1 {
   display: block;
   text-align: center;
 }
+
+.reactable-header-sort-desc:after {
+  content: '\25BC';
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.reactable-header-sort-asc:after {
+  content: '\25B2';
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.reactable-header-sortable {
+  text-decoration: underline;
+}
+
+.reactable-header-sort-desc, .reactable-header-sort-asc {
+  text-decoration: none;
+}
