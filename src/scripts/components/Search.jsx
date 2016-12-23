@@ -133,12 +133,16 @@ var Search = React.createClass({
       <article className="context">
         <div className="panel panel-default">
           <div className="panel-heading">
-            <div className="pull-right button-toolbar">
+            <h2 className="panel-title">Items</h2>
+            <ButtonGroup>
+              <Button active={this.state.filters.output=='grid'} onClick={this._outputGrid}><i className="glyphicon glyphicon-th-large" /></Button>
+              <Button active={this.state.filters.output=='tabled'} onClick={this._outputTabled}><i className="glyphicon glyphicon-th-list" /></Button>
+            </ButtonGroup>
+            <div className="button-toolbar">
               <div className="button-group">
                 <a onClick={this._toggleFilters} className="btn btn-primary btn-xs" href="#">toggle filters</a>
               </div>
             </div>
-            <h2 className="panel-title">Items</h2>
           </div>
           <div className={filterPanelBodyClass}>
             <form role="form">
@@ -166,16 +170,6 @@ var Search = React.createClass({
                       defaultValue={this.state.filters.maxPrice} />
                   </div>
                 </div>
-                <div className="col-sm-2">
-                  <div className="form-group">
-                    <label htmlFor="outputFormat">Output Format</label>
-                     <ButtonGroup>
-                      <Button active={this.state.filters.output=='grid'} onClick={this._outputGrid}><i className="glyphicon glyphicon-th-large" /></Button>
-                      <Button active={this.state.filters.output=='tabled'} onClick={this._outputTabled}><i className="glyphicon glyphicon-th-list" /></Button>
-                    </ButtonGroup>
-                  </div>
-                </div>
-
               </div>
             </form>
           </div>

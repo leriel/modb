@@ -50,12 +50,12 @@ var Npcs = React.createClass({
       <article className="context">
         <div className="panel panel-default">
           <div className="panel-heading">
-            <div className="pull-right button-toolbar">
+            <h2 className="panel-title">Vendors</h2>
+            <div className="button-toolbar">
               <div className="button-group">
                 <a onClick={this._toggleFilters} className="btn btn-primary btn-xs" href="#">toggle filters</a>
               </div>
             </div>
-            <h2 className="panel-title">Vendors</h2>
           </div>
           <div className={filterPanelBodyClass}>
             <form role="form">

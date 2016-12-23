@@ -228,3 +228,12 @@ div.item-detail header h1 {
 .reactable-header-sort-desc, .reactable-header-sort-asc {
   text-decoration: none;
 }
+
+.panel-heading {
+  display: flex;
+  align-items: center;
+}
+
+.panel-title {
+  margin-right: auto;
+}
