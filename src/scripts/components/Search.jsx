@@ -8,6 +8,7 @@ var AppActions = require('../actions/AppActions.js');
 var ItemGraphic = require('./ItemGraphic.jsx');
 var SearchItemTableRow = require('./SearchItemTableRow.jsx');
 var SearchItemRow = require('./SearchItemRow.js');
+var util = require('../util.js');
 var Reactable = require('reactable');
 var Table = Reactable.Table;
 
@@ -20,11 +21,6 @@ function getSearchResults() {
   return {results:SearchStore.getResults(), filters:SearchStore.getFilters()};
 }
 
-function compareInt(a, b) {
-  var sa = a|0;
-  var sb = b|0;
-  return sa > sb ? 1 : -1;
-}
 
 var Search = React.createClass({
   mixins: [ Router.State, SearchWatchMixin(getSearchResults) ],
@@ -74,40 +70,32 @@ var Search = React.createClass({
         </li>
       );
     });
+    var sortableCols = [
+      {column: 'Level', sortFunction: util.compareInt},
+      {column: 'Item', sortFunction: function(a, b) {
+        console.log(a, b);
+        return a.props.children.localeCompare(b.props.children)
+      }},
+      'Skill',
+      'Price',
+      {column: 'Power', sortFunction: util.compareInt},
+      {column: 'Aim', sortFunction: util.compareInt},
+      {column: 'Armor', sortFunction: util.compareInt},
+      {column: 'Magic', sortFunction: util.compareInt},
+      {column: 'Speed', sortFunction: util.compareInt},
+      {column: '- % cooldown', sortFunction: util.compareInt},
+      {column: 'Archery', sortFunction: util.compareInt},
+      {column: '% Archery boost', sortFunction: util.compareInt},
+    ];
 
     var searchResults = format == 'grid' ? 
       (<ul className="search-results">{results}</ul>) :
       (
-        <Table className="table table-bordered" data={results} sortable={[
-          {
-            column: 'Level',
-            sortFunction: compareInt,
-          },
-          'Skill',
-          'Price'
-          , {
-            column: 'Power',
-            sortFunction: compareInt,
-          }, {
-            column: 'Aim',
-            sortFunction: compareInt,
-          }, {
-            column: 'Armor',
-            sortFunction: compareInt,
-          }, {
-            column: 'Magic',
-            sortFunction: compareInt,
-          }, {
-            column: 'Speed',
-            sortFunction: compareInt,
-          }, {
-            column: '- % cooldown',
-            sortFunction: compareInt,
-          }, {
-            column: 'Archery',
-            sortFunction: compareInt,
-          },
-        ]}/>
+        <Table
+          className="table table-bordered"
+          data={results}
+          sortable={sortableCols}
+        />
       )
 
     var filterPanelBodyClass = 'panel-body' + (this.state.filters.show ? '' : ' hide');

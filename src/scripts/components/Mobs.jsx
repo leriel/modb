@@ -10,7 +10,10 @@ var ItemGraphic = require('./ItemGraphic.jsx');
 var _ = require('lodash');
 var HtmlSelect = require('./html/select.jsx');
 var MapSelect = require('./MapSelect.jsx');
-var util=require('../util.js');
+var util = require('../util.js');
+var SearchMobRow = require('./SearchMobRow.js');
+var Reactable = require('reactable');
+var Table = Reactable.Table;
 
 function getSearchResults() {
   return {results:SearchStore.getResults(), filters:SearchStore.getFilters()};
@@ -46,31 +49,29 @@ var Mobs = React.createClass({
     });
   },
   render: function(){
-    var results = (
-      <tbody>{_.sortByAll(this.state.results, this.state.filters.orderBy).map(function(o,i){
-        var locs = [];
-        var l;
-        for (l in o.locations) {
-          locs.push(l + ' (' + o.locations[l] + ')');
-        }
-        return (
-          <tr key={'mobList' + o.id}>
-            <td key="mobListTd1" className="vert-mid icon-td"><MobGraphic mob={o} /></td>
-            <td key="mobListTd2" className="vert-mid"><Link to="mob" params={{mobId:o.id}}>{o.n}</Link></td>
-            <td key="mobListTd3" className="vert-mid r">{util.calcLevel(o)}</td>
-            <td key="mobListTd4" className="vert-mid r">{o.params.health}</td>
-            <td key="mobListTd5" className="vert-mid r">{o.temp.total_defense}</td>
-            <td key="mobListTd6" className="vert-mid r">{o.temp.total_accuracy}</td>
-            <td key="mobListTd7" className="vert-mid r">{o.temp.total_strength}</td>
-            <td key="mobListTd8" className="vert-mid r">{o.temp.magic_block|0}</td>
-            <td key="mobListTd9" className="vert-mid r">{o.temp.melee_block|0}</td>
-            <td key="mobListTd10" className="vert-mid" dangerouslySetInnerHTML={{__html:locs.join('<br />')}}></td>
-          </tr>
-        )
-      })}</tbody>);
+    var results = _.sortByAll(this.state.results, this.state.filters.orderBy).map(function(o, i) {
+      return SearchMobRow(o);
+    });
 
     var filterPanelBodyClass = 'panel-body' + (this.state.filters.show ? '' : ' hide');
     var cat1 = parseInt(this.state.filters.cat1);
+    var sortableCols = [
+      {
+        column: 'Mob',
+        sortFunction: function(a, b) {
+          return a.props.children.localeCompare(b.props.children)
+        }
+      },
+      {column: 'Level', sortFunction: util.compareInt},
+      {column: 'HP', sortFunction: util.compareInt},
+      {column: 'Def', sortFunction: util.compareInt},
+      {column: 'Acc', sortFunction: util.compareInt},
+      {column: 'Str', sortFunction: util.compareInt},
+      {column: 'Magic Block', sortFunction: util.compareInt},
+      {column: 'Melee Block', sortFunction: util.compareInt},
+      'Map(s)'
+    ];
+
     
     return (
     <div>
@@ -160,20 +161,11 @@ var Mobs = React.createClass({
             </form>
           </div>
         </div>
-        <table className="search-results table table-striped table-bordered">
-          <thead><tr>
-            <th key="th1" colSpan="2">Mob</th>
-            <th key="th3" className="r">Level</th>
-            <th key="th4" className="r">HP</th>
-            <th key="th5" className="r">Def</th>
-            <th key="th6" className="r">Accuracy</th>
-            <th key="th7" className="r">Strength</th>
-            <th key="th8" className="r">Magic Block</th>
-            <th key="th9" className="r">Melee Block</th>
-            <th key="th10">Map(s)</th>
-          </tr></thead>
-          {results}
-        </table>
+        <Table
+          className="search-results table table-striped table-bordered"
+          data={results}
+          sortable={sortableCols}
+        />
       </article>
     </div>
     );

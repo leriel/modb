@@ -8,7 +8,8 @@ var numeral = require('numeral');
 var SearchItemRow = function(item) {
   return {
     Level: util.getItemLevel(item),
-    Item: <span><ItemGraphic item={item} /><Link to="item" params={{itemId:item.id}}>{item.n}</Link></span>,
+    ' ': <ItemGraphic item={item} />,
+    Item: <Link to="item" params={{itemId:item.id}}>{item.n}</Link>,
     Skill: util.getItemSkill(item),
     Price: util.valOrDash(numeral(item.params.price).format('0,0')),
     Power: util.valOrDash(item.params.power),
@@ -18,6 +19,7 @@ var SearchItemRow = function(item) {
     Speed: util.valOrDash(item.params.speed),
     '- % cooldown': util.valOrDash((item.params.cooldown * 100)|0),
     Archery: util.valOrDash(item.params.archery),
+    '% Archery boost': util.valOrDash((item.params.archery_damage_boost * 100) | 0),
   }
 }
 

@@ -112,6 +112,13 @@ var Util = {
     return numeral(n*100).format('0.00') + '%';
 
   },
+
+  compareInt: function(a, b) {
+    var sa = a|0;
+    var sb = b|0;
+    return sa > sb ? 1 : -1;
+  }
+
 }
 
 module.exports = Util;

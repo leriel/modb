@@ -144,6 +144,7 @@ var obj = {
     power: "Power",
     magic: "Magic",
     archery: "Archery",
+    archery_damage_boost: "Archery boost",
     cooldown: "- % Magic cooldown",
     speed: "Speed",
     heal: "Healing",
