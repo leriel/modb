@@ -1,4 +1,4 @@
-var _forge = require('./ForgeDB.js');
+var _forge = require('./ForgeDB.json');
 var ForgeStore = {
   getXpForFormula: function(formula) {
     var totalXp;

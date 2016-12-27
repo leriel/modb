@@ -8,7 +8,7 @@ for (var i = 1; i < maps; i++) {
 // and then save it locally. ;)
 
 // Builds a compact database of RPG MO info for modb.
-var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, forge, forgeXp, fletch, numMaps, mapsLoaded){
+var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, forge, forgeXp, fletch, fletchXp, numMaps, mapsLoaded){
 
   var checkMaps = function() {
     var numLoaded =0;
@@ -172,8 +172,11 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
     exportObj.npcs = [];
     exportObj.mobs = [];
     exportObj.css = [];
-    exportObj.carpXp = carpXp;
-    exportObj.forgeXp = forgeXp;
+    exportObj.forgeDB = {
+      xp: forgeXp,
+      fletchXp: fletchXp,
+      carpXp: carpXp,
+    }
 
     /**
     * formulas is a normalized list of all of the various "recipes" in the game
@@ -595,6 +598,4 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
 
 };
 
-buildDb(IMAGE_SHEET, item_base, pets, npc_base, BODY_PARTS, CARPENTRY_FORMULAS, CARPENTRY_MATERIAL_XP, FORGE_FORMULAS, FORGE_MATERIAL_XP, FLETCHING_FORMULAS, maps, maps_loaded);
-
-
+buildDb(IMAGE_SHEET, item_base, pets, npc_base, BODY_PARTS, CARPENTRY_FORMULAS, CARPENTRY_MATERIAL_XP, FORGE_FORMULAS, FORGE_MATERIAL_XP, FLETCHING_FORMULAS, FLETCHING_MATERIAL_XP, maps, maps_loaded);

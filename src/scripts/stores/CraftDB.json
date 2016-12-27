@@ -1,4 +1,4 @@
-module.exports = [
+[
   {
     "id": 0,
     "n": "Bronze Dagger",
@@ -43003,4 +43003,3 @@ module.exports = [
     "xp": 90
   }
 ]
-

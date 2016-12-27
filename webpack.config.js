@@ -17,6 +17,9 @@ module.exports = {
     }, {
       test: /\.scss$/,
       loader: ExtractTextPlugin.extract('style', 'css-loader?minimize!sass-loader'),
+    }, {
+      test: /\.json$/,
+      loader: 'json',
     },
     ]
   },
@@ -72,5 +75,5 @@ module.exports = {
       { context: 'src/images', from: 'favicon.ico', to: '.' },
     ])
   ],
-  resolve: { extensions: ['', '.js', '.jsx','.css']},
+  resolve: { extensions: ['', '.js', '.jsx', '.css', '.json']},
 }

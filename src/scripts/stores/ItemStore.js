@@ -3,7 +3,7 @@ var AppDispatcher = require('../dispatcher/AppDispatcher')
   , AppConstants = require('../constants/AppConstants.js')
   , assign = require('object-assign')
   , CHANGE_EVENT = 'change'
-  , _items = require('./ItemDB.js')
+  , _items = require('./ItemDB.json')
   , util = require('../util.js')
   , _numItems = _items.length
 ;

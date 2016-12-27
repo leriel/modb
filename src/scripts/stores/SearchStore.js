@@ -3,7 +3,7 @@ var AppDispatcher = require('../dispatcher/AppDispatcher')
   , AppConstants = require('../constants/AppConstants.js')
   , assign = require('object-assign')
   , CHANGE_EVENT = 'change'
-  , _items = require('./ItemDB.js')
+  , _items = require('./ItemDB.json')
   , util = require('../util.js')
   , _store = []
   , _lastTerm = ''
@@ -24,7 +24,7 @@ var _search = function(term) {
   var tmpStore = [];
   var min = parseInt(_filters.minPrice);
   var max = parseInt(_filters.maxPrice);
-
+  console.log('ww', _items);
   _items.map(function(item, idx){
     var ip = parseInt(item.params.price);
     if (

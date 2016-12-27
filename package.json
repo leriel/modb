@@ -29,6 +29,7 @@
     "grunt-regarde": "^0.1.1",
     "grunt-rev-all": "^0.1.2",
     "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
     "lodash": "^3.5.0",
     "matchdep": "^0.3.0",
     "node-sass": "^3.13.0",
