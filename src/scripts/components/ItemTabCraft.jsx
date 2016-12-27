@@ -7,6 +7,7 @@ var ItemCraftMattsList = require('./ItemCraftMattsList.jsx');
 var ItemGraphic = require('./ItemGraphic.jsx');
 var FishingTool = require('./FishingTool.jsx');
 var ItemStore = require('../stores/ItemStore.js');
+var ForgeStore = require('../stores/ForgeStore.js');
 var Util = require('../util.js');
 
 var ItemCraftTab = React.createClass({
@@ -98,6 +99,7 @@ var ItemCraftTab = React.createClass({
                 })}
                 <td>{Util.toPercent(craft.formulas[i].min_chance)}</td>
                 <td>{Util.toPercent(craft.formulas[i].max_chance)}</td>
+                <td>{ForgeStore.getXpForFormula(craft.formulas[i])}</td>
               </tr>
           ) );
 
@@ -206,6 +208,7 @@ var ItemCraftTab = React.createClass({
                 <th key="th4" className="hidden-sm hidden-xs">Recipe</th>
                 <th key="th5">Min %</th>
                 <th key="th6">Max %</th>
+                <th key="th7">XP</th>
               </tr>
             </thead>
             <tbody>
@@ -223,6 +226,7 @@ var ItemCraftTab = React.createClass({
                     })}</tr></table></td>
                     <td key="td6">{matt.min_chance ? Math.round(matt.min_chance*100) + '%' : '-'}</td>
                     <td key="td7">{matt.max_chance ? Math.round(matt.max_chance*100) + '%' : '-'}</td>
+                    <td key="td8">{ForgeStore.getXpForFormula(matt)}</td>
                   </tr>
                 )
               })}
@@ -265,6 +269,7 @@ var ItemCraftTab = React.createClass({
               <th key={'formulaTh1'+k} colSpan={craftMattsCollSpan}>Items</th>
               {chance1Th}
               {chance2Th}
+              <th key={'formulaTh4'+k}>XP</th>
             </tr></thead>
             <tbody>{f}</tbody>
             </table>

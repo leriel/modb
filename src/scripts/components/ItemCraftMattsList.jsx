@@ -2,6 +2,7 @@ var React = require('react');
 var Router = require('react-router'); 
 var Link = Router.Link;
 var ItemStore = require('../stores/ItemStore.js');
+var ForgeStore = require('../stores/ForgeStore.js');
 var ItemGraphic = require('./ItemGraphic.jsx');
 
 var ItemCraftTab = React.createClass({
@@ -19,6 +20,10 @@ var ItemCraftTab = React.createClass({
               <td>{o.c}</td>
             </tr>)
           })}
+          <tr key={'itemCraftXp'}>
+            <td key={'itemCraftXpLabel'} colSpan="2">XP</td>
+            <td key={'itemCraftXpVal'}>{ForgeStore.getXpForFormula(formula)}</td>
+          </tr>
         </tbody>
       </table>
     );
