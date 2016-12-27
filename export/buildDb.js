@@ -195,7 +195,8 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
         max_chance: f.chance,
         skill: typeof f.fletching_level == 'undefined' ? 'forging' : 'fletching',
         matts: [],
-        pattern: f.pattern
+        pattern: f.pattern,
+        xp: f.xp,
       }
       var kk = Object.keys(f.materials);
       for (var j=0, maxJ=kk.length; j<maxJ;j++) {
@@ -248,6 +249,7 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
         skill: 'fletching',
         matts: f.pattern.map(res => ({id: res, c: 1})),
         pattern: [f.pattern],
+        xp: f.xp,
       }
       exportObj.formulas.push(o);
     }
@@ -269,7 +271,8 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
           duration: src.params.duration,
           min_chance: retItem.base_chance,
           max_chance: retItem.max_chance || 1,
-          matts: []
+          matts: [],
+          xp: retItem.xp,
         }
         for (var j in retItem.consumes) {
           o.matts.push({
