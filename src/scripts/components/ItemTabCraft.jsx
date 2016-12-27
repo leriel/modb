@@ -118,6 +118,7 @@ var ItemCraftTab = React.createClass({
                   <td key="td3"><ItemGraphic item={ItemStore.getFarmingSeed(item)} /></td>
                   <td key="td4">{craft.formulas[i].duration} minutes</td>
                   <td key="td5"><ItemGraphic item={craft.formulas[i].source} nolink /></td>
+                  <td key="td6">{ForgeStore.getXpForFormula(craft.formulas[i])}</td>
                 </tr>
               ));
               break;
@@ -132,6 +133,7 @@ var ItemCraftTab = React.createClass({
                     <td key={"craftRowTd2"+i}>{craft.formulas[i].source.n.replace(/Fish - /,'')}.</td>
                     <td key={"craftRowTd3"+i}>{Util.toPercent(craft.formulas[i].min_chance)}</td>
                     <td key={"craftRowTd4"+i}>{Util.toPercent(craft.formulas[i].max_chance)}</td>
+                    <td key={'craftRowTd5'+i}>{ForgeStore.getXpForFormula(craft.formulas[i])}</td>
                   </tr>
               ));
             break;
@@ -152,6 +154,7 @@ var ItemCraftTab = React.createClass({
                     <td key={"craftRowTD2"+i}>{tool}</td>
                     <td key={"craftRowTD3"+i}>{Util.toPercent(craft.formulas[i].min_chance)}</td>
                     <td key={"craftRowTD4"+i}>{Util.toPercent(craft.formulas[i].max_chance)}</td>
+                    <td key={'craftRowTD5'+i}>{ForgeStore.getXpForFormula(craft.formulas[i])}</td>
                   </tr>
               ));
             break;
@@ -184,6 +187,7 @@ var ItemCraftTab = React.createClass({
                   <td key={"craftRowTD2"+i}>{tool}</td>
                   <td key={"craftRowTD3"+i}>{Util.toPercent(craft.formulas[i].min_chance)}</td>
                   <td key={"craftRowTD4"+i}>{Util.toPercent(craft.formulas[i].max_chance)}</td>
+                  <td key={'craftRowTD5'+i}>{ForgeStore.getXpForFormula(craft.formulas[i])}</td>
                 </tr>
               );
             break;
