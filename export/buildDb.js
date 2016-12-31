@@ -337,7 +337,14 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
         });
       }
 
+      var baseDrop = 100;
       if (npcs[i].params.drops) {
+        npcs[i].params.drops = npcs[i].params.drops.map(function(d) {
+          var c = baseDrop * d.chance;
+          c = parseFloat(c.toPrecision(c > 1 ? 3 : c > 0.1 ? 2 : 1));
+          baseDrop -= c;
+          return {id: d.id, chance: d.chance, actualChance: c};
+        });
         // this is a mob you can kill for dropped items
         exportObj.mobs.push({
           id: i,

@@ -80,17 +80,19 @@ var MobStore = assign({}, EventEmitter.prototype, {
         , i = 0
         , maxI = mob.params.drops.length
         , chance = 0;
+      var actualChance = 0;
 
       while (!found && i<maxI) {
         if (mob.params.drops[i].id == id) {
           found = true;
           chance = mob.params.drops[i].chance;
+          actualChance = mob.params.drops[i].actualChance;
         }
         i++;
       }
 
       if (found) {
-        mobs.push({id:mob.id,n:mob.n,chance:chance,img:mob.img,locations:mob.locations});
+        mobs.push({id:mob.id,n:mob.n,chance:chance, actualChance:actualChance, img:mob.img,locations:mob.locations});
       }
 
     });

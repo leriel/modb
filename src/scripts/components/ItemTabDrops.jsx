@@ -31,7 +31,8 @@ var ItemDropsTab = React.createClass({
           <td key="td1" width="32"><MobGraphic mob={mob} imgType="mob" /></td>
           <td key="td2"><Link to="mob" params={{mobId:mob.id}}>{mob.n}</Link></td>
           <td key="td3">{numeral(mob.chance * 100).format('0.00')}%</td>
-          <td key="td4" className="hidden-xs">{mobLocs}</td>
+          <td key="td4">{mob.actualChance}%</td>
+          <td key="td5" className="hidden-xs">{mobLocs}</td>
         </tr>
       );
     });
@@ -48,7 +49,8 @@ var ItemDropsTab = React.createClass({
             <thead><tr>
               <th key="th1" colSpan="2">Mob</th>
               <th key="th2">Chance</th>
-              <th key="th3" className="hidden-xs">Map(s)</th>
+              <th key="th3">Actual chance</th>
+              <th key="th4" className="hidden-xs">Map(s)</th>
             </tr></thead>
             <tbody>{mobRows}</tbody>
           </table>

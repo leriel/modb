@@ -31,10 +31,12 @@ var MobView = React.createClass({
     var cl = 'sheet_' + mob.img.sheet + ' mob_' + id;
     var dropRows =  _.sortByOrder(mob.params.drops, ['chance'],[false]).map(function(d,i){
       var item = ItemStore.getItem(d.id);
+      var formatDrop = numeral(d.chance * 100).format('0.00');
       return(<tr key={"mobDropRow"+i}>
         <td key="mobDropTd1"><ItemGraphic item={item} /></td>
         <td key="mobDropTd2"><Link to="item" params={{itemId:item.id}}>{item.n}</Link></td>
-        <td key="mobDropTd3">{numeral(d.chance*100).format('0.00')}%</td>
+        <td key="mobDropTd3">{formatDrop}%</td>
+        <td key="mobDropTd4">{d.actualChance}%</td>
       </tr>)
     });
     var dropTable = mob.params.drops.length ? (
@@ -42,6 +44,7 @@ var MobView = React.createClass({
         <thead><tr>
           <th key="mobDropTh1" colSpan="2">Item</th>
           <th key="mobDropTh2">%</th>
+          <th key="mobDropTh3">Actual %</th>
         </tr></thead>
         <tbody>{dropRows}</tbody>
       </table>

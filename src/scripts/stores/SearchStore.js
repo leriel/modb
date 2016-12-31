@@ -24,7 +24,6 @@ var _search = function(term) {
   var tmpStore = [];
   var min = parseInt(_filters.minPrice);
   var max = parseInt(_filters.maxPrice);
-  console.log('ww', _items);
   _items.map(function(item, idx){
     var ip = parseInt(item.params.price);
     if (
