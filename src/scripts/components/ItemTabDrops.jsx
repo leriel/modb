@@ -12,6 +12,8 @@ var ItemStore = require('../stores/ItemStore.js')
 
 var ItemGraphic = require('./ItemGraphic.jsx')
   , MobGraphic = require('./MobGraphic.jsx')
+var Reactable = require('reactable');
+var Table = Reactable.Table;
   
 
 var ItemDropsTab = React.createClass({
@@ -25,16 +27,14 @@ var ItemDropsTab = React.createClass({
     var presentInfo = '';
 
     var mobRows = mobs.map(function(mob,i){
-      var mobLocs = mob.locations ? Object.keys(mob.locations).join(', ') : ''
-      return (
-        <tr key={'itemNPC' + i}>
-          <td key="td1" width="32"><MobGraphic mob={mob} imgType="mob" /></td>
-          <td key="td2"><Link to="mob" params={{mobId:mob.id}}>{mob.n}</Link></td>
-          <td key="td3">{numeral(mob.chance * 100).format('0.00')}%</td>
-          <td key="td4">{mob.actualChance}%</td>
-          <td key="td5" className="hidden-xs">{mobLocs}</td>
-        </tr>
-      );
+      var mobLocs = mob.locations ? Object.keys(mob.locations).join(', ') : '';
+      return {
+        ' ': <MobGraphic mob={mob} imgType="mob" />,
+        'Mob': <Link to="mob" params={{mobId:mob.id}}>{mob.n}</Link>,
+        'Chance': numeral(mob.chance * 100).format('0.00') + '%',
+        'Actual chance': mob.actualChance + '%',
+        'Map(s)': mobLocs,
+      };
     });
 
     
@@ -45,15 +45,17 @@ var ItemDropsTab = React.createClass({
         <div>
           {presentInfo}
           <h4>Mobs that drop {item.n}</h4>
-          <table className="table table-striped table-bordered">
-            <thead><tr>
-              <th key="th1" colSpan="2">Mob</th>
-              <th key="th2">Chance</th>
-              <th key="th3">Actual chance</th>
-              <th key="th4" className="hidden-xs">Map(s)</th>
-            </tr></thead>
-            <tbody>{mobRows}</tbody>
-          </table>
+          <Table
+            className="table table-striped table-bordered"
+            data={mobRows}
+            sortable={[
+              {
+                column: 'Mob',
+                sortFunction: function(a, b) {
+                  return a.props.children.localeCompare(b.props.children)
+                }
+              }, 'Chance', 'Actual chance', 'Map(s)']}
+          />
         </div>
       );
     } else if (presentInfo) {

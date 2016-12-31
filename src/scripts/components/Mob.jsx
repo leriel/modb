@@ -22,6 +22,8 @@ var ItemGraphic = require('./ItemGraphic.jsx')
   // , ItemProperties = require('./ItemProperties.jsx')
   // , PetsTable = require('./PetsTable.jsx');
   
+var Reactable = require('reactable');
+var Table = Reactable.Table;
 
 var MobView = React.createClass({
   mixins: [ Router.State ],
@@ -32,22 +34,25 @@ var MobView = React.createClass({
     var dropRows =  _.sortByOrder(mob.params.drops, ['chance'],[false]).map(function(d,i){
       var item = ItemStore.getItem(d.id);
       var formatDrop = numeral(d.chance * 100).format('0.00');
-      return(<tr key={"mobDropRow"+i}>
-        <td key="mobDropTd1"><ItemGraphic item={item} /></td>
-        <td key="mobDropTd2"><Link to="item" params={{itemId:item.id}}>{item.n}</Link></td>
-        <td key="mobDropTd3">{formatDrop}%</td>
-        <td key="mobDropTd4">{d.actualChance}%</td>
-      </tr>)
+      return {
+        ' ': <ItemGraphic item={item} />,
+        'Item': <Link to="item" params={{itemId:item.id}}>{item.n}</Link>,
+        '%': formatDrop + '%',
+        'Actual %': d.actualChance + '%',
+      };
     });
     var dropTable = mob.params.drops.length ? (
-      <table className="table table-bordered table-striped">
-        <thead><tr>
-          <th key="mobDropTh1" colSpan="2">Item</th>
-          <th key="mobDropTh2">%</th>
-          <th key="mobDropTh3">Actual %</th>
-        </tr></thead>
-        <tbody>{dropRows}</tbody>
-      </table>
+      <Table
+        className="table table-bordered table-striped"
+        data={dropRows}
+        sortable={[
+          {
+            column: 'Item',
+            sortFunction: function(a, b) {
+              return a.props.children.localeCompare(b.props.children)
+            }
+          }, '%', 'Actual %']}
+      />
     ) : (<div>No items dropped.</div>)
 
     return (
