@@ -250,7 +250,7 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
         min_chance: f.chance,
         max_chance: f.chance,
         skill: 'fletching',
-        matts: f.pattern.map(res => ({id: res, c: 1})),
+        matts: f.pattern.map(function(res) { return {id: res, c: 1}}),
         pattern: [f.pattern],
         xp: f.xp,
       }
