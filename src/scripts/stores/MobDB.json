@@ -62,16 +62,6 @@
           "id": 8,
           "chance": 0.01,
           "actualChance": 0.9
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 4
@@ -145,16 +135,6 @@
           "id": 204,
           "chance": 0.01,
           "actualChance": 0.43
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.13
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 1
@@ -251,16 +231,6 @@
           "id": 220,
           "chance": 0.01,
           "actualChance": 0.79
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 9
@@ -382,16 +352,6 @@
           "id": 264,
           "chance": 0.01,
           "actualChance": 0.77
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 21
@@ -492,16 +452,6 @@
           "id": 272,
           "chance": 0.05,
           "actualChance": 3.42
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.19
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 48
@@ -584,16 +534,6 @@
           "id": 444,
           "chance": 0.005,
           "actualChance": 0.41
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 13
@@ -667,16 +607,6 @@
           "id": 23,
           "chance": 0.03,
           "actualChance": 2.43
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 20
@@ -760,16 +690,6 @@
           "id": 233,
           "chance": 0.05,
           "actualChance": 4.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 30
@@ -847,16 +767,6 @@
           "id": 274,
           "chance": 0.05,
           "actualChance": 4.35
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 36
@@ -948,16 +858,6 @@
           "id": 215,
           "chance": 0.05,
           "actualChance": 4.27
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 44
@@ -1069,16 +969,6 @@
           "id": 264,
           "chance": 0.05,
           "actualChance": 3.79
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 25
@@ -1162,16 +1052,6 @@
           "id": 362,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 83
@@ -1278,16 +1158,6 @@
           "id": 272,
           "chance": 0.05,
           "actualChance": 3.69
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.21
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 54
@@ -1374,16 +1244,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.45
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 62
@@ -1469,16 +1329,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.44
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 70
@@ -1575,16 +1425,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.46
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 95
@@ -1669,16 +1509,6 @@
           "id": 135,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 97
@@ -1744,16 +1574,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.49
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 93
@@ -1856,16 +1676,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.48
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 99
@@ -1954,16 +1764,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.48
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 117
@@ -2065,16 +1865,6 @@
           "id": 252,
           "chance": 0.005,
           "actualChance": 0.46
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 165
@@ -2140,16 +1930,6 @@
           "id": 93,
           "chance": 0.003,
           "actualChance": 0.29
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 84
@@ -2239,16 +2019,6 @@
           "id": 156,
           "chance": 0.003,
           "actualChance": 0.29
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 142
@@ -2329,16 +2099,6 @@
           "id": 152,
           "chance": 0.01,
           "actualChance": 0.97
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 100
@@ -2413,16 +2173,6 @@
           "id": 215,
           "chance": 0.05,
           "actualChance": 4.44
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 101
@@ -2480,16 +2230,6 @@
           "id": 93,
           "chance": 0.03,
           "actualChance": 2.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 86
@@ -2551,16 +2291,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.47
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 94
@@ -2599,16 +2329,6 @@
           "id": 227,
           "chance": 0.2,
           "actualChance": 20
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 5
@@ -2645,16 +2365,6 @@
           "id": 235,
           "chance": 0.8,
           "actualChance": 80
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.06
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 15
@@ -2691,16 +2401,6 @@
           "id": 236,
           "chance": 0.8,
           "actualChance": 80
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.06
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 25
@@ -2737,16 +2437,6 @@
           "id": 237,
           "chance": 0.8,
           "actualChance": 80
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.06
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 35
@@ -2783,16 +2473,6 @@
           "id": 239,
           "chance": 0.7,
           "actualChance": 70
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.09
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 45
@@ -2829,16 +2509,6 @@
           "id": 238,
           "chance": 0.7,
           "actualChance": 70
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.09
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 55
@@ -2876,16 +2546,6 @@
           "id": 240,
           "chance": 0.6,
           "actualChance": 60
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 65
@@ -2923,16 +2583,6 @@
           "id": 241,
           "chance": 0.6,
           "actualChance": 60
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 75
@@ -2970,16 +2620,6 @@
           "id": 243,
           "chance": 0.6,
           "actualChance": 60
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 85
@@ -3017,16 +2657,6 @@
           "id": 245,
           "chance": 0.5,
           "actualChance": 50
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.15
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 95
@@ -3064,16 +2694,6 @@
           "id": 244,
           "chance": 0.5,
           "actualChance": 50
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.15
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 105
@@ -3134,16 +2754,6 @@
           "id": 75,
           "chance": 0.08,
           "actualChance": 6.83
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 97
@@ -3204,16 +2814,6 @@
           "id": 19,
           "chance": 0.05,
           "actualChance": 3.65
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.21
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 30
@@ -3294,16 +2894,6 @@
           "id": 146,
           "chance": 0.0025,
           "actualChance": 0.17
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.21
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 106
@@ -3394,16 +2984,6 @@
           "id": 285,
           "chance": 0.03,
           "actualChance": 2.27
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 110
@@ -3477,16 +3057,6 @@
           "id": 42,
           "chance": 0.05,
           "actualChance": 3.8
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 42
@@ -3551,16 +3121,6 @@
           "id": 61,
           "chance": 0.05,
           "actualChance": 4.03
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 72
@@ -3622,16 +3182,6 @@
           "id": 42,
           "chance": 0.02,
           "actualChance": 1.58
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 58
@@ -3694,16 +3244,6 @@
           "id": 303,
           "chance": 0.01,
           "actualChance": 0.82
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 86
@@ -3774,16 +3314,6 @@
           "id": 418,
           "chance": 0.001,
           "actualChance": 0.08
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 56
@@ -3855,16 +3385,6 @@
           "id": 146,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 90
@@ -3932,16 +3452,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.46
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 83
@@ -4016,16 +3526,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.41
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 115
@@ -4113,16 +3613,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.42
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 130
@@ -4197,16 +3687,6 @@
           "id": 363,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 150
@@ -4288,16 +3768,6 @@
           "id": 194,
           "chance": 0.01,
           "actualChance": 0.87
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 230
@@ -4390,16 +3860,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.42
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 74
@@ -4446,16 +3906,6 @@
           "id": 384,
           "chance": 0.005,
           "actualChance": 0.49
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.3
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 122
@@ -4506,16 +3956,6 @@
           "id": 34,
           "chance": 0.05,
           "actualChance": 4.51
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 26
@@ -4567,16 +4007,6 @@
           "id": 194,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 63
@@ -4637,16 +4067,6 @@
           "id": 50,
           "chance": 0.03,
           "actualChance": 2.75
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 48
@@ -4708,16 +4128,6 @@
           "id": 291,
           "chance": 0.01,
           "actualChance": 0.93
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 73
@@ -4800,16 +4210,6 @@
           "id": 419,
           "chance": 0.005,
           "actualChance": 0.42
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 92
@@ -4882,16 +4282,6 @@
           "id": 52,
           "chance": 0.01,
           "actualChance": 0.8
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 84
@@ -4971,16 +4361,6 @@
           "id": 264,
           "chance": 0.05,
           "actualChance": 4.3
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 47
@@ -5070,16 +4450,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.42
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 38
@@ -5145,16 +4515,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.44
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 25
@@ -5229,16 +4589,6 @@
           "id": 216,
           "chance": 0.01,
           "actualChance": 0.82
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 150
@@ -5323,16 +4673,6 @@
           "id": 155,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 120
@@ -5417,16 +4757,6 @@
           "id": 302,
           "chance": 0.01,
           "actualChance": 0.86
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 80
@@ -5501,16 +4831,6 @@
           "id": 453,
           "chance": 0.004,
           "actualChance": 0.36
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 77
@@ -5592,16 +4912,6 @@
           "id": 176,
           "chance": 0.005,
           "actualChance": 0.41
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 130
@@ -5669,16 +4979,6 @@
           "id": 301,
           "chance": 0.01,
           "actualChance": 0.96
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 130
@@ -5776,16 +5076,6 @@
           "id": 151,
           "chance": 0.01,
           "actualChance": 0.84
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 190
@@ -5903,16 +5193,6 @@
           "id": 128,
           "chance": 0.0025,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 300
@@ -5974,16 +5254,6 @@
           "id": 421,
           "chance": 0.01,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 172
@@ -6070,16 +5340,6 @@
           "id": 135,
           "chance": 0.0035,
           "actualChance": 0.34
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 134
@@ -6141,16 +5401,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.42
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 115
@@ -6218,16 +5468,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.41
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 145
@@ -6283,16 +5523,6 @@
           "id": 221,
           "chance": 0.01,
           "actualChance": 0.85
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 139
@@ -6353,16 +5583,6 @@
           "id": 412,
           "chance": 0.01,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 71
@@ -6420,16 +5640,6 @@
           "id": 273,
           "chance": 0.05,
           "actualChance": 4.96
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 73
@@ -6495,16 +5705,6 @@
           "id": 430,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 89
@@ -6570,16 +5770,6 @@
           "id": 445,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 109
@@ -6650,16 +5840,6 @@
           "id": 445,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 129
@@ -6736,16 +5916,6 @@
           "id": 445,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 159
@@ -6837,16 +6007,6 @@
           "id": 446,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 175
@@ -6916,16 +6076,6 @@
           "id": 492,
           "chance": 0.25,
           "actualChance": 13.6
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 1
@@ -6993,16 +6143,6 @@
           "id": 492,
           "chance": 0.25,
           "actualChance": 13.5
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 2
@@ -7065,16 +6205,6 @@
           "id": 5,
           "chance": 0.01,
           "actualChance": 0.69
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.2
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 7
@@ -7142,16 +6272,6 @@
           "id": 424,
           "chance": 0.0025,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.21
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 18
@@ -7203,16 +6323,6 @@
           "id": 41,
           "chance": 0.01,
           "actualChance": 0.9
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 34
@@ -7288,16 +6398,6 @@
           "id": 376,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 180
@@ -7350,16 +6450,6 @@
           "id": 13,
           "chance": 0.01,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 22
@@ -7411,16 +6501,6 @@
           "id": 55,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 46
@@ -7487,16 +6567,6 @@
           "id": 364,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 200
@@ -7556,16 +6626,6 @@
           "id": 299,
           "chance": 0.003,
           "actualChance": 0.28
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 62
@@ -7624,16 +6684,6 @@
           "id": 79,
           "chance": 0.01,
           "actualChance": 0.98
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 76
@@ -7720,16 +6770,6 @@
           "id": 163,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 110
@@ -7818,16 +6858,6 @@
           "id": 165,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 140
@@ -7887,16 +6917,6 @@
           "id": 59,
           "chance": 0.008,
           "actualChance": 0.79
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 84
@@ -7963,16 +6983,6 @@
           "id": 64,
           "chance": 0.005,
           "actualChance": 0.47
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 74
@@ -8027,16 +7037,6 @@
           "id": 426,
           "chance": 0.0025,
           "actualChance": 0.25
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.3
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 83
@@ -8096,16 +7096,6 @@
           "id": 412,
           "chance": 0.01,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 81
@@ -8182,16 +7172,6 @@
           "id": 9,
           "chance": 0.005,
           "actualChance": 0.49
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 21
@@ -8253,16 +7233,6 @@
           "id": 38,
           "chance": 0.005,
           "actualChance": 0.49
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 20
@@ -8396,16 +7366,6 @@
           "id": 476,
           "chance": 0.05,
           "actualChance": 2.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 470
@@ -8478,16 +7438,6 @@
           "id": 141,
           "chance": 0.01,
           "actualChance": 0.93
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 80
@@ -8555,16 +7505,6 @@
           "id": 67,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 95
@@ -8639,16 +7579,6 @@
           "id": 149,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 115
@@ -8732,16 +7662,6 @@
           "id": 139,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 145
@@ -8845,16 +7765,6 @@
           "id": 139,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 190
@@ -8938,16 +7848,6 @@
           "id": 75,
           "chance": 0.05,
           "actualChance": 4.29
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 90
@@ -9028,16 +7928,6 @@
           "id": 87,
           "chance": 0.05,
           "actualChance": 4.64
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 120
@@ -9118,16 +8008,6 @@
           "id": 87,
           "chance": 0.05,
           "actualChance": 4.45
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 85
@@ -9199,16 +8079,6 @@
           "id": 87,
           "chance": 0.05,
           "actualChance": 4.88
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 100
@@ -9281,16 +8151,6 @@
           "id": 233,
           "chance": 0.05,
           "actualChance": 4.04
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 45
@@ -9366,16 +8226,6 @@
           "id": 233,
           "chance": 0.05,
           "actualChance": 4.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 50
@@ -9447,16 +8297,6 @@
           "id": 233,
           "chance": 0.05,
           "actualChance": 4.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 30
@@ -9529,16 +8369,6 @@
           "id": 233,
           "chance": 0.05,
           "actualChance": 4.32
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 95
@@ -9611,16 +8441,6 @@
           "id": 233,
           "chance": 0.05,
           "actualChance": 4.65
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 115
@@ -9754,16 +8574,6 @@
           "id": 593,
           "chance": 0.03,
           "actualChance": 1.07
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.1
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 600
@@ -9887,16 +8697,6 @@
           "id": 1341,
           "chance": 0.005,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 1000
@@ -10076,16 +8876,6 @@
           "id": 593,
           "chance": 0.05,
           "actualChance": 2.08
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 3975
@@ -10352,16 +9142,6 @@
           "id": 593,
           "chance": 0.03,
           "actualChance": 0.6
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.06
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 800
@@ -10569,16 +9349,6 @@
           "id": 593,
           "chance": 0.03,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.09
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 1475
@@ -10643,16 +9413,6 @@
           "id": 339,
           "chance": 0.0015,
           "actualChance": 0.15
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 70
@@ -10739,16 +9499,6 @@
           "id": 141,
           "chance": 0.01,
           "actualChance": 0.93
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 80
@@ -10815,16 +9565,6 @@
           "id": 144,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 90
@@ -10887,16 +9627,6 @@
           "id": 153,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 138
@@ -10947,16 +9677,6 @@
           "id": 616,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 95
@@ -11018,16 +9738,6 @@
           "id": 76,
           "chance": 0.03,
           "actualChance": 2.86
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 60
@@ -11097,16 +9807,6 @@
           "id": 438,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 50
@@ -11178,16 +9878,6 @@
           "id": 438,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 60
@@ -11244,16 +9934,6 @@
           "id": 84,
           "chance": 0.04,
           "actualChance": 3.96
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 70
@@ -11325,16 +10005,6 @@
           "id": 302,
           "chance": 0.01,
           "actualChance": 0.87
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 80
@@ -11406,16 +10076,6 @@
           "id": 144,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 90
@@ -11487,16 +10147,6 @@
           "id": 163,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 110
@@ -11568,16 +10218,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.48
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 120
@@ -11649,16 +10289,6 @@
           "id": 440,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 160
@@ -11735,16 +10365,6 @@
           "id": 150,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 115
@@ -11816,16 +10436,6 @@
           "id": 190,
           "chance": 0.0025,
           "actualChance": 0.25
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 135
@@ -11887,16 +10497,6 @@
           "id": 96,
           "chance": 0.03,
           "actualChance": 2.97
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 85
@@ -11967,16 +10567,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.47
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 187
@@ -12059,16 +10649,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.48
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 137
@@ -12144,16 +10724,6 @@
           "id": 475,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 105
@@ -12239,16 +10809,6 @@
           "id": 295,
           "chance": 0.001,
           "actualChance": 0.1
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 37
@@ -12297,16 +10857,6 @@
           "id": 50,
           "chance": 0.001,
           "actualChance": 0.1
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.3
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 78
@@ -12348,16 +10898,6 @@
           "id": 50,
           "chance": 0.01,
           "actualChance": 0.99
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.3
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 132
@@ -12430,16 +10970,6 @@
           "id": 139,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 210
@@ -12524,16 +11054,6 @@
           "id": 612,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 120
@@ -12633,16 +11153,6 @@
           "id": 7,
           "chance": 0.01,
           "actualChance": 0.89
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 25
@@ -12713,16 +11223,6 @@
           "id": 0,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 31
@@ -12807,16 +11307,6 @@
           "id": 72,
           "chance": 0.02,
           "actualChance": 1.95
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 38
@@ -12884,16 +11374,6 @@
           "id": 38,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 45
@@ -12966,16 +11446,6 @@
           "id": 38,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 82
@@ -13052,16 +11522,6 @@
           "id": 60,
           "chance": 0.0045,
           "actualChance": 0.43
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 94
@@ -13144,16 +11604,6 @@
           "id": 167,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 187
@@ -13231,16 +11681,6 @@
           "id": 167,
           "chance": 0.0025,
           "actualChance": 0.25
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 170
@@ -13313,16 +11753,6 @@
           "id": 787,
           "chance": 0.01,
           "actualChance": 0.95
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 147
@@ -13400,16 +11830,6 @@
           "id": 794,
           "chance": 0.01,
           "actualChance": 0.92
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 95
@@ -13482,16 +11902,6 @@
           "id": 21,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 3
@@ -13548,16 +11958,6 @@
           "id": 187,
           "chance": 0.09,
           "actualChance": 8.49
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 9
@@ -13653,16 +12053,6 @@
           "id": 274,
           "chance": 0.09,
           "actualChance": 8.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 41
@@ -13719,16 +12109,6 @@
           "id": 404,
           "chance": 0.04,
           "actualChance": 3.95
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 43
@@ -13805,16 +12185,6 @@
           "id": 74,
           "chance": 0.04,
           "actualChance": 3.74
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 75
@@ -13880,16 +12250,6 @@
           "id": 74,
           "chance": 0.04,
           "actualChance": 3.75
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 69
@@ -13960,16 +12320,6 @@
           "id": 411,
           "chance": 0.04,
           "actualChance": 3.75
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 71
@@ -14045,16 +12395,6 @@
           "id": 416,
           "chance": 0.03,
           "actualChance": 2.81
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 98
@@ -14164,16 +12504,6 @@
           "id": 182,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 220
@@ -14247,16 +12577,6 @@
           "id": 866,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 194
@@ -14335,16 +12655,6 @@
           "id": 253,
           "chance": 0.01,
           "actualChance": 0.97
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 130
@@ -14423,16 +12733,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.49
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 115
@@ -14530,16 +12830,6 @@
           "id": 253,
           "chance": 0.01,
           "actualChance": 0.96
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 170
@@ -14653,16 +12943,6 @@
           "id": 500,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 240
@@ -14797,16 +13077,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.46
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 250
@@ -14900,16 +13170,6 @@
           "id": 177,
           "chance": 0.005,
           "actualChance": 0.48
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 257
@@ -15035,16 +13295,6 @@
           "id": 173,
           "chance": 0.005,
           "actualChance": 0.46
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 285
@@ -15301,16 +13551,6 @@
           "id": 477,
           "chance": 0.05,
           "actualChance": 1.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.07
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 1300
@@ -15593,16 +13833,6 @@
           "id": 477,
           "chance": 0.05,
           "actualChance": 0.89
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.05
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.008
         }
       ],
       "combat_level": 2072
@@ -15792,16 +14022,6 @@
           "id": 1340,
           "chance": 0.005,
           "actualChance": 0.15
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.09
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 3000
@@ -15868,16 +14088,6 @@
           "id": 104,
           "chance": 0.01,
           "actualChance": 0.98
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 156
@@ -15966,16 +14176,6 @@
           "id": 285,
           "chance": 0.03,
           "actualChance": 2.62
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 110
@@ -16044,16 +14244,6 @@
           "id": 104,
           "chance": 0.01,
           "actualChance": 0.96
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 175
@@ -16116,16 +14306,6 @@
           "id": 799,
           "chance": 0.025,
           "actualChance": 2.3
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 30
@@ -16191,16 +14371,6 @@
           "id": 438,
           "chance": 0.0015,
           "actualChance": 0.15
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 53
@@ -16266,16 +14436,6 @@
           "id": 301,
           "chance": 0.01,
           "actualChance": 0.99
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 86
@@ -16351,16 +14511,6 @@
           "id": 155,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 127
@@ -16436,16 +14586,6 @@
           "id": 363,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 160
@@ -16522,16 +14662,6 @@
           "id": 167,
           "chance": 0.0025,
           "actualChance": 0.25
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 180
@@ -16613,16 +14743,6 @@
           "id": 907,
           "chance": 0.0015,
           "actualChance": 0.13
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.27
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 275
@@ -16782,16 +14902,6 @@
           "id": 1343,
           "chance": 0.005,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.11
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 3775
@@ -16848,16 +14958,6 @@
           "id": 5,
           "chance": 0.05,
           "actualChance": 3.38
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.19
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 1
@@ -16925,16 +15025,6 @@
           "id": 167,
           "chance": 0.0025,
           "actualChance": 0.25
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 170
@@ -17011,16 +15101,6 @@
           "id": 1012,
           "chance": 0.006,
           "actualChance": 0.58
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 175
@@ -17102,16 +15182,6 @@
           "id": 446,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 210
@@ -17197,16 +15267,6 @@
           "id": 156,
           "chance": 0.0025,
           "actualChance": 0.24
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 205
@@ -17295,16 +15355,6 @@
           "id": 787,
           "chance": 0.01,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 270
@@ -17402,16 +15452,6 @@
           "id": 669,
           "chance": 0.0025,
           "actualChance": 0.21
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 298
@@ -17499,16 +15539,6 @@
           "id": 59,
           "chance": 0.008,
           "actualChance": 0.7
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 230
@@ -17998,16 +16028,6 @@
           "id": 477,
           "chance": 0.05,
           "actualChance": 1.5
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.09
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 2100
@@ -18189,16 +16209,6 @@
           "id": 146,
           "chance": 0.0025,
           "actualChance": 0.17
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.2
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 108
@@ -18266,16 +16276,6 @@
           "id": 19,
           "chance": 0.01,
           "actualChance": 0.83
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 20
@@ -18307,18 +16307,7 @@
       "aggressive": false,
       "speed": 100,
       "att_anim": 42,
-      "drops": [
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.3
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
-        }
-      ],
+      "drops": [],
       "combat_level": 1
     },
     "temp": {
@@ -18414,16 +16403,6 @@
           "id": 476,
           "chance": 0.05,
           "actualChance": 2.76
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.16
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 450
@@ -18527,16 +16506,6 @@
           "id": 476,
           "chance": 0.05,
           "actualChance": 2.53
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.14
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 435
@@ -18644,16 +16613,6 @@
           "id": 476,
           "chance": 0.05,
           "actualChance": 2.36
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.13
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 545
@@ -18745,16 +16704,6 @@
           "id": 146,
           "chance": 0.0025,
           "actualChance": 0.17
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.2
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 50
@@ -18854,16 +16803,6 @@
           "id": 426,
           "chance": 0.0025,
           "actualChance": 0.17
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.2
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 85
@@ -18963,16 +16902,6 @@
           "id": 436,
           "chance": 0.0025,
           "actualChance": 0.17
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.2
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 130
@@ -19062,16 +16991,6 @@
           "id": 156,
           "chance": 0.003,
           "actualChance": 0.29
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 220
@@ -19151,16 +17070,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 100
@@ -19238,16 +17147,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 122
@@ -19329,16 +17228,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 120
@@ -19432,16 +17321,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 125
@@ -19529,16 +17408,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 125
@@ -19631,16 +17500,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 200
@@ -19728,16 +17587,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 210
@@ -19821,16 +17670,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 250
@@ -19900,16 +17739,6 @@
           "id": 188,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 95
@@ -19993,16 +17822,6 @@
           "id": 435,
           "chance": 0.0025,
           "actualChance": 0.22
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 162
@@ -20096,16 +17915,6 @@
           "id": 467,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 98
@@ -20198,16 +18007,6 @@
           "id": 40,
           "chance": 0.0025,
           "actualChance": 0.23
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 200
@@ -26920,16 +24719,6 @@
           "id": 242,
           "chance": 0.8,
           "actualChance": 80
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.06
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 102
@@ -26970,11 +24759,6 @@
           "id": 1031,
           "chance": 0.003,
           "actualChance": 0.26
-        },
-        {
-          "id": 1444,
-          "chance": 0.003,
-          "actualChance": 0.25
         }
       ]
     },
@@ -27058,16 +24842,6 @@
           "id": 215,
           "chance": 0.05,
           "actualChance": 4.3
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.25
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 121
@@ -27173,16 +24947,6 @@
           "id": 176,
           "chance": 0.005,
           "actualChance": 0.4
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 128
@@ -27244,16 +25008,6 @@
           "id": 92,
           "chance": 0.003,
           "actualChance": 0.29
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 84
@@ -27325,16 +25079,6 @@
           "id": 92,
           "chance": 0.003,
           "actualChance": 0.29
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 89
@@ -27477,16 +25221,6 @@
           "id": 476,
           "chance": 0.025,
           "actualChance": 1.01
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.12
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 470
@@ -27551,16 +25285,6 @@
           "id": 74,
           "chance": 0.08,
           "actualChance": 6.51
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 98
@@ -27642,16 +25366,6 @@
           "id": 74,
           "chance": 0.08,
           "actualChance": 6.03
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.21
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 119
@@ -27743,16 +25457,6 @@
           "id": 74,
           "chance": 0.08,
           "actualChance": 5.73
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.2
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 145
@@ -27839,16 +25543,6 @@
           "id": 216,
           "chance": 0.01,
           "actualChance": 0.82
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 155
@@ -27934,16 +25628,6 @@
           "id": 216,
           "chance": 0.01,
           "actualChance": 0.82
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 139
@@ -28026,16 +25710,6 @@
           "id": 194,
           "chance": 0.01,
           "actualChance": 0.87
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 247
@@ -28126,16 +25800,6 @@
           "id": 194,
           "chance": 0.01,
           "actualChance": 0.86
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 297
@@ -28227,16 +25891,6 @@
           "id": 1602,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 355
@@ -28333,16 +25987,6 @@
           "id": 1602,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 390
@@ -28577,16 +26221,6 @@
           "id": 593,
           "chance": 0.05,
           "actualChance": 1.66
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.09
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 10000
@@ -28833,16 +26467,6 @@
           "id": 593,
           "chance": 0.05,
           "actualChance": 1.72
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.1
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.02
         }
       ],
       "combat_level": 10015
@@ -28928,16 +26552,6 @@
           "id": 216,
           "chance": 0.01,
           "actualChance": 0.82
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 170
@@ -29022,16 +26636,6 @@
           "id": 787,
           "chance": 0.01,
           "actualChance": 0.94
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 277
@@ -29117,16 +26721,6 @@
           "id": 216,
           "chance": 0.01,
           "actualChance": 0.82
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 187
@@ -29218,16 +26812,6 @@
           "id": 1697,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 215
@@ -29370,16 +26954,6 @@
           "id": 1602,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.28
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 350
@@ -29480,16 +27054,6 @@
           "id": 1455,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 350
@@ -29596,16 +27160,6 @@
           "id": 1602,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 340
@@ -29705,16 +27259,6 @@
           "id": 1610,
           "chance": 0.0015,
           "actualChance": 0.14
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.29
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.05
         }
       ],
       "combat_level": 340
@@ -29788,16 +27332,6 @@
           "id": 250,
           "chance": 0.0025,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 32
@@ -29864,16 +27398,6 @@
           "id": 254,
           "chance": 0.0025,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 25
@@ -29945,16 +27469,6 @@
           "id": 252,
           "chance": 0.0025,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 47
@@ -30016,16 +27530,6 @@
           "id": 12,
           "chance": 0.01,
           "actualChance": 0.8
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 38
@@ -30092,16 +27596,6 @@
           "id": 12,
           "chance": 0.01,
           "actualChance": 0.8
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 47
@@ -30173,16 +27667,6 @@
           "id": 55,
           "chance": 0.0025,
           "actualChance": 0.19
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 66
@@ -30249,16 +27733,6 @@
           "id": 12,
           "chance": 0.01,
           "actualChance": 0.8
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 95
@@ -30330,16 +27804,6 @@
           "id": 27,
           "chance": 0.05,
           "actualChance": 4.58
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 36
@@ -30416,16 +27880,6 @@
           "id": 27,
           "chance": 0.05,
           "actualChance": 4.57
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 46
@@ -30534,16 +27988,6 @@
         },
         {
           "id": 178,
-          "chance": 0.0005,
-          "actualChance": 0.04
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
           "chance": 0.0005,
           "actualChance": 0.04
         }
@@ -30658,16 +28102,6 @@
         },
         {
           "id": 178,
-          "chance": 0.0005,
-          "actualChance": 0.04
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
           "chance": 0.0005,
           "actualChance": 0.04
         }
@@ -30804,16 +28238,6 @@
           "id": 178,
           "chance": 0.0005,
           "actualChance": 0.04
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.26
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 193
@@ -30889,16 +28313,6 @@
           "id": 666,
           "chance": 0.0025,
           "actualChance": 0.2
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.24
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 142
@@ -31015,16 +28429,6 @@
           "id": 128,
           "chance": 0.0025,
           "actualChance": 0.13
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.16
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.03
         }
       ],
       "combat_level": 300
@@ -31244,16 +28648,6 @@
           "id": 183,
           "chance": 0.0025,
           "actualChance": 0.18
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.22
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 330
@@ -31362,16 +28756,6 @@
           "id": 183,
           "chance": 0.0025,
           "actualChance": 0.19
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 305
@@ -31519,16 +28903,6 @@
           "id": 183,
           "chance": 0.0025,
           "actualChance": 0.19
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.23
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.04
         }
       ],
       "combat_level": 370
@@ -51860,16 +49234,6 @@
           "id": 477,
           "chance": 0.05,
           "actualChance": 1.35
-        },
-        {
-          "id": 2910,
-          "chance": 0.003,
-          "actualChance": 0.08
-        },
-        {
-          "id": 2909,
-          "chance": 0.0005,
-          "actualChance": 0.01
         }
       ],
       "combat_level": 2090
