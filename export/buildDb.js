@@ -516,7 +516,7 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
       for (var i in exportObj.npcs) {
         if (exportObj.npcs[i].id == npc.b_i) {
           exportObj.npcs[i].map = location;
-          exportObj.npcs[i].coords = {x:x, y:x}
+          exportObj.npcs[i].coords = {x: x, y: y};
         }
       }
     };
