@@ -19,26 +19,43 @@ var Util = {
   },
 
   getItemLevel: function(item) {
-    var re = /^min_/
-    if(item.params) {
-     for (var k in item.params) {
-      if (k.match(re)) {
-        return item.params[k];
-      }
-     }
+    var re = /^min_/;
+    var maxReq = 0;
+    var k;
+    var result = '-';
+    if (!item.params) {
+      return result;
     }
-    return '-';
+    for (k in item.params) {
+      if (!k.match(re)) {
+        continue;
+      }
+      if (item.params[k] <= result) {
+        continue;
+      }
+      result = item.params[k];
+    }
+    return result;
   },
   getItemSkill: function(item) {
-    var re = /^min_/
-    if(item.params) {
-     for (var k in item.params) {
-      if (k.match(re)) {
-        return k.replace(re, '');
-      }
-     }
+    var re = /^min_/;
+    var maxReq = 0;
+    var reqName = '-';
+    var k;
+    if (!item.params) {
+      return reqName;
     }
-    return '-';
+    for (k in item.params) {
+      if (!k.match(re)) {
+        continue;
+      }
+      if (item.params[k] <= maxReq) {
+        continue;
+      }
+      reqName = k.replace(re, '');
+      maxReq = item.params[k];
+    }
+    return reqName;
   },
   valOrDash: function(v) {
     return v ? v : '-';
