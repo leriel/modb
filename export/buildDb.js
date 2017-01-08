@@ -378,6 +378,8 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
     // build clean item_base, and store name/type/id in index
     for (var i=0, maxI=ii.length; i<maxI; i++) {
       var k = ii[i];
+      var item = items[k];
+      var stat;
 
       if (typeof items[k] == "object" && items[k].name && ignoreItems.indexOf(items[k].name) == -1) {
         exportObj.store.push({
@@ -388,51 +390,53 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
 
         var o = {
           id: i,
-          n: items[k].name,
-          t: parseInt(items[k].b_t), // type
+          n: item.name,
+          t: parseInt(item.b_t), // type
           img: {
-            sheet: items[k].img.sheet,
-            x: items[k].img.x,
-            y: items[k].img.y,
+            sheet: item.img.sheet,
+            x: item.img.x,
+            y: item.img.y,
           },
-          params: items[k].params,
-          sources: items[k].sources
+          params: item.params,
+          sources: item.sources
         };
 
+        var params = item.params;
+        var scrollType = Forge.enchant_item_req_scroll_type(item.b_i);
         // figure forging chances for each item
-        if (items[k].params.slot == 1) {
-          var stat = items[k].params.min_defense ? items[k].params.min_defense : items[k].params.min_strength;
-          // console.log('Enchant ' + k + ' ' + items[k].name, stat)
+        if (params.slot == 1) {
+          stat = a.params.min_defense || a.params.min_strength || a.params.min_archery || a.params.min_magic;
+          // console.log('Enchant ' + k + ' ' + item.name, stat)
           o.chances = [
-            prepChantChance(Forge.enchantingChancesCapes[1303](stat), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesCapes[1304](stat), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesCapes[1305](stat), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesCapes[1306](stat), items[k].params.enchant_bonus, items[k]),
+            prepChantChance(Forge.enchantingChancesCapes[1303](stat), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesCapes[1304](stat), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesCapes[1305](stat), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesCapes[1306](stat), params.enchant_bonus, item),
           ]
-        } else if (items[k].params.min_defense) {
+        } else if (params.min_defense || params.min_magic || params.min_archery) {
+          // armor
+          stat = params.min_defense || params.min_magic || params.min_archery
           o.chances = [
-            prepChantChance(Forge.enchantingChancesArmor[176](items[k].params.min_defense), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesArmor[177](items[k].params.min_defense), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesArmor[178](items[k].params.min_defense), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesArmor[179](items[k].params.min_defense), items[k].params.enchant_bonus, items[k]),
+            prepChantChance(Forge.enchantingChancesArmor[176](params.min_defense), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesArmor[177](params.min_defense), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesArmor[178](params.min_defense), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesArmor[179](params.min_defense), params.enchant_bonus, item),
           ]
-        } else if (items[k].params.min_accuracy || items[k].params.min_strength) {
-          var minA = items[k].params.min_accuracy ? items[k].params.min_accuracy : 0;
-          var minS = items[k].params.min_strength ? items[k].params.min_strength : 0;
-          var stat = minA && minA>minS ? minA : minS;
+        } else if (params.min_magic || params.min_strength || params.min_accuracy || params.min_archery) {
+          stat = params.min_magic || params.min_strength || params.min_accuracy || params.min_archery;
           // console.log(stat, minA, minS, items[k]);
           o.chances = [
-            prepChantChance(Forge.enchantingChancesWeapon[64](stat), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesWeapon[173](stat), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesWeapon[174](stat), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesWeapon[175](stat), items[k].params.enchant_bonus, items[k]),
+            prepChantChance(Forge.enchantingChancesWeapon[64](stat), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesWeapon[173](stat), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesWeapon[174](stat), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesWeapon[175](stat), params.enchant_bonus, item),
           ]
-        } else if (items[k].params.min_health) {
+        } else if (params.min_health) {
           o.chances = [
-            prepChantChance(Forge.enchantingChancesJewelry[1125](items[k].params.min_health), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesJewelry[1126](items[k].params.min_health), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesJewelry[1127](items[k].params.min_health), items[k].params.enchant_bonus, items[k]),
-            prepChantChance(Forge.enchantingChancesJewelry[1128](items[k].params.min_health), items[k].params.enchant_bonus, items[k]),
+            prepChantChance(Forge.enchantingChancesJewelry[1125](params.min_health), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesJewelry[1126](params.min_health), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesJewelry[1127](params.min_health), params.enchant_bonus, item),
+            prepChantChance(Forge.enchantingChancesJewelry[1128](params.min_health), params.enchant_bonus, item),
           ]
         }
 
