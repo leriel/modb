@@ -73,14 +73,16 @@ var ItemStore = assign({}, EventEmitter.prototype, {
     var currentId=id;
     var currentItem = this.getItem(id);
 
-    while(!found) {
-      if (currentItem.params.enchant_id) {
-        var nextItem = this.getItem(currentItem.params.enchant_id);
-        chain.push(nextItem);
-        currentItem = nextItem;
-      } else {
-        found = true;
+    while(true) {
+      if (!currentItem.params.enchant_id) {
+        break;
       }
+      var nextItem = this.getItem(currentItem.params.enchant_id);
+      if (nextItem.id === currentItem.id) {
+        break;
+      }
+      chain.push(nextItem);
+      currentItem = nextItem;
     }
     return chain;
   },

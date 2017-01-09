@@ -81,6 +81,25 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
     return res;
   }
 
+  function enchant_item_req_scroll_type(a) {
+    a = item_base[a].params;
+    if (a.slot === 1) {
+      return 'cape';
+    }
+    if (a.min_accuracy || (a.min_archery || a.min_magic) && -1 != [4, 3].indexOf(a.slot)) {
+      return 'weapon';
+    }
+    if (a.min_defense || a.min_magic || a.min_archery) {
+      return 'armor';
+    }
+    if (a.min_health) {
+      return 'jewelry';
+    }
+    return false;
+
+    return 1 == a.slot ? "cape" : a.min_accuracy || a.min_archery && -1 != [4, 3].indexOf(a.slot) ? "weapon" : a.min_defense || a.min_magic || a.min_archery ? "armor" : a.min_health ? "jewelry" : !1
+  }
+
   var goBuild = function() {
 
     // array of indexes to skip in the object_base object
@@ -368,7 +387,8 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
     ii = Object.keys(items);
     for (var i=0, maxI=ii.length; i<maxI; i++) {
       var k = ii[i];
-      if (typeof items[k] == "object" && items[k].name) {
+      var enchantsSelf = (items[k].params.enchant_id === items[k].b_i);
+      if (typeof items[k] == "object" && items[k].name && !enchantsSelf) {
         if (items[k].params.enchant_id) {
           items[items[k].params.enchant_id].params.enchants_from = parseInt(k);
         }
@@ -400,44 +420,22 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
           params: item.params,
           sources: item.sources
         };
+        var scrollIDs = {
+          'armor': [176, 177, 178, 179],
+          'weapon': [64, 173, 174, 175],
+          'jewelry': [1125, 1126, 1127, 1128],
+          'cape': [1303, 1304, 1305, 1306],
+        };
 
         var params = item.params;
-        var scrollType = Forge.enchant_item_req_scroll_type(item.b_i);
-        // figure forging chances for each item
-        if (params.slot == 1) {
-          stat = a.params.min_defense || a.params.min_strength || a.params.min_archery || a.params.min_magic;
-          // console.log('Enchant ' + k + ' ' + item.name, stat)
-          o.chances = [
-            prepChantChance(Forge.enchantingChancesCapes[1303](stat), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesCapes[1304](stat), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesCapes[1305](stat), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesCapes[1306](stat), params.enchant_bonus, item),
-          ]
-        } else if (params.min_defense || params.min_magic || params.min_archery) {
-          // armor
-          stat = params.min_defense || params.min_magic || params.min_archery
-          o.chances = [
-            prepChantChance(Forge.enchantingChancesArmor[176](params.min_defense), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesArmor[177](params.min_defense), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesArmor[178](params.min_defense), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesArmor[179](params.min_defense), params.enchant_bonus, item),
-          ]
-        } else if (params.min_magic || params.min_strength || params.min_accuracy || params.min_archery) {
-          stat = params.min_magic || params.min_strength || params.min_accuracy || params.min_archery;
-          // console.log(stat, minA, minS, items[k]);
-          o.chances = [
-            prepChantChance(Forge.enchantingChancesWeapon[64](stat), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesWeapon[173](stat), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesWeapon[174](stat), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesWeapon[175](stat), params.enchant_bonus, item),
-          ]
-        } else if (params.min_health) {
-          o.chances = [
-            prepChantChance(Forge.enchantingChancesJewelry[1125](params.min_health), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesJewelry[1126](params.min_health), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesJewelry[1127](params.min_health), params.enchant_bonus, item),
-            prepChantChance(Forge.enchantingChancesJewelry[1128](params.min_health), params.enchant_bonus, item),
-          ]
+        var scrollType = enchant_item_req_scroll_type(item.b_i);
+        var scrollSet = scrollIDs[scrollType];
+        if (scrollSet && o.params.enchant_id) {
+          o.chances = scrollSet.map(function(scrollId) {
+            var chance = Forge.enchant_chance(item.b_i, scrollId, 0);
+            chance = Math.min(100, chance);
+            return chance;
+          });
         }
 
         // Add Sub Category for certain types of items.
