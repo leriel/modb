@@ -596,6 +596,8 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
       e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
       a.dispatchEvent(e)
     }
+
+    exportObj.maps = map_names;
     
     window.modb = exportObj;
     console.log('modb object crated.')

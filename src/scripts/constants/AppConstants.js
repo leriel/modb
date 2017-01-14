@@ -2,7 +2,7 @@ var React = require('react');
 
 var keyMirror = require('react/lib/keyMirror');
 
-var maps = ["Dorpat", "Dungeon", "Narwa", "Whiland", "Reval", "Rakblood", "Blood River", "Hell", "Clouds", "Heaven", "Cesis", "Walco", "Tutorial Island", "Pernau", "Fellin", "Dragon's Lair", "No Man's Land", "Ancient Dungeon", "Lost Woods", "Minigames", "Broceliande Forest", "Devil's Triangle", "Cathedral", "Illusion Guild"];
+var maps = require('../stores/MapDB.json');
 var obj = {
   ActionTypes: keyMirror({
     APP_INITIALIZE: null,

@@ -21,6 +21,9 @@ var paths = [{
 }, {
   key: 'formulas',
   file: 'CraftDB.json',
+}, {
+  key: 'maps',
+  file: 'MapDb.json',
 }];
 
 page.onConsoleMessage = function(msg) {
