@@ -1,6 +1,7 @@
 var React = require('react');
 var MobStore = require('../stores/MobStore.js');
 var NPCStore = require('../stores/NPCStore.js');
+var CraftStore = require('../stores/CraftStore.js');
 var SearchStore = require('../stores/SearchStore.js');
 
 var MobWatchMixin = function(cb){
@@ -9,16 +10,19 @@ var MobWatchMixin = function(cb){
       MobStore.init();
       SearchStore.init();
       NPCStore.init()
+      CraftStore.init()
       return cb(this);
     },
     componentWillMount:function(){
       MobStore.addChangeListener(this._onChange)
       NPCStore.addChangeListener(this._onChange)
+      CraftStore.addChangeListener(this._onChange)
       SearchStore.addChangeListener(this._onChange)
     },
     componentWillUnmount:function(){
       MobStore.removeChangeListener(this._onChange)
       NPCStore.removeChangeListener(this._onChange)
+      CraftStore.removeChangeListener(this._onChange)
       SearchStore.removeChangeListener(this._onChange)
     },
     _onChange:function(){

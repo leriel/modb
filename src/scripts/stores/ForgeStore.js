@@ -5,7 +5,7 @@ var ForgeStore = {
     if (formula.xp) {
       return formula.xp;
     }
-    if (!formula.matts) {
+    if (!formula.matts || formula.matts.length <= 0) {
       return 0;
     }
     totalXp = formula.matts.map(function(mat) {

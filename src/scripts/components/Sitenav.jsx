@@ -25,6 +25,7 @@ var ReactRouterBootstrap = require('react-router-bootstrap')
 var SearchStore = require('../stores/SearchStore.js')
   , MobStore = require('../stores/MobStore.js')
   , NPCStore = require('../stores/NPCStore.js')
+  , CraftStore = require('../stores/CraftStore.js')
 ;
 
 var NavMixin = require('../mixins/NavMixin.js');
@@ -33,7 +34,8 @@ function getCounts() {
   return {
     items:SearchStore.getResults().length,
     mobs:MobStore.getResults().length,
-    npcs:NPCStore.getResults().length
+    npcs:NPCStore.getResults().length,
+    crafts:CraftStore.getResults().length
   };
 }
 
@@ -99,6 +101,7 @@ var SiteNav = React.createClass({
         <ListGroup>
           <ListGroupItem href="#/items" onClick={this.navClick.bind(_self, '/items')}>Items <Badge className="pull-right">{this.state.items}</Badge></ListGroupItem>
           <ListGroupItem href="#/mobs" onClick={this.navClick.bind(_self, '/mobs')}>Mobs <Badge className="pull-right">{this.state.mobs}</Badge></ListGroupItem>
+          <ListGroupItem href="#/recipes" onClick={this.navClick.bind(_self, '/recipes')}>Recipes <Badge className="pull-right">{this.state.crafts}</Badge></ListGroupItem>
           <ListGroupItem href="#/vendors" onClick={this.navClick.bind(_self, '/vendors')}>Vendors <Badge className="pull-right">{this.state.npcs}</Badge></ListGroupItem>
           <ListGroupItem href="#/breeding">Breeding</ListGroupItem>
         </ListGroup>

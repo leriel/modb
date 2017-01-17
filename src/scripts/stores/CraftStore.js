@@ -73,6 +73,9 @@ var CraftStore = assign({}, EventEmitter.prototype, {
   emitChange: function() {
     this.emit(CHANGE_EVENT);
   },
+  init: function() {
+    _search(_lastTerm);
+  },
   /**
    * @param {function} callback
    */
@@ -94,6 +97,7 @@ var CraftStore = assign({}, EventEmitter.prototype, {
 
     switch(action.actionType) {
       case AppConstants.ActionTypes.SEARCH_CRAFTS:
+      case AppConstants.ActionTypes.SEARCH:
         q = action.q.trim();
         _lastTerm = q;
         _search(q);

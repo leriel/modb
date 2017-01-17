@@ -24,6 +24,7 @@ var App = require('./components/App.jsx')
   , Breeding = require('./components/Breeding.jsx')
   , Npcs = require('./components/Npcs.jsx')
   , Npc = require('./components/Npc.jsx')
+  , Recipes = require('./components/Recipes.jsx')
   , Mobs = require('./components/Mobs.jsx')
   , MobsByMap = require('./components/MobsByMap.jsx')
   , Mob = require('./components/Mob.jsx')
@@ -56,6 +57,7 @@ var routes = (
     <Route name="npcs" handler={Npcs} path="/vendors" />
     <Route name="npc" handler={Npc} path="/vendors/:npcId" />
     <Route name="mobs" handler={Mobs} path="/mobs" />
+    <Route name="recipes" handler={Recipes} path="/recipes" />
     <Route name="mobsByMap" handler={MobsByMap} path="/mobsByMap" />
     <Route name="mob" handler={Mob} path="/mobs/:mobId" />
     <Route name="todo" handler={Todo} path="/todo" />
