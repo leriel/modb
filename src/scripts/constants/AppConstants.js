@@ -28,6 +28,9 @@ var obj = {
     TOGGLE_MOB_FILTERS: null,
     SET_MOB_MAP: null,
 
+    TOGGLE_CRAFT_FILTERS: null,
+    SET_CRAFT_FILTERS: null,
+
     SEARCH_PETS: null,
     SEARCH_CRAFTS: null,
     SET_OUTPUT_FORMAT: null,

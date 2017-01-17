@@ -4,7 +4,7 @@ var Link = Router.Link;
 var SearchStore = require('../stores/CraftStore.js');
 var CraftWatchMixin = require('../mixins/CraftWatchMixin.js');
 var Constants = require('../constants/AppConstants.js');
-var MobActions = require('../actions/MobActions.js');
+var CraftActions = require('../actions/CraftActions.js');
 var MobGraphic = require('./MobGraphic.jsx');
 var ItemGraphic = require('./ItemGraphic.jsx');
 var _ = require('lodash');
@@ -23,29 +23,23 @@ var Recipes = React.createClass({
   mixins: [ Router.State, CraftWatchMixin(getSearchResults) ],
   _toggleFilters: function(e) {
     e.preventDefault();
-    MobActions.toggleFilters();
+    CraftActions.toggleFilters();
   },
   componentDidMount: function() {
     this.props.setPage('recipes')
   },
   _updateFilters: function() {
     var map = this.refs.mapFilter.getDOMNode();
-    MobActions.setFilters({
+    CraftActions.setFilters({
       map: map.options[map.selectedIndex].text,
       levelMin: this.refs.filterLevelMin.getDOMNode().value,
       levelMax: this.refs.filterLevelMax.getDOMNode().value,
-      magBlockMin: this.refs.filterMagBlockMin.getDOMNode().value,
-      magBlockMax: this.refs.filterMagBlockMax.getDOMNode().value,
-      meleeBlockMin: this.refs.filterMeleeBlockMin.getDOMNode().value,
-      meleeBlockMax: this.refs.filterMeleeBlockMax.getDOMNode().value,
-      strMin: this.refs.filterStrMin.getDOMNode().value,
-      strMax: this.refs.filterStrMax.getDOMNode().value,
-      accMin: this.refs.filterAccMin.getDOMNode().value,
-      accMax: this.refs.filterAccMax.getDOMNode().value,
-      defMin: this.refs.filterDefMin.getDOMNode().value,
-      defMax: this.refs.filterDefMax.getDOMNode().value,
-      HPMin: this.refs.filterHPMin.getDOMNode().value,
-      HPMax: this.refs.filterHPMax.getDOMNode().value,
+      maxChMin: this.refs.filterMaxChMin.getDOMNode().value,
+      maxChMax: this.refs.filterMaxChMax.getDOMNode().value,
+      minChMin: this.refs.filterMinChMin.getDOMNode().value,
+      minChMax: this.refs.filterMinChMax.getDOMNode().value,
+      XPMin: this.refs.filterXPMin.getDOMNode().value,
+      XPMax: this.refs.filterXPMax.getDOMNode().value,
     });
   },
   render: function() {
@@ -103,55 +97,28 @@ var Recipes = React.createClass({
                 </div>
                 <div className="col-sm-2">
                   <div className="form-group">
-                    <label htmlFor="hpMin">HP Range</label>
+                    <label htmlFor="xpMin">XP Range</label>
                     <div className="row">
-                      <div className="col-sm-6"><input id="hpMin" type="text" className="form-control" ref="filterHPMin" onChange={this._updateFilters} defaultValue={this.state.filters.HPMin} /></div>
-                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterHPMax" onChange={this._updateFilters} defaultValue={this.state.filters.HPMax} /></div>
+                      <div className="col-sm-6"><input id="xpMin" type="text" className="form-control" ref="filterXPMin" onChange={this._updateFilters} defaultValue={this.state.filters.XPMin} /></div>
+                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterXPMax" onChange={this._updateFilters} defaultValue={this.state.filters.XPMax} /></div>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-2">
                   <div className="form-group">
-                    <label htmlFor="defMin">Defense Range</label>
+                    <label htmlFor="minchMin">Min Chance Range</label>
                     <div className="row">
-                      <div className="col-sm-6"><input id="defMin" type="text" className="form-control" ref="filterDefMin" onChange={this._updateFilters} defaultValue={this.state.filters.defMin} /></div>
-                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterDefMax" onChange={this._updateFilters} defaultValue={this.state.filters.defMax} /></div>
+                      <div className="col-sm-6"><input id="minchMin" type="text" className="form-control" ref="filterMinChMin" onChange={this._updateFilters} defaultValue={this.state.filters.minChMin} /></div>
+                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterMinChMax" onChange={this._updateFilters} defaultValue={this.state.filters.minChMax} /></div>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-2">
                   <div className="form-group">
-                    <label htmlFor="accMin">Accuracy Range</label>
+                    <label htmlFor="maxChMin">Max Chance Range</label>
                     <div className="row">
-                      <div className="col-sm-6"><input id="accMin" type="text" className="form-control" ref="filterAccMin" onChange={this._updateFilters} defaultValue={this.state.filters.accMin} /></div>
-                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterAccMax" onChange={this._updateFilters} defaultValue={this.state.filters.accMax} /></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-2">
-                  <div className="form-group">
-                    <label htmlFor="strMin">Strength Range</label>
-                    <div className="row">
-                      <div className="col-sm-6"><input id="strMin" type="text" className="form-control" ref="filterStrMin" onChange={this._updateFilters} defaultValue={this.state.filters.strMin} /></div>
-                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterStrMax" onChange={this._updateFilters} defaultValue={this.state.filters.strMax} /></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-2">
-                  <div className="form-group">
-                    <label htmlFor="magBlockMin">Magic Block Range</label>
-                    <div className="row">
-                      <div className="col-sm-6"><input id="magBlockMin" type="text" className="form-control" ref="filterMagBlockMin" onChange={this._updateFilters} defaultValue={this.state.filters.magBlockMin} /></div>
-                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterMagBlockMax" onChange={this._updateFilters} defaultValue={this.state.filters.magBlockMax} /></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-2">
-                  <div className="form-group">
-                    <label htmlFor="meleeBlockMin">Melee Block Range</label>
-                    <div className="row">
-                      <div className="col-sm-6"><input id="meleeBlockMin" type="text" className="form-control" ref="filterMeleeBlockMin" onChange={this._updateFilters} defaultValue={this.state.filters.meleeBlockMin} /></div>
-                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterMeleeBlockMax" onChange={this._updateFilters} defaultValue={this.state.filters.meleeBlockMax} /></div>
+                      <div className="col-sm-6"><input id="maxChMin" type="text" className="form-control" ref="filterMaxChMin" onChange={this._updateFilters} defaultValue={this.state.filters.maxChMin} /></div>
+                      <div className="col-sm-6"><input type="text" className="form-control" ref="filterMaxChMax" onChange={this._updateFilters} defaultValue={this.state.filters.maxChMax} /></div>
                     </div>
                   </div>
                 </div>

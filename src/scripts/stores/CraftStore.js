@@ -6,7 +6,17 @@ var AppDispatcher = require('../dispatcher/AppDispatcher')
   , ItemStore = require('./ItemStore.js')
   , _crafts = require('./CraftDB.json')
   , _store = []
-  , _filters = {show:false}
+  , _filters = {
+    show: false,
+    levelMin: '',
+    levelMax: '',
+    maxChMin: '',
+    maxChMax: '',
+    minChMin: '',
+    minChMax: '',
+    XPMin: '',
+    XPMax: '',
+  }
   , _lastTerm = ''
 ;
 
@@ -47,9 +57,18 @@ var _search = function(term) {
   // var min = parseInt(_filters.minPrice);
   // var max = parseInt(_filters.maxPrice);
 
-  _crafts.map(function(item, idx){
+  _crafts.map(function(item, idx) {
     if (
       item && item.n && item.n.toLowerCase().match(re)
+      && (_filters.levelMin=='' || parseInt(_filters.levelMin) <= parseInt(item.level))
+      && (_filters.levelMax=='' || parseInt(_filters.levelMax) >= parseInt(item.level))
+      && (_filters.maxChMin=='' || parseInt(_filters.maxChMin) <= parseInt(item.max_chance*100))
+      && (_filters.maxChMax=='' || parseInt(_filters.maxChMax) >= parseInt(item.max_chance*100))
+      && (_filters.minChMin=='' || parseInt(_filters.minChMin) <= parseInt(item.min_chance*100))
+      && (_filters.minChMax=='' || parseInt(_filters.minChMax) >= parseInt(item.min_chance*100))
+      && (_filters.XPMin=='' || parseInt(_filters.XPMin) <= parseInt(item.xp))
+      && (_filters.XPMax=='' || parseInt(_filters.XPMax) >= parseInt(item.xp))
+      
       // && (_filters.cat1==-1 || parseInt(item.t) == _filters.cat1)
       // && (_filters.minPrice=='' || min <= ip)
       // && (_filters.maxPrice=='' || max >= ip)
@@ -102,6 +121,22 @@ var CraftStore = assign({}, EventEmitter.prototype, {
         _lastTerm = q;
         _search(q);
         break;
+      case AppConstants.ActionTypes.TOGGLE_CRAFT_FILTERS:
+        _filters.show = !_filters.show;
+        CraftStore.emitChange();
+        break;
+      case AppConstants.ActionTypes.SET_CRAFT_FILTERS:
+        Object.keys(action.filters).map(function(k){
+          if (k=='map') {
+            _filters.map = action.filters.map || -1
+          } else {
+            _filters[k] = action.filters[k];  
+          }
+          
+        })
+        _search(_lastTerm);
+      break;
+
     }
 
 
