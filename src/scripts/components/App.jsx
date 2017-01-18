@@ -99,7 +99,7 @@ var App = React.createClass({
         <div className={"col-md-3 col-lg-2 "+cl}>
           <Sitenav onSearch={this.onSearch} q={this.state.q} showNav={this.state.showNav} closeNav={this.closeNav} setLoading={this.setLoading} />
         </div>
-        <div className="col-md-9 col-lg-8 col-sm-12" style={{paddingTop:8}}>
+        <div className="col-md-9 col-lg-10 col-sm-12" style={{paddingTop:8}}>
            <RouteHandler setPage={this.setPage} />
         </div>
         <div className="hidden-md col-sm-12">
