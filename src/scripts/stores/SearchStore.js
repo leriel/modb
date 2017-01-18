@@ -1,36 +1,42 @@
-var AppDispatcher = require('../dispatcher/AppDispatcher')
-  , EventEmitter = require('events').EventEmitter
-  , AppConstants = require('../constants/AppConstants.js')
-  , assign = require('object-assign')
-  , CHANGE_EVENT = 'change'
-  , _items = require('./ItemDB.json')
-  , util = require('../util.js')
-  , _store = []
-  , _lastTerm = ''
-  , _filters = {
-      show:false,
-      cat1:-1,
-      cat2:-1,
-      subCat:-1,
-      minPrice:'',
-      maxPrice:'',
-      output: 'grid'
-    }
-;
+var AppDispatcher = require('../dispatcher/AppDispatcher');
+var EventEmitter = require('events').EventEmitter;
+var AppConstants = require('../constants/AppConstants.js');
+var assign = require('object-assign');
+var CHANGE_EVENT = 'change';
+var _items = require('./ItemDB.json');
+var util = require('../util.js');
+var _store = [];
+var _lastTerm = '';
+var _filters = {
+  show:false,
+  cat1:-1,
+  cat2:-1,
+  subCat:-1,
+  minLevel:'',
+  maxLevel:'',
+  minPrice:'',
+  maxPrice:'',
+  output: 'grid'
+};
 window.SearchStoreFilters = _filters;
 
 var _search = function(term) {
   var re = new RegExp(term.toLowerCase(), 'i');
   var tmpStore = [];
+  var minLevel = parseInt(_filters.minLevel);
+  var maxLevel = parseInt(_filters.maxLevel);
   var min = parseInt(_filters.minPrice);
   var max = parseInt(_filters.maxPrice);
-  _items.map(function(item, idx){
+  _items.map(function(item, idx) {
     var ip = parseInt(item.params.price);
+    var lvl = util.getItemLevel(item) | 0;
     if (
       item && item.n && item.n.toLowerCase().match(re)
       && (_filters.cat1==-1 || parseInt(item.t) == _filters.cat1)
       && (_filters.cat2==-1 || parseInt(item.params.slot) == _filters.cat2)
       && (_filters.subCat==-1 || parseInt(item.params.sc) == _filters.subCat)
+      && (_filters.minLevel=='' || minLevel <= lvl)
+      && (_filters.maxLevel=='' || maxLevel >= lvl)
       && (_filters.minPrice=='' || min <= ip)
       && (_filters.maxPrice=='' || max >= ip)
     ) {
@@ -89,6 +95,14 @@ var SearchStore = assign({}, EventEmitter.prototype, {
         _filters.subCat = parseInt(action.subCat);
         _search(_lastTerm);
         break;
+      case AppConstants.ActionTypes.SET_MIN_LEVEL:
+        _filters.minLevel = action.minLevel == '' ? '' : parseInt(action.minLevel);
+        _search(_lastTerm);
+        break;
+      case AppConstants.ActionTypes.SET_MAX_LEVEL:
+        _filters.maxLevel = action.maxLevel == '' ? '' : parseInt(action.maxLevel);
+        _search(_lastTerm);
+        break;
       case AppConstants.ActionTypes.SET_MIN_PRICE:
         _filters.minPrice = action.minPrice == '' ? '' : parseInt(action.minPrice);
         _search(_lastTerm);
@@ -109,6 +123,8 @@ var SearchStore = assign({}, EventEmitter.prototype, {
         q = action.q.trim();
         _lastTerm = q;
         _search(q);
+        break;
+      default:
         break;
     }
 

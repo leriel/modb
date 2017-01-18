@@ -14,6 +14,8 @@ var obj = {
     SET_SEARCH_CAT1: null,
     SET_SEARCH_CAT2: null,
     SET_SEARCH_SUB_CAT: null,
+    SET_MIN_LEVEL: null,
+    SET_MAX_LEVEL: null,
     SET_MIN_PRICE: null,
     SET_MAX_PRICE: null,
     TOGGLE_FILTERS: null,

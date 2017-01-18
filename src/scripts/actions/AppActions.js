@@ -31,6 +31,19 @@ var AppActions = {
         actionType: AppConstants.ActionTypes.TOGGLE_FILTERS
       });
   },
+  setLevel: function(whichLevel, level) {
+    if (whichLevel == 'min') {
+      AppDispatcher.handleViewAction({
+        actionType: AppConstants.ActionTypes.SET_MIN_LEVEL,
+        minLevel: level
+      });
+    } else {
+      AppDispatcher.handleViewAction({
+        actionType: AppConstants.ActionTypes.SET_MAX_LEVEL,
+        maxLevel: level
+      });
+    }
+  },
   setPrice: function(whichPrice, price) {
     if (whichPrice == 'min') {
       AppDispatcher.handleViewAction({

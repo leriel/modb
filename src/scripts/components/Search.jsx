@@ -44,6 +44,12 @@ var Search = React.createClass({
     var n = this.refs.cat2.getDOMNode();
     AppActions.setSubCat(n.options[n.selectedIndex].value);
   },
+  _handleMinLevelChange: function(e) {
+    AppActions.setLevel('min', this.refs.minLevel.getDOMNode().value);
+  },
+  _handleMaxLevelChange: function(e) {
+    AppActions.setLevel('max', this.refs.maxLevel.getDOMNode().value);
+  },
   _handleMinPriceChange: function(e) {
     AppActions.setPrice('min', this.refs.minPrice.getDOMNode().value);
   },
@@ -105,7 +111,7 @@ var Search = React.createClass({
     switch(parseInt(cat1)) {
       case 0: // Armor
       case 2: // Jewelry
-        cat2Select = (<div className="col-sm-3">
+        cat2Select = (<div className="col-sm-2">
           <label htmlFor="cat2">Sub Category</label>
           <HtmlSelect ref="cat2" id="cat2"
             onChange={this._handleCat2Change} 
@@ -118,7 +124,7 @@ var Search = React.createClass({
       case 4: // Tools
       case 5: // Weapons
       case 8: // House
-        cat2Select = (<div className="col-sm-3">
+        cat2Select = (<div className="col-sm-2">
           <label htmlFor="cat2">Sub Category</label>
           <HtmlSelect ref="cat2" id="cat2"
             onChange={this._handleSubCatChange} 
@@ -154,6 +160,22 @@ var Search = React.createClass({
                   </div>
                 </div>
                 {cat2Select}
+                <div className="col-sm-2">
+                  <div className="form-group">
+                    <label htmlFor="minLevel">Min Level</label>
+                    <input type="text" id="minLevel" className="form-control" 
+                      ref="minLevel" onChange={this._handleMinLevelChange} 
+                      defaultValue={this.state.filters.minLevel} />
+                  </div>
+                </div>
+                <div className="col-sm-2">
+                  <div className="form-group">
+                    <label htmlFor="minPrice">Max Level</label>
+                    <input type="text" id="maxLevel" className="form-control" 
+                      ref="maxLevel" onChange={this._handleMaxLevelChange} 
+                      defaultValue={this.state.filters.maxLevel} />
+                  </div>
+                </div>
                 <div className="col-sm-2">
                   <div className="form-group">
                     <label htmlFor="minPrice">Min Price</label>
