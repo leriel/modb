@@ -598,6 +598,7 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
     }
 
     exportObj.maps = map_names;
+    exportObj.skills = Object.keys(skills[0]);
     
     window.modb = exportObj;
     console.log('modb object crated.')

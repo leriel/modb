@@ -16,8 +16,8 @@ var SearchCraftRow = function(craft) {
     ' ': <ItemGraphic item={item} />,
     Item: <Link to="item-craft" params={{itemId:item.id}}>{item.n}</Link>,
     Skill: craft.skill,
-    'Min chance': (craft.min_chance || 1) * 100,
-    'Max chance': (craft.max_chance || 1) * 100,
+    'Min chance (%)': (craft.min_chance || 1) * 100,
+    'Max chance (%)': (craft.max_chance || 1) * 100,
     XP: xp,
     'Required level': craft.level,
   }

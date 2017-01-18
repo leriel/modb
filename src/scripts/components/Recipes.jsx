@@ -9,7 +9,7 @@ var MobGraphic = require('./MobGraphic.jsx');
 var ItemGraphic = require('./ItemGraphic.jsx');
 var _ = require('lodash');
 var HtmlSelect = require('./html/select.jsx');
-var MapSelect = require('./MapSelect.jsx');
+var SkillSelect = require('./SkillSelect.jsx');
 var util = require('../util.js');
 var SearchCraftRow = require('./SearchCraftRow.js');
 var Reactable = require('reactable');
@@ -29,9 +29,9 @@ var Recipes = React.createClass({
     this.props.setPage('recipes')
   },
   _updateFilters: function() {
-    var map = this.refs.mapFilter.getDOMNode();
+    var skill = this.refs.skillFilter.getDOMNode();
     CraftActions.setFilters({
-      map: map.options[map.selectedIndex].text,
+      skill: skill.options[skill.selectedIndex].text || -1,
       levelMin: this.refs.filterLevelMin.getDOMNode().value,
       levelMax: this.refs.filterLevelMax.getDOMNode().value,
       maxChMin: this.refs.filterMaxChMin.getDOMNode().value,
@@ -58,8 +58,8 @@ var Recipes = React.createClass({
         }
       },
       'Skill',
-      {column: 'Min chance', sortFunction: util.compareInt},
-      {column: 'Max chance', sortFunction: util.compareInt},
+      {column: 'Min chance (%)', sortFunction: util.compareInt},
+      {column: 'Max chance (%)', sortFunction: util.compareInt},
       {column: 'XP', sortFunction: util.compareInt},
       {column: 'Required level', sortFunction: util.compareInt},
     ];
@@ -82,8 +82,8 @@ var Recipes = React.createClass({
               <div className="row">
                 <div className="col-sm-2">
                   <div className="form-group">
-                    <label htmlFor="cat1">Map</label>
-                    <MapSelect onChange={this._updateFilters} ref="mapFilter" defaultValue="0" />
+                    <label htmlFor="cat1">Skill</label>
+                    <SkillSelect onChange={this._updateFilters} ref="skillFilter" defaultValue="0" />
                   </div>
                 </div>
                 <div className="col-sm-2">

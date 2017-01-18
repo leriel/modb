@@ -8,6 +8,7 @@ var AppDispatcher = require('../dispatcher/AppDispatcher')
   , _store = []
   , _filters = {
     show: false,
+    skill: -1,
     levelMin: '',
     levelMax: '',
     maxChMin: '',
@@ -60,6 +61,7 @@ var _search = function(term) {
   _crafts.map(function(item, idx) {
     if (
       item && item.n && item.n.toLowerCase().match(re)
+      && (_filters.skill == -1 || item.skill == _filters.skill)
       && (_filters.levelMin=='' || parseInt(_filters.levelMin) <= parseInt(item.level))
       && (_filters.levelMax=='' || parseInt(_filters.levelMax) >= parseInt(item.level))
       && (_filters.maxChMin=='' || parseInt(_filters.maxChMin) <= parseInt(item.max_chance*100))
@@ -126,7 +128,7 @@ var CraftStore = assign({}, EventEmitter.prototype, {
         CraftStore.emitChange();
         break;
       case AppConstants.ActionTypes.SET_CRAFT_FILTERS:
-        Object.keys(action.filters).map(function(k){
+        Object.keys(action.filters).map(function(k) {
           if (k=='map') {
             _filters.map = action.filters.map || -1
           } else {
@@ -135,8 +137,9 @@ var CraftStore = assign({}, EventEmitter.prototype, {
           
         })
         _search(_lastTerm);
-      break;
-
+        break;
+      default:
+        break;
     }
 
 

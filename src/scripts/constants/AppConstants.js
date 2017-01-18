@@ -3,6 +3,7 @@ var React = require('react');
 var keyMirror = require('react/lib/keyMirror');
 
 var maps = require('../stores/MapDB.json');
+var skills = require('../stores/SkillDB.json');
 var obj = {
   ActionTypes: keyMirror({
     APP_INITIALIZE: null,
@@ -49,6 +50,7 @@ var obj = {
     md: 1200,
   },
   maps: maps,
+  skills: skills,
   itemCats:["Armor","Food","Jewelry","Material","Tool","Weapon","Spell","Pet","House"],
   subCats: {
     0: { // Armor

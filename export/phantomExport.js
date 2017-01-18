@@ -24,6 +24,9 @@ var paths = [{
 }, {
   key: 'maps',
   file: 'MapDb.json',
+}, {
+  key: 'skills',
+  file: 'SkillDb.json',
 }];
 
 page.onConsoleMessage = function(msg) {
