@@ -208,14 +208,15 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
     for (var i=0, maxI=ii.length; i<maxI; i++) {
       var k = ii[i];
       var f = forge[k];
+      var isForging = (typeof f.fletching_level === 'undefined');
       // console.log(f);
       var o = {
         id: f.item_id,
         n: items[f.item_id].name,
-        level: f.level,
+        level: isForging ? f.level : f.fletching_level,
         min_chance: f.chance,
         max_chance: f.chance,
-        skill: typeof f.fletching_level == 'undefined' ? 'forging' : 'fletching',
+        skill: isForging ? 'forging' : 'fletching',
         matts: [],
         pattern: f.pattern,
         xp: f.xp,
