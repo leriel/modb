@@ -7861,7 +7861,7 @@
     },
     "locations": {
       "Cesis": 57,
-      "Fellin": 23
+      "Fellin": 20
     }
   },
   {
@@ -7942,7 +7942,7 @@
     },
     "locations": {
       "Cesis": 38,
-      "Fellin": 28
+      "Fellin": 16
     }
   },
   {
@@ -18041,6 +18041,7 @@
       "aggressive": false,
       "speed": 100,
       "no_dungeon": true,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -18174,6 +18175,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 360,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -18305,6 +18307,7 @@
       "next_cathedral_npc_id": 369,
       "speed": 100,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -18466,6 +18469,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 378,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -18627,6 +18631,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 387,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": [
         {
@@ -18782,6 +18787,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 396,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": [
         {
@@ -18954,6 +18960,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 405,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -19159,6 +19166,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 414,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -19391,6 +19399,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 423,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": [
         {
@@ -19621,6 +19630,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 434,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 483,
@@ -19860,6 +19870,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 344,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -19894,6 +19905,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 345,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -19928,6 +19940,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 346,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -19962,6 +19975,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 347,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -19996,6 +20010,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 348,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -20161,6 +20176,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 349,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -20202,6 +20218,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 350,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -20243,6 +20260,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 351,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -20284,6 +20302,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 333,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": []
     },
@@ -20325,6 +20344,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 353,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20365,6 +20385,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 354,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20405,6 +20426,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 355,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20445,6 +20467,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 356,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20485,6 +20508,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 357,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -20656,6 +20680,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 358,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20689,6 +20714,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 359,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20722,6 +20748,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 432,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -20755,6 +20782,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 361,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -20788,6 +20816,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 362,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -20821,6 +20850,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 363,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -20854,6 +20884,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 364,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -20887,6 +20918,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 365,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": [
         {
@@ -21082,6 +21114,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 366,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -21122,6 +21155,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 367,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -21162,6 +21196,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 368,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -21202,6 +21237,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 335,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": []
     },
@@ -21242,6 +21278,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 370,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21281,6 +21318,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 371,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21320,6 +21358,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 372,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21359,6 +21398,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 373,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21398,6 +21438,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 374,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -21579,6 +21620,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 375,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21618,6 +21660,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 376,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21657,6 +21700,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 377,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21696,6 +21740,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 336,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -21735,6 +21780,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 379,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -21768,6 +21814,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 380,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -21801,6 +21848,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 381,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -21834,6 +21882,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 382,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -21867,6 +21916,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 383,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 149,
@@ -22033,6 +22083,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 384,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -22066,6 +22117,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 385,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -22099,6 +22151,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 386,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -22132,6 +22185,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 337,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -22165,6 +22219,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 388,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22204,6 +22259,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 389,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22243,6 +22299,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 390,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22282,6 +22339,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 391,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22321,6 +22379,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 392,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -22486,6 +22545,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 393,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22525,6 +22585,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 394,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22564,6 +22625,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 395,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22603,6 +22665,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 338,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -22642,6 +22705,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 397,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -22675,6 +22739,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 398,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -22708,6 +22773,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 399,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -22741,6 +22807,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 400,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -22774,6 +22841,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 401,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -22979,6 +23047,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 402,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -23012,6 +23081,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 403,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -23045,6 +23115,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 404,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -23078,6 +23149,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 339,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -23111,6 +23183,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 406,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23151,6 +23224,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 407,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23191,6 +23265,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 408,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23231,6 +23306,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 409,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23271,6 +23347,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 410,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 363,
@@ -23482,6 +23559,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 411,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23522,6 +23600,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 412,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23562,6 +23641,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 413,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23602,6 +23682,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 340,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": []
     },
     "temp": {
@@ -23642,6 +23723,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 415,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -23676,6 +23758,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 416,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -23710,6 +23793,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 417,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -23744,6 +23828,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 418,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -23778,6 +23863,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 419,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 483,
@@ -24004,6 +24090,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 420,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -24038,6 +24125,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 421,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -24072,6 +24160,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 422,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -24106,6 +24195,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 341,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": []
     },
@@ -24140,6 +24230,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 424,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24174,6 +24265,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 425,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24208,6 +24300,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 426,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24242,6 +24335,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 427,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24276,6 +24370,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 428,
       "respawn_time": 5,
+      "multi_combat": true,
       "drops": [
         {
           "id": 483,
@@ -24502,6 +24597,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 429,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24536,6 +24632,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 430,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24570,6 +24667,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 431,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24604,6 +24702,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 342,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": []
     },
@@ -24638,6 +24737,7 @@
       "no_dungeon": true,
       "next_cathedral_npc_id": 334,
       "respawn_time": 5,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": []
     },
@@ -28939,6 +29039,7 @@
       "next_cathedral_npc_id": 494,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29038,6 +29139,7 @@
       "next_cathedral_npc_id": 496,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29137,6 +29239,7 @@
       "next_cathedral_npc_id": 499,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29236,6 +29339,7 @@
       "next_cathedral_npc_id": 502,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29335,6 +29439,7 @@
       "next_cathedral_npc_id": 495,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29434,6 +29539,7 @@
       "next_cathedral_npc_id": 505,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29533,6 +29639,7 @@
       "next_cathedral_npc_id": 497,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29632,6 +29739,7 @@
       "next_cathedral_npc_id": 498,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29731,6 +29839,7 @@
       "next_cathedral_npc_id": 492,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29830,6 +29939,7 @@
       "next_cathedral_npc_id": 500,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -29929,6 +30039,7 @@
       "next_cathedral_npc_id": 501,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30028,6 +30139,7 @@
       "next_cathedral_npc_id": 493,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30127,6 +30239,7 @@
       "next_cathedral_npc_id": 503,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30226,6 +30339,7 @@
       "next_cathedral_npc_id": 504,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30325,6 +30439,7 @@
       "next_cathedral_npc_id": 506,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30424,6 +30539,7 @@
       "next_cathedral_npc_id": 491,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30523,6 +30639,7 @@
       "next_cathedral_npc_id": 507,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30622,6 +30739,7 @@
       "next_cathedral_npc_id": 508,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30721,6 +30839,7 @@
       "next_cathedral_npc_id": 509,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30820,6 +30939,7 @@
       "next_cathedral_npc_id": 510,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -30919,6 +31039,7 @@
       "next_cathedral_npc_id": 511,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31018,6 +31139,7 @@
       "next_cathedral_npc_id": 512,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31117,6 +31239,7 @@
       "next_cathedral_npc_id": 513,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31216,6 +31339,7 @@
       "next_cathedral_npc_id": 515,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31315,6 +31439,7 @@
       "next_cathedral_npc_id": 519,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31414,6 +31539,7 @@
       "next_cathedral_npc_id": 516,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31513,6 +31639,7 @@
       "next_cathedral_npc_id": 517,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31612,6 +31739,7 @@
       "next_cathedral_npc_id": 514,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31711,6 +31839,7 @@
       "next_cathedral_npc_id": 523,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31810,6 +31939,7 @@
       "next_cathedral_npc_id": 520,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -31909,6 +32039,7 @@
       "next_cathedral_npc_id": 521,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32008,6 +32139,7 @@
       "next_cathedral_npc_id": 522,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32107,6 +32239,7 @@
       "next_cathedral_npc_id": 525,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32206,6 +32339,7 @@
       "next_cathedral_npc_id": 524,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32350,6 +32484,7 @@
       "next_cathedral_npc_id": 526,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32449,6 +32584,7 @@
       "next_cathedral_npc_id": 527,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32548,6 +32684,7 @@
       "next_cathedral_npc_id": 528,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32647,6 +32784,7 @@
       "next_cathedral_npc_id": 529,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32746,6 +32884,7 @@
       "next_cathedral_npc_id": 530,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32845,6 +32984,7 @@
       "next_cathedral_npc_id": 531,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -32944,6 +33084,7 @@
       "next_cathedral_npc_id": 532,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -33043,6 +33184,7 @@
       "next_cathedral_npc_id": 533,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -33142,6 +33284,7 @@
       "next_cathedral_npc_id": 534,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -33241,6 +33384,7 @@
       "next_cathedral_npc_id": 518,
       "respawn_time": 5,
       "additional_xp": 400,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -33340,6 +33484,7 @@
       "next_cathedral_npc_id": 536,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -33438,6 +33583,7 @@
       "next_cathedral_npc_id": 537,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -33536,6 +33682,7 @@
       "next_cathedral_npc_id": 538,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -33634,6 +33781,7 @@
       "next_cathedral_npc_id": 539,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -33732,6 +33880,7 @@
       "next_cathedral_npc_id": 540,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -33829,6 +33978,7 @@
       "next_cathedral_npc_id": 541,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -33926,6 +34076,7 @@
       "next_cathedral_npc_id": 542,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34023,6 +34174,7 @@
       "next_cathedral_npc_id": 543,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34120,6 +34272,7 @@
       "next_cathedral_npc_id": 544,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34217,6 +34370,7 @@
       "next_cathedral_npc_id": 545,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34314,6 +34468,7 @@
       "next_cathedral_npc_id": 546,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34411,6 +34566,7 @@
       "next_cathedral_npc_id": 547,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34508,6 +34664,7 @@
       "next_cathedral_npc_id": 548,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34605,6 +34762,7 @@
       "next_cathedral_npc_id": 549,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34702,6 +34860,7 @@
       "next_cathedral_npc_id": 550,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34799,6 +34958,7 @@
       "next_cathedral_npc_id": 551,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34896,6 +35056,7 @@
       "next_cathedral_npc_id": 552,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -34993,6 +35154,7 @@
       "next_cathedral_npc_id": 553,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -35090,6 +35252,7 @@
       "next_cathedral_npc_id": 554,
       "respawn_time": 5,
       "additional_xp": 750,
+      "multi_combat": true,
       "att_anim": 34,
       "drops": [
         {
@@ -35189,6 +35352,7 @@
       "next_cathedral_npc_id": 555,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -35288,6 +35452,7 @@
       "next_cathedral_npc_id": 556,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -35387,6 +35552,7 @@
       "next_cathedral_npc_id": 557,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -35486,6 +35652,7 @@
       "next_cathedral_npc_id": 558,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -35583,6 +35750,7 @@
       "next_cathedral_npc_id": 559,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -35680,6 +35848,7 @@
       "next_cathedral_npc_id": 560,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -35777,6 +35946,7 @@
       "next_cathedral_npc_id": 561,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -35874,6 +36044,7 @@
       "next_cathedral_npc_id": 562,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -35971,6 +36142,7 @@
       "next_cathedral_npc_id": 563,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -36070,6 +36242,7 @@
       "next_cathedral_npc_id": 564,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -36169,6 +36342,7 @@
       "next_cathedral_npc_id": 565,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -36268,6 +36442,7 @@
       "next_cathedral_npc_id": 566,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -36367,6 +36542,7 @@
       "next_cathedral_npc_id": 567,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -36466,6 +36642,7 @@
       "next_cathedral_npc_id": 568,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -36563,6 +36740,7 @@
       "next_cathedral_npc_id": 569,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -36660,6 +36838,7 @@
       "next_cathedral_npc_id": 570,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -36757,6 +36936,7 @@
       "next_cathedral_npc_id": 571,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -36854,6 +37034,7 @@
       "next_cathedral_npc_id": 572,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -36951,6 +37132,7 @@
       "next_cathedral_npc_id": 573,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37048,6 +37230,7 @@
       "next_cathedral_npc_id": 574,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37145,6 +37328,7 @@
       "next_cathedral_npc_id": 575,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37242,6 +37426,7 @@
       "next_cathedral_npc_id": 576,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37341,6 +37526,7 @@
       "next_cathedral_npc_id": 577,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37440,6 +37626,7 @@
       "next_cathedral_npc_id": 578,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37539,6 +37726,7 @@
       "next_cathedral_npc_id": 579,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37638,6 +37826,7 @@
       "next_cathedral_npc_id": 580,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37737,6 +37926,7 @@
       "next_cathedral_npc_id": 581,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 40,
       "drops": [
         {
@@ -37834,6 +38024,7 @@
       "next_cathedral_npc_id": 582,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -37931,6 +38122,7 @@
       "next_cathedral_npc_id": 583,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38028,6 +38220,7 @@
       "next_cathedral_npc_id": 584,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38125,6 +38318,7 @@
       "next_cathedral_npc_id": 585,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38222,6 +38416,7 @@
       "next_cathedral_npc_id": 586,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38319,6 +38514,7 @@
       "next_cathedral_npc_id": 587,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38416,6 +38612,7 @@
       "next_cathedral_npc_id": 588,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38513,6 +38710,7 @@
       "next_cathedral_npc_id": 589,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38610,6 +38808,7 @@
       "next_cathedral_npc_id": 590,
       "respawn_time": 5,
       "additional_xp": 1500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38709,6 +38908,7 @@
       "next_cathedral_npc_id": 591,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38808,6 +39008,7 @@
       "next_cathedral_npc_id": 592,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -38907,6 +39108,7 @@
       "next_cathedral_npc_id": 593,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -39006,6 +39208,7 @@
       "next_cathedral_npc_id": 594,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -39105,6 +39308,7 @@
       "next_cathedral_npc_id": 595,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -39204,6 +39408,7 @@
       "next_cathedral_npc_id": 596,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -39308,6 +39513,7 @@
       "next_cathedral_npc_id": 597,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -39412,6 +39618,7 @@
       "next_cathedral_npc_id": 598,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -39516,6 +39723,7 @@
       "next_cathedral_npc_id": 599,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -39620,6 +39828,7 @@
       "next_cathedral_npc_id": 600,
       "respawn_time": 5,
       "additional_xp": 2000,
+      "multi_combat": true,
       "drops": [
         {
           "id": 321,
@@ -39769,6 +39978,7 @@
       "next_cathedral_npc_id": 602,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -39873,6 +40083,7 @@
       "next_cathedral_npc_id": 603,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -39977,6 +40188,7 @@
       "next_cathedral_npc_id": 604,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -40081,6 +40293,7 @@
       "next_cathedral_npc_id": 605,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -40185,6 +40398,7 @@
       "next_cathedral_npc_id": 606,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -40289,6 +40503,7 @@
       "next_cathedral_npc_id": 607,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -40393,6 +40608,7 @@
       "next_cathedral_npc_id": 608,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -40497,6 +40713,7 @@
       "next_cathedral_npc_id": 609,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -40599,6 +40816,7 @@
       "next_cathedral_npc_id": 610,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -40701,6 +40919,7 @@
       "next_cathedral_npc_id": 611,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -40803,6 +41022,7 @@
       "next_cathedral_npc_id": 612,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -40905,6 +41125,7 @@
       "next_cathedral_npc_id": 613,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -41007,6 +41228,7 @@
       "next_cathedral_npc_id": 614,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -41109,6 +41331,7 @@
       "next_cathedral_npc_id": 615,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -41211,6 +41434,7 @@
       "next_cathedral_npc_id": 616,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -41313,6 +41537,7 @@
       "next_cathedral_npc_id": 617,
       "respawn_time": 5,
       "additional_xp": 1000,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -41417,6 +41642,7 @@
       "next_cathedral_npc_id": 618,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -41526,6 +41752,7 @@
       "next_cathedral_npc_id": 619,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -41635,6 +41862,7 @@
       "next_cathedral_npc_id": 620,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -41744,6 +41972,7 @@
       "next_cathedral_npc_id": 621,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -41851,6 +42080,7 @@
       "next_cathedral_npc_id": 622,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": [
         {
@@ -41953,6 +42183,7 @@
       "next_cathedral_npc_id": 623,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": [
         {
@@ -42055,6 +42286,7 @@
       "next_cathedral_npc_id": 624,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": [
         {
@@ -42157,6 +42389,7 @@
       "next_cathedral_npc_id": 625,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 38,
       "drops": [
         {
@@ -42261,6 +42494,7 @@
       "next_cathedral_npc_id": 626,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -42365,6 +42599,7 @@
       "next_cathedral_npc_id": 627,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -42469,6 +42704,7 @@
       "next_cathedral_npc_id": 628,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -42573,6 +42809,7 @@
       "next_cathedral_npc_id": 630,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -42677,6 +42914,7 @@
       "next_cathedral_npc_id": 650,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -42781,6 +43019,7 @@
       "next_cathedral_npc_id": 631,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -42885,6 +43124,7 @@
       "next_cathedral_npc_id": 632,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -42989,6 +43229,7 @@
       "next_cathedral_npc_id": 633,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -43093,6 +43334,7 @@
       "next_cathedral_npc_id": 634,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -43195,6 +43437,7 @@
       "next_cathedral_npc_id": 635,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43297,6 +43540,7 @@
       "next_cathedral_npc_id": 636,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43399,6 +43643,7 @@
       "next_cathedral_npc_id": 637,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43501,6 +43746,7 @@
       "next_cathedral_npc_id": 638,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43603,6 +43849,7 @@
       "next_cathedral_npc_id": 639,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43705,6 +43952,7 @@
       "next_cathedral_npc_id": 640,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43807,6 +44055,7 @@
       "next_cathedral_npc_id": 641,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -43909,6 +44158,7 @@
       "next_cathedral_npc_id": 642,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 36,
       "drops": [
         {
@@ -44013,6 +44263,7 @@
       "next_cathedral_npc_id": 643,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -44117,6 +44368,7 @@
       "next_cathedral_npc_id": 644,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -44221,6 +44473,7 @@
       "next_cathedral_npc_id": 645,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -44325,6 +44578,7 @@
       "next_cathedral_npc_id": 646,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -44429,6 +44683,7 @@
       "next_cathedral_npc_id": 647,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -44538,6 +44793,7 @@
       "next_cathedral_npc_id": 648,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -44647,6 +44903,7 @@
       "next_cathedral_npc_id": 649,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -44756,6 +45013,7 @@
       "next_cathedral_npc_id": 629,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -44865,6 +45123,7 @@
       "next_cathedral_npc_id": 651,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -44969,6 +45228,7 @@
       "next_cathedral_npc_id": 652,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -45073,6 +45333,7 @@
       "next_cathedral_npc_id": 653,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 46,
       "drops": [
         {
@@ -45177,6 +45438,7 @@
       "next_cathedral_npc_id": 654,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45286,6 +45548,7 @@
       "next_cathedral_npc_id": 655,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45395,6 +45658,7 @@
       "next_cathedral_npc_id": 656,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45504,6 +45768,7 @@
       "next_cathedral_npc_id": 657,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45613,6 +45878,7 @@
       "next_cathedral_npc_id": 658,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45722,6 +45988,7 @@
       "next_cathedral_npc_id": 659,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45831,6 +46098,7 @@
       "next_cathedral_npc_id": 660,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -45940,6 +46208,7 @@
       "next_cathedral_npc_id": 661,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "drops": [
         {
           "id": 329,
@@ -46049,6 +46318,7 @@
       "next_cathedral_npc_id": 662,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": [
         {
@@ -46153,6 +46423,7 @@
       "next_cathedral_npc_id": 663,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": [
         {
@@ -46257,6 +46528,7 @@
       "next_cathedral_npc_id": 664,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": [
         {
@@ -46361,6 +46633,7 @@
       "next_cathedral_npc_id": 665,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 42,
       "drops": [
         {
@@ -46465,6 +46738,7 @@
       "next_cathedral_npc_id": 666,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -46569,6 +46843,7 @@
       "next_cathedral_npc_id": 667,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -46673,6 +46948,7 @@
       "next_cathedral_npc_id": 668,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -46777,6 +47053,7 @@
       "next_cathedral_npc_id": 669,
       "respawn_time": 5,
       "additional_xp": 2500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -46881,6 +47158,7 @@
       "next_cathedral_npc_id": 670,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -46985,6 +47263,7 @@
       "next_cathedral_npc_id": 671,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47089,6 +47368,7 @@
       "next_cathedral_npc_id": 672,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47193,6 +47473,7 @@
       "next_cathedral_npc_id": 673,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47297,6 +47578,7 @@
       "next_cathedral_npc_id": 674,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47401,6 +47683,7 @@
       "next_cathedral_npc_id": 675,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47505,6 +47788,7 @@
       "next_cathedral_npc_id": 676,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47609,6 +47893,7 @@
       "next_cathedral_npc_id": 677,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47713,6 +47998,7 @@
       "next_cathedral_npc_id": 678,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47817,6 +48103,7 @@
       "next_cathedral_npc_id": 679,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -47921,6 +48208,7 @@
       "next_cathedral_npc_id": 680,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48025,6 +48313,7 @@
       "next_cathedral_npc_id": 681,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48129,6 +48418,7 @@
       "next_cathedral_npc_id": 682,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48233,6 +48523,7 @@
       "next_cathedral_npc_id": 683,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48337,6 +48628,7 @@
       "next_cathedral_npc_id": 684,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48441,6 +48733,7 @@
       "next_cathedral_npc_id": 685,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48545,6 +48838,7 @@
       "next_cathedral_npc_id": 686,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48649,6 +48943,7 @@
       "next_cathedral_npc_id": 687,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48753,6 +49048,7 @@
       "next_cathedral_npc_id": 688,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {
@@ -48857,6 +49153,7 @@
       "next_cathedral_npc_id": 689,
       "respawn_time": 5,
       "additional_xp": 3500,
+      "multi_combat": true,
       "att_anim": 44,
       "drops": [
         {

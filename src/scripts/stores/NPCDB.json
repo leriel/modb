@@ -5657,6 +5657,11 @@
           "spawn": true
         },
         {
+          "id": 2912,
+          "count": 10,
+          "spawn": true
+        },
+        {
           "id": 1159,
           "count": 10,
           "spawn": true
@@ -5707,6 +5712,11 @@
         },
         {
           "id": 991,
+          "count": 10,
+          "spawn": true
+        },
+        {
+          "id": 2912,
           "count": 10,
           "spawn": true
         },
@@ -5764,6 +5774,11 @@
           "spawn": true
         },
         {
+          "id": 2912,
+          "count": 10,
+          "spawn": true
+        },
+        {
           "id": 1159,
           "count": 10,
           "spawn": true
@@ -5817,6 +5832,11 @@
         },
         {
           "id": 991,
+          "count": 10,
+          "spawn": true
+        },
+        {
+          "id": 2912,
           "count": 10,
           "spawn": true
         },
@@ -7798,6 +7818,81 @@
     "coords": {
       "x": "62",
       "y": "74"
+    }
+  },
+  {
+    "id": 692,
+    "n": "Fellin Shopkeeper",
+    "t": "4",
+    "img_hash": "18 0 40 88 72 0 0 0 0 52 1 2",
+    "temp": {
+      "health": 99,
+      "total_defense": 99,
+      "total_strength": 99,
+      "total_accuracy": 99,
+      "content": [
+        {
+          "id": 3,
+          "count": 50,
+          "spawn": true
+        },
+        {
+          "id": 491,
+          "count": 10,
+          "spawn": true
+        },
+        {
+          "id": 493,
+          "count": 10,
+          "spawn": true
+        },
+        {
+          "id": 6,
+          "count": 10,
+          "spawn": true
+        },
+        {
+          "id": 5,
+          "count": 0
+        },
+        {
+          "id": 19,
+          "count": 0
+        },
+        {
+          "id": 47,
+          "count": 0
+        },
+        {
+          "id": 20,
+          "count": 0
+        },
+        {
+          "id": 21,
+          "count": 0
+        },
+        {
+          "id": 1303,
+          "count": 0
+        },
+        {
+          "id": 1304,
+          "count": 0
+        },
+        {
+          "id": 1125,
+          "count": 0
+        },
+        {
+          "id": 1126,
+          "count": 0
+        }
+      ]
+    },
+    "map": "Fellin",
+    "coords": {
+      "x": "66",
+      "y": "31"
     }
   }
 ]

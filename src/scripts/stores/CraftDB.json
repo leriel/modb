@@ -8414,8 +8414,8 @@
     "id": 1582,
     "n": "Dragonstone Boots",
     "level": 106,
-    "min_chance": 1,
-    "max_chance": 1,
+    "min_chance": 0.4,
+    "max_chance": 0.4,
     "skill": "forging",
     "matts": [
       {
@@ -35807,6 +35807,246 @@
   {
     "id": 1790,
     "n": "Oracle Robe",
+    "skill": "magic",
+    "level": 120,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "matts": [
+      {
+        "id": 990,
+        "c": 1
+      },
+      {
+        "id": 1581,
+        "c": 8
+      },
+      {
+        "id": 256,
+        "c": 4
+      }
+    ],
+    "xp": 500
+  },
+  {
+    "id": 2690,
+    "n": "Wizard Cape",
+    "skill": "magic",
+    "level": 9,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.5,
+    "max_chance": 0.5,
+    "matts": [
+      {
+        "id": 990,
+        "c": 3
+      },
+      {
+        "id": 265,
+        "c": 8
+      }
+    ],
+    "xp": 40
+  },
+  {
+    "id": 2644,
+    "n": "Witch Cape",
+    "skill": "magic",
+    "level": 30,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.5,
+    "max_chance": 0.5,
+    "matts": [
+      {
+        "id": 990,
+        "c": 3
+      },
+      {
+        "id": 266,
+        "c": 8
+      }
+    ],
+    "xp": 80
+  },
+  {
+    "id": 2648,
+    "n": "Battlemage Cape",
+    "skill": "magic",
+    "level": 47,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.5,
+    "max_chance": 0.5,
+    "matts": [
+      {
+        "id": 990,
+        "c": 3
+      },
+      {
+        "id": 1012,
+        "c": 8
+      },
+      {
+        "id": 254,
+        "c": 2
+      }
+    ],
+    "xp": 160
+  },
+  {
+    "id": 2652,
+    "n": "Merlin Cape",
+    "skill": "magic",
+    "level": 75,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.5,
+    "max_chance": 0.5,
+    "matts": [
+      {
+        "id": 990,
+        "c": 3
+      },
+      {
+        "id": 1013,
+        "c": 8
+      },
+      {
+        "id": 252,
+        "c": 3
+      }
+    ],
+    "xp": 290
+  },
+  {
+    "id": 2656,
+    "n": "Grendalf Cape",
+    "skill": "magic",
+    "level": 95,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.4,
+    "max_chance": 0.4,
+    "matts": [
+      {
+        "id": 990,
+        "c": 3
+      },
+      {
+        "id": 1014,
+        "c": 8
+      },
+      {
+        "id": 255,
+        "c": 4
+      }
+    ],
+    "xp": 360
+  },
+  {
+    "id": 2668,
+    "n": "Demonic Cape",
+    "skill": "magic",
+    "level": 110,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "matts": [
+      {
+        "id": 990,
+        "c": 1
+      },
+      {
+        "id": 1601,
+        "c": 8
+      },
+      {
+        "id": 256,
+        "c": 4
+      }
+    ],
+    "xp": 400
+  },
+  {
+    "id": 2670,
+    "n": "Nemesis Cape",
+    "skill": "magic",
+    "level": 115,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "matts": [
+      {
+        "id": 990,
+        "c": 1
+      },
+      {
+        "id": 1579,
+        "c": 8
+      },
+      {
+        "id": 256,
+        "c": 4
+      }
+    ],
+    "xp": 420
+  },
+  {
+    "id": 2672,
+    "n": "Oracle Cape",
     "skill": "magic",
     "level": 120,
     "source": {
