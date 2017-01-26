@@ -66,8 +66,9 @@ var Search = React.createClass({
   },
   render: function(){
     var format = this.state.filters.output;
+    var mainCat = this.state.filters.cat1;
     var results = this.state.results.map(function(o,i){
-      return format == 'tabled' ? (SearchItemRow(o)) : (
+      return format == 'tabled' ? (SearchItemRow(o, mainCat)) : (
         <li key={'item_' + o.id}>
           <Link to="item" params={{itemId:o.id}}>
             <ItemGraphic item={o} nolink={true} /><br />
@@ -92,6 +93,8 @@ var Search = React.createClass({
       {column: '- % cooldown', sortFunction: util.compareInt},
       {column: 'Archery', sortFunction: util.compareInt},
       {column: '% Archery boost', sortFunction: util.compareInt},
+      'Slots',
+      'Healing',
     ];
 
     var searchResults = format == 'grid' ? 

@@ -53,7 +53,7 @@ var obj = {
   },
   maps: maps,
   skills: skills,
-  itemCats:["Armor","Food","Jewelry","Material","Tool","Weapon","Spell","Pet","House"],
+  itemCats:["Armor","Food","Jewelry","Material","Tool","Weapon","Spell","Pet","House","Archery"],
   subCats: {
     0: { // Armor
       0: 'Head',
