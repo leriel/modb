@@ -636,7 +636,7 @@
     },
     "params": {
       "wearable": true,
-      "slot": 3,
+      "slot": 4,
       "min_carpenty": 1,
       "price": 10,
       "sc": 23
@@ -4421,6 +4421,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 14,
+      "enchant_id": 2921,
       "price": 5000,
       "sc": 10
     },
@@ -4461,6 +4462,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 12,
+      "enchant_id": 2919,
       "price": 3000,
       "sc": 10
     }
@@ -4498,6 +4500,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 10,
+      "enchant_id": 2918,
       "price": 1800,
       "sc": 10
     },
@@ -6442,7 +6445,7 @@
     },
     "params": {
       "wearable": true,
-      "slot": 3,
+      "slot": 4,
       "min_carpentry": 15,
       "price": 60,
       "sc": 23
@@ -8060,6 +8063,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 56,
+      "enchant_id": 2921,
       "price": 12000,
       "sc": 10
     }
@@ -8097,6 +8101,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 85,
+      "enchant_id": 2923,
       "price": 17000,
       "sc": 10
     }
@@ -8131,6 +8136,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 90,
+      "enchant_id": 2924,
       "price": 22000,
       "sc": 10
     }
@@ -29420,7 +29426,8 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_forging": 1,
+      "min_jewelry": 1,
+      "enchant_id": 2926,
       "price": 1250,
       "sc": 10
     }
@@ -34439,10 +34446,12 @@
       "min_health": 10,
       "price": 40000,
       "no_present": true,
-      "aim": 16,
-      "armor": 13,
+      "aim": 20,
+      "armor": 18,
       "enchant_bonus": 0.3,
-      "enchant_id": 1512
+      "enchant_id": 1512,
+      "melee_block": 1,
+      "magic_block": 1
     },
     "chances": [
       80,
@@ -34466,10 +34475,12 @@
       "min_health": 20,
       "price": 60000,
       "no_present": true,
-      "aim": 18,
-      "armor": 17,
+      "aim": 26,
+      "armor": 24,
       "enchant_bonus": 0.3,
       "enchant_id": 1513,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1511
     },
     "chances": [
@@ -34494,10 +34505,12 @@
       "min_health": 30,
       "price": 90000,
       "no_present": true,
-      "aim": 28,
-      "armor": 25,
+      "aim": 40,
+      "armor": 36,
       "enchant_bonus": 0.3,
       "enchant_id": 1514,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1512
     },
     "chances": [
@@ -34522,10 +34535,12 @@
       "min_health": 40,
       "price": 150000,
       "no_present": true,
-      "aim": 36,
-      "armor": 36,
+      "aim": 48,
+      "armor": 48,
       "enchant_bonus": 0.3,
       "enchant_id": 1515,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1513
     },
     "chances": [
@@ -34550,10 +34565,12 @@
       "min_health": 50,
       "price": 250000,
       "no_present": true,
-      "aim": 40,
-      "armor": 40,
+      "aim": 55,
+      "armor": 60,
       "enchant_bonus": 0.3,
       "enchant_id": 1516,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1514
     },
     "chances": [
@@ -34578,10 +34595,12 @@
       "min_health": 60,
       "price": 450000,
       "no_present": true,
-      "aim": 47,
-      "armor": 58,
+      "aim": 68,
+      "armor": 70,
       "enchant_bonus": 0.3,
       "enchant_id": 1517,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1515
     },
     "chances": [
@@ -34606,10 +34625,12 @@
       "min_health": 70,
       "price": 950000,
       "no_present": true,
-      "aim": 64,
-      "armor": 70,
+      "aim": 80,
+      "armor": 100,
       "enchant_bonus": 0.3,
       "enchant_id": 1518,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1516
     },
     "chances": [
@@ -34634,10 +34655,12 @@
       "min_health": 80,
       "price": 1129100,
       "no_present": true,
-      "aim": 85,
-      "armor": 85,
+      "aim": 116,
+      "armor": 122,
       "enchant_bonus": 0.3,
       "enchant_id": 1957,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1517
     },
     "chances": [
@@ -34662,10 +34685,12 @@
       "min_health": 10,
       "price": 40000,
       "no_present": true,
-      "power": 14,
-      "aim": 16,
+      "power": 20,
+      "aim": 20,
       "enchant_bonus": 0.3,
-      "enchant_id": 1520
+      "enchant_id": 1520,
+      "melee_block": 1,
+      "magic_block": 1
     },
     "chances": [
       80,
@@ -34689,10 +34714,12 @@
       "min_health": 20,
       "price": 60000,
       "no_present": true,
-      "power": 18,
-      "aim": 18,
+      "power": 24,
+      "aim": 26,
       "enchant_bonus": 0.3,
       "enchant_id": 1521,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1519
     },
     "chances": [
@@ -34717,10 +34744,12 @@
       "min_health": 30,
       "price": 90000,
       "no_present": true,
-      "power": 28,
-      "aim": 28,
+      "power": 36,
+      "aim": 40,
       "enchant_bonus": 0.3,
       "enchant_id": 1522,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1520
     },
     "chances": [
@@ -34745,10 +34774,12 @@
       "min_health": 40,
       "price": 150000,
       "no_present": true,
-      "power": 33,
-      "aim": 36,
+      "power": 48,
+      "aim": 48,
       "enchant_bonus": 0.3,
       "enchant_id": 1523,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1521
     },
     "chances": [
@@ -34773,10 +34804,12 @@
       "min_health": 50,
       "price": 250000,
       "no_present": true,
-      "power": 40,
-      "aim": 40,
+      "power": 60,
+      "aim": 55,
       "enchant_bonus": 0.3,
       "enchant_id": 1524,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1522
     },
     "chances": [
@@ -34801,10 +34834,12 @@
       "min_health": 60,
       "price": 400000,
       "no_present": true,
-      "power": 47,
-      "aim": 47,
+      "power": 70,
+      "aim": 68,
       "enchant_bonus": 0.3,
       "enchant_id": 1525,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1523
     },
     "chances": [
@@ -34829,10 +34864,12 @@
       "min_health": 70,
       "price": 950000,
       "no_present": true,
-      "power": 64,
-      "aim": 64,
+      "power": 100,
+      "aim": 80,
       "enchant_bonus": 0.3,
       "enchant_id": 1526,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1524
     },
     "chances": [
@@ -34857,10 +34894,12 @@
       "min_health": 80,
       "price": 1129100,
       "no_present": true,
-      "power": 85,
-      "aim": 85,
+      "power": 123,
+      "aim": 116,
       "enchant_bonus": 0.3,
       "enchant_id": 1965,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1525
     },
     "chances": [
@@ -34885,10 +34924,12 @@
       "min_health": 10,
       "price": 40000,
       "no_present": true,
-      "magic": 12,
-      "aim": 16,
+      "magic": 18,
+      "aim": 20,
       "enchant_bonus": 0.3,
-      "enchant_id": 1528
+      "enchant_id": 1528,
+      "melee_block": 1,
+      "magic_block": 1
     },
     "chances": [
       80,
@@ -34912,10 +34953,12 @@
       "min_health": 20,
       "price": 60000,
       "no_present": true,
-      "magic": 17,
-      "aim": 18,
+      "magic": 24,
+      "aim": 26,
       "enchant_bonus": 0.3,
       "enchant_id": 1529,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1527
     },
     "chances": [
@@ -34940,10 +34983,12 @@
       "min_health": 30,
       "price": 90000,
       "no_present": true,
-      "magic": 21,
-      "aim": 28,
+      "magic": 36,
+      "aim": 40,
       "enchant_bonus": 0.3,
       "enchant_id": 1530,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1528
     },
     "chances": [
@@ -34968,10 +35013,12 @@
       "min_health": 40,
       "price": 150000,
       "no_present": true,
-      "magic": 28,
-      "aim": 36,
+      "magic": 48,
+      "aim": 48,
       "enchant_bonus": 0.3,
       "enchant_id": 1531,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1529
     },
     "chances": [
@@ -34996,10 +35043,12 @@
       "min_health": 50,
       "price": 250000,
       "no_present": true,
-      "magic": 34,
-      "aim": 40,
+      "magic": 60,
+      "aim": 55,
       "enchant_bonus": 0.3,
       "enchant_id": 1532,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1530
     },
     "chances": [
@@ -35024,10 +35073,12 @@
       "min_health": 60,
       "price": 400000,
       "no_present": true,
-      "magic": 42,
-      "aim": 47,
+      "magic": 74,
+      "aim": 68,
       "enchant_bonus": 0.3,
       "enchant_id": 1533,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1531
     },
     "chances": [
@@ -35052,10 +35103,12 @@
       "min_health": 70,
       "price": 950000,
       "no_present": true,
-      "magic": 49,
-      "aim": 64,
+      "magic": 100,
+      "aim": 80,
       "enchant_bonus": 0.3,
       "enchant_id": 1534,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1532
     },
     "chances": [
@@ -35080,10 +35133,12 @@
       "min_health": 80,
       "price": 1129100,
       "no_present": true,
-      "magic": 70,
-      "aim": 85,
+      "magic": 110,
+      "aim": 116,
       "enchant_bonus": 0.3,
       "enchant_id": 1973,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1533
     },
     "chances": [
@@ -35108,10 +35163,12 @@
       "min_health": 10,
       "price": 40000,
       "no_present": true,
-      "armor": 13,
-      "power": 14,
+      "armor": 18,
+      "power": 20,
       "enchant_bonus": 0.3,
-      "enchant_id": 1536
+      "enchant_id": 1536,
+      "melee_block": 1,
+      "magic_block": 1
     },
     "chances": [
       80,
@@ -35135,10 +35192,12 @@
       "min_health": 20,
       "price": 60000,
       "no_present": true,
-      "armor": 17,
-      "power": 18,
+      "armor": 24,
+      "power": 24,
       "enchant_bonus": 0.3,
       "enchant_id": 1537,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1535
     },
     "chances": [
@@ -35163,10 +35222,12 @@
       "min_health": 30,
       "price": 90000,
       "no_present": true,
-      "armor": 25,
-      "power": 28,
+      "armor": 36,
+      "power": 36,
       "enchant_bonus": 0.3,
       "enchant_id": 1538,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1536
     },
     "chances": [
@@ -35191,10 +35252,12 @@
       "min_health": 40,
       "price": 150000,
       "no_present": true,
-      "armor": 36,
-      "power": 33,
+      "armor": 48,
+      "power": 48,
       "enchant_bonus": 0.3,
       "enchant_id": 1539,
+      "melee_block": 1,
+      "magic_block": 1,
       "enchants_from": 1537
     },
     "chances": [
@@ -35219,10 +35282,12 @@
       "min_health": 50,
       "price": 250000,
       "no_present": true,
-      "armor": 40,
-      "power": 40,
+      "armor": 60,
+      "power": 60,
       "enchant_bonus": 0.3,
       "enchant_id": 1540,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1538
     },
     "chances": [
@@ -35247,10 +35312,12 @@
       "min_health": 60,
       "price": 400000,
       "no_present": true,
-      "armor": 58,
-      "power": 47,
+      "armor": 70,
+      "power": 70,
       "enchant_bonus": 0.3,
       "enchant_id": 1541,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1539
     },
     "chances": [
@@ -35275,10 +35342,12 @@
       "min_health": 70,
       "price": 950000,
       "no_present": true,
-      "armor": 70,
-      "power": 64,
+      "armor": 100,
+      "power": 100,
       "enchant_bonus": 0.3,
       "enchant_id": 1542,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1540
     },
     "chances": [
@@ -35303,10 +35372,12 @@
       "min_health": 80,
       "price": 1129100,
       "no_present": true,
-      "armor": 85,
-      "power": 85,
+      "armor": 122,
+      "power": 123,
       "enchant_bonus": 0.3,
       "enchant_id": 1981,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1541
     },
     "chances": [
@@ -35331,10 +35402,12 @@
       "min_health": 10,
       "no_present": true,
       "price": 40000,
-      "aim": 15,
-      "armor": 14,
+      "aim": 22,
+      "armor": 20,
       "enchant_bonus": 0.3,
-      "enchant_id": 1544
+      "enchant_id": 1544,
+      "melee_block": 2,
+      "magic_block": 2
     },
     "chances": [
       80,
@@ -35358,10 +35431,12 @@
       "min_health": 20,
       "no_present": true,
       "price": 60000,
-      "aim": 18,
-      "armor": 18,
+      "aim": 26,
+      "armor": 26,
       "enchant_bonus": 0.3,
       "enchant_id": 1545,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1543
     },
     "chances": [
@@ -35386,10 +35461,12 @@
       "min_health": 30,
       "no_present": true,
       "price": 90000,
-      "aim": 32,
-      "armor": 22,
+      "aim": 46,
+      "armor": 32,
       "enchant_bonus": 0.3,
       "enchant_id": 1546,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1544
     },
     "chances": [
@@ -35414,10 +35491,12 @@
       "min_health": 40,
       "no_present": true,
       "price": 150000,
-      "aim": 45,
-      "armor": 45,
+      "aim": 65,
+      "armor": 65,
       "enchant_bonus": 0.3,
       "enchant_id": 1547,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1545
     },
     "chances": [
@@ -35442,10 +35521,12 @@
       "min_health": 50,
       "no_present": true,
       "price": 250000,
-      "aim": 45,
-      "armor": 56,
+      "aim": 75,
+      "armor": 80,
       "enchant_bonus": 0.3,
       "enchant_id": 1548,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1546
     },
     "chances": [
@@ -35470,10 +35551,12 @@
       "min_health": 60,
       "no_present": true,
       "price": 400000,
-      "aim": 64,
-      "armor": 81,
+      "aim": 92,
+      "armor": 90,
       "enchant_bonus": 0.3,
       "enchant_id": 1549,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1547
     },
     "chances": [
@@ -35498,10 +35581,12 @@
       "min_health": 70,
       "no_present": true,
       "price": 950000,
-      "aim": 81,
-      "armor": 91,
+      "aim": 120,
+      "armor": 131,
       "enchant_bonus": 0.3,
       "enchant_id": 1550,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1548
     },
     "chances": [
@@ -35526,10 +35611,12 @@
       "min_health": 80,
       "no_present": true,
       "price": 1129100,
-      "aim": 101,
-      "armor": 101,
+      "aim": 146,
+      "armor": 146,
       "enchant_bonus": 0.3,
       "enchant_id": 1989,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1549
     },
     "chances": [
@@ -35554,10 +35641,12 @@
       "min_health": 10,
       "no_present": true,
       "price": 40000,
-      "power": 15,
-      "aim": 15,
+      "power": 22,
+      "aim": 22,
       "enchant_bonus": 0.3,
-      "enchant_id": 1552
+      "enchant_id": 1552,
+      "melee_block": 2,
+      "magic_block": 2
     },
     "chances": [
       80,
@@ -35581,10 +35670,12 @@
       "min_health": 20,
       "no_present": true,
       "price": 60000,
-      "power": 18,
-      "aim": 18,
+      "power": 26,
+      "aim": 26,
       "enchant_bonus": 0.3,
       "enchant_id": 1553,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1551
     },
     "chances": [
@@ -35609,10 +35700,12 @@
       "min_health": 30,
       "no_present": true,
       "price": 90000,
-      "power": 20,
-      "aim": 32,
+      "power": 32,
+      "aim": 46,
       "enchant_bonus": 0.3,
       "enchant_id": 1554,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1552
     },
     "chances": [
@@ -35637,10 +35730,12 @@
       "min_health": 40,
       "no_present": true,
       "price": 150000,
-      "power": 36,
-      "aim": 45,
+      "power": 65,
+      "aim": 65,
       "enchant_bonus": 0.3,
       "enchant_id": 1555,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1553
     },
     "chances": [
@@ -35665,10 +35760,12 @@
       "min_health": 50,
       "no_present": true,
       "price": 250000,
-      "power": 45,
-      "aim": 45,
+      "power": 70,
+      "aim": 75,
       "enchant_bonus": 0.3,
       "enchant_id": 1556,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1554
     },
     "chances": [
@@ -35693,10 +35790,12 @@
       "min_health": 60,
       "no_present": true,
       "price": 400000,
-      "power": 64,
-      "aim": 64,
+      "power": 93,
+      "aim": 92,
       "enchant_bonus": 0.3,
       "enchant_id": 1557,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1555
     },
     "chances": [
@@ -35721,10 +35820,12 @@
       "min_health": 70,
       "no_present": true,
       "price": 950000,
-      "power": 81,
-      "aim": 81,
+      "power": 117,
+      "aim": 120,
       "enchant_bonus": 0.3,
       "enchant_id": 1558,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1556
     },
     "chances": [
@@ -35749,10 +35850,12 @@
       "min_health": 80,
       "no_present": true,
       "price": 1129100,
-      "power": 101,
-      "aim": 101,
+      "power": 146,
+      "aim": 146,
       "enchant_bonus": 0.3,
       "enchant_id": 1997,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1557
     },
     "chances": [
@@ -35777,10 +35880,12 @@
       "min_health": 10,
       "no_present": true,
       "price": 40000,
-      "magic": 14,
-      "aim": 15,
+      "magic": 20,
+      "aim": 22,
       "enchant_bonus": 0.3,
-      "enchant_id": 1560
+      "enchant_id": 1560,
+      "melee_block": 2,
+      "magic_block": 2
     },
     "chances": [
       80,
@@ -35804,10 +35909,12 @@
       "min_health": 20,
       "no_present": true,
       "price": 60000,
-      "magic": 18,
-      "aim": 18,
+      "magic": 26,
+      "aim": 26,
       "enchant_bonus": 0.3,
       "enchant_id": 1561,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1559
     },
     "chances": [
@@ -35833,9 +35940,11 @@
       "no_present": true,
       "price": 90000,
       "magic": 32,
-      "aim": 32,
+      "aim": 46,
       "enchant_bonus": 0.3,
       "enchant_id": 1562,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1560
     },
     "chances": [
@@ -35860,10 +35969,12 @@
       "min_health": 40,
       "no_present": true,
       "price": 150000,
-      "magic": 44,
-      "aim": 45,
+      "magic": 64,
+      "aim": 65,
       "enchant_bonus": 0.3,
       "enchant_id": 1563,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1561
     },
     "chances": [
@@ -35888,10 +35999,12 @@
       "min_health": 50,
       "no_present": true,
       "price": 250000,
-      "magic": 53,
-      "aim": 45,
+      "magic": 77,
+      "aim": 75,
       "enchant_bonus": 0.3,
       "enchant_id": 1564,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1562
     },
     "chances": [
@@ -35916,10 +36029,12 @@
       "min_health": 60,
       "no_present": true,
       "price": 400000,
-      "magic": 63,
-      "aim": 64,
+      "magic": 81,
+      "aim": 92,
       "enchant_bonus": 0.3,
       "enchant_id": 1565,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1563
     },
     "chances": [
@@ -35944,10 +36059,12 @@
       "min_health": 70,
       "no_present": true,
       "price": 950000,
-      "magic": 65,
-      "aim": 81,
+      "magic": 131,
+      "aim": 120,
       "enchant_bonus": 0.3,
       "enchant_id": 1566,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1564
     },
     "chances": [
@@ -35972,10 +36089,12 @@
       "min_health": 80,
       "no_present": true,
       "price": 1129100,
-      "magic": 91,
-      "aim": 101,
+      "magic": 137,
+      "aim": 146,
       "enchant_bonus": 0.3,
       "enchant_id": 2005,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1565
     },
     "chances": [
@@ -36000,10 +36119,12 @@
       "min_health": 10,
       "no_present": true,
       "price": 40000,
-      "armor": 14,
-      "power": 15,
+      "armor": 20,
+      "power": 22,
       "enchant_bonus": 0.3,
-      "enchant_id": 1568
+      "enchant_id": 1568,
+      "melee_block": 2,
+      "magic_block": 2
     },
     "chances": [
       80,
@@ -36027,10 +36148,12 @@
       "min_health": 20,
       "no_present": true,
       "price": 60000,
-      "armor": 18,
-      "power": 18,
+      "armor": 26,
+      "power": 26,
       "enchant_bonus": 0.3,
       "enchant_id": 1569,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1567
     },
     "chances": [
@@ -36055,10 +36178,12 @@
       "min_health": 30,
       "no_present": true,
       "price": 90000,
-      "armor": 22,
-      "power": 20,
+      "armor": 32,
+      "power": 32,
       "enchant_bonus": 0.3,
       "enchant_id": 1570,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1568
     },
     "chances": [
@@ -36083,10 +36208,12 @@
       "min_health": 40,
       "no_present": true,
       "price": 150000,
-      "armor": 45,
-      "power": 36,
+      "armor": 65,
+      "power": 65,
       "enchant_bonus": 0.3,
       "enchant_id": 1571,
+      "melee_block": 2,
+      "magic_block": 2,
       "enchants_from": 1569
     },
     "chances": [
@@ -36111,10 +36238,12 @@
       "min_health": 50,
       "no_present": true,
       "price": 250000,
-      "armor": 56,
-      "power": 45,
+      "armor": 80,
+      "power": 70,
       "enchant_bonus": 0.3,
       "enchant_id": 1572,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1570
     },
     "chances": [
@@ -36139,10 +36268,12 @@
       "min_health": 60,
       "no_present": true,
       "price": 400000,
-      "armor": 81,
-      "power": 64,
+      "armor": 90,
+      "power": 93,
       "enchant_bonus": 0.3,
       "enchant_id": 1573,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1571
     },
     "chances": [
@@ -36167,10 +36298,12 @@
       "min_health": 70,
       "no_present": true,
       "price": 950000,
-      "armor": 91,
-      "power": 81,
+      "armor": 131,
+      "power": 117,
       "enchant_bonus": 0.3,
       "enchant_id": 1574,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1572
     },
     "chances": [
@@ -36195,10 +36328,12 @@
       "min_health": 80,
       "no_present": true,
       "price": 1129100,
-      "armor": 101,
-      "power": 101,
+      "armor": 146,
+      "power": 146,
       "enchant_bonus": 0.3,
       "enchant_id": 2013,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1573
     },
     "chances": [
@@ -36346,7 +36481,8 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_jewelry": 1,
+      "min_jewelry": 90,
+      "enchant_id": 2925,
       "price": 40000,
       "sc": 10
     }
@@ -45691,10 +45827,12 @@
       "min_health": 85,
       "price": 1245860,
       "no_present": true,
-      "aim": 88,
-      "armor": 89,
+      "aim": 120,
+      "armor": 133,
       "enchant_bonus": 0.3,
       "enchant_id": 1958,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1518
     },
     "chances": [
@@ -45719,10 +45857,12 @@
       "min_health": 90,
       "price": 1452225,
       "no_present": true,
-      "aim": 91,
-      "armor": 94,
+      "aim": 130,
+      "armor": 140,
       "enchant_bonus": 0.3,
       "enchant_id": 1959,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1957
     },
     "chances": [
@@ -45747,10 +45887,12 @@
       "min_health": 95,
       "price": 1452225,
       "no_present": true,
-      "aim": 95,
-      "armor": 95,
+      "aim": 136,
+      "armor": 147,
       "enchant_bonus": 0.2,
       "enchant_id": 1960,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1958
     },
     "chances": [
@@ -45775,10 +45917,12 @@
       "min_health": 100,
       "price": 1684420,
       "no_present": true,
-      "aim": 100,
-      "armor": 100,
+      "aim": 144,
+      "armor": 150,
       "enchant_bonus": 0.2,
       "enchant_id": 1961,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1959
     },
     "chances": [
@@ -45803,10 +45947,12 @@
       "min_health": 105,
       "price": 1810000,
       "no_present": true,
-      "aim": 104,
-      "armor": 104,
+      "aim": 150,
+      "armor": 153,
       "enchant_bonus": 0.2,
       "enchant_id": 1962,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1960
     },
     "chances": [
@@ -45831,10 +45977,12 @@
       "min_health": 110,
       "price": 1942220,
       "no_present": true,
-      "aim": 111,
-      "armor": 106,
+      "aim": 153,
+      "armor": 166,
       "enchant_bonus": 0.2,
       "enchant_id": 1963,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1961
     },
     "chances": [
@@ -45859,10 +46007,12 @@
       "min_health": 115,
       "price": 2008640,
       "no_present": true,
-      "aim": 141,
-      "armor": 141,
+      "aim": 204,
+      "armor": 204,
       "enchant_bonus": 0.2,
       "enchant_id": 1964,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1962
     },
     "chances": [
@@ -45887,8 +46037,10 @@
       "min_health": 120,
       "price": 2254484,
       "no_present": true,
-      "aim": 155,
-      "armor": 155,
+      "aim": 224,
+      "armor": 224,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1963
     }
   },
@@ -45907,10 +46059,12 @@
       "min_health": 85,
       "price": 1245860,
       "no_present": true,
-      "power": 88,
-      "aim": 88,
+      "power": 133,
+      "aim": 120,
       "enchant_bonus": 0.3,
       "enchant_id": 1966,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1526
     },
     "chances": [
@@ -45935,10 +46089,12 @@
       "min_health": 90,
       "price": 1452225,
       "no_present": true,
-      "power": 91,
-      "aim": 91,
+      "power": 139,
+      "aim": 130,
       "enchant_bonus": 0.3,
       "enchant_id": 1967,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1965
     },
     "chances": [
@@ -45963,10 +46119,12 @@
       "min_health": 95,
       "price": 1568882,
       "no_present": true,
-      "power": 95,
-      "aim": 95,
+      "power": 144,
+      "aim": 136,
       "enchant_bonus": 0.2,
       "enchant_id": 1968,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1966
     },
     "chances": [
@@ -45991,10 +46149,12 @@
       "min_health": 100,
       "price": 1684420,
       "no_present": true,
-      "power": 100,
-      "aim": 100,
+      "power": 149,
+      "aim": 144,
       "enchant_bonus": 0.2,
       "enchant_id": 1969,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1967
     },
     "chances": [
@@ -46019,10 +46179,12 @@
       "min_health": 105,
       "price": 1810000,
       "no_present": true,
-      "power": 104,
-      "aim": 104,
+      "power": 151,
+      "aim": 150,
       "enchant_bonus": 0.2,
       "enchant_id": 1970,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1968
     },
     "chances": [
@@ -46047,10 +46209,12 @@
       "min_health": 110,
       "price": 1942220,
       "no_present": true,
-      "power": 106,
-      "aim": 111,
+      "power": 153,
+      "aim": 153,
       "enchant_bonus": 0.2,
       "enchant_id": 1971,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1969
     },
     "chances": [
@@ -46075,10 +46239,12 @@
       "min_health": 115,
       "price": 2008640,
       "no_present": true,
-      "power": 141,
-      "aim": 141,
+      "power": 204,
+      "aim": 204,
       "enchant_bonus": 0.2,
       "enchant_id": 1972,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1970
     },
     "chances": [
@@ -46103,8 +46269,10 @@
       "min_health": 120,
       "price": 2254484,
       "no_present": true,
-      "power": 155,
-      "aim": 155,
+      "power": 224,
+      "aim": 224,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1971
     }
   },
@@ -46123,10 +46291,12 @@
       "min_health": 85,
       "price": 1245860,
       "no_present": true,
-      "magic": 75,
-      "aim": 88,
+      "magic": 115,
+      "aim": 120,
       "enchant_bonus": 0.3,
       "enchant_id": 1974,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1534
     },
     "chances": [
@@ -46151,10 +46321,12 @@
       "min_health": 90,
       "price": 1452225,
       "no_present": true,
-      "magic": 80,
-      "aim": 91,
+      "magic": 133,
+      "aim": 130,
       "enchant_bonus": 0.3,
       "enchant_id": 1975,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1973
     },
     "chances": [
@@ -46179,10 +46351,12 @@
       "min_health": 95,
       "price": 1568882,
       "no_present": true,
-      "magic": 84,
-      "aim": 95,
+      "magic": 138,
+      "aim": 136,
       "enchant_bonus": 0.2,
       "enchant_id": 1976,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1974
     },
     "chances": [
@@ -46207,10 +46381,12 @@
       "min_health": 100,
       "price": 1684420,
       "no_present": true,
-      "magic": 89,
-      "aim": 100,
+      "magic": 144,
+      "aim": 144,
       "enchant_bonus": 0.2,
       "enchant_id": 1977,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1975
     },
     "chances": [
@@ -46235,10 +46411,12 @@
       "min_health": 105,
       "price": 1810000,
       "no_present": true,
-      "magic": 94,
-      "aim": 104,
+      "magic": 153,
+      "aim": 150,
       "enchant_bonus": 0.2,
       "enchant_id": 1978,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1976
     },
     "chances": [
@@ -46263,10 +46441,12 @@
       "min_health": 110,
       "price": 1942220,
       "no_present": true,
-      "magic": 96,
-      "aim": 111,
+      "magic": 153,
+      "aim": 153,
       "enchant_bonus": 0.2,
       "enchant_id": 1979,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1977
     },
     "chances": [
@@ -46291,10 +46471,12 @@
       "min_health": 115,
       "price": 2008640,
       "no_present": true,
-      "magic": 100,
-      "aim": 141,
+      "magic": 153,
+      "aim": 204,
       "enchant_bonus": 0.2,
       "enchant_id": 1980,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1978
     },
     "chances": [
@@ -46319,8 +46501,10 @@
       "min_health": 120,
       "price": 2254484,
       "no_present": true,
-      "magic": 106,
-      "aim": 155,
+      "magic": 153,
+      "aim": 224,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1979
     }
   },
@@ -46339,10 +46523,12 @@
       "min_health": 85,
       "price": 1245860,
       "no_present": true,
-      "armor": 89,
-      "power": 88,
+      "armor": 133,
+      "power": 133,
       "enchant_bonus": 0.3,
       "enchant_id": 1982,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1542
     },
     "chances": [
@@ -46367,10 +46553,12 @@
       "min_health": 90,
       "price": 1452225,
       "no_present": true,
-      "armor": 91,
-      "power": 91,
+      "armor": 140,
+      "power": 139,
       "enchant_bonus": 0.3,
       "enchant_id": 1983,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1981
     },
     "chances": [
@@ -46395,10 +46583,12 @@
       "min_health": 95,
       "price": 1568882,
       "no_present": true,
-      "armor": 95,
-      "power": 95,
+      "armor": 147,
+      "power": 144,
       "enchant_bonus": 0.2,
       "enchant_id": 1984,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1982
     },
     "chances": [
@@ -46423,10 +46613,12 @@
       "min_health": 100,
       "price": 1684420,
       "no_present": true,
-      "armor": 100,
-      "power": 100,
+      "armor": 150,
+      "power": 149,
       "enchant_bonus": 0.2,
       "enchant_id": 1985,
+      "melee_block": 3,
+      "magic_block": 3,
       "enchants_from": 1983
     },
     "chances": [
@@ -46451,10 +46643,12 @@
       "min_health": 105,
       "price": 1810000,
       "no_present": true,
-      "armor": 104,
-      "power": 104,
+      "armor": 153,
+      "power": 151,
       "enchant_bonus": 0.2,
       "enchant_id": 1986,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1984
     },
     "chances": [
@@ -46479,10 +46673,12 @@
       "min_health": 110,
       "price": 1942220,
       "no_present": true,
-      "armor": 106,
-      "power": 106,
+      "armor": 166,
+      "power": 153,
       "enchant_bonus": 0.2,
       "enchant_id": 1987,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1985
     },
     "chances": [
@@ -46507,10 +46703,12 @@
       "min_health": 115,
       "price": 2008640,
       "no_present": true,
-      "armor": 141,
-      "power": 141,
+      "armor": 204,
+      "power": 204,
       "enchant_bonus": 0.2,
       "enchant_id": 1988,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1986
     },
     "chances": [
@@ -46535,8 +46733,10 @@
       "min_health": 120,
       "price": 2254484,
       "no_present": true,
-      "armor": 155,
-      "power": 155,
+      "armor": 224,
+      "power": 224,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1987
     }
   },
@@ -46555,10 +46755,12 @@
       "min_health": 85,
       "no_present": true,
       "price": 1245860,
-      "aim": 108,
-      "armor": 107,
+      "aim": 152,
+      "armor": 151,
       "enchant_bonus": 0.3,
       "enchant_id": 1990,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1550
     },
     "chances": [
@@ -46583,10 +46785,12 @@
       "min_health": 90,
       "no_present": true,
       "price": 1452225,
-      "aim": 115,
-      "armor": 111,
+      "aim": 160,
+      "armor": 155,
       "enchant_bonus": 0.3,
       "enchant_id": 1991,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1989
     },
     "chances": [
@@ -46611,10 +46815,12 @@
       "min_health": 95,
       "no_present": true,
       "price": 1568882,
-      "aim": 122,
-      "armor": 114,
+      "aim": 176,
+      "armor": 162,
       "enchant_bonus": 0.2,
       "enchant_id": 1992,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1990
     },
     "chances": [
@@ -46639,10 +46845,12 @@
       "min_health": 100,
       "no_present": true,
       "price": 1684420,
-      "aim": 124,
-      "armor": 120,
+      "aim": 180,
+      "armor": 167,
       "enchant_bonus": 0.2,
       "enchant_id": 1993,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1991
     },
     "chances": [
@@ -46667,10 +46875,12 @@
       "min_health": 105,
       "no_present": true,
       "price": 1810000,
-      "aim": 128,
-      "armor": 125,
+      "aim": 183,
+      "armor": 180,
       "enchant_bonus": 0.2,
       "enchant_id": 1994,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 1992
     },
     "chances": [
@@ -46695,10 +46905,12 @@
       "min_health": 110,
       "no_present": true,
       "price": 1942220,
-      "aim": 130,
-      "armor": 130,
+      "aim": 187,
+      "armor": 187,
       "enchant_bonus": 0.2,
       "enchant_id": 1995,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 1993
     },
     "chances": [
@@ -46723,10 +46935,12 @@
       "min_health": 115,
       "no_present": true,
       "price": 2008640,
-      "aim": 153,
-      "armor": 153,
+      "aim": 221,
+      "armor": 221,
       "enchant_bonus": 0.2,
       "enchant_id": 1996,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 1994
     },
     "chances": [
@@ -46751,8 +46965,10 @@
       "min_health": 120,
       "no_present": true,
       "price": 2254484,
-      "aim": 169,
-      "armor": 169,
+      "aim": 243,
+      "armor": 243,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 1995
     }
   },
@@ -46771,10 +46987,12 @@
       "min_health": 85,
       "no_present": true,
       "price": 1245860,
-      "power": 108,
-      "aim": 108,
+      "power": 152,
+      "aim": 152,
       "enchant_bonus": 0.3,
       "enchant_id": 1998,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1558
     },
     "chances": [
@@ -46799,10 +47017,12 @@
       "min_health": 90,
       "no_present": true,
       "price": 1452225,
-      "power": 115,
-      "aim": 115,
+      "power": 160,
+      "aim": 160,
       "enchant_bonus": 0.3,
       "enchant_id": 1999,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1997
     },
     "chances": [
@@ -46827,10 +47047,12 @@
       "min_health": 95,
       "no_present": true,
       "price": 1568882,
-      "power": 122,
-      "aim": 122,
+      "power": 176,
+      "aim": 176,
       "enchant_bonus": 0.2,
       "enchant_id": 2000,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1998
     },
     "chances": [
@@ -46855,10 +47077,12 @@
       "min_health": 100,
       "no_present": true,
       "price": 1684420,
-      "power": 124,
-      "aim": 124,
+      "power": 179,
+      "aim": 180,
       "enchant_bonus": 0.2,
       "enchant_id": 2001,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1999
     },
     "chances": [
@@ -46883,10 +47107,12 @@
       "min_health": 105,
       "no_present": true,
       "price": 1810000,
-      "power": 128,
-      "aim": 128,
+      "power": 184,
+      "aim": 183,
       "enchant_bonus": 0.2,
       "enchant_id": 2002,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2000
     },
     "chances": [
@@ -46911,10 +47137,12 @@
       "min_health": 110,
       "no_present": true,
       "price": 1942220,
-      "power": 130,
-      "aim": 130,
+      "power": 187,
+      "aim": 187,
       "enchant_bonus": 0.2,
       "enchant_id": 2003,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2001
     },
     "chances": [
@@ -46939,10 +47167,12 @@
       "min_health": 115,
       "no_present": true,
       "price": 2008640,
-      "power": 153,
-      "aim": 153,
+      "power": 221,
+      "aim": 221,
       "enchant_bonus": 0.2,
       "enchant_id": 2004,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2002
     },
     "chances": [
@@ -46967,8 +47197,10 @@
       "min_health": 120,
       "no_present": true,
       "price": 2254484,
-      "power": 169,
-      "aim": 169,
+      "power": 243,
+      "aim": 243,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2003
     }
   },
@@ -46987,10 +47219,12 @@
       "min_health": 85,
       "no_present": true,
       "price": 1245860,
-      "magic": 96,
-      "aim": 108,
+      "magic": 144,
+      "aim": 152,
       "enchant_bonus": 0.3,
       "enchant_id": 2006,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1566
     },
     "chances": [
@@ -47015,10 +47249,12 @@
       "min_health": 90,
       "no_present": true,
       "price": 1452225,
-      "magic": 105,
-      "aim": 115,
+      "magic": 152,
+      "aim": 160,
       "enchant_bonus": 0.3,
       "enchant_id": 2007,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 2005
     },
     "chances": [
@@ -47043,10 +47279,12 @@
       "min_health": 95,
       "no_present": true,
       "price": 1568882,
-      "magic": 108,
-      "aim": 122,
+      "magic": 158,
+      "aim": 176,
       "enchant_bonus": 0.2,
       "enchant_id": 2008,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 2006
     },
     "chances": [
@@ -47071,10 +47309,12 @@
       "min_health": 100,
       "no_present": true,
       "price": 1684420,
-      "magic": 111,
-      "aim": 124,
+      "magic": 168,
+      "aim": 180,
       "enchant_bonus": 0.2,
       "enchant_id": 2009,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 2007
     },
     "chances": [
@@ -47099,10 +47339,12 @@
       "min_health": 105,
       "no_present": true,
       "price": 1810000,
-      "magic": 114,
-      "aim": 128,
+      "magic": 180,
+      "aim": 183,
       "enchant_bonus": 0.2,
       "enchant_id": 2010,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2008
     },
     "chances": [
@@ -47127,10 +47369,12 @@
       "min_health": 110,
       "no_present": true,
       "price": 1942220,
-      "magic": 116,
-      "aim": 130,
+      "magic": 180,
+      "aim": 187,
       "enchant_bonus": 0.2,
       "enchant_id": 2011,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2009
     },
     "chances": [
@@ -47155,10 +47399,12 @@
       "min_health": 115,
       "no_present": true,
       "price": 2008640,
-      "magic": 153,
-      "aim": 153,
+      "magic": 180,
+      "aim": 221,
       "enchant_bonus": 0.2,
       "enchant_id": 2012,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2010
     },
     "chances": [
@@ -47183,8 +47429,10 @@
       "min_health": 120,
       "no_present": true,
       "price": 2254484,
-      "magic": 169,
-      "aim": 169,
+      "magic": 180,
+      "aim": 243,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2011
     }
   },
@@ -47203,10 +47451,12 @@
       "min_health": 85,
       "no_present": true,
       "price": 1245860,
-      "armor": 107,
-      "power": 108,
+      "armor": 151,
+      "power": 152,
       "enchant_bonus": 0.3,
       "enchant_id": 2014,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 1574
     },
     "chances": [
@@ -47231,10 +47481,12 @@
       "min_health": 90,
       "no_present": true,
       "price": 1452225,
-      "armor": 111,
-      "power": 115,
+      "armor": 155,
+      "power": 160,
       "enchant_bonus": 0.3,
       "enchant_id": 2015,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 2013
     },
     "chances": [
@@ -47259,10 +47511,12 @@
       "min_health": 95,
       "no_present": true,
       "price": 1568882,
-      "armor": 114,
-      "power": 122,
+      "armor": 162,
+      "power": 176,
       "enchant_bonus": 0.2,
       "enchant_id": 2016,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 2014
     },
     "chances": [
@@ -47287,10 +47541,12 @@
       "min_health": 100,
       "no_present": true,
       "price": 1684420,
-      "armor": 120,
-      "power": 124,
+      "armor": 167,
+      "power": 179,
       "enchant_bonus": 0.2,
       "enchant_id": 2017,
+      "melee_block": 4,
+      "magic_block": 4,
       "enchants_from": 2015
     },
     "chances": [
@@ -47315,10 +47571,12 @@
       "min_health": 105,
       "no_present": true,
       "price": 1810000,
-      "armor": 125,
-      "power": 128,
+      "armor": 180,
+      "power": 184,
       "enchant_bonus": 0.2,
       "enchant_id": 2018,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2016
     },
     "chances": [
@@ -47343,10 +47601,12 @@
       "min_health": 110,
       "no_present": true,
       "price": 1942220,
-      "armor": 130,
-      "power": 130,
+      "armor": 187,
+      "power": 187,
       "enchant_bonus": 0.2,
       "enchant_id": 2019,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2017
     },
     "chances": [
@@ -47371,10 +47631,12 @@
       "min_health": 115,
       "no_present": true,
       "price": 2008640,
-      "armor": 153,
-      "power": 153,
+      "armor": 221,
+      "power": 221,
       "enchant_bonus": 0.2,
       "enchant_id": 2020,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2018
     },
     "chances": [
@@ -47399,8 +47661,10 @@
       "min_health": 120,
       "no_present": true,
       "price": 2254484,
-      "armor": 169,
-      "power": 169,
+      "armor": 243,
+      "power": 243,
+      "melee_block": 5,
+      "magic_block": 5,
       "enchants_from": 2019
     }
   },
@@ -50862,7 +51126,7 @@
   },
   {
     "id": 2123,
-    "n": "Quiver Of Bone Dust ",
+    "n": "Quiver Of Bone Dust",
     "t": 9,
     "img": {
       "sheet": "62",
@@ -50886,7 +51150,7 @@
   },
   {
     "id": 2124,
-    "n": "Enchanted Quiver Of Bone Dust ",
+    "n": "Enchanted Quiver Of Bone Dust",
     "t": 9,
     "img": {
       "sheet": "62",
@@ -69642,6 +69906,3428 @@
       "slot": 15,
       "price": 120,
       "sc": 0
+    }
+  },
+  {
+    "id": 2913,
+    "n": "Kaolinite Clay",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 5,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_mining": 50,
+      "price": 96,
+      "sc": 2
+    }
+  },
+  {
+    "id": 2914,
+    "n": "Kaolinite Ring Mould Box",
+    "t": 0,
+    "img": {
+      "sheet": "8",
+      "x": 1,
+      "y": 6
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        292,
+        292,
+        292
+      ]
+    }
+  },
+  {
+    "id": 2915,
+    "n": "Kaolinite Necklace Mould Box",
+    "t": 0,
+    "img": {
+      "sheet": "8",
+      "x": 2,
+      "y": 6
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        293,
+        293,
+        293
+      ]
+    }
+  },
+  {
+    "id": 2916,
+    "n": "Kaolinite Ring Mould Box [R]",
+    "t": 0,
+    "img": {
+      "sheet": "8",
+      "x": 0,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        292,
+        292,
+        292,
+        292,
+        292,
+        292,
+        292
+      ]
+    }
+  },
+  {
+    "id": 2917,
+    "n": "Kaolinite Necklace Mould Box [R]",
+    "t": 0,
+    "img": {
+      "sheet": "8",
+      "x": 1,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        293,
+        293,
+        293,
+        293,
+        293,
+        293,
+        293
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "n": "Cut Sapphire [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 6,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 10,
+      "price": 2430,
+      "enchants_from": 201,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2919,
+    "n": "Cut Emerald [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 7,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 12,
+      "price": 4050,
+      "enchants_from": 199,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2920,
+    "n": "Cut Diamond [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 8,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 16,
+      "price": 11475,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2921,
+    "n": "Cut Ruby [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 10,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 14,
+      "price": 5000,
+      "enchants_from": 386,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2922,
+    "n": "Cut Amethyst [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 9,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 56,
+      "price": 16200,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2923,
+    "n": "Cut Black Opal [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 11,
+      "y": 25
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 85,
+      "price": 22950,
+      "enchants_from": 388,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2924,
+    "n": "Cut Jadeite [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 0,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 90,
+      "enchant_id": 2924,
+      "price": 29700,
+      "enchants_from": 390,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2925,
+    "n": "Cut Star Diamond [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 1,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 1,
+      "enchant_id": 2925,
+      "price": 54000,
+      "enchants_from": 1581,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2926,
+    "n": "Cut Crystal [R]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 2,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_jewelry": 1,
+      "price": 1688,
+      "enchants_from": 1301,
+      "sc": 10
+    }
+  },
+  {
+    "id": 2927,
+    "n": "Silver Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 10,
+      "price": 10822,
+      "armor": 15,
+      "enchant_id": 2928
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2928,
+    "n": "Enchanted Silver Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 10,
+      "price": 16774,
+      "armor": 18,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2927
+    }
+  },
+  {
+    "id": 2929,
+    "n": "Silver Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 12,
+      "slot": 8,
+      "price": 16594,
+      "magic": 15,
+      "enchant_id": 2930
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2930,
+    "n": "Enchanted Silver Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 12,
+      "slot": 8,
+      "price": 25721,
+      "magic": 18,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2929
+    }
+  },
+  {
+    "id": 2931,
+    "n": "Silver Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 14,
+      "slot": 8,
+      "price": 25132,
+      "power": 17,
+      "aim": 17,
+      "enchant_id": 2932
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2932,
+    "n": "Enchanted Silver Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 14,
+      "slot": 8,
+      "price": 38954,
+      "power": 17,
+      "aim": 17,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2931
+    }
+  },
+  {
+    "id": 2933,
+    "n": "Silver Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 16,
+      "price": 43049,
+      "magic": 20,
+      "armor": 20,
+      "aim": 20,
+      "power": 20,
+      "enchant_id": 2934
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2934,
+    "n": "Enchanted Silver Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 16,
+      "price": 66726,
+      "magic": 24,
+      "armor": 24,
+      "aim": 24,
+      "power": 24,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2933
+    }
+  },
+  {
+    "id": 2935,
+    "n": "Silver Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 19
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 18,
+      "price": 8177,
+      "armor": 17,
+      "archery": 17,
+      "enchant_id": 2936
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2936,
+    "n": "Enchanted Silver Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 19
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 18,
+      "price": 12674,
+      "armor": 20,
+      "archery": 20,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2935
+    }
+  },
+  {
+    "id": 2937,
+    "n": "Golden Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 20,
+      "slot": 8,
+      "price": 17316,
+      "armor": 20,
+      "enchant_id": 2938
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2938,
+    "n": "Enchanted Golden Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 20,
+      "slot": 8,
+      "price": 26839,
+      "armor": 24,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2937
+    }
+  },
+  {
+    "id": 2939,
+    "n": "Golden Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 22,
+      "price": 23088,
+      "magic": 20,
+      "enchant_id": 2940
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2940,
+    "n": "Enchanted Golden Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 22,
+      "price": 35786,
+      "magic": 24,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2939
+    }
+  },
+  {
+    "id": 2941,
+    "n": "Golden Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 24,
+      "price": 32708,
+      "aim": 22,
+      "power": 22,
+      "enchant_id": 2942
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2942,
+    "n": "Enchanted Golden Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 24,
+      "price": 50697,
+      "aim": 26,
+      "power": 26,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2941
+    }
+  },
+  {
+    "id": 2943,
+    "n": "Golden Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 26,
+      "slot": 8,
+      "price": 49543,
+      "aim": 25,
+      "power": 25,
+      "magic": 25,
+      "armor": 25,
+      "enchant_id": 2944
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2944,
+    "n": "Enchanted Golden Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 26,
+      "slot": 8,
+      "price": 76791,
+      "aim": 30,
+      "power": 30,
+      "magic": 30,
+      "armor": 30,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2943
+    }
+  },
+  {
+    "id": 2945,
+    "n": "White Gold Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 30,
+      "slot": 8,
+      "price": 27898,
+      "armor": 30,
+      "enchant_id": 2946
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2946,
+    "n": "Enchanted White Gold Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 30,
+      "slot": 8,
+      "price": 43241,
+      "armor": 36,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2945
+    }
+  },
+  {
+    "id": 2947,
+    "n": "White Gold Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 33,
+      "slot": 8,
+      "price": 39442,
+      "magic": 30,
+      "enchant_id": 2948
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2948,
+    "n": "Enchanted White Gold Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 33,
+      "slot": 8,
+      "price": 61135,
+      "magic": 36,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2947
+    }
+  },
+  {
+    "id": 2949,
+    "n": "White Gold Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 36,
+      "slot": 8,
+      "price": 58682,
+      "power": 34,
+      "aim": 34,
+      "enchant_id": 2950
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2950,
+    "n": "Enchanted White Gold Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 36,
+      "slot": 8,
+      "price": 90957,
+      "power": 40,
+      "aim": 40,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2949
+    }
+  },
+  {
+    "id": 2951,
+    "n": "White Gold Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 40,
+      "slot": 8,
+      "price": 92352,
+      "armor": 40,
+      "power": 40,
+      "aim": 40,
+      "magic": 40,
+      "enchant_id": 2952
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2952,
+    "n": "Enchanted White Gold Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 40,
+      "slot": 8,
+      "price": 143145,
+      "armor": 48,
+      "power": 48,
+      "aim": 48,
+      "magic": 48,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2951
+    }
+  },
+  {
+    "id": 2953,
+    "n": "White Gold Amethyst Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 45,
+      "price": 136604,
+      "armor": 47,
+      "magic": 47,
+      "enchant_id": 2954
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2954,
+    "n": "Enchanted White Gold Amethyst Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 45,
+      "price": 211736,
+      "armor": 56,
+      "magic": 56,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2953
+    }
+  },
+  {
+    "id": 2955,
+    "n": "Platinum Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 50,
+      "price": 61568,
+      "armor": 50,
+      "enchant_id": 2956
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2956,
+    "n": "Enchanted Platinum Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 50,
+      "price": 95430,
+      "armor": 60,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2955
+    }
+  },
+  {
+    "id": 2957,
+    "n": "Platinum Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 55,
+      "price": 84656,
+      "magic": 50,
+      "enchant_id": 2958
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2958,
+    "n": "Enchanted Platinum Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 55,
+      "price": 131216,
+      "magic": 60,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2957
+    }
+  },
+  {
+    "id": 2959,
+    "n": "Platinum Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 60,
+      "price": 123136,
+      "aim": 57,
+      "power": 57,
+      "enchant_id": 2960
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2960,
+    "n": "Enchanted Platinum Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 60,
+      "price": 190860,
+      "aim": 69,
+      "power": 69,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2959
+    }
+  },
+  {
+    "id": 2961,
+    "n": "Platinum Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 65,
+      "price": 190476,
+      "magic": 71,
+      "armor": 71,
+      "aim": 71,
+      "power": 71,
+      "enchant_id": 2962
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2962,
+    "n": "Enchanted Platinum Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 65,
+      "price": 295237,
+      "magic": 85,
+      "armor": 85,
+      "aim": 85,
+      "power": 85,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2961
+    }
+  },
+  {
+    "id": 2963,
+    "n": "Platinum Amethyst Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 70,
+      "slot": 8,
+      "price": 486531,
+      "armor": 84,
+      "magic": 84,
+      "enchant_id": 2964
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2964,
+    "n": "Enchanted Platinum Amethyst Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 70,
+      "slot": 8,
+      "price": 754123,
+      "armor": 101,
+      "magic": 101,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2963
+    }
+  },
+  {
+    "id": 2965,
+    "n": "Platinum Black Opal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 75,
+      "price": 511784,
+      "magic": 59,
+      "armor": 77,
+      "aim": 77,
+      "power": 77,
+      "enchant_id": 2966
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2966,
+    "n": "Enchanted Platinum Black Opal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 75,
+      "price": 793265,
+      "magic": 71,
+      "armor": 93,
+      "aim": 93,
+      "power": 93,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2965
+    }
+  },
+  {
+    "id": 2967,
+    "n": "Platinum Jadeite Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 80,
+      "slot": 8,
+      "price": 962000,
+      "power": 102,
+      "aim": 102,
+      "armor": 102,
+      "magic": 67,
+      "enchant_id": 2968
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2968,
+    "n": "Enchanted Platinum Jadeite Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 80,
+      "slot": 8,
+      "price": 1491100,
+      "power": 123,
+      "aim": 123,
+      "armor": 123,
+      "magic": 81,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2967
+    }
+  },
+  {
+    "id": 2969,
+    "n": "Platinum Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 64,
+      "slot": 8,
+      "price": 75036,
+      "armor": 97,
+      "archery": 97,
+      "enchant_id": 2970
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 2970,
+    "n": "Enchanted Platinum Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 64,
+      "slot": 8,
+      "price": 116305,
+      "armor": 117,
+      "archery": 117,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2969
+    }
+  },
+  {
+    "id": 2971,
+    "n": "White Gold Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 19
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 42,
+      "slot": 8,
+      "price": 33189,
+      "armor": 34,
+      "archery": 34,
+      "enchant_id": 2972
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2972,
+    "n": "Enchanted White Gold Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 19
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 42,
+      "slot": 8,
+      "price": 51442,
+      "armor": 40,
+      "archery": 40,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2971
+    }
+  },
+  {
+    "id": 2973,
+    "n": "Golden Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 19
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 28,
+      "slot": 8,
+      "price": 14670,
+      "armor": 22,
+      "archery": 22,
+      "enchant_id": 2974
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 2974,
+    "n": "Enchanted Golden Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 19
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 28,
+      "slot": 8,
+      "price": 22739,
+      "armor": 26,
+      "archery": 26,
+      "melee_block": 1,
+      "magic_block": 1,
+      "enchants_from": 2973
+    }
+  },
+  {
+    "id": 2975,
+    "n": "Redhodium Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 85,
+      "price": 110324,
+      "armor": 111,
+      "enchant_id": 2976
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2976,
+    "n": "Enchanted Redhodium Sapphire Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 85,
+      "price": 171003,
+      "armor": 133,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 2975
+    }
+  },
+  {
+    "id": 2977,
+    "n": "Redhodium Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 90,
+      "price": 144956,
+      "magic": 111,
+      "enchant_id": 2978
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2978,
+    "n": "Enchanted Redhodium Emerald Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 90,
+      "price": 224682,
+      "magic": 133,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 2977
+    }
+  },
+  {
+    "id": 2979,
+    "n": "Redhodium Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 95,
+      "price": 202676,
+      "aim": 128,
+      "power": 128,
+      "enchant_id": 2980
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2980,
+    "n": "Enchanted Redhodium Ruby Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 95,
+      "price": 314148,
+      "aim": 153,
+      "power": 153,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 2979
+    }
+  },
+  {
+    "id": 2981,
+    "n": "Redhodium Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 100,
+      "price": 126273,
+      "aim": 108,
+      "power": 108,
+      "armor": 108,
+      "magic": 67,
+      "enchant_id": 2982
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2982,
+    "n": "Enchanted Redhodium Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 100,
+      "price": 470714,
+      "aim": 129,
+      "power": 129,
+      "armor": 129,
+      "magic": 81,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 2981
+    }
+  },
+  {
+    "id": 2983,
+    "n": "Redhodium Amethyst Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 105,
+      "price": 607044,
+      "armor": 128,
+      "magic": 128,
+      "enchant_id": 2984
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2984,
+    "n": "Enchanted Redhodium Amethyst Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 105,
+      "price": 940919,
+      "armor": 153,
+      "magic": 153,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 2983
+    }
+  },
+  {
+    "id": 2985,
+    "n": "Redhodium Black Opal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 110,
+      "price": 700839,
+      "aim": 128,
+      "power": 128,
+      "armor": 128,
+      "magic": 76,
+      "enchant_id": 2986
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2986,
+    "n": "Enchanted Redhodium Black Opal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 110,
+      "price": 1086301,
+      "aim": 153,
+      "power": 153,
+      "armor": 153,
+      "magic": 91,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 2985
+    }
+  },
+  {
+    "id": 2987,
+    "n": "Redhodium Jadeite Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 16
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 115,
+      "price": 1350082,
+      "aim": 170,
+      "power": 170,
+      "armor": 170,
+      "magic": 87,
+      "enchant_id": 2988
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2988,
+    "n": "Enchanted Redhodium Jadeite Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 16
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 115,
+      "price": 2092628,
+      "aim": 204,
+      "power": 204,
+      "armor": 204,
+      "magic": 105,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 2987
+    }
+  },
+  {
+    "id": 2989,
+    "n": "Redhodium Star Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 16
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 120,
+      "price": 1938897,
+      "aim": 186,
+      "power": 186,
+      "armor": 186,
+      "magic": 106,
+      "enchant_id": 2990
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 2990,
+    "n": "Enchanted Redhodium Star Diamond Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 16
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 120,
+      "price": 3005291,
+      "aim": 224,
+      "power": 224,
+      "armor": 224,
+      "magic": 127,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 2989
+    }
+  },
+  {
+    "id": 2991,
+    "n": "Redhodium Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 98,
+      "slot": 8,
+      "price": 195789,
+      "armor": 148,
+      "archery": 148,
+      "enchant_id": 2992
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 2992,
+    "n": "Enchanted Redhodium Crystal Ring [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "min_health": 98,
+      "slot": 8,
+      "price": 303474,
+      "armor": 177,
+      "archery": 177,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 2991
+    }
+  },
+  {
+    "id": 2993,
+    "n": "Silver Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 10,
+      "price": 13227,
+      "armor": 17,
+      "enchant_id": 2994
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2994,
+    "n": "Enchanted Silver Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 10,
+      "price": 20502,
+      "armor": 20,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2993
+    }
+  },
+  {
+    "id": 2995,
+    "n": "Silver Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 12,
+      "price": 18999,
+      "magic": 17,
+      "enchant_id": 2996
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2996,
+    "n": "Enchanted Silver Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 12,
+      "price": 29449,
+      "magic": 20,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2995
+    }
+  },
+  {
+    "id": 2997,
+    "n": "Silver Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 28619,
+      "min_health": 14,
+      "power": 18,
+      "aim": 18,
+      "enchant_id": 2998
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 2998,
+    "n": "Enchanted Silver Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 44360,
+      "min_health": 14,
+      "power": 22,
+      "aim": 22,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2997
+    }
+  },
+  {
+    "id": 2999,
+    "n": "Silver Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 45454,
+      "min_health": 16,
+      "armor": 22,
+      "power": 22,
+      "magic": 22,
+      "aim": 22,
+      "enchant_id": 3000
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 3000,
+    "n": "Enchanted Silver Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 70454,
+      "min_health": 16,
+      "armor": 26,
+      "power": 26,
+      "magic": 26,
+      "aim": 26,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 2999
+    }
+  },
+  {
+    "id": 3001,
+    "n": "Silver Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 18,
+      "price": 10582,
+      "armor": 18,
+      "archery": 18,
+      "enchant_id": 3002
+    },
+    "chances": [
+      50,
+      70,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 3002,
+    "n": "Enchanted Silver Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 18,
+      "price": 16402,
+      "armor": 22,
+      "archery": 22,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3001
+    }
+  },
+  {
+    "id": 3003,
+    "n": "Golden Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 26936,
+      "min_health": 20,
+      "armor": 22,
+      "enchant_id": 3004
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3004,
+    "n": "Enchanted Golden Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 41750,
+      "min_health": 20,
+      "armor": 26,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3003
+    }
+  },
+  {
+    "id": 3005,
+    "n": "Golden Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 32708,
+      "min_health": 22,
+      "magic": 22,
+      "enchant_id": 3006
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3006,
+    "n": "Enchanted Golden Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 50697,
+      "min_health": 22,
+      "magic": 26,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3005
+    }
+  },
+  {
+    "id": 3007,
+    "n": "Golden Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 24,
+      "price": 42328,
+      "aim": 24,
+      "power": 24,
+      "enchant_id": 3008
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3008,
+    "n": "Enchanted Golden Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 24,
+      "price": 65608,
+      "aim": 28,
+      "power": 28,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3007
+    }
+  },
+  {
+    "id": 3009,
+    "n": "Golden Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 26,
+      "price": 59163,
+      "magic": 27,
+      "armor": 27,
+      "aim": 27,
+      "power": 27,
+      "enchant_id": 3010
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3010,
+    "n": "Enchanted Golden Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 26,
+      "price": 91702,
+      "magic": 32,
+      "armor": 32,
+      "aim": 32,
+      "power": 32,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3009
+    }
+  },
+  {
+    "id": 3011,
+    "n": "Golden Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 28,
+      "price": 24290,
+      "armor": 25,
+      "archery": 25,
+      "enchant_id": 3012
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3012,
+    "n": "Enchanted Golden Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 28,
+      "price": 37650,
+      "armor": 30,
+      "archery": 30,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3011
+    }
+  },
+  {
+    "id": 3013,
+    "n": "White Gold Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 68302,
+      "min_health": 30,
+      "armor": 39,
+      "enchant_id": 3014
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3014,
+    "n": "Enchanted White Gold Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 105868,
+      "min_health": 30,
+      "armor": 46,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3013
+    }
+  },
+  {
+    "id": 3015,
+    "n": "White Gold Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 85618,
+      "min_health": 33,
+      "magic": 39,
+      "enchant_id": 3016
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3016,
+    "n": "Enchanted White Gold Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 132707,
+      "min_health": 33,
+      "magic": 46,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3015
+    }
+  },
+  {
+    "id": 3017,
+    "n": "White Gold Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 114478,
+      "min_health": 36,
+      "power": 44,
+      "aim": 44,
+      "enchant_id": 3018
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3018,
+    "n": "Enchanted White Gold Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 177440,
+      "min_health": 36,
+      "power": 52,
+      "aim": 52,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3017
+    }
+  },
+  {
+    "id": 3019,
+    "n": "White Gold Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 164983,
+      "min_health": 40,
+      "power": 54,
+      "aim": 54,
+      "magic": 54,
+      "armor": 54,
+      "enchant_id": 3020
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3020,
+    "n": "Enchanted White Gold Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 255723,
+      "min_health": 40,
+      "power": 64,
+      "aim": 64,
+      "magic": 64,
+      "armor": 64,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3019
+    }
+  },
+  {
+    "id": 3021,
+    "n": "White Gold Amethyst Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 45,
+      "price": 215488,
+      "armor": 64,
+      "magic": 64,
+      "enchant_id": 3022
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3022,
+    "n": "Enchanted  White Gold Amethyst Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 45,
+      "price": 334006,
+      "armor": 77,
+      "magic": 77,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3021
+    }
+  },
+  {
+    "id": 3023,
+    "n": "White Gold Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 42,
+      "price": 66378,
+      "armor": 54,
+      "archery": 54,
+      "enchant_id": 3024
+    },
+    "chances": [
+      35,
+      50,
+      60,
+      75
+    ]
+  },
+  {
+    "id": 3024,
+    "n": "Enchanted White Gold Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 42,
+      "price": 102885,
+      "armor": 64,
+      "archery": 64,
+      "melee_block": 2,
+      "magic_block": 2,
+      "enchants_from": 3023
+    }
+  },
+  {
+    "id": 3025,
+    "n": "Platinum Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 50,
+      "price": 107744,
+      "armor": 67,
+      "enchant_id": 3026
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3026,
+    "n": "Enchanted Platinum Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 50,
+      "price": 167003,
+      "armor": 81,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3025
+    }
+  },
+  {
+    "id": 3027,
+    "n": "Platinum Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 55,
+      "price": 142376,
+      "magic": 67,
+      "enchant_id": 3028
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3028,
+    "n": "Enchanted Platinum Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 55,
+      "price": 220682,
+      "magic": 81,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3027
+    }
+  },
+  {
+    "id": 3029,
+    "n": "Platinum Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 60,
+      "price": 200096,
+      "aim": 77,
+      "power": 77,
+      "enchant_id": 3030
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3030,
+    "n": "Enchanted Platinum Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 60,
+      "price": 310148,
+      "aim": 93,
+      "power": 93,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3029
+    }
+  },
+  {
+    "id": 3031,
+    "n": "Platinum Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 65,
+      "price": 125200,
+      "magic": 76,
+      "armor": 97,
+      "aim": 97,
+      "power": 97,
+      "enchant_id": 3032
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3032,
+    "n": "Enchanted Platinum Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 65,
+      "price": 125200,
+      "magic": 90,
+      "armor": 117,
+      "aim": 117,
+      "power": 117,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3031
+    }
+  },
+  {
+    "id": 3033,
+    "n": "Platinum Amethyst Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 520081,
+      "min_health": 70,
+      "magic": 109,
+      "armor": 109,
+      "enchant_id": 3034
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3034,
+    "n": "Enchanted Platinum Amethyst Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 806125,
+      "min_health": 70,
+      "magic": 131,
+      "armor": 131,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3033
+    }
+  },
+  {
+    "id": 3035,
+    "n": "Platinum Black Opal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 886362,
+      "min_health": 75,
+      "power": 109,
+      "aim": 109,
+      "magic": 78,
+      "armor": 109,
+      "enchant_id": 3036
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3036,
+    "n": "Enchanted Platinum Black Opal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 1373862,
+      "min_health": 75,
+      "power": 131,
+      "aim": 131,
+      "magic": 94,
+      "armor": 131,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3035
+    }
+  },
+  {
+    "id": 3037,
+    "n": "Platinum Jadeite Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 1406925,
+      "min_health": 80,
+      "magic": 90,
+      "armor": 122,
+      "aim": 122,
+      "power": 122,
+      "enchant_id": 3038
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 3038,
+    "n": "Enchanted Platinum Jadeite Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "price": 1406925,
+      "min_health": 80,
+      "magic": 109,
+      "armor": 146,
+      "aim": 146,
+      "power": 146,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3037
+    }
+  },
+  {
+    "id": 3039,
+    "n": "Platinum Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 64,
+      "price": 109908,
+      "armor": 100,
+      "archery": 100,
+      "enchant_id": 3040
+    },
+    "chances": [
+      25,
+      40,
+      45,
+      55
+    ]
+  },
+  {
+    "id": 3040,
+    "n": "Enchanted Platinum Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 64,
+      "price": 170358,
+      "armor": 120,
+      "archery": 120,
+      "melee_block": 3,
+      "magic_block": 3,
+      "enchants_from": 3039
+    }
+  },
+  {
+    "id": 3041,
+    "n": "Redhodium Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 85,
+      "price": 186017,
+      "armor": 126,
+      "enchant_id": 3042
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 3042,
+    "n": "Enchanted Redhodium Sapphire Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 2,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 85,
+      "price": 288326,
+      "armor": 152,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 3041
+    }
+  },
+  {
+    "id": 3043,
+    "n": "Redhodium Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 90,
+      "price": 232193,
+      "magic": 126,
+      "enchant_id": 3044
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 3044,
+    "n": "Enchanted Redhodium Emerald Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 3,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 90,
+      "price": 359899,
+      "magic": 152,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 3043
+    }
+  },
+  {
+    "id": 3045,
+    "n": "Redhodium Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 95,
+      "price": 309153,
+      "aim": 146,
+      "power": 146,
+      "enchant_id": 3046
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 3046,
+    "n": "Enchanted Redhodium Ruby Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 95,
+      "price": 479187,
+      "aim": 176,
+      "power": 176,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 3045
+    }
+  },
+  {
+    "id": 3047,
+    "n": "Redhodium Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 100,
+      "price": 443833,
+      "aim": 125,
+      "power": 125,
+      "armor": 125,
+      "magic": 87,
+      "enchant_id": 3048
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3048,
+    "n": "Enchanted Redhodium Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 5,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 100,
+      "price": 687941,
+      "aim": 150,
+      "power": 150,
+      "armor": 150,
+      "magic": 105,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 3047
+    }
+  },
+  {
+    "id": 3049,
+    "n": "Redhodium Amethyst Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 105,
+      "price": 650827,
+      "armor": 150,
+      "magic": 150,
+      "enchant_id": 3050
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3050,
+    "n": "Enchanted Redhodium Amethyst Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 105,
+      "price": 1008782,
+      "armor": 180,
+      "magic": 180,
+      "melee_block": 5,
+      "magic_block": 5,
+      "enchants_from": 3049
+    }
+  },
+  {
+    "id": 3051,
+    "n": "Redhodium Black Opal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 110,
+      "price": 1119857,
+      "aim": 156,
+      "power": 156,
+      "armor": 156,
+      "magic": 101,
+      "enchant_id": 3052
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3052,
+    "n": "Enchanted Redhodium Black Opal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 7,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 110,
+      "price": 1735779,
+      "aim": 187,
+      "power": 187,
+      "armor": 187,
+      "magic": 122,
+      "melee_block": 5,
+      "magic_block": 5,
+      "enchants_from": 3051
+    }
+  },
+  {
+    "id": 3053,
+    "n": "Redhodium Jadeite Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 18
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 115,
+      "price": 1691264,
+      "aim": 184,
+      "power": 184,
+      "armor": 184,
+      "magic": 122,
+      "enchant_id": 3054
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3054,
+    "n": "Enchanted Redhodium Jadeite Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 0,
+      "y": 18
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 115,
+      "price": 1691264,
+      "aim": 221,
+      "power": 221,
+      "armor": 221,
+      "magic": 146,
+      "melee_block": 5,
+      "magic_block": 5,
+      "enchants_from": 3053
+    }
+  },
+  {
+    "id": 3055,
+    "n": "Redhodium Star Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 18
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 120,
+      "price": 1123160,
+      "aim": 203,
+      "power": 203,
+      "armor": 203,
+      "magic": 140,
+      "enchant_id": 3056
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3056,
+    "n": "Enchanted Redhodium Star Diamond Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 1,
+      "y": 18
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 120,
+      "price": 4186860,
+      "aim": 243,
+      "power": 243,
+      "armor": 243,
+      "magic": 168,
+      "melee_block": 5,
+      "magic_block": 5,
+      "enchants_from": 3055
+    }
+  },
+  {
+    "id": 3057,
+    "n": "Redhodium Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 98,
+      "price": 413881,
+      "armor": 168,
+      "archery": 168,
+      "enchant_id": 3058
+    },
+    "chances": [
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 3058,
+    "n": "Enchanted Redhodium Crystal Necklace [R]",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 4,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "slot": 7,
+      "min_health": 98,
+      "price": 641515,
+      "armor": 202,
+      "archery": 202,
+      "melee_block": 4,
+      "magic_block": 4,
+      "enchants_from": 3057
+    }
+  },
+  {
+    "id": 3059,
+    "n": "Valentine's Shortbow",
+    "t": 9,
+    "img": {
+      "sheet": "62",
+      "x": 2,
+      "y": 17
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "left_hand": 2,
+        "weapon": 365
+      },
+      "slot": 4,
+      "archery": 175,
+      "min_archery": 55,
+      "speed": 15,
+      "armor": 110,
+      "price": 1,
+      "arrow_cooldown": 0.35,
+      "archery_damage_boost": 0.24,
+      "bow": true,
+      "att_anim": 40
+    }
+  },
+  {
+    "id": 3060,
+    "n": "Heart Piercing Arrow",
+    "t": 9,
+    "img": {},
+    "params": {
+      "wearable": true,
+      "slot": 20,
+      "price": 1,
+      "min_archery": 45,
+      "archery_speed": 350,
+      "archery_cooldown": 1300,
+      "archery_damage": 14,
+      "archery_range": 4,
+      "att_anim": 49,
+      "archery_uses": 33
+    }
+  },
+  {
+    "id": 3061,
+    "n": "Heart Bar",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 3,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_forging": 1,
+      "price": 1,
+      "sc": 0
+    }
+  },
+  {
+    "id": 3062,
+    "n": "Valentine's Ring",
+    "t": 2,
+    "img": {
+      "sheet": "11",
+      "x": 6,
+      "y": 21
+    },
+    "params": {
+      "wearable": true,
+      "slot": 8,
+      "min_health": 50,
+      "price": 1,
+      "health_restore": 0.25
     }
   }
 ]

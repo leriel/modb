@@ -6942,6 +6942,11 @@
       "total_strength": 99,
       "total_accuracy": 99,
       "content": []
+    },
+    "map": "Dorpat",
+    "coords": {
+      "x": "32",
+      "y": "10"
     }
   },
   {
@@ -7893,6 +7898,24 @@
     "coords": {
       "x": "66",
       "y": "31"
+    }
+  },
+  {
+    "id": 694,
+    "n": "Quest Master",
+    "t": "4",
+    "img_hash": "18 0 110 82 72 0 0 0 0 60 12 6",
+    "temp": {
+      "health": 99,
+      "total_defense": 99,
+      "total_strength": 99,
+      "total_accuracy": 99,
+      "content": []
+    },
+    "map": "Cesis",
+    "coords": {
+      "x": "61",
+      "y": "55"
     }
   }
 ]
