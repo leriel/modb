@@ -14720,8 +14720,8 @@
     "id": 2024,
     "n": "Valentine's Wings",
     "level": 1,
-    "min_chance": 0,
-    "max_chance": 0,
+    "min_chance": 0.08,
+    "max_chance": 0.08,
     "skill": "forging",
     "matts": [
       {
@@ -14761,8 +14761,8 @@
     "id": 2024,
     "n": "Valentine's Wings",
     "level": 1,
-    "min_chance": 0,
-    "max_chance": 0,
+    "min_chance": 0.03,
+    "max_chance": 0.03,
     "skill": "forging",
     "matts": [
       {
@@ -24465,6 +24465,51 @@
       ]
     ],
     "xp": 80
+  },
+  {
+    "id": 3059,
+    "n": "Valentine's Shortbow",
+    "level": 1,
+    "min_chance": 0.08,
+    "max_chance": 0.08,
+    "skill": "fletching",
+    "matts": [
+      {
+        "id": "1886",
+        "c": 4
+      },
+      {
+        "id": "2025",
+        "c": 12
+      }
+    ],
+    "pattern": [
+      [
+        2025,
+        2025,
+        2025,
+        1886
+      ],
+      [
+        2025,
+        2025,
+        2025,
+        1886
+      ],
+      [
+        2025,
+        2025,
+        2025,
+        1886
+      ],
+      [
+        2025,
+        2025,
+        2025,
+        1886
+      ]
+    ],
+    "xp": 160
   },
   {
     "id": 730,

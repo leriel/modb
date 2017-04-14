@@ -621,6 +621,7 @@
       "wearable": true,
       "slot": 7,
       "price": 3800,
+      "no_present": true,
       "armor": 4,
       "aim": 4
     }
@@ -1256,6 +1257,7 @@
       "min_accuracy": 20,
       "price": 3024,
       "enchant_id": 513,
+      "no_present": true,
       "att_anim": 40,
       "sc": 0
     },
@@ -1287,6 +1289,7 @@
       "min_accuracy": 20,
       "price": 3830,
       "enchant_id": 514,
+      "no_present": true,
       "att_anim": 34,
       "sc": 0
     },
@@ -1318,6 +1321,7 @@
       "min_accuracy": 20,
       "price": 3024,
       "enchant_id": 515,
+      "no_present": true,
       "att_anim": 34,
       "sc": 0
     },
@@ -1349,6 +1353,7 @@
       "min_accuracy": 20,
       "price": 3830,
       "enchant_id": 537,
+      "no_present": true,
       "att_anim": 36,
       "sc": 0
     },
@@ -1378,6 +1383,7 @@
       "power": 5,
       "aim": 5,
       "min_defense": 20,
+      "no_present": true,
       "price": 2722
     }
   },
@@ -1402,6 +1408,7 @@
       "min_accuracy": 20,
       "price": 3226,
       "enchant_id": 516,
+      "no_present": true,
       "att_anim": 36,
       "sc": 0
     },
@@ -1436,6 +1443,7 @@
       "disable_slot": 3,
       "price": 3528,
       "enchant_id": 63,
+      "no_present": true,
       "att_anim": 38,
       "sc": 1
     },
@@ -1464,6 +1472,7 @@
       "armor": 30,
       "min_defense": 20,
       "price": 4536,
+      "no_present": true,
       "enchant_id": 1854
     },
     "chances": [
@@ -1496,6 +1505,7 @@
       "min_accuracy": 1,
       "disable_slot": 3,
       "price": 7460,
+      "no_present": true,
       "enchant_id": 517,
       "att_anim": 38,
       "sc": 1
@@ -1572,6 +1582,7 @@
       "armor": 40,
       "min_defense": 20,
       "price": 7660,
+      "no_present": true,
       "enchant_id": 574
     },
     "chances": [
@@ -2737,8 +2748,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 1
+      "x": 4,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -2975,6 +2986,7 @@
       "min_accuracy": 1,
       "disable_slot": 3,
       "price": 14062,
+      "no_present": true,
       "enchant_id": 522,
       "att_anim": 38,
       "sc": 1
@@ -3009,6 +3021,7 @@
       "min_accuracy": 1,
       "disable_slot": 3,
       "price": 10584,
+      "no_present": true,
       "enchant_id": 523,
       "att_anim": 38,
       "sc": 1
@@ -3071,6 +3084,7 @@
       "power": 29,
       "min_accuracy": 40,
       "price": 6124,
+      "no_present": true,
       "enchant_id": 525,
       "att_anim": 40,
       "sc": 0
@@ -3102,6 +3116,7 @@
       "power": 43,
       "min_accuracy": 40,
       "price": 11794,
+      "no_present": true,
       "enchant_id": 526,
       "att_anim": 34,
       "sc": 0
@@ -3136,6 +3151,7 @@
       "min_accuracy": 1,
       "disable_slot": 3,
       "price": 7182,
+      "no_present": true,
       "enchant_id": 136,
       "att_anim": 38,
       "sc": 1
@@ -3198,6 +3214,7 @@
       "power": 37,
       "min_accuracy": 40,
       "price": 6350,
+      "no_present": true,
       "enchant_id": 137,
       "att_anim": 40,
       "sc": 0
@@ -3229,6 +3246,7 @@
       "power": 18,
       "min_accuracy": 40,
       "price": 6700,
+      "no_present": true,
       "enchant_id": 528,
       "att_anim": 34,
       "sc": 0
@@ -3263,6 +3281,7 @@
       "min_accuracy": 1,
       "disable_slot": 3,
       "price": 13306,
+      "no_present": true,
       "enchant_id": 529,
       "att_anim": 40,
       "sc": 1
@@ -3383,6 +3402,7 @@
       },
       "slot": 4,
       "min_woodcutting": 40,
+      "no_present": true,
       "price": 10822,
       "sc": 0
     }
@@ -4293,6 +4313,7 @@
       "armor": 32,
       "min_defense": 40,
       "price": 13170,
+      "no_present": true,
       "enchant_id": 557
     },
     "chances": [
@@ -4342,6 +4363,7 @@
       "armor": 52,
       "min_defense": 40,
       "price": 16666,
+      "no_present": true,
       "enchant_id": 575
     },
     "chances": [
@@ -4382,6 +4404,7 @@
       "slot": 3,
       "min_jewelry": 16,
       "price": 8500,
+      "enchant_id": 2920,
       "sc": 10
     },
     "sources": [
@@ -4623,6 +4646,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 25,
+      "no_present": true,
       "price": 4000,
       "sc": 11
     }
@@ -4759,6 +4783,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 50,
+      "no_present": true,
       "price": 5000,
       "sc": 11
     }
@@ -4776,6 +4801,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 90,
+      "no_present": true,
       "price": 2500,
       "sc": 3
     }
@@ -4793,6 +4819,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 45,
+      "no_present": true,
       "price": 7000,
       "sc": 3
     }
@@ -4810,6 +4837,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 30,
+      "no_present": true,
       "price": 10000,
       "sc": 8
     }
@@ -4878,6 +4906,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 40,
+      "no_present": true,
       "price": 8800,
       "sc": 11
     }
@@ -4895,6 +4924,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 70,
+      "no_present": true,
       "price": 15000,
       "sc": 11
     }
@@ -4929,6 +4959,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 105,
+      "no_present": true,
       "price": 7500,
       "sc": 3
     }
@@ -4980,6 +5011,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 84,
+      "no_present": true,
       "price": 4000,
       "sc": 13
     }
@@ -5014,6 +5046,7 @@
       "wearable": true,
       "slot": 3,
       "min_forging": 30,
+      "no_present": true,
       "price": 2600,
       "sc": 11
     }
@@ -5371,6 +5404,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 40,
+      "no_present": true,
       "price": 4200,
       "sc": 18
     }
@@ -5388,6 +5422,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 50,
+      "no_present": true,
       "price": 2500,
       "sc": 18
     }
@@ -5425,6 +5460,7 @@
       "wearable": true,
       "slot": 3,
       "min_alchemy": 70,
+      "no_present": true,
       "price": 8200,
       "sc": 18
     }
@@ -5441,7 +5477,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_alchemy": 85,
+      "no_present": true,
       "price": 9500,
       "sc": 18
     }
@@ -6151,8 +6187,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 0
+      "x": 7,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -6279,8 +6315,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 3
+      "x": 2,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -6512,6 +6548,7 @@
     "params": {
       "wearable": false,
       "boost_fishing": 0.1,
+      "no_present": true,
       "price": 2576,
       "sc": 2
     }
@@ -6528,6 +6565,7 @@
     "params": {
       "wearable": false,
       "boost_woodcutting": 0.1,
+      "no_present": true,
       "price": 2912,
       "sc": 2
     }
@@ -6544,6 +6582,7 @@
     "params": {
       "wearable": false,
       "boost_defense": 0.1,
+      "no_present": true,
       "price": 3248,
       "sc": 2
     }
@@ -6560,6 +6599,7 @@
     "params": {
       "wearable": false,
       "boost_strength": 0.1,
+      "no_present": true,
       "price": 3808,
       "sc": 2
     }
@@ -6576,6 +6616,7 @@
     "params": {
       "wearable": false,
       "boost_accuracy": 0.1,
+      "no_present": true,
       "price": 3920,
       "sc": 2
     }
@@ -6609,6 +6650,7 @@
     "params": {
       "wearable": false,
       "boost_cooking": 0.15,
+      "no_present": true,
       "price": 6120,
       "sc": 2
     }
@@ -6625,6 +6667,7 @@
     "params": {
       "wearable": false,
       "boost_mining": 0.15,
+      "no_present": true,
       "price": 6630,
       "sc": 2
     }
@@ -6641,6 +6684,7 @@
     "params": {
       "wearable": false,
       "boost_fishing": 0.15,
+      "no_present": true,
       "price": 7140,
       "sc": 2
     }
@@ -6657,6 +6701,7 @@
     "params": {
       "wearable": false,
       "boost_woodcutting": 0.15,
+      "no_present": true,
       "price": 6630,
       "sc": 2
     }
@@ -6673,6 +6718,7 @@
     "params": {
       "wearable": false,
       "boost_defense": 0.15,
+      "no_present": true,
       "price": 7650,
       "sc": 2
     }
@@ -6689,6 +6735,7 @@
     "params": {
       "wearable": false,
       "boost_strength": 0.15,
+      "no_present": true,
       "price": 9180,
       "sc": 2
     }
@@ -6705,6 +6752,7 @@
     "params": {
       "wearable": false,
       "boost_accuracy": 0.15,
+      "no_present": true,
       "price": 6630,
       "sc": 2
     }
@@ -6721,6 +6769,7 @@
     "params": {
       "wearable": false,
       "boost_cooking": 0.2,
+      "no_present": true,
       "price": 11968,
       "sc": 2
     }
@@ -6737,6 +6786,7 @@
     "params": {
       "wearable": false,
       "boost_mining": 0.2,
+      "no_present": true,
       "price": 14960,
       "sc": 2
     }
@@ -6753,6 +6803,7 @@
     "params": {
       "wearable": false,
       "boost_fishing": 0.2,
+      "no_present": true,
       "price": 8160,
       "sc": 2
     }
@@ -6769,6 +6820,7 @@
     "params": {
       "wearable": false,
       "boost_woodcutting": 0.2,
+      "no_present": true,
       "price": 10880,
       "sc": 2
     }
@@ -6785,6 +6837,7 @@
     "params": {
       "wearable": false,
       "boost_defense": 0.2,
+      "no_present": true,
       "price": 17680,
       "sc": 2
     }
@@ -6801,6 +6854,7 @@
     "params": {
       "wearable": false,
       "boost_strength": 0.2,
+      "no_present": true,
       "price": 31280,
       "sc": 2
     }
@@ -6817,6 +6871,7 @@
     "params": {
       "wearable": false,
       "boost_accuracy": 0.2,
+      "no_present": true,
       "price": 23120,
       "sc": 2
     }
@@ -6877,6 +6932,7 @@
       "speed": 12,
       "enchant_id": 1590,
       "min_defense": 40,
+      "no_present": true,
       "price": 13708
     },
     "sources": [
@@ -7158,6 +7214,7 @@
       "slot": 9,
       "min_magic": 1,
       "price": 3000,
+      "no_present": true,
       "to_map": 3,
       "to_i": 28,
       "to_j": 93,
@@ -7179,6 +7236,7 @@
       "slot": 9,
       "min_magic": 1,
       "price": 4000,
+      "no_present": true,
       "to_map": 5,
       "to_i": 34,
       "to_j": 68,
@@ -7200,6 +7258,7 @@
       "slot": 9,
       "min_magic": 1,
       "price": 5000,
+      "no_present": true,
       "to_map": 2,
       "to_i": 68,
       "to_j": 37,
@@ -7793,6 +7852,7 @@
       "wearable": true,
       "slot": 8,
       "price": 2800,
+      "no_present": true,
       "armor": 6,
       "aim": 6
     }
@@ -7916,6 +7976,7 @@
       "wearable": true,
       "slot": 7,
       "price": 5800,
+      "no_present": true,
       "armor": 6,
       "aim": 6
     }
@@ -8023,6 +8084,7 @@
       "wearable": true,
       "slot": 3,
       "min_forging": 65,
+      "no_present": true,
       "price": 3600,
       "sc": 0
     },
@@ -8063,7 +8125,7 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 56,
-      "enchant_id": 2921,
+      "enchant_id": 2922,
       "price": 12000,
       "sc": 10
     }
@@ -8553,6 +8615,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 16,
+      "no_present": true,
       "magic": 10,
       "price": 2912
     }
@@ -8570,6 +8633,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 20,
+      "no_present": true,
       "magic": 11,
       "price": 3570
     }
@@ -8587,6 +8651,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 24,
+      "no_present": true,
       "magic": 12,
       "price": 3757
     }
@@ -8604,6 +8669,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 28,
+      "no_present": true,
       "magic": 13,
       "price": 4446
     }
@@ -8621,6 +8687,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 32,
+      "no_present": true,
       "magic": 14,
       "price": 4914
     }
@@ -8638,6 +8705,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 36,
+      "no_present": true,
       "magic": 15,
       "price": 5980
     }
@@ -8655,6 +8723,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 40,
+      "no_present": true,
       "magic": 16,
       "price": 6500
     }
@@ -8672,6 +8741,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 45,
+      "no_present": true,
       "magic": 17,
       "price": 5940
     }
@@ -8689,6 +8759,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 50,
+      "no_present": true,
       "magic": 18,
       "price": 6840
     }
@@ -8706,6 +8777,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 55,
+      "no_present": true,
       "magic": 19,
       "price": 7800
     }
@@ -8723,6 +8795,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 60,
+      "no_present": true,
       "magic": 20,
       "price": 8400
     }
@@ -8740,6 +8813,7 @@
       "wearable": true,
       "slot": 10,
       "min_magic": 62,
+      "no_present": true,
       "magic": 21,
       "price": 9072
     }
@@ -8870,6 +8944,7 @@
         "weapon": 50
       },
       "slot": 4,
+      "no_present": true,
       "aim": 16,
       "power": 1,
       "magic": 36,
@@ -8930,6 +9005,7 @@
         "weapon": 48
       },
       "slot": 4,
+      "no_present": true,
       "aim": 29,
       "power": 1,
       "magic": 40,
@@ -9166,6 +9242,7 @@
         "weapon": 62
       },
       "slot": 4,
+      "no_present": true,
       "aim": 7,
       "power": 1,
       "magic": 18,
@@ -9226,6 +9303,7 @@
         "weapon": 63
       },
       "slot": 4,
+      "no_present": true,
       "aim": 12,
       "power": 1,
       "magic": 27,
@@ -9286,6 +9364,7 @@
         "weapon": 64
       },
       "slot": 4,
+      "no_present": true,
       "aim": 22,
       "power": 1,
       "magic": 30,
@@ -9408,6 +9487,7 @@
       "slot": 3,
       "magic_slots": 1,
       "min_magic": 1,
+      "no_present": true,
       "price": 3000,
       "sc": 1
     }
@@ -9530,6 +9610,7 @@
       "cooldown": 0.01,
       "min_magic": 15,
       "price": 6182,
+      "no_present": true,
       "enchant_id": 1823
     },
     "chances": [
@@ -9617,6 +9698,7 @@
       "cooldown": 0.01,
       "min_magic": 1,
       "price": 3600,
+      "no_present": true,
       "enchant_id": 877
     },
     "chances": [
@@ -9646,6 +9728,7 @@
       "cooldown": 0.01,
       "min_magic": 15,
       "price": 12364,
+      "no_present": true,
       "enchant_id": 878
     },
     "chances": [
@@ -10173,6 +10256,7 @@
       "armor": 24,
       "min_defense": 20,
       "price": 5444,
+      "no_present": true,
       "enchant_id": 563
     },
     "chances": [
@@ -10200,6 +10284,7 @@
       "armor": 38,
       "min_defense": 40,
       "price": 13306,
+      "no_present": true,
       "enchant_id": 564
     },
     "chances": [
@@ -10319,6 +10404,7 @@
       "cooldown": 0.01,
       "min_magic": 1,
       "price": 2700,
+      "no_present": true,
       "enchant_id": 868
     },
     "chances": [
@@ -10348,6 +10434,7 @@
       "cooldown": 0.01,
       "min_magic": 15,
       "price": 8064,
+      "no_present": true,
       "enchant_id": 869
     },
     "chances": [
@@ -10509,13 +10596,14 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 0
+      "x": 7,
+      "y": 21
     },
     "params": {
       "wearable": true,
       "slot": 8,
       "price": 2200,
+      "no_present": true,
       "armor": 6,
       "aim": 3
     }
@@ -10533,6 +10621,7 @@
       "wearable": true,
       "slot": 7,
       "price": 4400,
+      "no_present": true,
       "armor": 6,
       "aim": 3
     }
@@ -10729,6 +10818,7 @@
       "power": 10,
       "aim": 15,
       "min_defense": 40,
+      "no_present": true,
       "price": 6450
     }
   },
@@ -14794,6 +14884,7 @@
       "wearable": true,
       "slot": 4,
       "min_forging": 80,
+      "no_present": true,
       "price": 11520,
       "sc": 0
     },
@@ -15122,6 +15213,7 @@
       "magic": 5,
       "min_health": 10,
       "price": 25000,
+      "no_present": true,
       "pet": 2
     }
   },
@@ -15224,6 +15316,7 @@
       "magic": 5,
       "min_health": 10,
       "price": 25000,
+      "no_present": true,
       "pet": 7
     }
   },
@@ -16493,6 +16586,7 @@
       "slot": 3,
       "price": 1000,
       "carpentry_type": "2",
+      "no_present": true,
       "carpentry_id": 299,
       "sc": 4
     }
@@ -16511,6 +16605,7 @@
       "slot": 3,
       "price": 3000,
       "carpentry_type": "2",
+      "no_present": true,
       "carpentry_id": 300,
       "sc": 4
     }
@@ -16529,6 +16624,7 @@
       "slot": 3,
       "price": 12000,
       "carpentry_type": "2",
+      "no_present": true,
       "carpentry_id": 301,
       "sc": 4
     }
@@ -16547,6 +16643,7 @@
       "slot": 3,
       "price": 200,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 287,
       "sc": 2
     }
@@ -16565,6 +16662,7 @@
       "slot": 3,
       "price": 2000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 288,
       "sc": 6
     }
@@ -16583,6 +16681,7 @@
       "slot": 3,
       "price": 400,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 289,
       "sc": 5
     }
@@ -16601,6 +16700,7 @@
       "slot": 3,
       "price": 300,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 290,
       "sc": 3
     }
@@ -16619,6 +16719,7 @@
       "slot": 3,
       "price": 1400,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 291,
       "size": 2,
       "sc": 1
@@ -16638,6 +16739,7 @@
       "slot": 3,
       "price": 1500,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 292,
       "heals": 1,
       "sc": 0
@@ -16657,6 +16759,7 @@
       "slot": 3,
       "price": 600,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 293,
       "sc": 2
     }
@@ -16675,6 +16778,7 @@
       "slot": 3,
       "price": 9000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 294,
       "sc": 6
     }
@@ -16693,6 +16797,7 @@
       "slot": 3,
       "price": 750,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 295,
       "sc": 5
     }
@@ -16711,6 +16816,7 @@
       "slot": 3,
       "price": 1500,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 296,
       "sc": 3
     }
@@ -16729,6 +16835,7 @@
       "slot": 3,
       "price": 6000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 297,
       "size": 4,
       "sc": 1
@@ -16748,6 +16855,7 @@
       "slot": 3,
       "price": 4500,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 298,
       "heals": 2,
       "sc": 0
@@ -16767,6 +16875,7 @@
       "slot": 3,
       "price": 1200,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 299,
       "sc": 2
     }
@@ -16785,6 +16894,7 @@
       "slot": 3,
       "price": 37000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 300,
       "sc": 6
     }
@@ -16803,6 +16913,7 @@
       "slot": 3,
       "price": 1500,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 301,
       "sc": 5
     }
@@ -16821,6 +16932,7 @@
       "slot": 3,
       "price": 3600,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 302,
       "sc": 3
     }
@@ -16839,6 +16951,7 @@
       "slot": 3,
       "price": 12000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 303,
       "size": 6,
       "sc": 1
@@ -16858,6 +16971,7 @@
       "slot": 3,
       "price": 9000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 304,
       "heals": 3,
       "sc": 0
@@ -16897,6 +17011,7 @@
       "slot": 3,
       "price": 5100,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 305,
       "sc": 6
     }
@@ -16915,6 +17030,7 @@
       "slot": 3,
       "price": 5250,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 332,
       "desc": "Needs to be raked before planting a seed.",
       "sc": 99
@@ -17184,6 +17300,7 @@
       "slot": 3,
       "price": 3600,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 312,
       "sc": 2
     }
@@ -17202,6 +17319,7 @@
       "slot": 3,
       "price": 5400,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 313,
       "sc": 2
     }
@@ -17220,6 +17338,7 @@
       "slot": 3,
       "price": 7800,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 314,
       "sc": 2
     }
@@ -17238,6 +17357,7 @@
       "slot": 3,
       "price": 14000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 315,
       "sc": 2
     }
@@ -18403,6 +18523,7 @@
       "slot": 3,
       "price": 36000,
       "carpentry_type": "2",
+      "no_present": true,
       "carpentry_id": 305,
       "sc": 4
     }
@@ -18421,6 +18542,7 @@
       "slot": 3,
       "price": 4200,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 335,
       "sc": 5
     }
@@ -18439,6 +18561,7 @@
       "slot": 3,
       "price": 8400,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 336,
       "sc": 3
     }
@@ -18457,6 +18580,7 @@
       "slot": 3,
       "price": 30000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 337,
       "size": 8,
       "sc": 1
@@ -18476,6 +18600,7 @@
       "slot": 3,
       "price": 240000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 338,
       "sc": 6
     }
@@ -18494,6 +18619,7 @@
       "slot": 3,
       "price": 72000,
       "carpentry_type": "2",
+      "no_present": true,
       "carpentry_id": 306,
       "sc": 4
     },
@@ -18515,6 +18641,7 @@
       "slot": 3,
       "price": 6300,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 340,
       "sc": 5
     }
@@ -18533,6 +18660,7 @@
       "slot": 3,
       "price": 14400,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 341,
       "sc": 3
     }
@@ -18570,6 +18698,7 @@
       "slot": 3,
       "price": 37800,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 343,
       "heals": 5,
       "sc": 0
@@ -18625,6 +18754,7 @@
       "slot": 3,
       "price": 9100,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 346,
       "sc": 5
     }
@@ -18643,6 +18773,7 @@
       "slot": 3,
       "price": 23400,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 347,
       "sc": 3
     }
@@ -18680,6 +18811,7 @@
       "slot": 3,
       "price": 54600,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 349,
       "heals": 6,
       "sc": 0
@@ -18738,6 +18870,7 @@
       "slot": 3,
       "price": 17500,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 352,
       "sc": 5
     }
@@ -18756,6 +18889,7 @@
       "slot": 3,
       "price": 35000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 353,
       "sc": 3
     }
@@ -18793,6 +18927,7 @@
       "slot": 3,
       "price": 105000,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 355,
       "heals": 7,
       "sc": 0
@@ -18848,6 +18983,7 @@
       "slot": 3,
       "price": 34800,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 358,
       "sc": 5
     }
@@ -18866,6 +19002,7 @@
       "slot": 3,
       "price": 69600,
       "carpentry_type": "1",
+      "no_present": true,
       "carpentry_id": 359,
       "sc": 3
     }
@@ -18902,6 +19039,7 @@
       "wearable": true,
       "slot": 3,
       "price": 208800,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 361,
       "heals": 8,
@@ -18921,6 +19059,7 @@
       "wearable": true,
       "slot": 3,
       "price": 18000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 362,
       "heals": 4,
@@ -22302,6 +22441,7 @@
       "wearable": true,
       "slot": 3,
       "min_forging": 85,
+      "no_present": true,
       "price": 5000,
       "sc": 99
     },
@@ -22997,6 +23137,7 @@
       "wearable": true,
       "slot": 3,
       "min_magic": 34,
+      "no_present": true,
       "price": 3005,
       "sc": 7
     }
@@ -23014,6 +23155,7 @@
       "wearable": true,
       "slot": 3,
       "min_magic": 55,
+      "no_present": true,
       "price": 4752,
       "sc": 7
     }
@@ -23031,6 +23173,7 @@
       "wearable": true,
       "slot": 3,
       "min_magic": 65,
+      "no_present": true,
       "price": 6900,
       "sc": 7
     }
@@ -23049,6 +23192,7 @@
       "slot": 3,
       "min_farming": 80,
       "price": 5000,
+      "no_present": true,
       "farming_id": 437,
       "sc": 19
     }
@@ -23422,6 +23566,7 @@
       },
       "slot": 4,
       "min_fishing": 65,
+      "no_present": true,
       "price": 2860,
       "sc": 0
     }
@@ -24388,6 +24533,7 @@
       "cooldown": 0.01,
       "min_magic": 15,
       "enchant_id": 1890,
+      "no_present": true,
       "price": 5358
     },
     "chances": [
@@ -26477,8 +26623,8 @@
       "wearable": true,
       "slot": 12,
       "price": 27000,
-      "min_health": 10,
       "no_present": true,
+      "min_health": 10,
       "pet": 66
     }
   },
@@ -48756,6 +48902,7 @@
       "wearable": true,
       "slot": 3,
       "price": 2548,
+      "no_present": true,
       "archery_arrows": 550,
       "min_archery": 20,
       "enchant_id": 2039
@@ -48780,6 +48927,7 @@
       "wearable": true,
       "slot": 3,
       "price": 4713,
+      "no_present": true,
       "min_archery": 20,
       "archery_arrows": 770,
       "enchants_from": 2038
@@ -48798,6 +48946,7 @@
       "wearable": true,
       "slot": 3,
       "price": 9940,
+      "no_present": true,
       "min_archery": 30,
       "archery_arrows": 800,
       "enchant_id": 2041
@@ -49471,6 +49620,7 @@
       "armor": 6,
       "speed": 12,
       "price": 4344,
+      "no_present": true,
       "bow": true,
       "arrow_cooldown": 0.2,
       "enchant_id": 2070,
@@ -49532,6 +49682,7 @@
       "armor": 12,
       "speed": 12,
       "price": 7619,
+      "no_present": true,
       "archery_speed_boost": 0.25,
       "archery_range_boost": 1,
       "bow": true,
@@ -52002,6 +52153,7 @@
       "armor": 37,
       "min_archery": 20,
       "price": 2548,
+      "no_present": true,
       "speed": -8,
       "enchant_id": 2160
     },
@@ -54566,6 +54718,7 @@
       "wearable": true,
       "slot": 4,
       "min_forging": 70,
+      "no_present": true,
       "price": 4000,
       "sc": 9
     }
@@ -54583,6 +54736,7 @@
       "wearable": true,
       "slot": 3,
       "min_forging": 50,
+      "no_present": true,
       "price": 5000,
       "sc": 9
     }
@@ -60219,6 +60373,7 @@
     "params": {
       "wearable": false,
       "boost_archery": 0.2,
+      "no_present": true,
       "price": 4460,
       "sc": 2
     }
@@ -62974,6 +63129,7 @@
       "wearable": true,
       "slot": 3,
       "price": 41500,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 566,
       "sc": 2
@@ -63010,6 +63166,7 @@
       "wearable": true,
       "slot": 3,
       "price": 49800,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 351,
       "sc": 5
@@ -63065,6 +63222,7 @@
       "wearable": true,
       "slot": 3,
       "price": 298800,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 568,
       "heals": 10,
@@ -63084,6 +63242,7 @@
       "wearable": true,
       "slot": 3,
       "price": 99600,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 569,
       "sc": 3
@@ -63102,6 +63261,7 @@
       "wearable": true,
       "slot": 3,
       "price": 56000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 570,
       "sc": 2
@@ -63138,6 +63298,7 @@
       "wearable": true,
       "slot": 3,
       "price": 56000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 571,
       "sc": 5
@@ -63212,6 +63373,7 @@
       "wearable": true,
       "slot": 3,
       "price": 134400,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 575,
       "sc": 3
@@ -63230,6 +63392,7 @@
       "wearable": true,
       "slot": 3,
       "price": 15000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 576,
       "sc": 7
@@ -63248,6 +63411,7 @@
       "wearable": true,
       "slot": 3,
       "price": 25000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 577,
       "sc": 7
@@ -63266,6 +63430,7 @@
       "wearable": true,
       "slot": 3,
       "price": 35000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 578,
       "sc": 7
@@ -63284,6 +63449,7 @@
       "wearable": true,
       "slot": 3,
       "price": 45000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 579,
       "sc": 7
@@ -63302,6 +63468,7 @@
       "wearable": true,
       "slot": 3,
       "price": 55000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 580,
       "sc": 7
@@ -63320,6 +63487,7 @@
       "wearable": true,
       "slot": 3,
       "price": 65000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 581,
       "sc": 7
@@ -63338,6 +63506,7 @@
       "wearable": true,
       "slot": 3,
       "price": 75000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 582,
       "sc": 7
@@ -63356,6 +63525,7 @@
       "wearable": true,
       "slot": 3,
       "price": 85000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 583,
       "sc": 7
@@ -63374,6 +63544,7 @@
       "wearable": true,
       "slot": 3,
       "price": 95000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 584,
       "sc": 7
@@ -63392,6 +63563,7 @@
       "wearable": true,
       "slot": 3,
       "price": 105000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 585,
       "sc": 7
@@ -63410,6 +63582,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 586,
       "sc": 5
@@ -63428,6 +63601,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 587,
       "sc": 7
@@ -63446,6 +63620,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 588,
       "sc": 5
@@ -63464,6 +63639,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 589,
       "sc": 7
@@ -63482,6 +63658,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 590,
       "sc": 7
@@ -63500,6 +63677,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 591,
       "sc": 7
@@ -63537,6 +63715,7 @@
       "wearable": true,
       "slot": 3,
       "price": 250000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 593,
       "sc": 7
@@ -63555,6 +63734,7 @@
       "wearable": true,
       "slot": 3,
       "price": 250000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 594,
       "sc": 7
@@ -63573,6 +63753,7 @@
       "wearable": true,
       "slot": 3,
       "price": 75000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 595,
       "sc": 7
@@ -63591,6 +63772,7 @@
       "wearable": true,
       "slot": 3,
       "price": 75000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 596,
       "sc": 7
@@ -63609,6 +63791,7 @@
       "wearable": true,
       "slot": 3,
       "price": 75000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 597,
       "sc": 7
@@ -63646,6 +63829,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 599,
       "sc": 2
@@ -63664,6 +63848,7 @@
       "wearable": true,
       "slot": 3,
       "price": 100000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 600,
       "sc": 7
@@ -65289,6 +65474,7 @@
       "wearable": true,
       "slot": 3,
       "price": 3000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 605,
       "sc": 7
@@ -65307,6 +65493,7 @@
       "wearable": true,
       "slot": 3,
       "price": 9000,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 606,
       "sc": 7
@@ -65325,6 +65512,7 @@
       "wearable": true,
       "slot": 3,
       "price": 35250,
+      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 607,
       "sc": 7
@@ -66087,6 +66275,7 @@
       "min_accuracy": 1,
       "min_strength": 30,
       "price": 8881,
+      "no_present": true,
       "enchant_id": 2729,
       "att_anim": 38,
       "sc": 1
@@ -69928,7 +70117,7 @@
   {
     "id": 2914,
     "n": "Kaolinite Ring Mould Box",
-    "t": 0,
+    "t": 4,
     "img": {
       "sheet": "8",
       "x": 1,
@@ -69937,18 +70126,19 @@
     "params": {
       "wearable": false,
       "slot": 9,
-      "price": 1,
+      "price": 150,
       "contains": [
         292,
         292,
         292
-      ]
+      ],
+      "sc": 0
     }
   },
   {
     "id": 2915,
     "n": "Kaolinite Necklace Mould Box",
-    "t": 0,
+    "t": 4,
     "img": {
       "sheet": "8",
       "x": 2,
@@ -69957,18 +70147,19 @@
     "params": {
       "wearable": false,
       "slot": 9,
-      "price": 1,
+      "price": 210,
       "contains": [
         293,
         293,
         293
-      ]
+      ],
+      "sc": 0
     }
   },
   {
     "id": 2916,
     "n": "Kaolinite Ring Mould Box [R]",
-    "t": 0,
+    "t": 4,
     "img": {
       "sheet": "8",
       "x": 0,
@@ -69977,7 +70168,7 @@
     "params": {
       "wearable": false,
       "slot": 9,
-      "price": 1,
+      "price": 450,
       "contains": [
         292,
         292,
@@ -69986,13 +70177,14 @@
         292,
         292,
         292
-      ]
+      ],
+      "sc": 0
     }
   },
   {
     "id": 2917,
     "n": "Kaolinite Necklace Mould Box [R]",
-    "t": 0,
+    "t": 4,
     "img": {
       "sheet": "8",
       "x": 1,
@@ -70001,7 +70193,7 @@
     "params": {
       "wearable": false,
       "slot": 9,
-      "price": 1,
+      "price": 490,
       "contains": [
         293,
         293,
@@ -70010,7 +70202,8 @@
         293,
         293,
         293
-      ]
+      ],
+      "sc": 0
     }
   },
   {
@@ -70063,6 +70256,7 @@
       "slot": 3,
       "min_jewelry": 16,
       "price": 11475,
+      "enchants_from": 195,
       "sc": 10
     }
   },
@@ -70080,7 +70274,7 @@
       "slot": 3,
       "min_jewelry": 14,
       "price": 5000,
-      "enchants_from": 386,
+      "enchants_from": 197,
       "sc": 10
     }
   },
@@ -70098,6 +70292,7 @@
       "slot": 3,
       "min_jewelry": 56,
       "price": 16200,
+      "enchants_from": 386,
       "sc": 10
     }
   },
@@ -70132,7 +70327,6 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 90,
-      "enchant_id": 2924,
       "price": 29700,
       "enchants_from": 390,
       "sc": 10
@@ -70151,7 +70345,6 @@
       "wearable": true,
       "slot": 3,
       "min_jewelry": 1,
-      "enchant_id": 2925,
       "price": 54000,
       "enchants_from": 1581,
       "sc": 10
@@ -70455,8 +70648,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 0
+      "x": 7,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -70499,8 +70692,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 1
+      "x": 4,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -72741,7 +72934,7 @@
     "params": {
       "wearable": true,
       "slot": 7,
-      "price": 1406925,
+      "price": 1691264,
       "min_health": 80,
       "magic": 90,
       "armor": 122,
@@ -72768,7 +72961,7 @@
     "params": {
       "wearable": true,
       "slot": 7,
-      "price": 1406925,
+      "price": 2621460,
       "min_health": 80,
       "magic": 109,
       "armor": 146,
@@ -73145,7 +73338,7 @@
       "wearable": true,
       "slot": 7,
       "min_health": 115,
-      "price": 1691264,
+      "price": 2621460,
       "aim": 221,
       "power": 221,
       "armor": 221,
@@ -73328,6 +73521,69 @@
       "min_health": 50,
       "price": 1,
       "health_restore": 0.25
+    }
+  },
+  {
+    "id": 3063,
+    "n": "Gender mail",
+    "t": 0,
+    "img": {
+      "sheet": "6",
+      "x": 7,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "body": 182
+      },
+      "slot": 2,
+      "armor": 1,
+      "min_defense": 1,
+      "no_present": true,
+      "price": 1
+    }
+  },
+  {
+    "id": 3064,
+    "n": "Gender Pants",
+    "t": 0,
+    "img": {
+      "sheet": "6",
+      "x": 12,
+      "y": 9
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "pants": 155
+      },
+      "slot": 11,
+      "armor": 1,
+      "min_defense": 1,
+      "no_present": true,
+      "price": 1
+    }
+  },
+  {
+    "id": 3065,
+    "n": "Gender Helmet",
+    "t": 0,
+    "img": {
+      "sheet": "6",
+      "x": 0,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "helmet": 142
+      },
+      "slot": 0,
+      "armor": 1,
+      "min_archery": 1,
+      "no_present": true,
+      "price": 1
     }
   }
 ]
