@@ -27,6 +27,10 @@ var paths = [{
 }, {
   key: 'skills',
   file: 'SkillDb.json',
+}, {
+  key: 'cssPlain',
+  file: '../../styles/items.scss',
+  plain: true,
 }];
 
 page.onConsoleMessage = function(msg) {
@@ -56,7 +60,9 @@ function onExportReady() {
   });
   modb = JSON.parse(modb);
   paths.forEach(function (saveObj) {
-    var strContent = JSON.stringify(modb[saveObj.key], null, 2) + '\n';
+    var strContent = saveObj.plain
+      ? modb[saveObj.key] + '\n'
+      : JSON.stringify(modb[saveObj.key], null, 2) + '\n';
     fs.write(basePath + saveObj.file, strContent, 'w');
   });
   phantom.exit();

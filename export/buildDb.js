@@ -340,7 +340,12 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
           h: imgSheets[k].tile_height,
           u: imgSheets[k].url
         });
-        exportObj.css.push('.sheet_' + k + '{background:url(\'' + imgSheets[k].url+'\');}');
+        var sheetUrl = imgSheets[k].url;
+        if (sheetUrl) {
+          exportObj.css.push(
+            '.sheet_' + k + '{background:url(\'' + sheetUrl +'\');}'
+          );
+        }
       }
     }
 
@@ -600,6 +605,7 @@ var buildDb = function(imgSheets, items, pets, npcs, bodyParts, carp, carpXp, fo
 
     exportObj.maps = map_names;
     exportObj.skills = Object.keys(skills[0]);
+    exportObj.cssPlain = exportObj.css.join("\n");
     
     window.modb = exportObj;
     console.log('modb object crated.')
