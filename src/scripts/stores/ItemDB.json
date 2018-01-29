@@ -730,7 +730,7 @@
   },
   {
     "id": 35,
-    "n": "Sapphire Platemail",
+    "n": "Sapphire Dragon Platemail",
     "t": 0,
     "img": {
       "sheet": "6",
@@ -749,6 +749,8 @@
       "enchant_id": 132
     },
     "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ],
     "chances": [
@@ -1051,9 +1053,6 @@
       "enchant_id": 1888,
       "price": 3800
     },
-    "sources": [
-      "Easy Dungeon Reward"
-    ],
     "chances": [
       50,
       70,
@@ -1198,9 +1197,6 @@
       "speed": 10,
       "price": 4148
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -2636,7 +2632,9 @@
       "sc": 0
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -2676,9 +2674,6 @@
       "price": 15428,
       "enchant_id": 1857
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       25,
       40,
@@ -2769,7 +2764,7 @@
   },
   {
     "id": 132,
-    "n": "Enchanted Sapphire Platemail",
+    "n": "Enchanted Sapphire Dragon Platemail",
     "t": 0,
     "img": {
       "sheet": "6",
@@ -2953,9 +2948,6 @@
       "att_anim": 40,
       "sc": 0
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       25,
       40,
@@ -3572,6 +3564,8 @@
       "enchant_id": 647
     },
     "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ],
     "chances": [
@@ -3656,7 +3650,11 @@
       "min_defense": 50,
       "price": 77368,
       "enchants_from": 161
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 163,
@@ -3871,6 +3869,10 @@
       "price": 493826,
       "enchant_id": 172
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       15,
       25,
@@ -3898,7 +3900,11 @@
       "min_defense": 90,
       "price": 913578,
       "enchants_from": 171
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 173,
@@ -4285,9 +4291,6 @@
       "price": 20564,
       "enchant_id": 192
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -4342,7 +4345,12 @@
       "min_defense": 40,
       "price": 38042,
       "enchants_from": 190
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 193,
@@ -4406,10 +4414,7 @@
       "price": 8500,
       "enchant_id": 2920,
       "sc": 10
-    },
-    "sources": [
-      "Normal Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 196,
@@ -4426,10 +4431,7 @@
       "min_jewelry": 14,
       "price": 7000,
       "sc": 10
-    },
-    "sources": [
-      "Normal Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 197,
@@ -4447,10 +4449,7 @@
       "enchant_id": 2921,
       "price": 5000,
       "sc": 10
-    },
-    "sources": [
-      "Hell Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 198,
@@ -4467,10 +4466,7 @@
       "min_jewelry": 12,
       "price": 4000,
       "sc": 10
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 199,
@@ -4505,10 +4501,7 @@
       "min_jewelry": 10,
       "price": 2700,
       "sc": 10
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 201,
@@ -4526,10 +4519,7 @@
       "enchant_id": 2918,
       "price": 1800,
       "sc": 10
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 202,
@@ -4663,8 +4653,8 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_alchemy": 1,
-      "price": 48,
+      "min_alchemy": 20,
+      "price": 120,
       "sc": 13
     }
   },
@@ -5053,7 +5043,7 @@
   },
   {
     "id": 232,
-    "n": "Red Berries",
+    "n": "Raspberry",
     "t": 3,
     "img": {
       "sheet": "16",
@@ -5063,9 +5053,9 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_alchemy": 25,
-      "price": 150,
-      "sc": 13
+      "min_alchemy": 40,
+      "price": 350,
+      "sc": 99
     }
   },
   {
@@ -5442,10 +5432,7 @@
       "min_alchemy": 60,
       "price": 2200,
       "sc": 18
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 255,
@@ -5630,7 +5617,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_magic": 1,
+      "min_wizardry": 1,
       "price": 300,
       "sc": 7
     }
@@ -5647,7 +5634,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_magic": 20,
+      "min_wizardry": 17,
       "price": 896,
       "sc": 7
     }
@@ -6198,9 +6185,6 @@
       "magic": 12,
       "enchant_id": 1090
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -6226,7 +6210,9 @@
       "enchant_id": 1106
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       50,
@@ -6282,9 +6268,6 @@
       "power": 16,
       "enchant_id": 1112
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -6337,7 +6320,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_accuracy": 0.05,
+      "boost_accuracy": 0.04,
       "price": 234,
       "sc": 2
     }
@@ -6353,7 +6336,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_strength": 0.05,
+      "boost_strength": 0.04,
       "price": 274,
       "sc": 2
     }
@@ -6369,7 +6352,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_fishing": 0.05,
+      "boost_fishing": 0.04,
       "price": 352,
       "sc": 2
     }
@@ -6385,7 +6368,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_mining": 0.05,
+      "boost_mining": 0.04,
       "price": 390,
       "sc": 2
     }
@@ -6401,7 +6384,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_cooking": 0.05,
+      "boost_cooking": 0.04,
       "price": 508,
       "sc": 2
     }
@@ -6417,7 +6400,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_defense": 0.05,
+      "boost_defense": 0.04,
       "price": 352,
       "sc": 2
     }
@@ -6433,7 +6416,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_forging": 0.05,
+      "boost_forging": 0.04,
       "price": 1366,
       "sc": 2
     }
@@ -6449,7 +6432,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_woodcutting": 0.05,
+      "boost_woodcutting": 0.04,
       "price": 1032,
       "sc": 2
     }
@@ -6465,7 +6448,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_jewelry": 0.05,
+      "boost_jewelry": 0.04,
       "price": 748,
       "sc": 2
     }
@@ -6515,7 +6498,8 @@
     },
     "params": {
       "wearable": false,
-      "boost_cooking": 0.1,
+      "boost_cooking": 0.08,
+      "no_present": true,
       "price": 2374,
       "sc": 2
     }
@@ -6531,7 +6515,8 @@
     },
     "params": {
       "wearable": false,
-      "boost_mining": 0.1,
+      "boost_mining": 0.08,
+      "no_present": true,
       "price": 2240,
       "sc": 2
     }
@@ -6547,7 +6532,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_fishing": 0.1,
+      "boost_fishing": 0.08,
       "no_present": true,
       "price": 2576,
       "sc": 2
@@ -6564,7 +6549,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_woodcutting": 0.1,
+      "boost_woodcutting": 0.08,
       "no_present": true,
       "price": 2912,
       "sc": 2
@@ -6581,7 +6566,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_defense": 0.1,
+      "boost_defense": 0.08,
       "no_present": true,
       "price": 3248,
       "sc": 2
@@ -6598,7 +6583,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_strength": 0.1,
+      "boost_strength": 0.08,
       "no_present": true,
       "price": 3808,
       "sc": 2
@@ -6615,7 +6600,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_accuracy": 0.1,
+      "boost_accuracy": 0.08,
       "no_present": true,
       "price": 3920,
       "sc": 2
@@ -6632,8 +6617,9 @@
     },
     "params": {
       "wearable": false,
-      "boost_strength": 0.1,
-      "boost_accuracy": 0.1,
+      "boost_strength": 0.08,
+      "boost_accuracy": 0.08,
+      "no_present": true,
       "price": 14280,
       "sc": 2
     }
@@ -6649,7 +6635,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_cooking": 0.15,
+      "boost_cooking": 0.13,
       "no_present": true,
       "price": 6120,
       "sc": 2
@@ -6666,7 +6652,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_mining": 0.15,
+      "boost_mining": 0.13,
       "no_present": true,
       "price": 6630,
       "sc": 2
@@ -6683,7 +6669,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_fishing": 0.15,
+      "boost_fishing": 0.13,
       "no_present": true,
       "price": 7140,
       "sc": 2
@@ -6700,7 +6686,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_woodcutting": 0.15,
+      "boost_woodcutting": 0.13,
       "no_present": true,
       "price": 6630,
       "sc": 2
@@ -6717,7 +6703,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_defense": 0.15,
+      "boost_defense": 0.13,
       "no_present": true,
       "price": 7650,
       "sc": 2
@@ -6734,7 +6720,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_strength": 0.15,
+      "boost_strength": 0.13,
       "no_present": true,
       "price": 9180,
       "sc": 2
@@ -6751,7 +6737,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_accuracy": 0.15,
+      "boost_accuracy": 0.13,
       "no_present": true,
       "price": 6630,
       "sc": 2
@@ -6768,7 +6754,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_cooking": 0.2,
+      "boost_cooking": 0.17,
       "no_present": true,
       "price": 11968,
       "sc": 2
@@ -6785,7 +6771,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_mining": 0.2,
+      "boost_mining": 0.17,
       "no_present": true,
       "price": 14960,
       "sc": 2
@@ -6802,7 +6788,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_fishing": 0.2,
+      "boost_fishing": 0.17,
       "no_present": true,
       "price": 8160,
       "sc": 2
@@ -6819,7 +6805,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_woodcutting": 0.2,
+      "boost_woodcutting": 0.17,
       "no_present": true,
       "price": 10880,
       "sc": 2
@@ -6836,7 +6822,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_defense": 0.2,
+      "boost_defense": 0.17,
       "no_present": true,
       "price": 17680,
       "sc": 2
@@ -6853,7 +6839,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_strength": 0.2,
+      "boost_strength": 0.17,
       "no_present": true,
       "price": 31280,
       "sc": 2
@@ -6870,7 +6856,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_accuracy": 0.2,
+      "boost_accuracy": 0.17,
       "no_present": true,
       "price": 23120,
       "sc": 2
@@ -6887,14 +6873,13 @@
     },
     "params": {
       "wearable": false,
-      "boost_defense": 0.2,
-      "boost_accuracy": 0.2,
+      "boost_defense": 0.17,
+      "boost_accuracy": 0.17,
+      "heal": 20,
+      "no_present": true,
       "price": 44880,
       "sc": 2
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 338,
@@ -6907,8 +6892,10 @@
     },
     "params": {
       "wearable": false,
-      "boost_accuracy": 0.2,
-      "boost_strength": 0.2,
+      "boost_accuracy": 0.17,
+      "boost_strength": 0.17,
+      "boost_magic": 0.17,
+      "no_present": true,
       "price": 58480,
       "sc": 2
     }
@@ -6935,9 +6922,6 @@
       "no_present": true,
       "price": 13708
     },
-    "sources": [
-      "Easy Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -7323,7 +7307,9 @@
       "sc": 0
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       80,
@@ -7355,6 +7341,10 @@
       "enchant_bonus": 0.3,
       "enchant_id": 576
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       80,
       100,
@@ -7411,7 +7401,8 @@
       "price": 10000,
       "enchant_bonus": 0.3,
       "no_present": true,
-      "enchant_id": 600
+      "enchant_id": 600,
+      "desc": "Allows you to enter heaven and hell."
     },
     "chances": [
       80,
@@ -7579,9 +7570,6 @@
       "att_anim": 40,
       "sc": 0
     },
-    "sources": [
-      "Easy Dungeon Reward"
-    ],
     "chances": [
       25,
       40,
@@ -7614,7 +7602,9 @@
       "sc": 0
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       25,
@@ -7647,6 +7637,9 @@
       "att_anim": 36,
       "sc": 0
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       15,
       25,
@@ -7728,14 +7721,11 @@
       "armor": 29,
       "min_defense": 10,
       "price": 1020
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 369,
-    "n": "Angel Feather Bundle",
+    "n": "Angel Feather Bundle [S]",
     "t": 3,
     "img": {
       "sheet": "10",
@@ -7744,6 +7734,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 2800,
       "contains": [
@@ -7758,7 +7749,7 @@
   },
   {
     "id": 370,
-    "n": "Devil Feather Bundle",
+    "n": "Devil Feather Bundle [S]",
     "t": 3,
     "img": {
       "sheet": "10",
@@ -7767,6 +7758,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 2800,
       "contains": [
@@ -7781,7 +7773,7 @@
   },
   {
     "id": 371,
-    "n": "Phoenix Feather Bundle",
+    "n": "Phoenix Feather Bundle [S]",
     "t": 3,
     "img": {
       "sheet": "10",
@@ -7790,6 +7782,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 25000,
       "contains": [
@@ -7802,7 +7795,9 @@
       "sc": 9
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -7875,7 +7870,9 @@
       "enchant_id": 1098
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       25,
@@ -7901,6 +7898,11 @@
       "magic": 30,
       "enchant_id": 1099
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -7927,6 +7929,8 @@
       "enchant_id": 1100
     },
     "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ],
     "chances": [
@@ -7998,6 +8002,11 @@
       "armor": 40,
       "enchant_id": 1118
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -8023,6 +8032,11 @@
       "power": 46,
       "enchant_id": 1120
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -8047,6 +8061,11 @@
       "magic": 40,
       "enchant_id": 1119
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -8087,10 +8106,7 @@
       "no_present": true,
       "price": 3600,
       "sc": 0
-    },
-    "sources": [
-      "Normal Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 385,
@@ -8107,10 +8123,7 @@
       "min_jewelry": 56,
       "price": 16000,
       "sc": 10
-    },
-    "sources": [
-      "Hell Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 386,
@@ -8145,10 +8158,7 @@
       "min_jewelry": 85,
       "price": 20000,
       "sc": 10
-    },
-    "sources": [
-      "Hell Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 388,
@@ -8284,9 +8294,6 @@
       "att_anim": 40,
       "sc": 1
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       25,
       40,
@@ -8423,10 +8430,7 @@
       "slot": 3,
       "price": 250000,
       "sc": 99
-    },
-    "sources": [
-      "Hell Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 400,
@@ -8460,8 +8464,9 @@
     },
     "params": {
       "wearable": false,
-      "boost_defense": 0.1,
-      "boost_accuracy": 0.1,
+      "boost_defense": 0.08,
+      "boost_accuracy": 0.08,
+      "no_present": true,
       "price": 11662,
       "sc": 2
     }
@@ -9016,9 +9021,6 @@
       "enchant_id": 429,
       "sc": 2
     },
-    "sources": [
-      "Normal Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -9051,7 +9053,12 @@
       "price": 19336,
       "enchants_from": 428,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 430,
@@ -9079,9 +9086,6 @@
       "enchant_id": 431,
       "sc": 2
     },
-    "sources": [
-      "Easy Dungeon Reward"
-    ],
     "chances": [
       35,
       50,
@@ -9407,7 +9411,12 @@
       "price": 44276,
       "enchants_from": 440,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 442,
@@ -9512,10 +9521,7 @@
       "min_magic": 30,
       "price": 30000,
       "sc": 1
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 446,
@@ -9537,7 +9543,12 @@
       "min_magic": 60,
       "price": 90000,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 447,
@@ -9671,6 +9682,11 @@
       "price": 169120,
       "enchant_id": 1829
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -9760,6 +9776,11 @@
       "price": 260480,
       "enchant_id": 884
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -9973,6 +9994,11 @@
       "enchant_id": 464,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -10314,9 +10340,6 @@
       "price": 37440,
       "enchant_id": 565
     },
-    "sources": [
-      "Easy Dungeon Reward"
-    ],
     "chances": [
       25,
       40,
@@ -10345,7 +10368,8 @@
       "enchant_id": 566
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       25,
@@ -10375,6 +10399,7 @@
       "enchant_id": 567
     },
     "sources": [
+      "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ],
     "chances": [
@@ -10524,6 +10549,11 @@
       "price": 207760,
       "enchant_id": 875
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -10790,6 +10820,7 @@
       "enchant_id": 635
     },
     "sources": [
+      "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ],
     "chances": [
@@ -10843,6 +10874,7 @@
       "price": 10800
     },
     "sources": [
+      "Easy Dungeon Reward",
       "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ]
@@ -10890,6 +10922,7 @@
       "price": 28800
     },
     "sources": [
+      "Normal Dungeon Reward",
       "Hell Dungeon Reward"
     ]
   },
@@ -11580,7 +11613,12 @@
       "att_anim": 40,
       "enchants_from": 145,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 528,
@@ -11736,7 +11774,11 @@
       "att_anim": 36,
       "enchants_from": 364,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 534,
@@ -11788,7 +11830,12 @@
       "att_anim": 40,
       "enchants_from": 393,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 536,
@@ -11815,7 +11862,10 @@
       "att_anim": 38,
       "enchants_from": 394,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 537,
@@ -12446,7 +12496,12 @@
       "min_defense": 40,
       "price": 24616,
       "enchants_from": 475
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 565,
@@ -12467,7 +12522,12 @@
       "min_defense": 50,
       "price": 69264,
       "enchants_from": 476
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 566,
@@ -12488,7 +12548,11 @@
       "min_defense": 60,
       "price": 285936,
       "enchants_from": 477
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 567,
@@ -12509,7 +12573,11 @@
       "min_defense": 70,
       "price": 379816,
       "enchants_from": 478
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 568,
@@ -12721,7 +12789,12 @@
       "min_defense": 40,
       "price": 30832,
       "enchants_from": 193
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 576,
@@ -13155,7 +13228,7 @@
     },
     "params": {
       "wearable": true,
-      "slot": 3,
+      "slot": 4,
       "min_carpentry": 35,
       "price": 180,
       "sc": 23
@@ -13275,6 +13348,7 @@
       "enchant_bonus": 0.3,
       "no_present": true,
       "enchant_id": 601,
+      "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 357
     },
     "chances": [
@@ -13305,6 +13379,7 @@
       "enchant_bonus": 0.3,
       "no_present": true,
       "enchant_id": 602,
+      "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 600
     },
     "chances": [
@@ -13644,10 +13719,7 @@
       "magic": 20,
       "min_magic": 40,
       "price": 41924
-    },
-    "sources": [
-      "Easy Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 613,
@@ -13950,7 +14022,10 @@
       "att_anim": 40,
       "enchants_from": 622,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 624,
@@ -14581,7 +14656,11 @@
       "min_defense": 60,
       "price": 245902,
       "enchants_from": 157
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 645,
@@ -14644,7 +14723,11 @@
       "min_defense": 70,
       "price": 278974,
       "enchants_from": 159
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 648,
@@ -14671,7 +14754,11 @@
       "att_anim": 38,
       "enchants_from": 668,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 649,
@@ -14829,10 +14916,7 @@
       "power": -20,
       "min_defense": 50,
       "price": 75882
-    },
-    "sources": [
-      "Normal Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 656,
@@ -14887,10 +14971,7 @@
       "no_present": true,
       "price": 11520,
       "sc": 0
-    },
-    "sources": [
-      "Hell Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 659,
@@ -14996,7 +15077,10 @@
       "speed": 40,
       "price": 276726,
       "enchants_from": 661
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 663,
@@ -15043,7 +15127,8 @@
       "enchant_id": 1863
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       15,
@@ -15072,6 +15157,9 @@
       "price": 241460,
       "enchant_id": 1864
     },
+    "sources": [
+      "Easy Dungeon Reward"
+    ],
     "chances": [
       15,
       25,
@@ -15163,7 +15251,8 @@
       "sc": 1
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       15,
@@ -15192,7 +15281,8 @@
       "pet": 1
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -15360,7 +15450,8 @@
       "pet": 9
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -15442,7 +15533,11 @@
       "min_health": 44,
       "price": 650000,
       "pet": 13
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 682,
@@ -15853,7 +15948,8 @@
       "pet": 35
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -16011,7 +16107,11 @@
       "price": 250000,
       "desc": "Required to evolve pets and items",
       "sc": 99
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 711,
@@ -17227,7 +17327,12 @@
       "desc": "Contains a random item with value up to 80,000 coins",
       "no_present": true,
       "sc": 16
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 765,
@@ -17245,7 +17350,12 @@
       "desc": "Contains a random item with value up to 170,000 coins",
       "no_present": true,
       "sc": 16
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 766,
@@ -17770,7 +17880,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_carpentry": 0.05,
+      "boost_carpentry": 0.04,
       "price": 976,
       "desc": "Allows you to create a bit higher level carpentry items",
       "sc": 2
@@ -17787,7 +17897,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_farming": 0.05,
+      "boost_farming": 0.04,
       "price": 508,
       "desc": "Allows you to plant a bit higher level farming seeds",
       "sc": 2
@@ -18022,7 +18132,9 @@
       "enchant_id": 1089
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       35,
@@ -18231,6 +18343,9 @@
       "aim": 11,
       "enchant_id": 1107
     },
+    "sources": [
+      "Easy Dungeon Reward"
+    ],
     "chances": [
       50,
       70,
@@ -18258,6 +18373,11 @@
       "aim": 13,
       "enchant_id": 1108
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       50,
       70,
@@ -18323,6 +18443,7 @@
       "y": 8
     },
     "params": {
+      "no_present": true,
       "wearable": true,
       "slot": 7,
       "price": 24600,
@@ -18504,10 +18625,7 @@
       "carpentry_type": "1",
       "carpentry_id": 334,
       "sc": 6
-    },
-    "sources": [
-      "Normal Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 825,
@@ -18851,10 +18969,7 @@
       "carpentry_type": "2",
       "carpentry_id": 308,
       "sc": 4
-    },
-    "sources": [
-      "Hell Dungeon Reward"
-    ]
+    }
   },
   {
     "id": 843,
@@ -19539,7 +19654,12 @@
       "min_magic": 35,
       "price": 62243,
       "enchants_from": 481
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 872,
@@ -19748,7 +19868,12 @@
       "min_magic": 35,
       "price": 106561,
       "enchants_from": 455
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 881,
@@ -20076,7 +20201,12 @@
       "min_health": 49,
       "price": 1046500,
       "pet": 52
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 896,
@@ -20285,7 +20415,12 @@
       "min_forging": 95,
       "price": 190335,
       "sc": 99
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 905,
@@ -21214,7 +21349,9 @@
       "enchants_from": 934
     },
     "sources": [
-      "Easy Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -21263,7 +21400,10 @@
       "min_defense": 30,
       "price": 22090,
       "enchants_from": 936
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward"
+    ]
   },
   {
     "id": 938,
@@ -21319,7 +21459,12 @@
       "att_anim": 40,
       "enchants_from": 938,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 940,
@@ -21375,7 +21520,12 @@
       "att_anim": 36,
       "enchants_from": 940,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 942,
@@ -21492,7 +21642,12 @@
       "att_anim": 38,
       "enchants_from": 944,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 946,
@@ -21527,7 +21682,8 @@
       "sc": 0
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -21548,7 +21704,7 @@
   },
   {
     "id": 949,
-    "n": "Ice Feather Bundle",
+    "n": "Ice Feather Bundle [S]",
     "t": 3,
     "img": {
       "sheet": "10",
@@ -21557,6 +21713,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 8000,
       "contains": [
@@ -21571,7 +21728,7 @@
   },
   {
     "id": 950,
-    "n": "Lightning Feather Bundle",
+    "n": "Lightning Feather Bundle [S]",
     "t": 3,
     "img": {
       "sheet": "10",
@@ -21580,6 +21737,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 20000,
       "contains": [
@@ -21616,7 +21774,8 @@
       "desc": "Allows you to enter hell."
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       25,
@@ -22026,7 +22185,10 @@
       "min_defense": 100,
       "price": 1654284,
       "enchants_from": 964
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 966,
@@ -22091,7 +22253,10 @@
       "min_jewelry": 99,
       "price": 324530,
       "sc": 10
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 969,
@@ -22182,6 +22347,10 @@
       "price": 1379856,
       "enchant_id": 973
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -22208,7 +22377,10 @@
       "min_defense": 105,
       "price": 2552734,
       "enchants_from": 972
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 974,
@@ -22230,6 +22402,10 @@
       "price": 1008794,
       "enchant_id": 975
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -22425,7 +22601,9 @@
       "sc": 99
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -22446,7 +22624,8 @@
       "sc": 99
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ]
   },
   {
@@ -22641,13 +22820,17 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 13,
+      "min_wizardry": 13,
       "min_accuracy": 1,
       "price": 1345,
       "enchant_bonus": -0.3,
       "enchant_id": 998,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ],
     "chances": [
       20,
       40,
@@ -22667,13 +22850,17 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 10,
+      "min_wizardry": 10,
       "min_accuracy": 1,
       "price": 750,
       "enchant_bonus": -0.3,
       "enchant_id": 997,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ],
     "chances": [
       20,
       40,
@@ -22693,13 +22880,17 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 15,
+      "min_wizardry": 15,
       "min_accuracy": 1,
       "price": 1687,
       "enchant_bonus": -0.3,
       "enchant_id": 1000,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ],
     "chances": [
       20,
       40,
@@ -22719,13 +22910,17 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 17,
+      "min_wizardry": 17,
       "min_accuracy": 1,
       "price": 2065,
       "enchant_bonus": -0.3,
       "enchant_id": 999,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ],
     "chances": [
       20,
       40,
@@ -22745,13 +22940,17 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 19,
+      "min_wizardry": 19,
       "min_accuracy": 1,
       "price": 2478,
       "enchant_bonus": -0.3,
       "enchant_id": 1001,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ],
     "chances": [
       20,
       40,
@@ -22771,7 +22970,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 20,
+      "min_wizardry": 20,
       "min_accuracy": 1,
       "price": 1387,
       "enchant_bonus": -0.3,
@@ -22798,7 +22997,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 23,
+      "min_wizardry": 23,
       "min_accuracy": 1,
       "price": 2489,
       "enchant_bonus": -0.3,
@@ -22825,7 +23024,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 26,
+      "min_wizardry": 26,
       "min_accuracy": 1,
       "price": 3121,
       "enchant_bonus": -0.3,
@@ -22852,7 +23051,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 28,
+      "min_wizardry": 28,
       "min_accuracy": 1,
       "price": 3821,
       "enchant_bonus": -0.3,
@@ -22879,7 +23078,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 30,
+      "min_wizardry": 30,
       "min_accuracy": 1,
       "price": 4587,
       "enchant_bonus": -0.3,
@@ -22906,7 +23105,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 34,
+      "min_wizardry": 34,
       "min_accuracy": 1,
       "price": 2566,
       "enchant_bonus": -0.3,
@@ -22914,6 +23113,11 @@
       "enchants_from": 997,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       4,
       20,
@@ -22933,7 +23137,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 38,
+      "min_wizardry": 38,
       "min_accuracy": 1,
       "price": 4604,
       "enchant_bonus": -0.3,
@@ -22941,6 +23145,11 @@
       "enchants_from": 998,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       4,
       20,
@@ -22960,7 +23169,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 42,
+      "min_wizardry": 42,
       "min_accuracy": 1,
       "price": 5775,
       "enchant_bonus": -0.3,
@@ -22968,6 +23177,11 @@
       "enchants_from": 1000,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       4,
       20,
@@ -22987,7 +23201,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 46,
+      "min_wizardry": 46,
       "min_accuracy": 1,
       "price": 7069,
       "enchant_bonus": -0.3,
@@ -22995,6 +23209,11 @@
       "enchants_from": 999,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       4,
       20,
@@ -23014,7 +23233,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 50,
+      "min_wizardry": 50,
       "min_accuracy": 1,
       "price": 8486,
       "enchant_bonus": -0.2,
@@ -23022,6 +23241,11 @@
       "enchants_from": 1001,
       "sc": 2
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       4,
       20,
@@ -23041,12 +23265,15 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 55,
+      "min_wizardry": 55,
       "min_accuracy": 1,
       "price": 4748,
       "enchants_from": 1002,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1008,
@@ -23060,12 +23287,15 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 60,
+      "min_wizardry": 60,
       "min_accuracy": 1,
       "price": 8519,
       "enchants_from": 1003,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1009,
@@ -23079,12 +23309,15 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 65,
+      "min_wizardry": 65,
       "min_accuracy": 1,
       "price": 10684,
       "enchants_from": 1004,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1010,
@@ -23098,12 +23331,15 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 70,
+      "min_wizardry": 70,
       "min_accuracy": 1,
       "price": 13077,
       "enchants_from": 1005,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1011,
@@ -23117,12 +23353,15 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 72,
+      "min_wizardry": 72,
       "min_accuracy": 1,
       "price": 15699,
       "enchants_from": 1006,
       "sc": 2
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1012,
@@ -23136,7 +23375,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_magic": 34,
+      "min_wizardry": 34,
       "no_present": true,
       "price": 3005,
       "sc": 7
@@ -23154,7 +23393,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_magic": 55,
+      "min_wizardry": 55,
       "no_present": true,
       "price": 4752,
       "sc": 7
@@ -23172,7 +23411,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_magic": 65,
+      "min_wizardry": 65,
       "no_present": true,
       "price": 6900,
       "sc": 7
@@ -23480,6 +23719,10 @@
       "price": 1194325,
       "enchant_id": 971
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -23620,6 +23863,10 @@
       "price": 1341324,
       "enchant_id": 1039
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -24445,6 +24692,10 @@
       "enchant_id": 1884,
       "price": 606614
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -24716,6 +24967,11 @@
       "enchant_id": 1896,
       "price": 158550
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -24857,7 +25113,12 @@
       "price": 50000,
       "desc": "Removes 1 skill level",
       "sc": 2
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1082,
@@ -25202,7 +25463,12 @@
       "price": 47360,
       "armor": 42,
       "enchants_from": 375
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1099,
@@ -25220,7 +25486,12 @@
       "price": 65120,
       "magic": 42,
       "enchants_from": 376
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1100,
@@ -25239,7 +25510,12 @@
       "aim": 48,
       "power": 48,
       "enchants_from": 377
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1101,
@@ -25586,7 +25862,12 @@
       "price": 82880,
       "armor": 56,
       "enchants_from": 380
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1119,
@@ -25604,7 +25885,12 @@
       "price": 109520,
       "magic": 56,
       "enchants_from": 382
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1120,
@@ -25623,7 +25909,12 @@
       "aim": 64,
       "power": 64,
       "enchants_from": 381
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1121,
@@ -25684,7 +25975,10 @@
       "magic": 65,
       "armor": 91,
       "enchants_from": 823
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1124,
@@ -25721,7 +26015,10 @@
       "slot": 3,
       "price": 3000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward"
+    ]
   },
   {
     "id": 1126,
@@ -25737,7 +26034,11 @@
       "slot": 3,
       "price": 50000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ]
   },
   {
     "id": 1127,
@@ -25753,7 +26054,10 @@
       "slot": 3,
       "price": 150000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1128,
@@ -25769,7 +26073,10 @@
       "slot": 3,
       "price": 300000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1129,
@@ -28924,7 +29231,10 @@
       "price": 679320,
       "desc": "Allows you to enter heaven.",
       "enchants_from": 952
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1277,
@@ -28979,7 +29289,10 @@
       "price": 1800471,
       "desc": "Allows you to enter hell.",
       "enchants_from": 1277
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1279,
@@ -29333,7 +29646,11 @@
       "price": 182080,
       "desc": "Allows you to enter heaven.",
       "enchants_from": 1290
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1292,
@@ -29357,7 +29674,11 @@
       "price": 227328,
       "desc": "Allows you to enter hell.",
       "enchants_from": 951
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1293,
@@ -29580,7 +29901,7 @@
   },
   {
     "id": 1302,
-    "n": "Feather Bundle",
+    "n": "Feather Bundle [S]",
     "t": 3,
     "img": {
       "sheet": "10",
@@ -29589,6 +29910,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 125,
       "contains": [
@@ -29615,7 +29937,10 @@
       "slot": 3,
       "price": 3000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward"
+    ]
   },
   {
     "id": 1304,
@@ -29631,7 +29956,11 @@
       "slot": 3,
       "price": 50000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward"
+    ]
   },
   {
     "id": 1305,
@@ -29647,7 +29976,10 @@
       "slot": 3,
       "price": 150000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1306,
@@ -29663,7 +29995,10 @@
       "slot": 3,
       "price": 300000,
       "sc": 5
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1307,
@@ -31172,7 +31507,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 75,
+      "min_wizardry": 75,
       "min_accuracy": 1,
       "price": 43960,
       "sc": 2
@@ -31190,7 +31525,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 79,
+      "min_wizardry": 79,
       "min_accuracy": 1,
       "price": 48739,
       "sc": 2
@@ -31748,7 +32083,7 @@
           "continuous": false,
           "returns": [
             {
-              "id": 1300,
+              "id": 2698,
               "level": 1,
               "base_chance": 0.2,
               "max_chance": 0.2,
@@ -31776,7 +32111,7 @@
               "duration": 100
             },
             {
-              "id": 200,
+              "id": 1902,
               "level": 1,
               "base_chance": 0.15,
               "max_chance": 0.15,
@@ -31790,7 +32125,7 @@
               "duration": 100
             },
             {
-              "id": 198,
+              "id": 1905,
               "level": 1,
               "base_chance": 0.15,
               "max_chance": 0.15,
@@ -31804,7 +32139,7 @@
               "duration": 100
             },
             {
-              "id": 196,
+              "id": 1908,
               "level": 1,
               "base_chance": 0.15,
               "max_chance": 0.15,
@@ -31818,7 +32153,7 @@
               "duration": 100
             },
             {
-              "id": 194,
+              "id": 1911,
               "level": 1,
               "base_chance": 0.1,
               "max_chance": 0.1,
@@ -31860,7 +32195,7 @@
               "duration": 100
             },
             {
-              "id": 385,
+              "id": 1914,
               "level": 1,
               "base_chance": 0.1,
               "max_chance": 0.1,
@@ -31916,7 +32251,7 @@
               "duration": 100
             },
             {
-              "id": 387,
+              "id": 1917,
               "level": 1,
               "base_chance": 0.1,
               "max_chance": 0.1,
@@ -31930,7 +32265,7 @@
               "duration": 100
             },
             {
-              "id": 389,
+              "id": 1920,
               "level": 1,
               "base_chance": 0.1,
               "max_chance": 0.1,
@@ -31948,6 +32283,48 @@
               "level": 1,
               "base_chance": 0.5,
               "max_chance": 0.5,
+              "next": true,
+              "consumes": [
+                {
+                  "id": 1396,
+                  "count": 1
+                }
+              ],
+              "duration": 100
+            },
+            {
+              "id": 1400,
+              "level": 1,
+              "base_chance": 0.025,
+              "max_chance": 0.025,
+              "next": true,
+              "consumes": [
+                {
+                  "id": 1396,
+                  "count": 1
+                }
+              ],
+              "duration": 100
+            },
+            {
+              "id": 2022,
+              "level": 1,
+              "base_chance": 0.025,
+              "max_chance": 0.025,
+              "next": true,
+              "consumes": [
+                {
+                  "id": 1396,
+                  "count": 1
+                }
+              ],
+              "duration": 100
+            },
+            {
+              "id": 3150,
+              "level": 1,
+              "base_chance": 0.025,
+              "max_chance": 0.025,
               "next": true,
               "consumes": [
                 {
@@ -32081,7 +32458,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.05,
+      "boost_magic": 0.04,
       "price": 390,
       "sc": 2
     }
@@ -32097,7 +32474,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.1,
+      "boost_magic": 0.08,
       "price": 4928,
       "sc": 2
     }
@@ -32113,7 +32490,8 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.15,
+      "boost_magic": 0.13,
+      "no_present": true,
       "price": 7395,
       "sc": 2
     }
@@ -32129,7 +32507,8 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.2,
+      "boost_magic": 0.17,
+      "no_present": true,
       "price": 22800,
       "sc": 2
     }
@@ -32959,6 +33338,10 @@
       "att_anim": 34,
       "sc": 0
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -32989,7 +33372,10 @@
       "att_anim": 34,
       "enchants_from": 1449,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1451,
@@ -33018,6 +33404,9 @@
       "att_anim": 38,
       "sc": 1
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -33050,7 +33439,10 @@
       "att_anim": 38,
       "enchants_from": 1451,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1453,
@@ -33076,6 +33468,9 @@
       "att_anim": 36,
       "sc": 0
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -33106,7 +33501,10 @@
       "att_anim": 36,
       "enchants_from": 1453,
       "sc": 0
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1455,
@@ -33544,6 +33942,9 @@
       "price": 722547,
       "enchant_id": 1470
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -33571,7 +33972,10 @@
       "min_defense": 110,
       "price": 1336711,
       "enchants_from": 1469
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1471,
@@ -33804,7 +34208,10 @@
       "min_defense": 110,
       "price": 1581461,
       "enchants_from": 1478
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1480,
@@ -33826,6 +34233,9 @@
       "price": 1487454,
       "enchant_id": 1481
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -34078,7 +34488,10 @@
       "min_defense": 110,
       "price": 848311,
       "enchants_from": 1489
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1491,
@@ -34100,6 +34513,9 @@
       "enchant_id": 1492,
       "price": 854755
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -34352,7 +34768,10 @@
       "min_defense": 110,
       "price": 900000,
       "enchants_from": 1500
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1502,
@@ -34422,6 +34841,9 @@
       "price": 998748,
       "enchant_id": 1505
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -36596,7 +37018,12 @@
       "min_forging": 1,
       "price": 60000,
       "sc": 99
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1580,
@@ -36683,7 +37110,10 @@
       "min_defense": 110,
       "price": 429980,
       "enchants_from": 1582
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1584,
@@ -36707,6 +37137,9 @@
       "price": 642554,
       "enchant_id": 1585
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -36855,7 +37288,10 @@
       "min_defense": 40,
       "price": 25360,
       "enchants_from": 339
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward"
+    ]
   },
   {
     "id": 1591,
@@ -37185,7 +37621,7 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_magic": 100,
+      "min_wizardry": 100,
       "price": 90000,
       "sc": 99
     }
@@ -37212,6 +37648,10 @@
       "price": 1645885,
       "enchant_id": 1603
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37240,7 +37680,10 @@
       "min_magic": 105,
       "price": 3044887,
       "enchants_from": 1602
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1604,
@@ -37264,6 +37707,9 @@
       "price": 1954844,
       "enchant_id": 1605
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37292,7 +37738,10 @@
       "min_magic": 110,
       "price": 3616461,
       "enchants_from": 1604
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1606,
@@ -37316,6 +37765,10 @@
       "price": 1254852,
       "enchant_id": 1607
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37368,6 +37821,9 @@
       "price": 1574654,
       "enchant_id": 1609
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37396,7 +37852,10 @@
       "min_magic": 110,
       "price": 2913109,
       "enchants_from": 1608
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1610,
@@ -37420,6 +37879,10 @@
       "enchant_id": 1611,
       "price": 1224588
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37500,7 +37963,10 @@
       "min_magic": 110,
       "price": 3118147,
       "enchants_from": 1612
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1614,
@@ -37525,6 +37991,10 @@
       "speed": 30,
       "price": 1100254
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37579,6 +38049,9 @@
       "speed": 35,
       "price": 1348544
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -37608,7 +38081,10 @@
       "speed": 35,
       "price": 2494806,
       "enchants_from": 1616
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1618,
@@ -39712,7 +40188,11 @@
       "aim": 50,
       "min_defense": 90,
       "price": 92888
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1688,
@@ -42672,7 +43152,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 98,
+      "min_wizardry": 98,
       "price": 137012,
       "sc": 2
     }
@@ -42689,7 +43169,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 105,
+      "min_wizardry": 105,
       "price": 105505,
       "sc": 2
     }
@@ -42706,7 +43186,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 110,
+      "min_wizardry": 110,
       "price": 116975,
       "sc": 2
     }
@@ -42723,7 +43203,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 115,
+      "min_wizardry": 115,
       "price": 195100,
       "sc": 2
     }
@@ -42740,7 +43220,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 90,
+      "min_wizardry": 90,
       "price": 97550,
       "sc": 2
     }
@@ -42757,7 +43237,7 @@
     "params": {
       "wearable": true,
       "slot": 4,
-      "min_magic": 84,
+      "min_wizardry": 84,
       "price": 68506,
       "sc": 2
     }
@@ -43068,7 +43548,12 @@
       "min_magic": 35,
       "price": 61522,
       "enchants_from": 457
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1826,
@@ -43906,7 +44391,11 @@
       "min_defense": 50,
       "price": 28541,
       "enchants_from": 128
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1858,
@@ -44032,7 +44521,11 @@
       "min_defense": 80,
       "price": 260857,
       "enchants_from": 664
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1864,
@@ -44220,7 +44713,7 @@
       "wearable": true,
       "slot": 3,
       "min_woodcutting": 80,
-      "price": 98000,
+      "price": 96000,
       "sc": 3
     }
   },
@@ -44549,7 +45042,12 @@
       "min_defense": 5,
       "price": 7030,
       "enchants_from": 46
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1889,
@@ -44645,7 +45143,12 @@
       "min_magic": 35,
       "price": 53319,
       "enchants_from": 1072
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1893,
@@ -45153,7 +45656,12 @@
       "min_jewelry": 90,
       "price": 20000,
       "sc": 10
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1920,
@@ -45204,7 +45712,12 @@
       "min_jewelry": 100,
       "price": 40000,
       "sc": 10
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1923,
@@ -45238,7 +45751,12 @@
       "aim": 9,
       "armor": 7,
       "price": 6068
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1925,
@@ -45255,7 +45773,12 @@
       "price": 12136,
       "armor": 9,
       "aim": 7
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 1926,
@@ -45405,6 +45928,10 @@
       "magic": 40,
       "enchant_id": 1933
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -45769,6 +46296,10 @@
       "magic": 56,
       "enchant_id": 1949
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -45923,7 +46454,7 @@
       "wearable": true,
       "slot": 7,
       "min_health": 120,
-      "price": 1123160,
+      "price": 2701200,
       "aim": 130,
       "power": 130,
       "armor": 130,
@@ -45950,7 +46481,7 @@
       "wearable": true,
       "slot": 7,
       "min_health": 120,
-      "price": 2077846,
+      "price": 4186860,
       "aim": 169,
       "power": 169,
       "armor": 169,
@@ -48415,6 +48946,20 @@
               "duration": 100
             },
             {
+              "id": 3071,
+              "level": 1,
+              "base_chance": 0.015,
+              "max_chance": 0.015,
+              "next": true,
+              "consumes": [
+                {
+                  "id": 2031,
+                  "count": 1
+                }
+              ],
+              "duration": 100
+            },
+            {
               "id": 1305,
               "level": 1,
               "base_chance": 0.05,
@@ -48721,10 +49266,10 @@
               "duration": 100
             },
             {
-              "id": 1277,
+              "id": 3071,
               "level": 1,
-              "base_chance": 0.03,
-              "max_chance": 0.03,
+              "base_chance": 0.02,
+              "max_chance": 0.02,
               "next": true,
               "consumes": [
                 {
@@ -49100,7 +49645,12 @@
       "min_archery": 50,
       "archery_arrows": 2940,
       "enchants_from": 2046
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2048,
@@ -49287,6 +49837,10 @@
       "archery_arrows": 5000,
       "enchant_id": 2057
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -50957,6 +51511,10 @@
       "enchant_id": 2113,
       "att_anim": 40
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -50990,7 +51548,10 @@
       "bow": true,
       "att_anim": 40,
       "enchants_from": 2112
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2114,
@@ -51019,6 +51580,10 @@
       "enchant_id": 2115,
       "att_anim": 40
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -51053,7 +51618,10 @@
       "bow": true,
       "att_anim": 40,
       "enchants_from": 2114
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2116,
@@ -51081,6 +51649,9 @@
       "enchant_id": 2117,
       "att_anim": 40
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -51143,6 +51714,9 @@
       "enchant_id": 2119,
       "att_anim": 40
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -51376,6 +51950,9 @@
       "min_archery": 115,
       "archery_arrows": 6100
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -51583,7 +52160,12 @@
       "speed": -8,
       "price": 13727,
       "enchants_from": 2135
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2137,
@@ -51733,7 +52315,12 @@
       "speed": -10,
       "price": 49737,
       "enchants_from": 2141
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2143,
@@ -51956,6 +52543,10 @@
       "speed": -12,
       "enchant_id": 2152
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -52006,6 +52597,9 @@
       "speed": -12,
       "enchant_id": 2154
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -52234,7 +52828,12 @@
       "speed": -10,
       "price": 18389,
       "enchants_from": 2161
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2163,
@@ -52384,7 +52983,12 @@
       "min_archery": 50,
       "price": 89821,
       "enchants_from": 2167
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2169,
@@ -52607,6 +53211,10 @@
       "price": 354640,
       "enchant_id": 2178
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -52634,7 +53242,10 @@
       "speed": -14,
       "price": 656084,
       "enchants_from": 2177
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2179,
@@ -52657,6 +53268,9 @@
       "price": 387520,
       "enchant_id": 2180
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -52884,7 +53498,12 @@
       "min_archery": 30,
       "price": 16058,
       "enchants_from": 2187
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2189,
@@ -53034,7 +53653,12 @@
       "speed": -12,
       "price": 71306,
       "enchants_from": 2193
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2195,
@@ -53257,6 +53881,10 @@
       "enchant_id": 2204,
       "price": 333320
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -53307,6 +53935,9 @@
       "enchant_id": 2206,
       "price": 361760
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -53534,7 +54165,12 @@
       "speed": 20,
       "price": 13727,
       "enchants_from": 2213
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2215,
@@ -53684,7 +54320,12 @@
       "speed": 26,
       "price": 32471,
       "enchants_from": 2219
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2221,
@@ -53907,6 +54548,10 @@
       "enchant_id": 2230,
       "price": 244660
     },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -53957,6 +54602,9 @@
       "enchant_id": 2232,
       "price": 264880
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       5,
       15,
@@ -55417,6 +56065,11 @@
       "enchant_id": 2383,
       "att_anim": 40
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       80,
       100,
@@ -56610,7 +57263,11 @@
       "archery_range": 4,
       "att_anim": 49,
       "archery_uses": 26
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2368,
@@ -57422,6 +58079,11 @@
       "enchant_id": 2398,
       "att_anim": 40
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       80,
       100,
@@ -57574,6 +58236,11 @@
       "att_anim": 40,
       "enchants_from": 2400
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       64,
       80,
@@ -57972,6 +58639,11 @@
       "min_archery": 10,
       "enchant_id": 2413
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       80,
       100,
@@ -59918,7 +60590,7 @@
       },
       "slot": 6,
       "armor": 24,
-      "speed": 29,
+      "speed": 18,
       "no_present": true,
       "min_archery": 30,
       "price": 40000,
@@ -60308,7 +60980,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_fletching": 0.05,
+      "boost_fletching": 0.04,
       "price": 335,
       "sc": 2
     }
@@ -60324,7 +60996,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_archery": 0.05,
+      "boost_archery": 0.04,
       "price": 331,
       "sc": 2
     }
@@ -60340,7 +61012,8 @@
     },
     "params": {
       "wearable": false,
-      "boost_archery": 0.1,
+      "boost_archery": 0.08,
+      "no_present": true,
       "price": 1033,
       "sc": 2
     }
@@ -60356,7 +61029,8 @@
     },
     "params": {
       "wearable": false,
-      "boost_archery": 0.15,
+      "boost_archery": 0.13,
+      "no_present": true,
       "price": 2325,
       "sc": 2
     }
@@ -60372,7 +61046,7 @@
     },
     "params": {
       "wearable": false,
-      "boost_archery": 0.2,
+      "boost_archery": 0.17,
       "no_present": true,
       "price": 4460,
       "sc": 2
@@ -60659,7 +61333,12 @@
       "price": 116949,
       "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 2504
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2506,
@@ -60776,7 +61455,11 @@
       "price": 182080,
       "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 2508
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2510,
@@ -60803,7 +61486,8 @@
       "desc": "Allows you to enter heaven and hell."
     },
     "sources": [
-      "Normal Dungeon Reward"
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
     ],
     "chances": [
       25,
@@ -60835,7 +61519,11 @@
       "price": 303104,
       "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 2510
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2512,
@@ -62171,6 +62859,11 @@
       "archery": 58,
       "enchant_id": 2559
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -62195,7 +62888,12 @@
       "armor": 81,
       "archery": 81,
       "enchants_from": 2558
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2560,
@@ -62347,6 +63045,11 @@
       "archery": 64,
       "enchant_id": 2567
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -62371,7 +63074,12 @@
       "armor": 83,
       "archery": 83,
       "enchants_from": 2566
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2568,
@@ -62449,7 +63157,10 @@
       "price": 1800471,
       "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 2517
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2571,
@@ -63567,7 +64278,11 @@
       "carpentry_type": "1",
       "carpentry_id": 585,
       "sc": 7
-    }
+    },
+    "sources": [
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2624,
@@ -64134,7 +64849,12 @@
       "price": 106560,
       "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 2648
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2650,
@@ -64321,6 +65041,11 @@
       "enchant_id": 2657,
       "desc": "Allows you to enter heaven and hell."
     },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -65353,8 +66078,9 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.05,
-      "boost_defense": 0.05,
+      "boost_magic": 0.04,
+      "boost_defense": 0.04,
+      "no_present": true,
       "price": 429,
       "sc": 2
     }
@@ -65370,8 +66096,9 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.1,
-      "boost_defense": 0.1,
+      "boost_magic": 0.08,
+      "boost_defense": 0.08,
+      "no_present": true,
       "price": 1702,
       "sc": 2
     }
@@ -65387,8 +66114,9 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.15,
-      "boost_defense": 0.15,
+      "boost_magic": 0.13,
+      "boost_defense": 0.13,
+      "no_present": true,
       "price": 2964,
       "sc": 2
     }
@@ -65404,8 +66132,9 @@
     },
     "params": {
       "wearable": false,
-      "boost_magic": 0.2,
-      "boost_defense": 0.2,
+      "boost_magic": 0.17,
+      "boost_defense": 0.17,
+      "no_present": true,
       "price": 6748,
       "sc": 2
     }
@@ -66341,6 +67070,9 @@
       "att_anim": 38,
       "sc": 1
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       25,
       40,
@@ -66373,7 +67105,10 @@
       "att_anim": 38,
       "enchants_from": 2730,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2732,
@@ -66402,6 +67137,9 @@
       "att_anim": 38,
       "sc": 1
     },
+    "sources": [
+      "Hell Dungeon Reward"
+    ],
     "chances": [
       15,
       25,
@@ -66434,7 +67172,10 @@
       "att_anim": 38,
       "enchants_from": 2732,
       "sc": 1
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2734,
@@ -67711,7 +68452,7 @@
   },
   {
     "id": 2790,
-    "n": "Baby Valvran [Rare]",
+    "n": "Baby Valravn [Rare]",
     "t": 7,
     "img": {
       "sheet": "53",
@@ -67732,7 +68473,7 @@
   },
   {
     "id": 2791,
-    "n": "Valvran [Rare]",
+    "n": "Valravn [Rare]",
     "t": 7,
     "img": {
       "sheet": "53",
@@ -67753,7 +68494,7 @@
   },
   {
     "id": 2792,
-    "n": "Adult Valvran [Legendary]",
+    "n": "Adult Valravn [Legendary]",
     "t": 7,
     "img": {
       "sheet": "53",
@@ -68072,6 +68813,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 1,
       "contains": [
@@ -68094,6 +68836,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 1,
       "contains": [
@@ -69424,6 +70167,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 10232189,
       "contains": [
@@ -69433,7 +70177,10 @@
         1039,
         1884
       ]
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2881,
@@ -69446,6 +70193,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 15229054,
       "contains": [
@@ -69468,6 +70216,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 10013848,
       "contains": [
@@ -69490,6 +70239,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 5096463,
       "contains": [
@@ -69499,7 +70249,10 @@
         1501,
         1583
       ]
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2884,
@@ -69512,6 +70265,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 6699065,
       "contains": [
@@ -69534,6 +70288,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 5514479,
       "contains": [
@@ -69556,6 +70311,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 28288355,
       "contains": [
@@ -69578,6 +70334,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 585576,
       "contains": [
@@ -69599,6 +70356,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 932918,
       "contains": [
@@ -69620,6 +70378,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 1472433,
       "contains": [
@@ -69641,6 +70400,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 2336726,
       "contains": [
@@ -69662,6 +70422,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 3682665,
       "contains": [
@@ -69683,6 +70444,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 9896785,
       "contains": [
@@ -69704,6 +70466,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 9667319,
       "contains": [
@@ -69725,6 +70488,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 12142523,
       "contains": [
@@ -69733,7 +70497,10 @@
         1609,
         1613
       ]
-    }
+    },
+    "sources": [
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2895,
@@ -69746,6 +70513,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 13817064,
       "contains": [
@@ -69767,6 +70535,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 14970652,
       "contains": [
@@ -69788,6 +70557,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 315270,
       "contains": [
@@ -69797,7 +70567,12 @@
         2220,
         2047
       ]
-    }
+    },
+    "sources": [
+      "Easy Dungeon Reward",
+      "Normal Dungeon Reward",
+      "Hell Dungeon Reward"
+    ]
   },
   {
     "id": 2898,
@@ -69810,6 +70585,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 541125,
       "contains": [
@@ -69832,6 +70608,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 575054,
       "contains": [
@@ -69854,6 +70631,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 819180,
       "contains": [
@@ -69876,6 +70654,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 1302030,
       "contains": [
@@ -69898,6 +70677,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 661670,
       "contains": [
@@ -69920,6 +70700,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 2834052,
       "contains": [
@@ -69942,6 +70723,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 3083136,
       "contains": [
@@ -69964,6 +70746,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 4064450,
       "contains": [
@@ -69986,6 +70769,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 4235575,
       "contains": [
@@ -70077,8 +70861,7 @@
       "slot": 12,
       "price": 1,
       "min_health": 65,
-      "pet": 285,
-      "no_present": true
+      "pet": 285
     }
   },
   {
@@ -70125,6 +70908,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 150,
       "contains": [
@@ -70146,6 +70930,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 210,
       "contains": [
@@ -70167,6 +70952,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 450,
       "contains": [
@@ -70192,6 +70978,7 @@
     },
     "params": {
       "wearable": false,
+      "no_smelt": true,
       "slot": 9,
       "price": 490,
       "contains": [
@@ -70672,8 +71459,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 0
+      "x": 2,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -70717,8 +71504,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 1
+      "x": 3,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -72789,7 +73576,7 @@
       "wearable": true,
       "slot": 7,
       "min_health": 65,
-      "price": 125200,
+      "price": 301106,
       "magic": 76,
       "armor": 97,
       "aim": 97,
@@ -72816,7 +73603,7 @@
       "wearable": true,
       "slot": 7,
       "min_health": 65,
-      "price": 125200,
+      "price": 466714,
       "magic": 90,
       "armor": 117,
       "aim": 117,
@@ -73525,44 +74312,38 @@
   },
   {
     "id": 3063,
-    "n": "Gender mail",
-    "t": 0,
+    "n": "Hand",
+    "t": 4,
     "img": {
-      "sheet": "6",
-      "x": 7,
-      "y": 5
+      "sheet": "8",
+      "x": 2,
+      "y": 7
     },
     "params": {
       "wearable": true,
-      "visible": {
-        "body": 182
-      },
-      "slot": 2,
-      "armor": 1,
-      "min_defense": 1,
+      "slot": 4,
+      "price": 1,
       "no_present": true,
-      "price": 1
+      "no_buy": true,
+      "sc": 0
     }
   },
   {
     "id": 3064,
-    "n": "Gender Pants",
-    "t": 0,
+    "n": "Hand",
+    "t": 4,
     "img": {
-      "sheet": "6",
-      "x": 12,
-      "y": 9
+      "sheet": "8",
+      "x": 3,
+      "y": 7
     },
     "params": {
       "wearable": true,
-      "visible": {
-        "pants": 155
-      },
-      "slot": 11,
-      "armor": 1,
-      "min_defense": 1,
+      "slot": 4,
+      "price": 1,
       "no_present": true,
-      "price": 1
+      "no_buy": true,
+      "sc": 0
     }
   },
   {
@@ -73584,6 +74365,2599 @@
       "min_archery": 1,
       "no_present": true,
       "price": 1
+    }
+  },
+  {
+    "id": 3066,
+    "n": "Rabbit Hat",
+    "t": 0,
+    "img": {
+      "sheet": "53",
+      "x": 0,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "helmet": 143
+      },
+      "slot": 0,
+      "armor": 25,
+      "min_defense": 1,
+      "price": 1
+    }
+  },
+  {
+    "id": 3067,
+    "n": "Rabbit Shirt",
+    "t": 0,
+    "img": {
+      "sheet": "53",
+      "x": 2,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "body": 183
+      },
+      "slot": 2,
+      "armor": 38,
+      "min_defense": 1,
+      "price": 1
+    }
+  },
+  {
+    "id": 3068,
+    "n": "Rabbit Pants",
+    "t": 0,
+    "img": {
+      "sheet": "53",
+      "x": 1,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "pants": 156
+      },
+      "slot": 11,
+      "armor": 27,
+      "min_defense": 1,
+      "price": 1
+    }
+  },
+  {
+    "id": 3069,
+    "n": "Rabbit Outfit Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 0,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        3066,
+        3067,
+        3068
+      ]
+    }
+  },
+  {
+    "id": 3070,
+    "n": "Wild Egg",
+    "t": 9,
+    "img": {},
+    "params": {
+      "wearable": true,
+      "no_present": true,
+      "slot": 20,
+      "price": 1,
+      "min_archery": 25,
+      "archery_speed": 400,
+      "archery_cooldown": 1700,
+      "archery_damage": 16,
+      "archery_range": 4,
+      "att_anim": 49,
+      "archery_uses": 18
+    }
+  },
+  {
+    "id": 3071,
+    "n": "Rabbit Hunting Longbow",
+    "t": 9,
+    "img": {
+      "sheet": "62",
+      "x": 17,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "left_hand": 2,
+        "weapon": 366
+      },
+      "slot": 4,
+      "archery": 170,
+      "min_archery": 75,
+      "speed": 18,
+      "armor": 75,
+      "price": 1,
+      "archery_speed_boost": 0.45,
+      "archery_range_boost": 2,
+      "bow": true,
+      "att_anim": 40
+    }
+  },
+  {
+    "id": 3072,
+    "n": "Small Potion Of Health[placeholder]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 3,
+      "y": 20
+    },
+    "params": {
+      "wearable": false,
+      "heal": 6,
+      "price": 234,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3073,
+    "n": "Small Potion Of Eye Bleeding",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.07,
+      "heal": -5,
+      "price": 1131,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3074,
+    "n": "Small Potion Of Accuracy [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "boost_accuracy": 0.06,
+      "no_present": true,
+      "price": 234,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3075,
+    "n": "Small Potion Of Strength [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.06,
+      "no_present": true,
+      "price": 274,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3076,
+    "n": "Small Potion Of Fishing [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "boost_fishing": 0.06,
+      "no_present": true,
+      "price": 352,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3077,
+    "n": "Small Potion Of Mining [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "boost_mining": 0.06,
+      "no_present": true,
+      "price": 390,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3078,
+    "n": "Small Potion Of Archery [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 4
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.06,
+      "no_present": true,
+      "price": 331,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3079,
+    "n": "Small Potion Of Cooking [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 5
+    },
+    "params": {
+      "wearable": false,
+      "boost_cooking": 0.06,
+      "no_present": true,
+      "price": 508,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3080,
+    "n": "Small Potion Of Carpentry [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 6
+    },
+    "params": {
+      "wearable": false,
+      "boost_carpentry": 0.06,
+      "no_present": true,
+      "price": 976,
+      "desc": "Allows you to create a bit higher level carpentry items",
+      "sc": 2
+    }
+  },
+  {
+    "id": 3081,
+    "n": "Small Potion Of Faith [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.06,
+      "boost_defense": 0.06,
+      "no_present": true,
+      "price": 429,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3082,
+    "n": "Small Potion Of Defense [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 8
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.06,
+      "no_present": true,
+      "price": 352,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3083,
+    "n": "Small Potion Of Fletching [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 9
+    },
+    "params": {
+      "wearable": false,
+      "boost_fletching": 0.06,
+      "no_present": true,
+      "price": 335,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3084,
+    "n": "Small Potion Of Magic [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 10
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.06,
+      "no_present": true,
+      "price": 390,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3085,
+    "n": "Small Potion Of Woodcutting [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 11
+    },
+    "params": {
+      "wearable": false,
+      "boost_woodcutting": 0.06,
+      "no_present": true,
+      "price": 1032,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3086,
+    "n": "Small Potion Of Farming [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 12
+    },
+    "params": {
+      "wearable": false,
+      "boost_farming": 0.06,
+      "no_present": true,
+      "price": 508,
+      "desc": "Allows you to plant a bit higher level farming seeds",
+      "sc": 2
+    }
+  },
+  {
+    "id": 3087,
+    "n": "Small Potion Of Forging [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 13
+    },
+    "params": {
+      "wearable": false,
+      "boost_forging": 0.06,
+      "no_present": true,
+      "price": 1366,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3088,
+    "n": "Small Potion Of Jewelry [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 14
+    },
+    "params": {
+      "wearable": false,
+      "boost_jewelry": 0.06,
+      "no_present": true,
+      "price": 748,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3089,
+    "n": "Medium Potion Of Cooking [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "boost_cooking": 0.12,
+      "no_present": true,
+      "price": 2374,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3090,
+    "n": "Medium Potion Of Mining [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "boost_mining": 0.12,
+      "no_present": true,
+      "price": 2240,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3091,
+    "n": "Medium Potion Of Archery [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.12,
+      "no_present": true,
+      "price": 1033,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3092,
+    "n": "Medium Potion Of Fishing [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "boost_fishing": 0.12,
+      "no_present": true,
+      "price": 2576,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3093,
+    "n": "Medium Potion Of Woodcutting [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 4
+    },
+    "params": {
+      "wearable": false,
+      "boost_woodcutting": 0.12,
+      "no_present": true,
+      "price": 2912,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3094,
+    "n": "Medium Potion Of Faith [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 5
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.12,
+      "boost_defense": 0.12,
+      "no_present": true,
+      "price": 1702,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3095,
+    "n": "Medium Potion Of Defense [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 6
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.12,
+      "no_present": true,
+      "price": 3248,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3096,
+    "n": "Medium Potion Of Strength [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.12,
+      "no_present": true,
+      "price": 3808,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3097,
+    "n": "Medium Potion Of Accuracy [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 8
+    },
+    "params": {
+      "wearable": false,
+      "boost_accuracy": 0.12,
+      "no_present": true,
+      "price": 3920,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3098,
+    "n": "Medium Potion Of Magic [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 9
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.12,
+      "price": 4928,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3099,
+    "n": "Medium Potion Of Paladin [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 10
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.12,
+      "boost_accuracy": 0.12,
+      "no_present": true,
+      "price": 11662,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3100,
+    "n": "Medium Potion Of Berserker [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 11
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.12,
+      "boost_accuracy": 0.12,
+      "no_present": true,
+      "price": 14280,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3101,
+    "n": "Large Potion Of Cooking [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 15
+    },
+    "params": {
+      "wearable": false,
+      "boost_cooking": 0.17,
+      "no_present": true,
+      "price": 6120,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3102,
+    "n": "Large Potion Of Mining [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 16
+    },
+    "params": {
+      "wearable": false,
+      "boost_mining": 0.17,
+      "no_present": true,
+      "price": 6630,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3103,
+    "n": "Large Potion Of Archery [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 17
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.17,
+      "no_present": true,
+      "price": 2325,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3104,
+    "n": "Large Potion Of Fishing [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 18
+    },
+    "params": {
+      "wearable": false,
+      "boost_fishing": 0.17,
+      "no_present": true,
+      "price": 7140,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3105,
+    "n": "Large Potion Of Woodcutting [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 19
+    },
+    "params": {
+      "wearable": false,
+      "boost_woodcutting": 0.17,
+      "no_present": true,
+      "price": 6630,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3106,
+    "n": "Large Potion Of Defense [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 9,
+      "y": 20
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.17,
+      "no_present": true,
+      "price": 7650,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3107,
+    "n": "Large Potion Of Accuracy [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 12
+    },
+    "params": {
+      "wearable": false,
+      "boost_accuracy": 0.17,
+      "no_present": true,
+      "price": 6630,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3108,
+    "n": "Large Potion Of Faith [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 13
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.17,
+      "boost_defense": 0.17,
+      "no_present": true,
+      "price": 2964,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3109,
+    "n": "Large Potion Of Strength [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 14
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.17,
+      "no_present": true,
+      "price": 9180,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3110,
+    "n": "Large Potion Of Magic [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 15
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.17,
+      "no_present": true,
+      "price": 7395,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3111,
+    "n": "Superior Potion Of Cooking [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 16
+    },
+    "params": {
+      "wearable": false,
+      "boost_cooking": 0.23,
+      "no_present": true,
+      "price": 11968,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3112,
+    "n": "Superior Potion Of Mining [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 17
+    },
+    "params": {
+      "wearable": false,
+      "boost_mining": 0.23,
+      "no_present": true,
+      "price": 14960,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3113,
+    "n": "Superior Potion Of Fishing [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 18
+    },
+    "params": {
+      "wearable": false,
+      "boost_fishing": 0.23,
+      "no_present": true,
+      "price": 8160,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3114,
+    "n": "Superior Potion Of Woodcutting [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 19
+    },
+    "params": {
+      "wearable": false,
+      "boost_woodcutting": 0.23,
+      "no_present": true,
+      "price": 10880,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3115,
+    "n": "Superior Potion Of Defense [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 10,
+      "y": 20
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.23,
+      "no_present": true,
+      "price": 17680,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3116,
+    "n": "Superior Potion Of Strength [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.23,
+      "no_present": true,
+      "price": 31280,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3117,
+    "n": "Superior Potion Of Accuracy [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "boost_accuracy": 0.23,
+      "no_present": true,
+      "price": 23120,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3118,
+    "n": "Superior God Potion [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.23,
+      "boost_accuracy": 0.23,
+      "heal": 30,
+      "no_present": true,
+      "price": 44880,
+      "sc": 2
+    },
+    "sources": [
+      "Easy Dungeon Reward"
+    ]
+  },
+  {
+    "id": 3119,
+    "n": "Superior Potion Of Archery [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.23,
+      "no_present": true,
+      "price": 4460,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3120,
+    "n": "Superior Satan Potion [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 4
+    },
+    "params": {
+      "wearable": false,
+      "boost_accuracy": 0.23,
+      "boost_strength": 0.23,
+      "boost_magic": 0.23,
+      "no_present": true,
+      "price": 58480,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3121,
+    "n": "Superior Potion Of Magic [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 5
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.23,
+      "no_present": true,
+      "price": 22800,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3122,
+    "n": "Superior Potion Of Faith [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 6
+    },
+    "params": {
+      "wearable": false,
+      "boost_magic": 0.23,
+      "boost_defense": 0.23,
+      "no_present": true,
+      "price": 6748,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3123,
+    "n": "Gooseberry",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 7,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_alchemy": 65,
+      "price": 960,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3124,
+    "n": "Horsenettle Berry",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 8,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_alchemy": 118,
+      "price": 2600,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3125,
+    "n": "Small Potion Of Eye Bleeding [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 8
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.09,
+      "heal": -4,
+      "price": 1131,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3126,
+    "n": "Medium Potion Of Eye Bleeding",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 9
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.1,
+      "heal": -8,
+      "no_present": true,
+      "price": 2508,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3127,
+    "n": "Medium Potion Of Eye Bleeding [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 10
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.14,
+      "heal": -6,
+      "no_present": true,
+      "price": 2508,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3128,
+    "n": "Large Potion Of Eye Bleeding",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 11
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.16,
+      "heal": -12,
+      "no_present": true,
+      "price": 5712,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3129,
+    "n": "Large Potion Of Eye Bleeding [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 12
+    },
+    "params": {
+      "wearable": false,
+      "boost_archery": 0.2,
+      "heal": -10,
+      "no_present": true,
+      "price": 5712,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3130,
+    "n": "Medium Potion Of Light",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 13
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.06,
+      "heal": 8,
+      "no_present": true,
+      "price": 5600,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3131,
+    "n": "Medium Potion Of Light [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 14
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.08,
+      "heal": 12,
+      "no_present": true,
+      "price": 5600,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3132,
+    "n": "Large Potion Of Light",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 15
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.1,
+      "heal": 14,
+      "no_present": true,
+      "price": 12750,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3133,
+    "n": "Large Potion Of Light [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 16
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.12,
+      "heal": 20,
+      "no_present": true,
+      "price": 12750,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3134,
+    "n": "Superior Potion Of Light",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 17
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.14,
+      "heal": 24,
+      "no_present": true,
+      "price": 17040,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3135,
+    "n": "Superior Potion Of Light [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 18
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.17,
+      "heal": 28,
+      "no_present": true,
+      "price": 17040,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3136,
+    "n": "Large Potion Of Death",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 19
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.15,
+      "boost_magic": 0.15,
+      "boost_defense": -0.1,
+      "no_present": true,
+      "price": 16728,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3137,
+    "n": "Large Potion Of Death [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 11,
+      "y": 20
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.19,
+      "boost_magic": 0.19,
+      "boost_defense": -0.12,
+      "no_present": true,
+      "price": 16728,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3138,
+    "n": "Superior Potion Of Death",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 0
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.19,
+      "boost_magic": 0.19,
+      "boost_defense": -0.12,
+      "no_present": true,
+      "price": 37497,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3139,
+    "n": "Superior Potion Of Death [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 1
+    },
+    "params": {
+      "wearable": false,
+      "boost_strength": 0.25,
+      "boost_magic": 0.25,
+      "boost_defense": -0.15,
+      "no_present": true,
+      "price": 37497,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3140,
+    "n": "Superior Potion Of Blessing",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.3,
+      "boost_accuracy": 0.3,
+      "boost_strength": -0.1,
+      "boost_magic": -0.1,
+      "boost_archery": -0.1,
+      "heal": 10,
+      "no_present": true,
+      "price": 53520,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3141,
+    "n": "Superior Potion Of Blessing [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "boost_defense": 0.32,
+      "boost_accuracy": 0.32,
+      "boost_strength": -0.11,
+      "boost_magic": -0.11,
+      "boost_archery": -0.11,
+      "heal": 15,
+      "no_present": true,
+      "price": 53520,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3142,
+    "n": "Air Altar Permission",
+    "t": 4,
+    "img": {
+      "sheet": "31",
+      "x": 3,
+      "y": 11
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_wizardry": 40,
+      "price": 750000,
+      "sc": 3
+    }
+  },
+  {
+    "id": 3143,
+    "n": "Flash Altar Permission",
+    "t": 4,
+    "img": {
+      "sheet": "31",
+      "x": 2,
+      "y": 11
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_wizardry": 20,
+      "price": 500000,
+      "sc": 3
+    }
+  },
+  {
+    "id": 3144,
+    "n": "Earth Altar Permission",
+    "t": 4,
+    "img": {
+      "sheet": "31",
+      "x": 4,
+      "y": 11
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_wizardry": 50,
+      "price": 1500000,
+      "sc": 3
+    }
+  },
+  {
+    "id": 3145,
+    "n": "Water Altar Permission",
+    "t": 4,
+    "img": {
+      "sheet": "31",
+      "x": 0,
+      "y": 12
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_wizardry": 70,
+      "price": 3250000,
+      "sc": 3
+    }
+  },
+  {
+    "id": 3146,
+    "n": "Fire Altar Permission",
+    "t": 4,
+    "img": {
+      "sheet": "31",
+      "x": 1,
+      "y": 12
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_wizardry": 100,
+      "price": 5500000,
+      "sc": 3
+    }
+  },
+  {
+    "id": 3147,
+    "n": "Star Of Knowledge Teleport",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 4,
+      "y": 2
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "min_magic": 75,
+      "price": 76000,
+      "to_map": 37,
+      "to_i": 40,
+      "to_j": 57,
+      "desc": "Teleports to Star Of Knowledge",
+      "sc": 21
+    }
+  },
+  {
+    "id": 3148,
+    "n": "Party Hat (Pink)",
+    "t": 0,
+    "img": {
+      "sheet": "6",
+      "x": 1,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "helmet": 144
+      },
+      "slot": 0,
+      "armor": 20,
+      "aim": 20,
+      "power": 20,
+      "min_defense": 1,
+      "price": 1,
+      "desc": "5th anniversary"
+    }
+  },
+  {
+    "id": 3149,
+    "n": "Party Hat (Orange)",
+    "t": 0,
+    "img": {
+      "sheet": "6",
+      "x": 0,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "helmet": 145
+      },
+      "slot": 0,
+      "armor": 50,
+      "aim": 30,
+      "power": 20,
+      "min_defense": 1,
+      "price": 1,
+      "desc": "5th anniversary"
+    }
+  },
+  {
+    "id": 3150,
+    "n": "Silvanus's Permission",
+    "t": 3,
+    "img": {
+      "sheet": "8",
+      "x": 4,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "slot": 9,
+      "min_magic": 1,
+      "price": 1,
+      "no_present": true,
+      "to_map": 23,
+      "to_i": 58,
+      "to_j": 20,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3151,
+    "n": "Forest Master Guild Permission",
+    "t": 4,
+    "img": {
+      "sheet": "8",
+      "x": 5,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_woodcutting": 80,
+      "min_fletching": 50,
+      "price": 136000,
+      "sc": 3
+    }
+  },
+  {
+    "id": 3152,
+    "n": "Feather Cotton",
+    "t": 3,
+    "img": {
+      "sheet": "55",
+      "x": 9,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_alchemy": 20,
+      "price": 360,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3153,
+    "n": "Angel Cotton",
+    "t": 3,
+    "img": {
+      "sheet": "53",
+      "x": 3,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_alchemy": 40,
+      "price": 460,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3154,
+    "n": "Devil Cotton",
+    "t": 3,
+    "img": {
+      "sheet": "52",
+      "x": 4,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_alchemy": 60,
+      "price": 460,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3155,
+    "n": "Ice Cotton",
+    "t": 3,
+    "img": {
+      "sheet": "53",
+      "x": 4,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_alchemy": 80,
+      "price": 1200,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3156,
+    "n": "Lightning Cotton",
+    "t": 3,
+    "img": {
+      "sheet": "52",
+      "x": 5,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_alchemy": 100,
+      "price": 3000,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3157,
+    "n": "Phoenix Cotton",
+    "t": 3,
+    "img": {
+      "sheet": "52",
+      "x": 6,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_alchemy": 120,
+      "price": 4000,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3158,
+    "n": "Cotton Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 4
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 20,
+      "price": 60,
+      "farming_id": 650,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3159,
+    "n": "Angel Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 5
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 40,
+      "price": 460,
+      "farming_id": 651,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3160,
+    "n": "Devil Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 6
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 60,
+      "price": 460,
+      "farming_id": 652,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3161,
+    "n": "Ice Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 80,
+      "price": 1300,
+      "farming_id": 653,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3162,
+    "n": "Lightning Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 8
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 100,
+      "price": 3000,
+      "farming_id": 654,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3163,
+    "n": "Phoenix Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 9
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 120,
+      "price": 4000,
+      "farming_id": 655,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3164,
+    "n": "Silver Flint",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 0,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 700,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3165,
+    "n": "Gold Flint",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 1,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 1000,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3166,
+    "n": "White Gold Flint",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 2,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 1400,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3167,
+    "n": "Platinum Flint",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 3,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 1800,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3168,
+    "n": "Redhodium Flint",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 4,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 3915,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3169,
+    "n": "Flint Mould",
+    "t": 4,
+    "img": {
+      "sheet": "8",
+      "x": 6,
+      "y": 7
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_jewelry": 1,
+      "price": 300,
+      "sc": 0
+    }
+  },
+  {
+    "id": 3170,
+    "n": "Kaolinite Flint Mould Box",
+    "t": 4,
+    "img": {
+      "sheet": "8",
+      "x": 7,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 450,
+      "contains": [
+        3169,
+        3169,
+        3169
+      ],
+      "sc": 0
+    }
+  },
+  {
+    "id": 3171,
+    "n": "Kaolinite Flint Mould Box [R]",
+    "t": 4,
+    "img": {
+      "sheet": "8",
+      "x": 8,
+      "y": 7
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 650,
+      "contains": [
+        3169,
+        3169,
+        3169,
+        3169,
+        3169,
+        3169,
+        3169
+      ],
+      "sc": 0
+    }
+  },
+  {
+    "id": 3172,
+    "n": "Angel Feather Bundle [M]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 1,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 5600,
+      "contains": [
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3173,
+    "n": "Angel Feather Bundle [L]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 7,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 8400,
+      "contains": [
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260,
+        2260
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3174,
+    "n": "Devil Feather Bundle [M]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 2,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 5600,
+      "contains": [
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3175,
+    "n": "Devil Feather Bundle [L]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 8,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 8400,
+      "contains": [
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261,
+        2261
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3176,
+    "n": "Feather Bundle [M]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 0,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 250,
+      "contains": [
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3177,
+    "n": "Feather Bundle [L]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 6,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 375,
+      "contains": [
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033,
+        2033
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3178,
+    "n": "Phoenix Feather Bundle [M]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 5,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 50000,
+      "contains": [
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3179,
+    "n": "Phoenix Feather Bundle [L]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 11,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 75000,
+      "contains": [
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264,
+        2264
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3180,
+    "n": "Ice Feather Bundle [M]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 3,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 16000,
+      "contains": [
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3181,
+    "n": "Ice Feather Bundle [L]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 9,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 24000,
+      "contains": [
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262,
+        2262
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3182,
+    "n": "Lightning Feather Bundle [M]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 4,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 40000,
+      "contains": [
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3183,
+    "n": "Lightning Feather Bundle [L]",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 10,
+      "y": 28
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 60000,
+      "contains": [
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263,
+        2263
+      ],
+      "sc": 9
+    }
+  },
+  {
+    "id": 3184,
+    "n": "Spider Armor",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 4,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "body": 184
+      },
+      "slot": 2,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3185,
+    "n": "Spider Pants",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 3,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "pants": 157
+      },
+      "slot": 11,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3186,
+    "n": "Spider Head",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 7,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "helmet": 146
+      },
+      "slot": 0,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3187,
+    "n": "Spider Gloves",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 5,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "hands": 39
+      },
+      "slot": 5,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3188,
+    "n": "Spider Web",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 4,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_archery": 25,
+      "price": 600,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3189,
+    "n": "Web Pellet",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 5,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_archery": 25,
+      "price": 1800,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3190,
+    "n": "Sharp Web Pellet",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 6,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_archery": 25,
+      "price": 3600,
+      "sc": 99
+    }
+  },
+  {
+    "id": 3191,
+    "n": "Spider Web Arrow",
+    "t": 9,
+    "img": {},
+    "params": {
+      "wearable": true,
+      "slot": 20,
+      "price": 5000,
+      "min_archery": 25,
+      "archery_speed": 350,
+      "archery_cooldown": 2000,
+      "archery_damage": 5,
+      "archery_range": 6,
+      "enemy_slow_duration": 3000,
+      "enemy_slow_percent": 0.5,
+      "att_anim": 49,
+      "archery_uses": 1
+    }
+  },
+  {
+    "id": 3192,
+    "n": "Spider Outfit Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 1,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        3184,
+        3185,
+        3186,
+        3187
+      ]
+    }
+  },
+  {
+    "id": 3193,
+    "n": "Snowman Armor",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 9,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "body": 185
+      },
+      "slot": 2,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3194,
+    "n": "Snowman Pants",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 10,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "pants": 158
+      },
+      "slot": 11,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3195,
+    "n": "Snowman Head",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 8,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "helmet": 147
+      },
+      "slot": 0,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3196,
+    "n": "Snowman Gloves",
+    "t": 0,
+    "img": {
+      "sheet": "56",
+      "x": 11,
+      "y": 15
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "hands": 40
+      },
+      "slot": 5,
+      "min_defense": 1,
+      "price": 1,
+      "no_present": true
+    }
+  },
+  {
+    "id": 3197,
+    "n": "Snowman Outfit Box",
+    "t": 0,
+    "img": {
+      "sheet": "66",
+      "x": 2,
+      "y": 3
+    },
+    "params": {
+      "wearable": false,
+      "no_smelt": true,
+      "slot": 9,
+      "price": 1,
+      "contains": [
+        3193,
+        3194,
+        3195,
+        3196
+      ]
+    }
+  },
+  {
+    "id": 3198,
+    "n": "Christmas Tree",
+    "t": 8,
+    "img": {
+      "sheet": "54",
+      "x": 0,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 1,
+      "no_present": true,
+      "carpentry_type": "1",
+      "carpentry_id": 674,
+      "sc": 7
+    }
+  },
+  {
+    "id": 3199,
+    "n": "Santa's Cookie",
+    "t": 1,
+    "img": {
+      "sheet": "52",
+      "x": 7,
+      "y": 4
+    },
+    "params": {
+      "wearable": false,
+      "heal": 35,
+      "price": 1,
+      "desc": "Merry Christmas!",
+      "sc": 0
     }
   }
 ]
