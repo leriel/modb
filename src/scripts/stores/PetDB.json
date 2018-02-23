@@ -8014,5 +8014,99 @@
       "breeding_level": 1,
       "likes": []
     }
+  },
+  {
+    "id": 286,
+    "n": "Teddy Bear [Legendary]",
+    "item_id": 3207,
+    "params": {
+      "item_id": 3207,
+      "xp_required": 700000,
+      "inventory_slots": 10,
+      "next_pet_item_id": 3208,
+      "level": 1,
+      "eats": {
+        "494": 0.15,
+        "1368": 0.3
+      },
+      "eat_interval": 6,
+      "happiness": 32,
+      "insurance_cost": [
+        1,
+        1
+      ],
+      "breeding_level": 1,
+      "likes": []
+    }
+  },
+  {
+    "id": 287,
+    "n": "Fluffy [Legendary]",
+    "item_id": 3208,
+    "params": {
+      "item_id": 3208,
+      "xp_required": 1000000,
+      "inventory_slots": 12,
+      "next_pet_item_id": 3209,
+      "level": 2,
+      "eats": {
+        "494": 0.1,
+        "1368": 0.2
+      },
+      "eat_interval": 6,
+      "happiness": 46,
+      "insurance_cost": [
+        1,
+        1
+      ],
+      "breeding_level": 1,
+      "likes": []
+    }
+  },
+  {
+    "id": 288,
+    "n": "Mr. Bear [Legendary]",
+    "item_id": 3209,
+    "params": {
+      "item_id": 3209,
+      "xp_required": 1300000,
+      "inventory_slots": 14,
+      "next_pet_item_id": 3210,
+      "level": 3,
+      "eats": {
+        "494": 0.05,
+        "1368": 0.1
+      },
+      "eat_interval": 6,
+      "happiness": 48,
+      "insurance_cost": [
+        1,
+        1
+      ],
+      "breeding_level": 1,
+      "likes": []
+    }
+  },
+  {
+    "id": 289,
+    "n": "Cuddle Bear [Legendary]",
+    "item_id": 3210,
+    "params": {
+      "item_id": 3210,
+      "inventory_slots": 16,
+      "level": 4,
+      "eats": {
+        "494": 0.025,
+        "1368": 0.05
+      },
+      "eat_interval": 6,
+      "happiness": 60,
+      "insurance_cost": [
+        1,
+        1
+      ],
+      "breeding_level": 1,
+      "likes": []
+    }
   }
 ]

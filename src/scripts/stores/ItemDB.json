@@ -375,7 +375,8 @@
       "wearable": true,
       "visible": {
         "left_hand": 1,
-        "weapon": 19
+        "weapon": 19,
+        "shield": 0
       },
       "slot": 4,
       "aim": 21,
@@ -1429,7 +1430,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 11
+        "weapon": 11,
+        "shield": 0
       },
       "slot": 4,
       "aim": 29,
@@ -1492,7 +1494,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 12
+        "weapon": 12,
+        "shield": 0
       },
       "slot": 4,
       "aim": 6,
@@ -1527,7 +1530,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 20
+        "weapon": 20,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -1629,7 +1633,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 95
+        "weapon": 95,
+        "shield": 0
       },
       "slot": 4,
       "aim": 17,
@@ -2886,7 +2891,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 37
+        "weapon": 37,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -2969,7 +2975,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 23
+        "weapon": 23,
+        "shield": 0
       },
       "slot": 4,
       "aim": 20,
@@ -3004,7 +3011,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 24
+        "weapon": 24,
+        "shield": 0
       },
       "slot": 4,
       "aim": 35,
@@ -3134,7 +3142,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 28
+        "weapon": 28,
+        "shield": 0
       },
       "slot": 4,
       "aim": 70,
@@ -3264,7 +3273,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 18
+        "weapon": 18,
+        "shield": 0
       },
       "slot": 4,
       "aim": 50,
@@ -3299,7 +3309,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 31
+        "weapon": 31,
+        "shield": 0
       },
       "slot": 4,
       "aim": 5,
@@ -3333,7 +3344,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 32
+        "weapon": 32,
+        "shield": 0
       },
       "slot": 4,
       "aim": 24,
@@ -5376,8 +5388,8 @@
     "params": {
       "wearable": true,
       "slot": 3,
-      "min_alchemy": 30,
-      "price": 900,
+      "min_alchemy": 28,
+      "price": 200,
       "sc": 18
     }
   },
@@ -7401,8 +7413,7 @@
       "price": 10000,
       "enchant_bonus": 0.3,
       "no_present": true,
-      "enchant_id": 600,
-      "desc": "Allows you to enter heaven and hell."
+      "enchant_id": 600
     },
     "chances": [
       80,
@@ -8281,7 +8292,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 43
+        "weapon": 43,
+        "shield": 0
       },
       "slot": 4,
       "aim": 54,
@@ -8315,7 +8327,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 44
+        "weapon": 44,
+        "shield": 0
       },
       "slot": 4,
       "aim": 39,
@@ -8587,7 +8600,7 @@
       "slot": 10,
       "min_magic": 13,
       "magic": 8,
-      "price": 1932
+      "price": 1680
     }
   },
   {
@@ -8604,7 +8617,7 @@
       "slot": 10,
       "min_magic": 16,
       "magic": 9,
-      "price": 2184
+      "price": 2100
     }
   },
   {
@@ -8622,7 +8635,7 @@
       "min_magic": 16,
       "no_present": true,
       "magic": 10,
-      "price": 2912
+      "price": 2240
     }
   },
   {
@@ -8640,7 +8653,7 @@
       "min_magic": 20,
       "no_present": true,
       "magic": 11,
-      "price": 3570
+      "price": 2380
     }
   },
   {
@@ -8658,7 +8671,7 @@
       "min_magic": 24,
       "no_present": true,
       "magic": 12,
-      "price": 3757
+      "price": 3315
     }
   },
   {
@@ -8676,7 +8689,7 @@
       "min_magic": 28,
       "no_present": true,
       "magic": 13,
-      "price": 4446
+      "price": 3510
     }
   },
   {
@@ -8694,7 +8707,7 @@
       "min_magic": 32,
       "no_present": true,
       "magic": 14,
-      "price": 4914
+      "price": 4680
     }
   },
   {
@@ -8712,7 +8725,7 @@
       "min_magic": 36,
       "no_present": true,
       "magic": 15,
-      "price": 5980
+      "price": 5200
     }
   },
   {
@@ -8730,7 +8743,7 @@
       "min_magic": 40,
       "no_present": true,
       "magic": 16,
-      "price": 6500
+      "price": 5850
     }
   },
   {
@@ -8748,7 +8761,7 @@
       "min_magic": 45,
       "no_present": true,
       "magic": 17,
-      "price": 5940
+      "price": 5400
     }
   },
   {
@@ -8766,7 +8779,7 @@
       "min_magic": 50,
       "no_present": true,
       "magic": 18,
-      "price": 6840
+      "price": 6270
     }
   },
   {
@@ -8784,7 +8797,7 @@
       "min_magic": 55,
       "no_present": true,
       "magic": 19,
-      "price": 7800
+      "price": 7200
     }
   },
   {
@@ -8802,7 +8815,7 @@
       "min_magic": 60,
       "no_present": true,
       "magic": 20,
-      "price": 8400
+      "price": 7800
     }
   },
   {
@@ -8820,7 +8833,7 @@
       "min_magic": 62,
       "no_present": true,
       "magic": 21,
-      "price": 9072
+      "price": 8820
     }
   },
   {
@@ -9889,7 +9902,7 @@
       "slot": 10,
       "min_magic": 65,
       "magic": 22,
-      "price": 8625
+      "price": 8050
     }
   },
   {
@@ -9906,7 +9919,7 @@
       "slot": 10,
       "min_magic": 69,
       "magic": 23,
-      "price": 9875
+      "price": 8750
     }
   },
   {
@@ -9923,7 +9936,7 @@
       "slot": 10,
       "min_magic": 74,
       "magic": 24,
-      "price": 12180
+      "price": 11600
     }
   },
   {
@@ -9940,7 +9953,7 @@
       "slot": 10,
       "min_magic": 80,
       "magic": 25,
-      "price": 15750
+      "price": 14875
     }
   },
   {
@@ -11094,7 +11107,8 @@
       "wearable": true,
       "visible": {
         "left_hand": 1,
-        "weapon": 85
+        "weapon": 85,
+        "shield": 0
       },
       "slot": 4,
       "aim": 39,
@@ -11346,7 +11360,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 94
+        "weapon": 94,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11373,7 +11388,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 95
+        "weapon": 95,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11475,7 +11491,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 99
+        "weapon": 99,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11502,7 +11519,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 24
+        "weapon": 24,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11659,7 +11677,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 106
+        "weapon": 106,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11686,7 +11705,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 107
+        "weapon": 107,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11713,7 +11733,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 109
+        "weapon": 109,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11819,7 +11840,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 112
+        "weapon": 112,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -11851,7 +11873,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 113
+        "weapon": 113,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -13348,7 +13371,6 @@
       "enchant_bonus": 0.3,
       "no_present": true,
       "enchant_id": 601,
-      "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 357
     },
     "chances": [
@@ -13379,7 +13401,6 @@
       "enchant_bonus": 0.3,
       "no_present": true,
       "enchant_id": 602,
-      "desc": "Allows you to enter heaven and hell.",
       "enchants_from": 600
     },
     "chances": [
@@ -14041,7 +14062,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 122
+        "weapon": 122,
+        "shield": 0
       },
       "slot": 4,
       "aim": 174,
@@ -14075,7 +14097,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 123
+        "weapon": 123,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -14743,7 +14766,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 137
+        "weapon": 137,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -15237,7 +15261,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 136
+        "weapon": 136,
+        "shield": 0
       },
       "slot": 4,
       "aim": 89,
@@ -21597,7 +21622,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 157
+        "weapon": 157,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -21631,7 +21657,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 158
+        "weapon": 158,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30555,7 +30582,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 179
+        "weapon": 179,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30591,7 +30619,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 180
+        "weapon": 180,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30628,7 +30657,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 181
+        "weapon": 181,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30665,7 +30695,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 182
+        "weapon": 182,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30702,7 +30733,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 183
+        "weapon": 183,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30739,7 +30771,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 184
+        "weapon": 184,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30776,7 +30809,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 185
+        "weapon": 185,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30813,7 +30847,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 186
+        "weapon": 186,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30850,7 +30885,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 187
+        "weapon": 187,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30887,7 +30923,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 188
+        "weapon": 188,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30924,7 +30961,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 189
+        "weapon": 189,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -30961,7 +30999,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 190
+        "weapon": 190,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -33391,7 +33430,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 198
+        "weapon": 198,
+        "shield": 0
       },
       "slot": 4,
       "aim": 104,
@@ -33428,7 +33468,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 199
+        "weapon": 199,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -33782,7 +33823,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 210
+        "weapon": 210,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -33819,7 +33861,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 210
+        "weapon": 210,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -33856,7 +33899,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 211
+        "weapon": 211,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -43086,7 +43130,7 @@
       "slot": 10,
       "min_magic": 105,
       "magic": 30,
-      "price": 29550
+      "price": 30250
     }
   },
   {
@@ -43103,7 +43147,7 @@
       "slot": 10,
       "min_magic": 88,
       "magic": 31,
-      "price": 18750
+      "price": 17100
     }
   },
   {
@@ -43120,7 +43164,7 @@
       "slot": 10,
       "min_magic": 95,
       "magic": 32,
-      "price": 21850
+      "price": 22500
     }
   },
   {
@@ -43137,7 +43181,7 @@
       "slot": 10,
       "min_magic": 100,
       "magic": 33,
-      "price": 24585
+      "price": 26950
     }
   },
   {
@@ -66873,7 +66917,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 338
+        "weapon": 338,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -66907,7 +66952,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 339
+        "weapon": 339,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -66934,7 +66980,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 340
+        "weapon": 340,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -66968,7 +67015,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 341
+        "weapon": 341,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -66995,7 +67043,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 342
+        "weapon": 342,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67030,7 +67079,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 343
+        "weapon": 343,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67057,7 +67107,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 344
+        "weapon": 344,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67094,7 +67145,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 345
+        "weapon": 345,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67124,7 +67176,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 346
+        "weapon": 346,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67161,7 +67214,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 347
+        "weapon": 347,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67191,7 +67245,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 348
+        "weapon": 348,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67225,7 +67280,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 349
+        "weapon": 349,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67252,7 +67308,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 350
+        "weapon": 350,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67286,7 +67343,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 351
+        "weapon": 351,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67313,7 +67371,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 352
+        "weapon": 352,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67347,7 +67406,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 353
+        "weapon": 353,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67374,7 +67434,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 354
+        "weapon": 354,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67408,7 +67469,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 355
+        "weapon": 355,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67435,7 +67497,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 356
+        "weapon": 356,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67469,7 +67532,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 357
+        "weapon": 357,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67496,7 +67560,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 358
+        "weapon": 358,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67530,7 +67595,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 359
+        "weapon": 359,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67557,7 +67623,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 360
+        "weapon": 360,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -67591,7 +67658,8 @@
       "visible": {
         "left_hand": 0,
         "right_hand": 0,
-        "weapon": 361
+        "weapon": 361,
+        "shield": 0
       },
       "slot": 4,
       "disable_slot": 3,
@@ -71161,8 +71229,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 1
+      "x": 3,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -71185,8 +71253,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 1
+      "x": 6,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -71205,7 +71273,7 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
+      "x": 6,
       "y": 1
     },
     "params": {
@@ -71229,8 +71297,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 1
+      "x": 2,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -71250,7 +71318,7 @@
     "img": {
       "sheet": "11",
       "x": 6,
-      "y": 6
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -71274,8 +71342,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 6
+      "x": 7,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -71295,8 +71363,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 0
+      "x": 2,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71322,8 +71390,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 0
+      "x": 3,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71345,8 +71413,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 19
+      "x": 6,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71370,8 +71438,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 19
+      "x": 7,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71391,8 +71459,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 0
+      "x": 1,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -71415,8 +71483,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 0
+      "x": 4,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71435,8 +71503,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 1
+      "x": 3,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -71459,8 +71527,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 9
+      "x": 4,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -71479,8 +71547,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 0
+      "x": 5,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -71504,8 +71572,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 9
+      "x": 7,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -71525,8 +71593,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 6
+      "x": 8,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -71552,8 +71620,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 6
+      "x": 9,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -71575,8 +71643,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 6
+      "x": 8,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -71599,8 +71667,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 6
+      "x": 9,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -71619,8 +71687,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 7
+      "x": 8,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -71643,8 +71711,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 7
+      "x": 9,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -71663,8 +71731,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 7
+      "x": 8,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71688,8 +71756,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 7
+      "x": 9,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -71709,8 +71777,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 7
+      "x": 8,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -71736,8 +71804,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 7
+      "x": 9,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -71759,8 +71827,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 1
+      "x": 8,
+      "y": 5
     },
     "params": {
       "wearable": true,
@@ -71784,8 +71852,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 1
+      "x": 9,
+      "y": 5
     },
     "params": {
       "wearable": true,
@@ -71805,8 +71873,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 5
+      "x": 8,
+      "y": 6
     },
     "params": {
       "wearable": true,
@@ -71829,8 +71897,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 5
+      "x": 9,
+      "y": 6
     },
     "params": {
       "wearable": true,
@@ -71849,8 +71917,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 5
+      "x": 8,
+      "y": 7
     },
     "params": {
       "wearable": true,
@@ -71873,8 +71941,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 5
+      "x": 9,
+      "y": 7
     },
     "params": {
       "wearable": true,
@@ -71893,8 +71961,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 5
+      "x": 8,
+      "y": 8
     },
     "params": {
       "wearable": true,
@@ -71918,8 +71986,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 5
+      "x": 9,
+      "y": 8
     },
     "params": {
       "wearable": true,
@@ -71939,8 +72007,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 5
+      "x": 8,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -71966,8 +72034,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 5
+      "x": 9,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -71989,8 +72057,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 7
+      "x": 8,
+      "y": 10
     },
     "params": {
       "wearable": true,
@@ -72014,8 +72082,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 7
+      "x": 9,
+      "y": 10
     },
     "params": {
       "wearable": true,
@@ -72035,8 +72103,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 6
+      "x": 8,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -72062,8 +72130,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 6
+      "x": 9,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -72085,8 +72153,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 7
+      "x": 8,
+      "y": 12
     },
     "params": {
       "wearable": true,
@@ -72112,8 +72180,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 7
+      "x": 9,
+      "y": 12
     },
     "params": {
       "wearable": true,
@@ -72135,8 +72203,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 20
+      "x": 8,
+      "y": 13
     },
     "params": {
       "wearable": true,
@@ -72160,8 +72228,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 20
+      "x": 9,
+      "y": 13
     },
     "params": {
       "wearable": true,
@@ -72181,8 +72249,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 19
+      "x": 8,
+      "y": 14
     },
     "params": {
       "wearable": true,
@@ -72206,8 +72274,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 19
+      "x": 9,
+      "y": 14
     },
     "params": {
       "wearable": true,
@@ -72227,8 +72295,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 19
+      "x": 8,
+      "y": 15
     },
     "params": {
       "wearable": true,
@@ -72252,8 +72320,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 19
+      "x": 9,
+      "y": 15
     },
     "params": {
       "wearable": true,
@@ -72273,8 +72341,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 15
+      "x": 8,
+      "y": 16
     },
     "params": {
       "wearable": true,
@@ -72297,8 +72365,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 15
+      "x": 9,
+      "y": 16
     },
     "params": {
       "wearable": true,
@@ -72317,8 +72385,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 15
+      "x": 8,
+      "y": 17
     },
     "params": {
       "wearable": true,
@@ -72341,8 +72409,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 15
+      "x": 9,
+      "y": 17
     },
     "params": {
       "wearable": true,
@@ -72361,8 +72429,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 15
+      "x": 8,
+      "y": 18
     },
     "params": {
       "wearable": true,
@@ -72386,8 +72454,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 15
+      "x": 9,
+      "y": 18
     },
     "params": {
       "wearable": true,
@@ -72407,8 +72475,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 15
+      "x": 8,
+      "y": 19
     },
     "params": {
       "wearable": true,
@@ -72434,8 +72502,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 15
+      "x": 9,
+      "y": 19
     },
     "params": {
       "wearable": true,
@@ -72457,8 +72525,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 15
+      "x": 8,
+      "y": 20
     },
     "params": {
       "wearable": true,
@@ -72482,8 +72550,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 15
+      "x": 9,
+      "y": 20
     },
     "params": {
       "wearable": true,
@@ -72503,8 +72571,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 15
+      "x": 8,
+      "y": 21
     },
     "params": {
       "wearable": true,
@@ -72530,8 +72598,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 15
+      "x": 9,
+      "y": 21
     },
     "params": {
       "wearable": true,
@@ -72553,8 +72621,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 16
+      "x": 10,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -72580,8 +72648,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 16
+      "x": 11,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -72603,8 +72671,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 16
+      "x": 10,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -72630,8 +72698,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 16
+      "x": 11,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -72653,8 +72721,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 21
+      "x": 10,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -72678,8 +72746,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 21
+      "x": 11,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -72700,7 +72768,7 @@
     "img": {
       "sheet": "11",
       "x": 0,
-      "y": 4
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -72724,7 +72792,7 @@
     "img": {
       "sheet": "11",
       "x": 0,
-      "y": 4
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -72743,8 +72811,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 4
+      "x": 10,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -72767,8 +72835,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 4
+      "x": 11,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -72787,8 +72855,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 7
+      "x": 10,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -72812,8 +72880,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 7
+      "x": 11,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -72833,8 +72901,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 7
+      "x": 10,
+      "y": 5
     },
     "params": {
       "wearable": true,
@@ -72860,8 +72928,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 7
+      "x": 11,
+      "y": 5
     },
     "params": {
       "wearable": true,
@@ -72883,8 +72951,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 20
+      "x": 10,
+      "y": 6
     },
     "params": {
       "wearable": true,
@@ -72908,8 +72976,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 20
+      "x": 11,
+      "y": 6
     },
     "params": {
       "wearable": true,
@@ -72929,7 +72997,7 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
+      "x": 10,
       "y": 7
     },
     "params": {
@@ -72953,7 +73021,7 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
+      "x": 11,
       "y": 7
     },
     "params": {
@@ -72973,7 +73041,7 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
+      "x": 10,
       "y": 8
     },
     "params": {
@@ -72997,7 +73065,7 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
+      "x": 11,
       "y": 8
     },
     "params": {
@@ -73017,8 +73085,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 4
+      "x": 10,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -73042,8 +73110,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 4
+      "x": 11,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -73063,8 +73131,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 3
+      "x": 10,
+      "y": 10
     },
     "params": {
       "wearable": true,
@@ -73090,8 +73158,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 3
+      "x": 11,
+      "y": 10
     },
     "params": {
       "wearable": true,
@@ -73113,8 +73181,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 20
+      "x": 10,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -73138,8 +73206,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 20
+      "x": 11,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -73159,8 +73227,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 8
+      "x": 10,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -73183,8 +73251,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 8
+      "x": 11,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -73203,8 +73271,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 8
+      "x": 10,
+      "y": 12
     },
     "params": {
       "wearable": true,
@@ -73227,8 +73295,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 8
+      "x": 11,
+      "y": 12
     },
     "params": {
       "wearable": true,
@@ -73247,8 +73315,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 8
+      "x": 10,
+      "y": 13
     },
     "params": {
       "wearable": true,
@@ -73272,8 +73340,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 8
+      "x": 11,
+      "y": 13
     },
     "params": {
       "wearable": true,
@@ -73293,8 +73361,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 8
+      "x": 10,
+      "y": 14
     },
     "params": {
       "wearable": true,
@@ -73320,8 +73388,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 8
+      "x": 11,
+      "y": 14
     },
     "params": {
       "wearable": true,
@@ -73343,8 +73411,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 4
+      "x": 10,
+      "y": 15
     },
     "params": {
       "wearable": true,
@@ -73364,12 +73432,12 @@
   },
   {
     "id": 3022,
-    "n": "Enchanted  White Gold Amethyst Necklace [R]",
+    "n": "Enchanted White Gold Amethyst Necklace [R]",
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 4
+      "x": 11,
+      "y": 15
     },
     "params": {
       "wearable": true,
@@ -73389,8 +73457,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 20
+      "x": 10,
+      "y": 16
     },
     "params": {
       "wearable": true,
@@ -73414,8 +73482,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 20
+      "x": 11,
+      "y": 16
     },
     "params": {
       "wearable": true,
@@ -73435,8 +73503,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 5
+      "x": 10,
+      "y": 17
     },
     "params": {
       "wearable": true,
@@ -73459,8 +73527,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 5
+      "x": 11,
+      "y": 17
     },
     "params": {
       "wearable": true,
@@ -73479,8 +73547,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 6
+      "x": 10,
+      "y": 18
     },
     "params": {
       "wearable": true,
@@ -73503,8 +73571,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 6
+      "x": 11,
+      "y": 18
     },
     "params": {
       "wearable": true,
@@ -73523,8 +73591,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 5
+      "x": 10,
+      "y": 19
     },
     "params": {
       "wearable": true,
@@ -73548,8 +73616,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 5
+      "x": 11,
+      "y": 19
     },
     "params": {
       "wearable": true,
@@ -73569,8 +73637,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 6
+      "x": 10,
+      "y": 20
     },
     "params": {
       "wearable": true,
@@ -73596,8 +73664,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 6
+      "x": 11,
+      "y": 20
     },
     "params": {
       "wearable": true,
@@ -73619,8 +73687,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 8
+      "x": 12,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -73644,8 +73712,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 8
+      "x": 13,
+      "y": 0
     },
     "params": {
       "wearable": true,
@@ -73665,8 +73733,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 8
+      "x": 12,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -73692,8 +73760,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 8
+      "x": 13,
+      "y": 1
     },
     "params": {
       "wearable": true,
@@ -73715,8 +73783,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 6
+      "x": 12,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -73742,8 +73810,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 6
+      "x": 13,
+      "y": 2
     },
     "params": {
       "wearable": true,
@@ -73765,8 +73833,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 21
+      "x": 12,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -73790,8 +73858,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 21
+      "x": 13,
+      "y": 3
     },
     "params": {
       "wearable": true,
@@ -73811,8 +73879,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 17
+      "x": 12,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -73835,8 +73903,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 2,
-      "y": 17
+      "x": 13,
+      "y": 4
     },
     "params": {
       "wearable": true,
@@ -73855,8 +73923,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 17
+      "x": 12,
+      "y": 5
     },
     "params": {
       "wearable": true,
@@ -73879,8 +73947,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 3,
-      "y": 17
+      "x": 13,
+      "y": 5
     },
     "params": {
       "wearable": true,
@@ -73899,8 +73967,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 17
+      "x": 12,
+      "y": 6
     },
     "params": {
       "wearable": true,
@@ -73924,8 +73992,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 17
+      "x": 13,
+      "y": 6
     },
     "params": {
       "wearable": true,
@@ -73945,8 +74013,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 17
+      "x": 12,
+      "y": 7
     },
     "params": {
       "wearable": true,
@@ -73972,8 +74040,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 5,
-      "y": 17
+      "x": 13,
+      "y": 7
     },
     "params": {
       "wearable": true,
@@ -73995,8 +74063,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 17
+      "x": 12,
+      "y": 8
     },
     "params": {
       "wearable": true,
@@ -74020,8 +74088,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 6,
-      "y": 17
+      "x": 13,
+      "y": 8
     },
     "params": {
       "wearable": true,
@@ -74041,8 +74109,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 17
+      "x": 12,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -74068,8 +74136,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 7,
-      "y": 17
+      "x": 13,
+      "y": 9
     },
     "params": {
       "wearable": true,
@@ -74091,8 +74159,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 18
+      "x": 12,
+      "y": 10
     },
     "params": {
       "wearable": true,
@@ -74118,8 +74186,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 0,
-      "y": 18
+      "x": 13,
+      "y": 10
     },
     "params": {
       "wearable": true,
@@ -74141,8 +74209,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 18
+      "x": 12,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -74168,8 +74236,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 1,
-      "y": 18
+      "x": 13,
+      "y": 11
     },
     "params": {
       "wearable": true,
@@ -74191,8 +74259,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 21
+      "x": 12,
+      "y": 12
     },
     "params": {
       "wearable": true,
@@ -74216,8 +74284,8 @@
     "t": 2,
     "img": {
       "sheet": "11",
-      "x": 4,
-      "y": 21
+      "x": 13,
+      "y": 12
     },
     "params": {
       "wearable": true,
@@ -76937,7 +77005,6 @@
       "wearable": true,
       "slot": 3,
       "price": 1,
-      "no_present": true,
       "carpentry_type": "1",
       "carpentry_id": 674,
       "sc": 7
@@ -76958,6 +77025,337 @@
       "price": 1,
       "desc": "Merry Christmas!",
       "sc": 0
+    }
+  },
+  {
+    "id": 3200,
+    "n": "Small Potion Of Wizardry",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 10
+    },
+    "params": {
+      "wearable": false,
+      "boost_wizardry": 0.04,
+      "no_present": true,
+      "price": 975,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3201,
+    "n": "Small Potion Of Wizardry [Rare]",
+    "t": 1,
+    "img": {
+      "sheet": "16",
+      "x": 12,
+      "y": 11
+    },
+    "params": {
+      "wearable": false,
+      "boost_wizardry": 0.06,
+      "no_present": true,
+      "price": 975,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3202,
+    "n": "7 Souls Blade",
+    "t": 5,
+    "img": {
+      "sheet": "5",
+      "x": 5,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "left_hand": 2,
+        "weapon": 368
+      },
+      "slot": 4,
+      "aim": 173,
+      "power": 210,
+      "min_accuracy": 110,
+      "price": 3907467,
+      "enchant_id": 3203,
+      "att_anim": 36,
+      "sc": 0
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3203,
+    "n": "Enchanted 7 Souls Blade",
+    "t": 5,
+    "img": {
+      "sheet": "5",
+      "x": 6,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "left_hand": 2,
+        "weapon": 367
+      },
+      "slot": 4,
+      "aim": 250,
+      "power": 262,
+      "min_accuracy": 110,
+      "price": 7228813,
+      "att_anim": 36,
+      "enchants_from": 3202,
+      "sc": 0
+    }
+  },
+  {
+    "id": 3204,
+    "n": "7 Souls Archangel Axe",
+    "t": 5,
+    "img": {
+      "sheet": "5",
+      "x": 7,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "left_hand": 0,
+        "right_hand": 0,
+        "weapon": 369,
+        "shield": 0
+      },
+      "slot": 4,
+      "aim": 170,
+      "power": 250,
+      "min_strength": 110,
+      "min_accuracy": 1,
+      "disable_slot": 3,
+      "price": 4663514,
+      "enchant_id": 3205,
+      "att_anim": 38,
+      "sc": 1
+    },
+    "chances": [
+      5,
+      15,
+      25,
+      35
+    ]
+  },
+  {
+    "id": 3205,
+    "n": "Enchanted 7 Souls Archangel Axe",
+    "t": 5,
+    "img": {
+      "sheet": "5",
+      "x": 8,
+      "y": 20
+    },
+    "params": {
+      "wearable": true,
+      "visible": {
+        "left_hand": 0,
+        "right_hand": 0,
+        "weapon": 370,
+        "shield": 0
+      },
+      "slot": 4,
+      "disable_slot": 3,
+      "aim": 246,
+      "power": 312,
+      "min_strength": 110,
+      "price": 8627502,
+      "att_anim": 38,
+      "enchants_from": 3204,
+      "sc": 1
+    }
+  },
+  {
+    "id": 3206,
+    "n": "Medallion Fragment",
+    "t": 4,
+    "img": {
+      "sheet": "31",
+      "x": 2,
+      "y": 12
+    },
+    "params": {
+      "wearable": true,
+      "slot": 4,
+      "min_wizardry": 25,
+      "price": 200,
+      "sc": 2
+    }
+  },
+  {
+    "id": 3207,
+    "n": "Teddy Bear [Legendary]",
+    "t": 7,
+    "img": {
+      "sheet": "34",
+      "x": 7,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 12,
+      "armor": 4,
+      "power": 4,
+      "magic": 4,
+      "aim": 4,
+      "price": 1,
+      "min_health": 44,
+      "pet": 286
+    }
+  },
+  {
+    "id": 3208,
+    "n": "Fluffy [Legendary]",
+    "t": 7,
+    "img": {
+      "sheet": "34",
+      "x": 8,
+      "y": 1
+    },
+    "params": {
+      "wearable": true,
+      "slot": 12,
+      "armor": 8,
+      "power": 8,
+      "magic": 8,
+      "aim": 8,
+      "price": 1,
+      "min_health": 44,
+      "pet": 287
+    }
+  },
+  {
+    "id": 3209,
+    "n": "Mr. Bear [Legendary]",
+    "t": 7,
+    "img": {
+      "sheet": "34",
+      "x": 4,
+      "y": 0
+    },
+    "params": {
+      "wearable": true,
+      "slot": 12,
+      "armor": 16,
+      "power": 16,
+      "magic": 16,
+      "aim": 16,
+      "price": 1,
+      "min_health": 44,
+      "pet": 288
+    }
+  },
+  {
+    "id": 3210,
+    "n": "Cuddle Bear [Legendary]",
+    "t": 7,
+    "img": {
+      "sheet": "53",
+      "x": 5,
+      "y": 3
+    },
+    "params": {
+      "wearable": true,
+      "slot": 12,
+      "armor": 25,
+      "power": 25,
+      "magic": 25,
+      "aim": 25,
+      "price": 1,
+      "min_health": 44,
+      "pet": 289
+    }
+  },
+  {
+    "id": 3211,
+    "n": "Heart Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 7,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 30,
+      "price": 1,
+      "no_present": true,
+      "farming_id": 675,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3212,
+    "n": "Rose Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 8,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 30,
+      "price": 1,
+      "no_present": true,
+      "farming_id": 676,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3213,
+    "n": "Sorrow Tree Seed",
+    "t": 3,
+    "img": {
+      "sheet": "10",
+      "x": 9,
+      "y": 26
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "min_farming": 30,
+      "price": 1,
+      "no_present": true,
+      "farming_id": 677,
+      "sc": 19
+    }
+  },
+  {
+    "id": 3214,
+    "n": "Teleport Totem",
+    "t": 8,
+    "img": {
+      "sheet": "10",
+      "x": 5,
+      "y": 27
+    },
+    "params": {
+      "wearable": true,
+      "slot": 3,
+      "price": 200000,
+      "no_present": true,
+      "carpentry_type": "1",
+      "carpentry_id": 678,
+      "desc": "Teleport to a player's island",
+      "sc": 7
     }
   }
 ]

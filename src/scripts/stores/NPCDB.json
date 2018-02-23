@@ -1003,6 +1003,15 @@
         {
           "id": 3088,
           "count": 0
+        },
+        {
+          "id": 3200,
+          "count": 20,
+          "spawn": true
+        },
+        {
+          "id": 3201,
+          "count": 0
         }
       ]
     },
@@ -1580,7 +1589,7 @@
       "content": [
         {
           "id": 346,
-          "count": 2,
+          "count": 20,
           "spawn": true
         },
         {
@@ -1589,12 +1598,12 @@
         },
         {
           "id": 133,
-          "count": 2,
+          "count": 20,
           "spawn": true
         },
         {
           "id": 163,
-          "count": 2,
+          "count": 20,
           "spawn": true
         },
         {
@@ -1615,12 +1624,12 @@
         },
         {
           "id": 366,
-          "count": 5,
+          "count": 50,
           "spawn": true
         },
         {
           "id": 368,
-          "count": 5,
+          "count": 50,
           "spawn": true
         },
         {
@@ -2753,15 +2762,15 @@
           "count": 0
         },
         {
+          "id": 1092,
+          "count": 0
+        },
+        {
           "id": 2943,
           "count": 0
         },
         {
           "id": 2944,
-          "count": 0
-        },
-        {
-          "id": 1092,
           "count": 0
         },
         {
@@ -9040,6 +9049,40 @@
     "coords": {
       "x": "47",
       "y": "42"
+    }
+  },
+  {
+    "id": 727,
+    "n": "Road Sign",
+    "t": "4",
+    "temp": {
+      "health": 99,
+      "total_defense": 99,
+      "total_strength": 99,
+      "total_accuracy": 99,
+      "content": []
+    },
+    "map": "Star Of Knowledge",
+    "coords": {
+      "x": "50",
+      "y": "69"
+    }
+  },
+  {
+    "id": 728,
+    "n": "Road Sign",
+    "t": "4",
+    "temp": {
+      "health": 99,
+      "total_defense": 99,
+      "total_strength": 99,
+      "total_accuracy": 99,
+      "content": []
+    },
+    "map": "Core Of Knowledge",
+    "coords": {
+      "x": "64",
+      "y": "53"
     }
   }
 ]

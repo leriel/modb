@@ -17993,24 +17993,26 @@
     "xp": 150
   },
   {
-    "id": 2264,
-    "n": "Phoenix Feather",
-    "level": 1,
-    "min_chance": 1,
-    "max_chance": 1,
+    "id": 992,
+    "n": "Air Bolt Medallion",
+    "min_chance": 0.25,
+    "max_chance": 0.25,
     "skill": "forging",
     "matts": [
       {
-        "id": "371",
-        "c": 1
+        "id": "3206",
+        "c": 4
       }
     ],
     "pattern": [
       [
-        371
+        3206,
+        3206,
+        3206,
+        3206
       ]
     ],
-    "xp": 0
+    "xp": 100
   },
   {
     "id": 2502,
@@ -26137,6 +26139,217 @@
     "xp": 0
   },
   {
+    "id": 3202,
+    "n": "7 Souls Blade",
+    "level": 100,
+    "min_chance": 0.3,
+    "max_chance": 0.3,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "135",
+        "c": 1
+      },
+      {
+        "id": "145",
+        "c": 1
+      },
+      {
+        "id": "364",
+        "c": 1
+      },
+      {
+        "id": "666",
+        "c": 1
+      },
+      {
+        "id": "907",
+        "c": 1
+      },
+      {
+        "id": "968",
+        "c": 4
+      }
+    ],
+    "pattern": [
+      [
+        968,
+        145,
+        135
+      ],
+      [
+        968,
+        364,
+        666
+      ],
+      [
+        968,
+        907,
+        968
+      ]
+    ],
+    "xp": 1200
+  },
+  {
+    "id": 3204,
+    "n": "7 Souls Archangel Axe",
+    "level": 105,
+    "min_chance": 0.3,
+    "max_chance": 0.3,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "150",
+        "c": 1
+      },
+      {
+        "id": "393",
+        "c": 1
+      },
+      {
+        "id": "394",
+        "c": 1
+      },
+      {
+        "id": "624",
+        "c": 1
+      },
+      {
+        "id": "668",
+        "c": 1
+      },
+      {
+        "id": "968",
+        "c": 6
+      }
+    ],
+    "pattern": [
+      [
+        968,
+        150,
+        394,
+        968
+      ],
+      [
+        968,
+        393,
+        668,
+        968
+      ],
+      [
+        968,
+        624,
+        968,
+        -1
+      ]
+    ],
+    "xp": 1800
+  },
+  {
+    "id": 993,
+    "n": "Flash Bolt Medallion",
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "3206",
+        "c": 4
+      }
+    ],
+    "pattern": [
+      [
+        3206,
+        3206
+      ],
+      [
+        3206,
+        3206
+      ]
+    ],
+    "xp": 100
+  },
+  {
+    "id": 994,
+    "n": "Earth Bolt Medallion",
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "3206",
+        "c": 4
+      }
+    ],
+    "pattern": [
+      [
+        3206
+      ],
+      [
+        3206
+      ],
+      [
+        3206
+      ],
+      [
+        3206
+      ]
+    ],
+    "xp": 100
+  },
+  {
+    "id": 995,
+    "n": "Water Bolt Medallion",
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "3206",
+        "c": 4
+      }
+    ],
+    "pattern": [
+      [
+        3206,
+        -1,
+        3206
+      ],
+      [
+        3206,
+        -1,
+        3206
+      ]
+    ],
+    "xp": 100
+  },
+  {
+    "id": 996,
+    "n": "Fire Bolt Medallion",
+    "min_chance": 0.25,
+    "max_chance": 0.25,
+    "skill": "forging",
+    "matts": [
+      {
+        "id": "3206",
+        "c": 4
+      }
+    ],
+    "pattern": [
+      [
+        3206,
+        3206,
+        -1
+      ],
+      [
+        -1,
+        3206,
+        3206
+      ]
+    ],
+    "xp": 100
+  },
+  {
     "id": 730,
     "n": "Fir Floor",
     "level": 1,
@@ -31314,7 +31527,7 @@
     ],
     "level": 20,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -31336,7 +31549,7 @@
     ],
     "level": 15,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -31358,7 +31571,7 @@
     ],
     "level": 10,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -31380,7 +31593,7 @@
     ],
     "level": 1,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -31402,7 +31615,7 @@
     ],
     "level": 1,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -31424,7 +31637,7 @@
     ],
     "level": 1,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -31446,7 +31659,7 @@
     ],
     "level": 1,
     "source": {
-      "n": "Fish - Fishing Rod [Level 1]",
+      "n": "Fishing Rod [Fish Level 1-20]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -37806,6 +38019,60 @@
     "xp": 36
   },
   {
+    "id": 3201,
+    "n": "Small Potion Of Wizardry [Rare]",
+    "skill": "alchemy",
+    "level": 25,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.05,
+    "max_chance": 0.05,
+    "matts": [
+      {
+        "id": 287,
+        "c": 1
+      },
+      {
+        "id": 251,
+        "c": 2
+      }
+    ],
+    "xp": 41
+  },
+  {
+    "id": 3200,
+    "n": "Small Potion Of Wizardry",
+    "skill": "alchemy",
+    "level": 25,
+    "source": {
+      "n": "Inventory",
+      "img": {
+        "sheet": "1",
+        "x": -1,
+        "y": -1
+      }
+    },
+    "min_chance": 0.5,
+    "max_chance": 0.6,
+    "matts": [
+      {
+        "id": 287,
+        "c": 1
+      },
+      {
+        "id": 251,
+        "c": 2
+      }
+    ],
+    "xp": 36
+  },
+  {
     "id": 3088,
     "n": "Small Potion Of Jewelry [Rare]",
     "skill": "alchemy",
@@ -41544,7 +41811,7 @@
         "y": 13
       }
     },
-    "duration": 2,
+    "duration": 3,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41639,7 +41906,7 @@
         "y": 4
       }
     },
-    "duration": 16,
+    "duration": 17,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41677,11 +41944,11 @@
         "y": 1
       }
     },
-    "duration": 36,
+    "duration": 34,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
-    "xp": 90
+    "xp": 145
   },
   {
     "id": 284,
@@ -41696,7 +41963,7 @@
         "y": 3
       }
     },
-    "duration": 12,
+    "duration": 13,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41791,7 +42058,7 @@
         "y": 10
       }
     },
-    "duration": 15,
+    "duration": 13,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41810,7 +42077,7 @@
         "y": 12
       }
     },
-    "duration": 18,
+    "duration": 14,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41848,7 +42115,7 @@
         "y": 19
       }
     },
-    "duration": 20,
+    "duration": 16,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41867,7 +42134,7 @@
         "y": 20
       }
     },
-    "duration": 25,
+    "duration": 17,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41886,7 +42153,7 @@
         "y": 6
       }
     },
-    "duration": 12,
+    "duration": 13,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -41902,7 +42169,7 @@
     ],
     "level": 60,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 58]",
+      "n": "Wooden Harpoon [Fish Level 58-60]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -41924,7 +42191,7 @@
     ],
     "level": 58,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 58]",
+      "n": "Wooden Harpoon [Fish Level 58-60]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -41946,7 +42213,7 @@
     ],
     "level": 58,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 58]",
+      "n": "Wooden Harpoon [Fish Level 58-60]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -41968,7 +42235,7 @@
     ],
     "level": 58,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 58]",
+      "n": "Wooden Harpoon [Fish Level 58-60]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -41990,7 +42257,7 @@
     ],
     "level": 5,
     "source": {
-      "n": "Fish - Fishing Net [Level 5]",
+      "n": "Fishing Net [Fish Level 5]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42012,7 +42279,7 @@
     ],
     "level": 5,
     "source": {
-      "n": "Fish - Fishing Net [Level 5]",
+      "n": "Fishing Net [Fish Level 5]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42034,7 +42301,7 @@
     ],
     "level": 5,
     "source": {
-      "n": "Fish - Fishing Net [Level 5]",
+      "n": "Fishing Net [Fish Level 5]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42056,7 +42323,7 @@
     ],
     "level": 73,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 63]",
+      "n": "Steel Harpoon [Fish Level 63-73]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42078,7 +42345,7 @@
     ],
     "level": 70,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 63]",
+      "n": "Steel Harpoon [Fish Level 63-73]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42100,7 +42367,7 @@
     ],
     "level": 63,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 63]",
+      "n": "Steel Harpoon [Fish Level 63-73]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42122,7 +42389,7 @@
     ],
     "level": 63,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 63]",
+      "n": "Steel Harpoon [Fish Level 63-73]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42144,7 +42411,7 @@
     ],
     "level": 63,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 63]",
+      "n": "Steel Harpoon [Fish Level 63-73]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42166,7 +42433,7 @@
     ],
     "level": 63,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 63]",
+      "n": "Steel Harpoon [Fish Level 63-73]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42188,7 +42455,7 @@
     ],
     "level": 43,
     "source": {
-      "n": "Fish - Cage [Level 35]",
+      "n": "Cage [Fish Level 35-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42210,7 +42477,7 @@
     ],
     "level": 35,
     "source": {
-      "n": "Fish - Cage [Level 35]",
+      "n": "Cage [Fish Level 35-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42232,7 +42499,7 @@
     ],
     "level": 35,
     "source": {
-      "n": "Fish - Cage [Level 35]",
+      "n": "Cage [Fish Level 35-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -42254,7 +42521,7 @@
     ],
     "level": 35,
     "source": {
-      "n": "Fish - Cage [Level 35]",
+      "n": "Cage [Fish Level 35-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45333,11 +45600,11 @@
         "y": 23
       }
     },
-    "duration": 8,
+    "duration": 5,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
-    "xp": 7.5
+    "xp": 10
   },
   {
     "id": 266,
@@ -45368,7 +45635,7 @@
     ],
     "level": 80,
     "source": {
-      "n": "Fish - Iron Fishing Rod [Level 65]",
+      "n": "Iron Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45390,7 +45657,7 @@
     ],
     "level": 68,
     "source": {
-      "n": "Fish - Iron Fishing Rod [Level 65]",
+      "n": "Iron Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45412,7 +45679,7 @@
     ],
     "level": 65,
     "source": {
-      "n": "Fish - Iron Fishing Rod [Level 65]",
+      "n": "Iron Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45434,7 +45701,7 @@
     ],
     "level": 65,
     "source": {
-      "n": "Fish - Iron Fishing Rod [Level 65]",
+      "n": "Iron Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45713,7 +45980,7 @@
         "y": 27
       }
     },
-    "duration": 25,
+    "duration": 18,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -45729,7 +45996,7 @@
     ],
     "level": 120,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45751,7 +46018,7 @@
     ],
     "level": 116,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45773,7 +46040,7 @@
     ],
     "level": 112,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45795,7 +46062,7 @@
     ],
     "level": 108,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45817,7 +46084,7 @@
     ],
     "level": 106,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45839,7 +46106,7 @@
     ],
     "level": 106,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45861,7 +46128,7 @@
     ],
     "level": 120,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45883,7 +46150,7 @@
     ],
     "level": 116,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45905,7 +46172,7 @@
     ],
     "level": 112,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45927,7 +46194,7 @@
     ],
     "level": 108,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -45949,7 +46216,7 @@
     ],
     "level": 106,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 106]",
+      "n": "Poseidon's Trident [Fish Level 106-120]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -47728,7 +47995,7 @@
         }
       }
     },
-    "duration": 20,
+    "duration": 13,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -47751,7 +48018,7 @@
         }
       }
     },
-    "duration": 28,
+    "duration": 14,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -47774,7 +48041,7 @@
         }
       }
     },
-    "duration": 36,
+    "duration": 16,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
@@ -47797,11 +48064,11 @@
         }
       }
     },
-    "duration": 70,
+    "duration": 38,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
-    "xp": 150
+    "xp": 180
   },
   {
     "id": 3156,
@@ -47843,11 +48110,11 @@
         }
       }
     },
-    "duration": 120,
+    "duration": 75,
     "min_chance": 1,
     "max_chance": 1,
     "matts": [],
-    "xp": 250
+    "xp": 450
   },
   {
     "id": 3177,
@@ -58539,7 +58806,7 @@
     ],
     "level": 47,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58561,7 +58828,7 @@
     ],
     "level": 45,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58583,7 +58850,7 @@
     ],
     "level": 40,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58605,7 +58872,7 @@
     ],
     "level": 35,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58627,7 +58894,7 @@
     ],
     "level": 30,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58649,7 +58916,7 @@
     ],
     "level": 30,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58671,7 +58938,7 @@
     ],
     "level": 30,
     "source": {
-      "n": "Fish - Fishing Rod [Level 30]",
+      "n": "Fishing Rod [Fish Level 30-47]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58693,7 +58960,7 @@
     ],
     "level": 80,
     "source": {
-      "n": "Fish - Fishing Rod [Level 65]",
+      "n": "Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58715,7 +58982,7 @@
     ],
     "level": 68,
     "source": {
-      "n": "Fish - Fishing Rod [Level 65]",
+      "n": "Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58737,7 +59004,7 @@
     ],
     "level": 65,
     "source": {
-      "n": "Fish - Fishing Rod [Level 65]",
+      "n": "Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58759,7 +59026,7 @@
     ],
     "level": 65,
     "source": {
-      "n": "Fish - Fishing Rod [Level 65]",
+      "n": "Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58781,7 +59048,7 @@
     ],
     "level": 65,
     "source": {
-      "n": "Fish - Fishing Rod [Level 65]",
+      "n": "Fishing Rod [Fish Level 65-80]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58803,7 +59070,7 @@
     ],
     "level": 55,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 50]",
+      "n": "Wooden Harpoon [Fish Level 50-55]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58825,7 +59092,7 @@
     ],
     "level": 50,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 50]",
+      "n": "Wooden Harpoon [Fish Level 50-55]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58847,7 +59114,7 @@
     ],
     "level": 50,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 50]",
+      "n": "Wooden Harpoon [Fish Level 50-55]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58869,7 +59136,7 @@
     ],
     "level": 50,
     "source": {
-      "n": "Fish - Wooden Harpoon [Level 50]",
+      "n": "Wooden Harpoon [Fish Level 50-55]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58891,7 +59158,7 @@
     ],
     "level": 85,
     "source": {
-      "n": "Fish - Fishing Net [Level 70]",
+      "n": "Fishing Net [Fish Level 70-85]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58913,7 +59180,7 @@
     ],
     "level": 85,
     "source": {
-      "n": "Fish - Fishing Net [Level 70]",
+      "n": "Fishing Net [Fish Level 70-85]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58935,7 +59202,7 @@
     ],
     "level": 85,
     "source": {
-      "n": "Fish - Fishing Net [Level 70]",
+      "n": "Fishing Net [Fish Level 70-85]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58957,7 +59224,7 @@
     ],
     "level": 85,
     "source": {
-      "n": "Fish - Fishing Net [Level 70]",
+      "n": "Fishing Net [Fish Level 70-85]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -58979,7 +59246,7 @@
     ],
     "level": 82,
     "source": {
-      "n": "Fish - Fishing Net [Level 70]",
+      "n": "Fishing Net [Fish Level 70-85]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59001,7 +59268,7 @@
     ],
     "level": 70,
     "source": {
-      "n": "Fish - Fishing Net [Level 70]",
+      "n": "Fishing Net [Fish Level 70-85]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59023,7 +59290,7 @@
     ],
     "level": 43,
     "source": {
-      "n": "Fish - Fishing Net [Level 40]",
+      "n": "Fishing Net [Fish Level 40-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59045,7 +59312,7 @@
     ],
     "level": 43,
     "source": {
-      "n": "Fish - Fishing Net [Level 40]",
+      "n": "Fishing Net [Fish Level 40-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59067,7 +59334,7 @@
     ],
     "level": 43,
     "source": {
-      "n": "Fish - Fishing Net [Level 40]",
+      "n": "Fishing Net [Fish Level 40-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59089,7 +59356,7 @@
     ],
     "level": 40,
     "source": {
-      "n": "Fish - Fishing Net [Level 40]",
+      "n": "Fishing Net [Fish Level 40-43]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59111,7 +59378,7 @@
     ],
     "level": 25,
     "source": {
-      "n": "Fish - Fishing Net [Level 23]",
+      "n": "Fishing Net [Fish Level 23-25]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59133,7 +59400,7 @@
     ],
     "level": 23,
     "source": {
-      "n": "Fish - Fishing Net [Level 23]",
+      "n": "Fishing Net [Fish Level 23-25]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59155,7 +59422,7 @@
     ],
     "level": 23,
     "source": {
-      "n": "Fish - Fishing Net [Level 23]",
+      "n": "Fishing Net [Fish Level 23-25]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59177,7 +59444,7 @@
     ],
     "level": 95,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 75]",
+      "n": "Steel Harpoon [Fish Level 75-95]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59199,7 +59466,7 @@
     ],
     "level": 85,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 75]",
+      "n": "Steel Harpoon [Fish Level 75-95]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59221,7 +59488,7 @@
     ],
     "level": 85,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 75]",
+      "n": "Steel Harpoon [Fish Level 75-95]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59243,7 +59510,7 @@
     ],
     "level": 75,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 75]",
+      "n": "Steel Harpoon [Fish Level 75-95]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59265,7 +59532,7 @@
     ],
     "level": 75,
     "source": {
-      "n": "Fish - Steel Harpoon [Level 75]",
+      "n": "Steel Harpoon [Fish Level 75-95]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59287,7 +59554,7 @@
     ],
     "level": 65,
     "source": {
-      "n": "Fish - Cage [Level 48]",
+      "n": "Cage [Fish Level 48-65]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59309,7 +59576,7 @@
     ],
     "level": 48,
     "source": {
-      "n": "Fish - Cage [Level 48]",
+      "n": "Cage [Fish Level 48-65]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59331,7 +59598,7 @@
     ],
     "level": 48,
     "source": {
-      "n": "Fish - Cage [Level 48]",
+      "n": "Cage [Fish Level 48-65]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59353,7 +59620,7 @@
     ],
     "level": 48,
     "source": {
-      "n": "Fish - Cage [Level 48]",
+      "n": "Cage [Fish Level 48-65]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59375,7 +59642,7 @@
     ],
     "level": 103,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59397,7 +59664,7 @@
     ],
     "level": 99,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59419,7 +59686,7 @@
     ],
     "level": 95,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59441,7 +59708,7 @@
     ],
     "level": 95,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59463,7 +59730,7 @@
     ],
     "level": 95,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59485,7 +59752,7 @@
     ],
     "level": 103,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59507,7 +59774,7 @@
     ],
     "level": 99,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59529,7 +59796,7 @@
     ],
     "level": 95,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59551,7 +59818,7 @@
     ],
     "level": 95,
     "source": {
-      "n": "Fish - Poseidon's Trident [Level 95]",
+      "n": "Poseidon's Trident [Fish Level 95-103]",
       "img": {
         "sheet": "1",
         "x": 17,
@@ -59562,5 +59829,74 @@
     "max_chance": 0.01,
     "matts": [],
     "xp": 3
+  },
+  {
+    "id": 3211,
+    "n": "Heart Tree Seed",
+    "skill": "farming",
+    "level": 0,
+    "source": {
+      "n": "Heart Tree",
+      "img": {
+        "sheet": "70",
+        "x": 0,
+        "y": 6,
+        "pos": {
+          "_x": 0,
+          "_y": -5
+        }
+      }
+    },
+    "duration": 360,
+    "min_chance": 1,
+    "max_chance": 1,
+    "matts": [],
+    "xp": 1500
+  },
+  {
+    "id": 3212,
+    "n": "Rose Tree Seed",
+    "skill": "farming",
+    "level": 0,
+    "source": {
+      "n": "Rose Tree",
+      "img": {
+        "sheet": "70",
+        "x": 0,
+        "y": 7,
+        "pos": {
+          "_x": 0,
+          "_y": -5
+        }
+      }
+    },
+    "duration": 180,
+    "min_chance": 1,
+    "max_chance": 1,
+    "matts": [],
+    "xp": 650
+  },
+  {
+    "id": 3213,
+    "n": "Sorrow Tree Seed",
+    "skill": "farming",
+    "level": 0,
+    "source": {
+      "n": "Sorrow Tree",
+      "img": {
+        "sheet": "70",
+        "x": 0,
+        "y": 8,
+        "pos": {
+          "_x": 0,
+          "_y": -5
+        }
+      }
+    },
+    "duration": 120,
+    "min_chance": 1,
+    "max_chance": 1,
+    "matts": [],
+    "xp": 300
   }
 ]
